@@ -38,19 +38,19 @@ export async function POST(req: Request) {
     const { data, error } = await admin
       .from("calls")
       .insert({
-        call_date: parsed.date,
-        call_time: parsed.time,
+        date: parsed.date,
+        time: parsed.time,
         call_type: parsed.call_type,
         first_name: parsed.first_name,
         last_name: parsed.last_name,
-        id_number: parsed.national_id,
-        origin_institution: parsed.from_place,
-        origin_department_name: parsed.from_department ?? null,
-        destination_institution: parsed.to_place,
-        destination_department_name: parsed.to_department ?? null,
-        hmo: parsed.health_fund ?? null,
+        national_id: parsed.national_id,
+        from_place: parsed.from_place,
+        from_department: parsed.from_department ?? null,
+        to_place: parsed.to_place,
+        to_department: parsed.to_department ?? null,
+        health_fund: parsed.health_fund ?? null,
         contact_name: parsed.contact_name ?? null,
-        order_number: null,
+        contact_phone: parsed.contact_phone ?? null,
         obligation_number: parsed.obligation_number ?? null,
         notes: parsed.notes ?? null
       })
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
     const { data: full } = await supabase
       .from("calls")
       .select(
-        "id,call_no,created_at,created_by,status,call_date,call_time,call_type,first_name,last_name,id_number,origin_institution,origin_department_name,destination_institution,destination_department_name,hmo,contact_name,obligation_number,notes,closed_at"
+        "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,obligation_number,notes,closed_at"
       )
       .eq("id", data.id)
       .single();
@@ -79,19 +79,19 @@ export async function POST(req: Request) {
           created_at: full.created_at,
           created_by: full.created_by,
           status: full.status,
-          date: String(full.call_date),
-          time: String(full.call_time),
+          date: String(full.date),
+          time: String(full.time),
           call_type: full.call_type,
           first_name: full.first_name,
           last_name: full.last_name,
-          national_id: full.id_number,
-          from_place: full.origin_institution,
-          from_department: full.origin_department_name ?? null,
-          to_place: full.destination_institution,
-          to_department: full.destination_department_name ?? null,
-          health_fund: full.hmo ?? null,
+          national_id: full.national_id,
+          from_place: full.from_place,
+          from_department: full.from_department ?? null,
+          to_place: full.to_place,
+          to_department: full.to_department ?? null,
+          health_fund: full.health_fund ?? null,
           contact_name: full.contact_name ?? null,
-          contact_phone: null,
+          contact_phone: full.contact_phone ?? null,
           obligation_number: full.obligation_number ?? null,
           driver: null,
           vehicle_no: null,
