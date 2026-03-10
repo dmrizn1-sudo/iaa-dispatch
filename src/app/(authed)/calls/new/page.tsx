@@ -117,8 +117,13 @@ export default function NewCallPage() {
     }
   }
 
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    await doSave();
+  }
+
   return (
-    <div className="pb-28 md:pb-32">
+    <form className="pb-28 md:pb-32" onSubmit={handleSubmit}>
       <div className="flex items-start justify-between gap-4">
         <div>
           <div className="text-2xl font-extrabold text-iaa-blue md:text-3xl">קריאה חדשה</div>
@@ -336,7 +341,7 @@ export default function NewCallPage() {
           >
             תצוגה מקדימה
           </Button>
-          <Button type="button" size="lg" className="flex-1" onClick={doSave} disabled={saving}>
+          <Button type="submit" size="lg" className="flex-1" disabled={saving}>
             {saving ? "שומר..." : "שמירה"}
           </Button>
         </div>
@@ -384,7 +389,7 @@ export default function NewCallPage() {
           </div>
         </div>
       </Modal>
-    </div>
+    </form>
   );
 }
 
