@@ -38,8 +38,21 @@ export async function POST(req: Request) {
     const { data, error } = await admin
       .from("calls")
       .insert({
-        ...parsed,
-        status: "חדשה"
+        call_date: parsed.date,
+        call_time: parsed.time,
+        call_type: parsed.call_type,
+        first_name: parsed.first_name,
+        last_name: parsed.last_name,
+        id_number: parsed.national_id,
+        origin: parsed.from_place,
+        origin_department: parsed.from_department ?? null,
+        destination: parsed.to_place,
+        destination_department: parsed.to_department ?? null,
+        hmo: parsed.health_fund ?? null,
+        contact_name: parsed.contact_name ?? null,
+        order_number: null,
+        obligation_number: parsed.obligation_number ?? null,
+        notes: parsed.notes ?? null
       })
       .select("id,call_no")
       .single();
@@ -51,7 +64,7 @@ export async function POST(req: Request) {
     const { data: full } = await supabase
       .from("calls")
       .select(
-        "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,obligation_number,driver,vehicle_no,notes,closed_at"
+        "id,call_no,created_at,created_by,status,call_date,call_time,call_type,first_name,last_name,id_number,origin,origin_department,destination,destination_department,hmo,contact_name,obligation_number,notes,closed_at"
       )
       .eq("id", data.id)
       .single();
@@ -66,22 +79,22 @@ export async function POST(req: Request) {
           created_at: full.created_at,
           created_by: full.created_by,
           status: full.status,
-          date: String(full.date),
-          time: String(full.time),
+          date: String(full.call_date),
+          time: String(full.call_time),
           call_type: full.call_type,
           first_name: full.first_name,
           last_name: full.last_name,
-          national_id: full.national_id,
-          from_place: full.from_place,
-          from_department: full.from_department ?? null,
-          to_place: full.to_place,
-          to_department: full.to_department ?? null,
-          health_fund: full.health_fund ?? null,
+          national_id: full.id_number,
+          from_place: full.origin,
+          from_department: full.origin_department ?? null,
+          to_place: full.destination,
+          to_department: full.destination_department ?? null,
+          health_fund: full.hmo ?? null,
           contact_name: full.contact_name ?? null,
-          contact_phone: full.contact_phone ?? null,
+          contact_phone: null,
           obligation_number: full.obligation_number ?? null,
-          driver: full.driver ?? null,
-          vehicle_no: full.vehicle_no ?? null,
+          driver: null,
+          vehicle_no: null,
           notes: full.notes ?? null,
           closed_at: full.closed_at ?? null
         }
