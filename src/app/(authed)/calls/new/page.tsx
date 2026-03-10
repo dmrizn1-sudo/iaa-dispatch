@@ -101,18 +101,27 @@ export default function NewCallPage() {
     setSaving(true);
     setSaveError(null);
     try {
+      // Log exactly what we're about to send to the API
+      // so we can confirm submit is firing and payload shape.
+      console.log("[NEW CALL] submitting payload", form);
       const r = await fetch("/api/calls", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(form)
       });
       const data = (await r.json()) as { ok: boolean; call_no?: number; error?: string };
+      console.log("[NEW CALL] response status", r.status, "body", data);
       if (!r.ok || !data.ok || !data.call_no) {
         throw new Error(data.error || "שגיאה בשמירה");
       }
+      // Visible Hebrew alert on success
+      alert(`הקריאה נשמרה בהצלחה. מספר קריאה: ${data.call_no}`);
       router.replace(`/dashboard?saved=1&call=${encodeURIComponent(String(data.call_no))}`);
     } catch (e) {
+      console.error("[NEW CALL] save failed", e);
       setSaveError(e instanceof Error ? e.message : "שגיאה בשמירה");
+      // Visible Hebrew alert on failure
+      alert(`שגיאה בשמירת הקריאה: ${e instanceof Error ? e.message : "שגיאה בשמירה"}`);
       setSaving(false);
     }
   }
