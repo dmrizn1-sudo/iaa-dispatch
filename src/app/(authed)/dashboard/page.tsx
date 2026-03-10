@@ -8,6 +8,7 @@ type CallRow = {
   date: string;
   time: string;
   call_type: string;
+  ambulance_type?: string | null;
   first_name: string;
   last_name: string;
   from_place: string;
@@ -78,14 +79,14 @@ export default async function DashboardPage({
 
   const { data: openCalls } = await supabase
     .from("calls")
-    .select("id,call_no,date,time,call_type,first_name,last_name,from_place,to_place,status,closed_at,driver,vehicle_no")
+    .select("id,call_no,date,time,call_type,ambulance_type,first_name,last_name,from_place,to_place,status,closed_at,driver,vehicle_no")
     .is("closed_at", null)
     .order("call_no", { ascending: false })
     .limit(50);
 
   const { data: closedCalls } = await supabase
     .from("calls")
-    .select("id,call_no,date,time,call_type,first_name,last_name,from_place,to_place,status,closed_at,driver,vehicle_no")
+    .select("id,call_no,date,time,call_type,ambulance_type,first_name,last_name,from_place,to_place,status,closed_at,driver,vehicle_no")
     .not("closed_at", "is", null)
     .order("closed_at", { ascending: false })
     .limit(50);

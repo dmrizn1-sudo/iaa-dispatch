@@ -68,7 +68,7 @@ export default async function ControlCenterPage({
   const { data: liveCalls } = await supabase
     .from("calls")
     .select(
-      "id,call_no,call_type,first_name,last_name,from_place,to_place,status,time,driver,vehicle_no,date"
+      "id,call_no,call_type,ambulance_type,first_name,last_name,from_place,to_place,status,time,driver,vehicle_no,date"
     )
     .gte("date", sp.from || today)
     .lte("date", sp.to || today)
@@ -181,10 +181,11 @@ export default async function ControlCenterPage({
                   <thead className="bg-iaa-blue/[0.03] text-xs font-extrabold text-iaa-blue md:text-sm">
                     <tr>
                       <th className="px-3 py-2">מס׳</th>
-                      <th className="px-3 py-2">סוג</th>
+                      <th className="px-3 py-2">סוג קריאה</th>
+                      <th className="px-3 py-2">סוג אמבולנס</th>
                       <th className="px-3 py-2">מטופל</th>
-                      <th className="px-3 py-2">מוצא</th>
-                      <th className="px-3 py-2">יעד</th>
+                      <th className="px-3 py-2">מקום האירוע / איסוף</th>
+                      <th className="px-3 py-2">יעד הפינוי</th>
                       <th className="px-3 py-2">נהג</th>
                       <th className="px-3 py-2">רכב</th>
                       <th className="px-3 py-2">סטטוס</th>
@@ -197,6 +198,7 @@ export default async function ControlCenterPage({
                       <tr key={c.id} className="hover:bg-iaa-blue/[0.02]">
                         <td className="px-3 py-2 font-extrabold">{c.call_no}</td>
                         <td className="px-3 py-2">{c.call_type}</td>
+                        <td className="px-3 py-2">{c.ambulance_type || "—"}</td>
                         <td className="px-3 py-2">
                           {c.first_name} {c.last_name}
                         </td>

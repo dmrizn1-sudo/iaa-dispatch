@@ -27,6 +27,12 @@ export const CALL_TYPES = [
   { value: "העברת נפטר", label: "העברת נפטר" }
 ] as const;
 
+export const AMBULANCE_TYPES: { value: string; label: string }[] = [
+  { value: "אמבולנס ביטחון", label: "אמבולנס ביטחון" },
+  { value: "אמבולנס ALS", label: "אמבולנס ALS" },
+  { value: "אמבולנס רגיל", label: "אמבולנס רגיל" }
+];
+
 export const HEALTH_FUNDS = [
   { value: "כללית", label: "כללית" },
   { value: "מכבי", label: "מכבי" },

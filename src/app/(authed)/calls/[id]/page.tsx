@@ -11,7 +11,7 @@ export default async function CallDetailsPage({ params }: { params: Promise<{ id
   const { data: call } = await supabase
     .from("calls")
     .select(
-      "id,call_no,created_at,status,date,time,call_type,first_name,last_name,from_place,from_department,to_place,to_department,contact_name,contact_phone,driver_id,vehicle_id,driver,vehicle_no,invoice_number,receipt_number,payment_status,amount,notes"
+      "id,call_no,created_at,status,date,time,call_type,ambulance_type,first_name,last_name,from_place,from_department,to_place,to_department,contact_name,contact_phone,driver_id,vehicle_id,driver,vehicle_no,invoice_number,receipt_number,payment_status,amount,notes"
     )
     .eq("id", id)
     .maybeSingle();
@@ -70,9 +70,10 @@ export default async function CallDetailsPage({ params }: { params: Promise<{ id
       <section className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <InfoCard title="מטופל" value={`${call.first_name} ${call.last_name}`} />
         <InfoCard title="סוג קריאה" value={call.call_type} />
-        <InfoCard title="מוסד מוצא" value={`${call.from_place}${call.from_department ? ` — ${call.from_department}` : ""}`} />
-        <InfoCard title="יעד" value={`${call.to_place}${call.to_department ? ` — ${call.to_department}` : ""}`} />
-        <InfoCard title="איש קשר" value={`${call.contact_name || "—"} ${call.contact_phone ? `(${call.contact_phone})` : ""}`} />
+        <InfoCard title="סוג אמבולנס" value={call.ambulance_type || "—"} />
+        <InfoCard title="מקום האירוע / איסוף" value={`${call.from_place}${call.from_department ? ` — ${call.from_department}` : ""}`} />
+        <InfoCard title="יעד הפינוי" value={`${call.to_place}${call.to_department ? ` — ${call.to_department}` : ""}`} />
+        <InfoCard title="שם המזמין" value={`${call.contact_name || "—"} ${call.contact_phone ? `(${call.contact_phone})` : ""}`} />
         <InfoCard title="הערות" value={call.notes || "—"} />
       </section>
 

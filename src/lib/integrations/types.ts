@@ -10,6 +10,7 @@ export type CallWebhookPayload = {
     date: string;
     time: string;
     call_type: string;
+    ambulance_type?: string | null;
     first_name: string;
     last_name: string;
     national_id: string;

@@ -8,12 +8,13 @@ import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
 import { Combobox } from "@/components/ui/Combobox";
 import { Modal } from "@/components/ui/Modal";
-import { CALL_TYPES, HEALTH_FUNDS } from "@/lib/calls";
+import { AMBULANCE_TYPES, CALL_TYPES, HEALTH_FUNDS } from "@/lib/calls";
 
 const schema = z.object({
   date: z.string().min(1, "שדה חובה"),
   time: z.string().min(1, "שדה חובה"),
   call_type: z.string().min(1, "שדה חובה"),
+  ambulance_type: z.string().min(1, "שדה חובה"),
   first_name: z.string().min(1, "שדה חובה"),
   last_name: z.string().min(1, "שדה חובה"),
   national_id: z.string().min(5, "מספר זהות לא תקין"),
@@ -22,7 +23,7 @@ const schema = z.object({
   to_place: z.string().min(1, "שדה חובה"),
   to_department: z.string().optional().default(""),
   health_fund: z.string().optional().default(""),
-  contact_name: z.string().optional().default(""),
+  contact_name: z.string().min(1, "שדה חובה"),
   contact_phone: z.string().optional().default(""),
   obligation_number: z.string().optional().default(""),
   driver: z.string().optional().default(""),
@@ -53,6 +54,7 @@ export default function NewCallPage() {
     date: todayISO(),
     time: nowHHMM(),
     call_type: CALL_TYPES[0].value,
+    ambulance_type: AMBULANCE_TYPES[2]?.value ?? "אמבולנס רגיל",
     first_name: "",
     last_name: "",
     national_id: "",
@@ -101,27 +103,18 @@ export default function NewCallPage() {
     setSaving(true);
     setSaveError(null);
     try {
-      // Log exactly what we're about to send to the API
-      // so we can confirm submit is firing and payload shape.
-      console.log("[NEW CALL] submitting payload", form);
       const r = await fetch("/api/calls", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(form)
       });
       const data = (await r.json()) as { ok: boolean; call_no?: number; error?: string };
-      console.log("[NEW CALL] response status", r.status, "body", data);
       if (!r.ok || !data.ok || !data.call_no) {
         throw new Error(data.error || "שגיאה בשמירה");
       }
-      // Visible Hebrew alert on success
-      alert("הקריאה נשמרה");
       router.replace("/dashboard");
     } catch (e) {
-      console.error("[NEW CALL] save failed", e);
       setSaveError(e instanceof Error ? e.message : "שגיאה בשמירה");
-      // Visible Hebrew alert on failure
-      alert(`שגיאה בשמירת הקריאה: ${e instanceof Error ? e.message : "שגיאה בשמירה"}`);
       setSaving(false);
     }
   }
@@ -179,6 +172,15 @@ export default function NewCallPage() {
         />
 
         <Combobox
+          label="סוג אמבולנס"
+          value={form.ambulance_type}
+          onChange={(v) => set("ambulance_type", v)}
+          options={AMBULANCE_TYPES}
+          placeholder="בחר/י סוג אמבולנס"
+          required
+        />
+
+        <Combobox
           label="קופת חולים"
           value={form.health_fund}
           onChange={(v) => set("health_fund", v)}
@@ -209,6 +211,24 @@ export default function NewCallPage() {
         />
 
         <Input
+          label="שם המזמין"
+          value={form.contact_name}
+          onChange={(e) => set("contact_name", e.target.value)}
+          required
+          error={errors.contact_name}
+          enterKeyHint="next"
+        />
+        <Input
+          label="טלפון המזמין"
+          value={form.contact_phone}
+          onChange={(e) => set("contact_phone", e.target.value)}
+          placeholder="05X-XXXXXXX"
+          inputMode="tel"
+          autoComplete="tel"
+          enterKeyHint="next"
+        />
+
+        <Input
           label="מספר זהות"
           value={form.national_id}
           onChange={(e) => set("national_id", e.target.value.replace(/[^\d]/g, ""))}
@@ -229,7 +249,7 @@ export default function NewCallPage() {
         />
 
         <Combobox
-          label="מאיזה מוסד / מקום"
+          label="מקום האירוע / איסוף"
           value={form.from_place}
           onChange={(v) => set("from_place", v)}
           options={[
@@ -238,7 +258,7 @@ export default function NewCallPage() {
             { value: "רמב״ם", label: "רמב״ם" },
             { value: "אחר", label: "אחר" }
           ]}
-          placeholder="הקלד/י לחיפוש או הזן/י שם"
+          placeholder="הקלד/י כתובת או מוסד"
           required
         />
 
@@ -251,7 +271,7 @@ export default function NewCallPage() {
         />
 
         <Combobox
-          label="לאיזה מוסד / מקום"
+          label="יעד הפינוי"
           value={form.to_place}
           onChange={(v) => set("to_place", v)}
           options={[
@@ -260,7 +280,7 @@ export default function NewCallPage() {
             { value: "רמב״ם", label: "רמב״ם" },
             { value: "אחר", label: "אחר" }
           ]}
-          placeholder="הקלד/י לחיפוש או הזן/י שם"
+          placeholder="הקלד/י יעד פינוי"
           required
         />
 
@@ -284,23 +304,6 @@ export default function NewCallPage() {
 
         {showOptional ? (
           <>
-            <Input
-              label="איש קשר"
-              value={form.contact_name ?? ""}
-              onChange={(e) => set("contact_name", e.target.value)}
-              placeholder="אופציונלי"
-              enterKeyHint="next"
-            />
-            <Input
-              label="טלפון איש קשר"
-              value={form.contact_phone ?? ""}
-              onChange={(e) => set("contact_phone", e.target.value)}
-              placeholder="05X-XXXXXXX"
-              inputMode="tel"
-              autoComplete="tel"
-              enterKeyHint="next"
-            />
-
             <Combobox
               label="נהג"
               value={form.driver ?? ""}
@@ -383,13 +386,14 @@ export default function NewCallPage() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <PreviewItem label="תאריך/שעה" value={`${form.date} ${form.time}`} />
           <PreviewItem label="סוג קריאה" value={form.call_type} />
+          <PreviewItem label="סוג אמבולנס" value={form.ambulance_type} />
           <PreviewItem label="שם" value={`${form.first_name} ${form.last_name}`} />
           <PreviewItem label="ת״ז" value={form.national_id} />
           <PreviewItem label="מ־" value={`${form.from_place}${form.from_department ? ` — ${form.from_department}` : ""}`} />
           <PreviewItem label="ל־" value={`${form.to_place}${form.to_department ? ` — ${form.to_department}` : ""}`} />
           <PreviewItem label="קופת חולים" value={form.health_fund || "—"} />
-          <PreviewItem label="איש קשר" value={form.contact_name || "—"} />
-          <PreviewItem label="טלפון" value={form.contact_phone || "—"} />
+          <PreviewItem label="שם המזמין" value={form.contact_name || "—"} />
+          <PreviewItem label="טלפון המזמין" value={form.contact_phone || "—"} />
           <PreviewItem label="התחייבות" value={form.obligation_number || "—"} />
           <PreviewItem label="נהג" value={form.driver || "—"} />
           <PreviewItem label="רכב" value={form.vehicle_no || "—"} />

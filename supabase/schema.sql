@@ -186,6 +186,7 @@ create table if not exists public.calls (
   date date not null,
   time time not null,
   call_type text not null,
+  ambulance_type vehicle_type,
   status call_status not null default 'חדשה',
 
   first_name text not null,
