@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { createSupabaseServer } from "@/lib/supabase/server";
+import { createSupabaseAdmin } from "@/lib/supabase/admin";
 import { sendApprovedCallToIntegrations } from "@/lib/integrations/webhookOut";
 import type { CallWebhookPayload } from "@/lib/integrations/types";
 
@@ -38,7 +39,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: false, error: "not_authenticated" }, { status: 401 });
     }
 
-    const { data, error } = await supabase
+    // Use admin client for inserts so that approved-status/RLS on calls
+    // does not block creating new calls from the dashboard flow.
+    const admin = createSupabaseAdmin();
+
+    const { data, error } = await admin
       .from("calls")
       .insert({
         ...parsed,
