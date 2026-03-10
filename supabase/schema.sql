@@ -181,7 +181,7 @@ create table if not exists public.calls (
   id uuid primary key default gen_random_uuid(),
   call_no bigint generated always as identity,
   created_at timestamptz not null default now(),
-  created_by uuid not null references auth.users(id) on delete restrict,
+  created_by uuid references auth.users(id) on delete restrict,
 
   date date not null,
   time time not null,

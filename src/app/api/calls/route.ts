@@ -30,25 +30,16 @@ export async function POST(req: Request) {
     const json = await req.json();
     const parsed = schema.parse(json);
 
-    const supabase = createSupabaseServer();
-    const {
-      data: { user }
-    } = await supabase.auth.getUser();
-
-    if (!user) {
-      return NextResponse.json({ ok: false, error: "not_authenticated" }, { status: 401 });
-    }
-
-    // Use admin client for inserts so that approved-status/RLS on calls
-    // does not block creating new calls from the dashboard flow.
+    // Use admin client for inserts so that RLS/auth
+    // do not block creating new calls. No login required.
     const admin = createSupabaseAdmin();
+    const supabase = createSupabaseServer();
 
     const { data, error } = await admin
       .from("calls")
       .insert({
         ...parsed,
-        status: "חדשה",
-        created_by: user.id
+        status: "חדשה"
       })
       .select("id,call_no")
       .single();

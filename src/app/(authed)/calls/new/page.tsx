@@ -115,8 +115,8 @@ export default function NewCallPage() {
         throw new Error(data.error || "שגיאה בשמירה");
       }
       // Visible Hebrew alert on success
-      alert(`הקריאה נשמרה בהצלחה. מספר קריאה: ${data.call_no}`);
-      router.replace(`/dashboard?saved=1&call=${encodeURIComponent(String(data.call_no))}`);
+      alert("הקריאה נשמרה");
+      router.replace("/dashboard");
     } catch (e) {
       console.error("[NEW CALL] save failed", e);
       setSaveError(e instanceof Error ? e.message : "שגיאה בשמירה");
