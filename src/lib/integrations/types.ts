@@ -20,7 +20,7 @@ export type CallWebhookPayload = {
     health_fund: string | null;
     contact_name: string | null;
     contact_phone: string | null;
-    commitment_no: string | null;
+    obligation_number: string | null;
     driver: string | null;
     vehicle_no: string | null;
     notes: string | null;

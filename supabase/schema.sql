@@ -200,7 +200,7 @@ create table if not exists public.calls (
   health_fund text,
   contact_name text,
   contact_phone text,
-  commitment_no text,
+  obligation_number text,
   -- Legacy free-text fields kept for backward compatibility
   driver text,
   vehicle_no text,

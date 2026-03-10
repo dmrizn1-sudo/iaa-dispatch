@@ -24,7 +24,7 @@ const schema = z.object({
   health_fund: z.string().optional().default(""),
   contact_name: z.string().optional().default(""),
   contact_phone: z.string().optional().default(""),
-  commitment_no: z.string().optional().default(""),
+  obligation_number: z.string().optional().default(""),
   driver: z.string().optional().default(""),
   vehicle_no: z.string().optional().default(""),
   notes: z.string().optional().default("")
@@ -63,7 +63,7 @@ export default function NewCallPage() {
     health_fund: "",
     contact_name: "",
     contact_phone: "",
-    commitment_no: "",
+    obligation_number: "",
     driver: "",
     vehicle_no: "",
     notes: ""
@@ -222,8 +222,8 @@ export default function NewCallPage() {
 
         <Input
           label="מספר התחייבות"
-          value={form.commitment_no}
-          onChange={(e) => set("commitment_no", e.target.value)}
+          value={form.obligation_number}
+          onChange={(e) => set("obligation_number", e.target.value)}
           inputMode="numeric"
           placeholder="אופציונלי"
         />
@@ -390,7 +390,7 @@ export default function NewCallPage() {
           <PreviewItem label="קופת חולים" value={form.health_fund || "—"} />
           <PreviewItem label="איש קשר" value={form.contact_name || "—"} />
           <PreviewItem label="טלפון" value={form.contact_phone || "—"} />
-          <PreviewItem label="התחייבות" value={form.commitment_no || "—"} />
+          <PreviewItem label="התחייבות" value={form.obligation_number || "—"} />
           <PreviewItem label="נהג" value={form.driver || "—"} />
           <PreviewItem label="רכב" value={form.vehicle_no || "—"} />
           <div className="md:col-span-2">

@@ -50,7 +50,7 @@ export async function POST(req: Request, ctx: { params: Promise<{ id: string }> 
     })
     .eq("id", id)
     .select(
-      "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,commitment_no,driver,vehicle_no,notes,closed_at"
+      "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,obligation_number,driver,vehicle_no,notes,closed_at"
     )
     .single();
 

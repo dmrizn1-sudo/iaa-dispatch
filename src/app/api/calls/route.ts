@@ -19,7 +19,7 @@ const schema = z.object({
   health_fund: z.string().optional().nullable(),
   contact_name: z.string().optional().nullable(),
   contact_phone: z.string().optional().nullable(),
-  commitment_no: z.string().optional().nullable(),
+  obligation_number: z.string().optional().nullable(),
   driver: z.string().optional().nullable(),
   vehicle_no: z.string().optional().nullable(),
   notes: z.string().optional().nullable()
@@ -51,7 +51,7 @@ export async function POST(req: Request) {
     const { data: full } = await supabase
       .from("calls")
       .select(
-        "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,commitment_no,driver,vehicle_no,notes,closed_at"
+        "id,call_no,created_at,created_by,status,date,time,call_type,first_name,last_name,national_id,from_place,from_department,to_place,to_department,health_fund,contact_name,contact_phone,obligation_number,driver,vehicle_no,notes,closed_at"
       )
       .eq("id", data.id)
       .single();
@@ -79,7 +79,7 @@ export async function POST(req: Request) {
           health_fund: full.health_fund ?? null,
           contact_name: full.contact_name ?? null,
           contact_phone: full.contact_phone ?? null,
-          commitment_no: full.commitment_no ?? null,
+          obligation_number: full.obligation_number ?? null,
           driver: full.driver ?? null,
           vehicle_no: full.vehicle_no ?? null,
           notes: full.notes ?? null,
