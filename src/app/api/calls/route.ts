@@ -45,9 +45,9 @@ export async function POST(req: Request) {
         last_name: parsed.last_name,
         id_number: parsed.national_id,
         origin_institution: parsed.from_place,
-        origin_department: parsed.from_department ?? null,
+        origin_department_name: parsed.from_department ?? null,
         destination_institution: parsed.to_place,
-        destination_department: parsed.to_department ?? null,
+        destination_department_name: parsed.to_department ?? null,
         hmo: parsed.health_fund ?? null,
         contact_name: parsed.contact_name ?? null,
         order_number: null,
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
     const { data: full } = await supabase
       .from("calls")
       .select(
-        "id,call_no,created_at,created_by,status,call_date,call_time,call_type,first_name,last_name,id_number,origin_institution,origin_department,destination_institution,destination_department,hmo,contact_name,obligation_number,notes,closed_at"
+        "id,call_no,created_at,created_by,status,call_date,call_time,call_type,first_name,last_name,id_number,origin_institution,origin_department_name,destination_institution,destination_department_name,hmo,contact_name,obligation_number,notes,closed_at"
       )
       .eq("id", data.id)
       .single();
@@ -86,9 +86,9 @@ export async function POST(req: Request) {
           last_name: full.last_name,
           national_id: full.id_number,
           from_place: full.origin_institution,
-          from_department: full.origin_department ?? null,
+          from_department: full.origin_department_name ?? null,
           to_place: full.destination_institution,
-          to_department: full.destination_department ?? null,
+          to_department: full.destination_department_name ?? null,
           health_fund: full.hmo ?? null,
           contact_name: full.contact_name ?? null,
           contact_phone: null,
