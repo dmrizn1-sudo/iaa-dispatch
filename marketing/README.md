@@ -55,9 +55,9 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | [social/90-day-content-calendar.md](social/90-day-content-calendar.md) | 90-day multi-platform calendar |
 | [social/weekly-posting-strategy.md](social/weekly-posting-strategy.md) | Weekly cadence + approval workflow |
 | [social/monthly-growth-strategy.md](social/monthly-growth-strategy.md) | Monthly growth scorecard |
-| [social/instagram-carousels.md](social/instagram-carousels.md) | Premium carousel scripts |
-| [social/facebook-posts.md](social/facebook-posts.md) | Long-form Facebook posts |
-| [social/linkedin-posts.md](social/linkedin-posts.md) | LinkedIn professional posts |
+| [social/instagram-carousels.md](social/instagram-carousels.md) | Premium carousel scripts (**EN + HE**) |
+| [social/facebook-posts.md](social/facebook-posts.md) | Long-form Facebook posts (**EN + HE**) |
+| [social/linkedin-posts.md](social/linkedin-posts.md) | LinkedIn professional posts (**EN + HE**) |
 | [social/google-business-posts.md](social/google-business-posts.md) | GBP post drafts |
 | [social/hashtag-library.md](social/hashtag-library.md) | Rotating hashtag database |
 | [data/posts.json](data/posts.json) | Machine-readable posts for review UI |

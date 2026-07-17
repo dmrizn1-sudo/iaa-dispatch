@@ -14,9 +14,13 @@ Israel Air Ambulance will win private emergency leads by **separating internatio
 8. **Landing page audit + CRO report** — based on live ambulancenter.com EN homepage  
 9. **SEO system** — roadmap, country plan, city plan, meta/ALT, schema, FAQ, blogs, guides  
 10. **90-day social calendar** + weekly & monthly growth strategies  
-11. **IG carousels · Facebook · LinkedIn · GBP** libraries  
+11. **IG carousels · Facebook · LinkedIn · GBP** libraries (**bilingual EN + HE** on social feed/carousels)  
 12. **Global hashtag database** with rotation rules  
 13. **Review Desk UI** — one-click copy, **no auto-publish**
+
+## Language (social)
+
+Every Instagram / Facebook / LinkedIn / Threads feed asset is **bilingual**: English block first, then Hebrew (separated by `────────`).
 
 ## Scope lock (non-negotiable)
 
