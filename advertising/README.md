@@ -9,10 +9,13 @@
 | `google-ads/out/google-ads-editor-import.csv` | ייבוא ל־Google Ads Editor |
 | `google-ads/out/keywords.csv` | כל מילות המפתח + match type |
 | `google-ads/out/negative-keywords.csv` | Negatives ברמת חשבון/קמפיין |
-| `google-ads/out/responsive-search-ads.csv` | מודעות RSA |
+| `google-ads/out/responsive-search-ads.csv` | מודעות RSA ממוקדות לידים (חייגו/WhatsApp/הצעת מחיר) |
+| `google-ads/out/lead-assets.json` | Callouts + Sitelinks + נוסחת לידים |
+| `google-ads/out/lead-research.md` | סיכום מחקר מתחרים → החלטות מודעה |
 | `google-ads/out/keywords-paste-*.txt` | הדבקה ידנית מהירה |
 | `google-ads/out/weekly-search-terms-audit.md` | ביקורת שבועית ל־Search terms |
 | `google-ads/out/summary.json` | סיכום כמויות |
+
 
 ## קמפיינים
 

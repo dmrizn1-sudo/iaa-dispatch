@@ -45,6 +45,7 @@ const NORTH_LOCALITIES = [
   "גליל תחתון",
 ];
 
+/** Lead-intent Exact — research: phone/WhatsApp CTAs convert on price + book now queries */
 const AMBULANCE_CORE_EXACT = [
   "אמבולנס פרטי טבריה",
   "אמבולנס פרטי בצפון",
@@ -59,6 +60,27 @@ const AMBULANCE_CORE_EXACT = [
   "שינוע חולה פרטי טבריה",
   "אמבולנס ALS פרטי טבריה",
   "אמבולנס BLS פרטי טבריה",
+  "טלפון אמבולנס פרטי טבריה",
+  "הזמנת אמבולנס פרטי עכשיו",
+  "אמבולנס פרטי וואטסאפ",
+];
+
+/** High-converting local intents (competitors rank on these): Poria, discharge, dialysis */
+const AMBULANCE_LEAD_EXACT = [
+  "אמבולנס פרטי פוריה",
+  "אמבולנס מבית חולים פוריה",
+  "שחרור מבית חולים טבריה אמבולנס",
+  "העברה מפוריה לבית",
+  "העברה בין בתי חולים פוריה",
+  "אמבולנס לדיאליזה טבריה",
+  "הסעת דיאליזה טבריה",
+  "אמבולנס לאונקולוגיה טבריה",
+  "העברת חולה מטבריה לתל אביב",
+  "אמבולנס פרטי מטבריה לחיפה",
+  "הצעת מחיר אמבולנס פרטי טבריה",
+  "מחיר אמבולנס פרטי טבריה",
+  "אמבולנס פרטי זמין עכשיו טבריה",
+  "הזמנת אמבולנס לפוריה",
 ];
 
 const AMBULANCE_PHRASE = [
@@ -74,6 +96,12 @@ const AMBULANCE_PHRASE = [
   "שינוע חולה פרטי",
   "העברה בין בתי חולים",
   "אמבולנס פרטי דחוף",
+  "הזמנת אמבולנס פרטי",
+  "אמבולנס פרטי מחיר",
+  "שחרור מבית חולים אמבולנס",
+  "הסעת דיאליזה אמבולנס",
+  "אמבולנס פרטי פוריה",
+  "הצעת מחיר אמבולנס פרטי",
 ];
 
 const FLIGHT_EXACT_HE = [
@@ -87,6 +115,12 @@ const FLIGHT_EXACT_HE = [
   "הטסה רפואית דחופה",
   "שינוע רפואי בינלאומי לישראל",
   "מטוס אמבולנס פרטי לישראל",
+  "הצעת מחיר הטסה רפואית",
+  "מחיר מטוס אמבולנס לישראל",
+  "ליווי רפואי בטיסה לישראל",
+  "bed to bed לישראל",
+  "חילוץ רפואי מחו״ל לישראל",
+  "קרוב משפחה חולה בחו״ל הטסה",
 ];
 
 const FLIGHT_PHRASE_HE = [
@@ -98,6 +132,10 @@ const FLIGHT_PHRASE_HE = [
   "הטסת חולה",
   "הטסה רפואית דחופה",
   "שינוע רפואי בינלאומי",
+  "הצעת מחיר הטסה רפואית",
+  "ליווי רפואי בטיסה",
+  "מטוס אמבולנס מחיר",
+  "חילוץ רפואי מחו״ל",
 ];
 
 const FLIGHT_EXACT_EN = [
@@ -111,6 +149,12 @@ const FLIGHT_EXACT_EN = [
   "medical repatriation to israel",
   "emergency medical flight to israel",
   "international air ambulance israel",
+  "air ambulance quote israel",
+  "bed to bed air ambulance israel",
+  "medical escort to israel",
+  "medical flight cost to israel",
+  "fly patient home to israel",
+  "air ambulance tel aviv",
 ];
 
 const FLIGHT_PHRASE_EN = [
@@ -123,6 +167,10 @@ const FLIGHT_PHRASE_EN = [
   "private air ambulance",
   "icu air ambulance",
   "emergency medical flight",
+  "air ambulance quote",
+  "bed to bed medical transport",
+  "medical escort flight",
+  "medical flight cost",
 ];
 
 /** Account-level negatives (waste reduction) — HE + EN */
@@ -238,19 +286,28 @@ function write(file, content) {
 
 function buildAmbulanceKeywords() {
   const rows = [];
-  const exactSet = unique([
+  const exactCore = unique([
     ...AMBULANCE_CORE_EXACT,
     ...NORTH_LOCALITIES.map((place) => `אמבולנס פרטי ${place}`),
     ...NORTH_LOCALITIES.map((place) => `פינוי רפואי פרטי ${place}`),
   ]);
 
-  for (const kw of exactSet) {
+  for (const kw of exactCore) {
     rows.push({
       campaign: CAMPAIGNS.ambulance.name,
       ad_group: "Exact — ליבה מקומית",
       keyword: kw,
       match_type: "Exact",
-      max_cpc: "25",
+      max_cpc: "28",
+    });
+  }
+  for (const kw of unique(AMBULANCE_LEAD_EXACT)) {
+    rows.push({
+      campaign: CAMPAIGNS.ambulance.name,
+      ad_group: "Exact — לידים חמים פוריה/מחיר/דיאליזה",
+      keyword: kw,
+      match_type: "Exact",
+      max_cpc: "35",
     });
   }
   for (const kw of unique(AMBULANCE_PHRASE)) {
@@ -259,7 +316,7 @@ function buildAmbulanceKeywords() {
       ad_group: "Phrase — הרחבה מבוקרת",
       keyword: kw,
       match_type: "Phrase",
-      max_cpc: "18",
+      max_cpc: "20",
     });
   }
   return rows;
@@ -268,12 +325,14 @@ function buildAmbulanceKeywords() {
 function buildFlightKeywords() {
   const rows = [];
   for (const kw of unique(FLIGHT_EXACT_HE)) {
+    const isLead =
+      /הצעת מחיר|מחיר|ליווי|bed to bed|חילוץ|קרוב משפחה/i.test(kw);
     rows.push({
       campaign: CAMPAIGNS.flightHe.name,
-      ad_group: "Exact — הטסות לישראל",
+      ad_group: isLead ? "Exact — לידים הצעת מחיר/חילוץ" : "Exact — הטסות לישראל",
       keyword: kw,
       match_type: "Exact",
-      max_cpc: "40",
+      max_cpc: isLead ? "55" : "45",
     });
   }
   for (const kw of unique(FLIGHT_PHRASE_HE)) {
@@ -282,16 +341,17 @@ function buildFlightKeywords() {
       ad_group: "Phrase — הטסות לישראל",
       keyword: kw,
       match_type: "Phrase",
-      max_cpc: "30",
+      max_cpc: "32",
     });
   }
   for (const kw of unique(FLIGHT_EXACT_EN)) {
+    const isLead = /quote|cost|bed to bed|escort|fly patient/i.test(kw);
     rows.push({
       campaign: CAMPAIGNS.flightEn.name,
-      ad_group: "Exact — TO Israel",
+      ad_group: isLead ? "Exact — Lead Quote/Bed-to-Bed" : "Exact — TO Israel",
       keyword: kw,
       match_type: "Exact",
-      max_cpc: "45",
+      max_cpc: isLead ? "60" : "48",
     });
   }
   for (const kw of unique(FLIGHT_PHRASE_EN)) {
@@ -300,7 +360,7 @@ function buildFlightKeywords() {
       ad_group: "Phrase — TO Israel",
       keyword: kw,
       match_type: "Phrase",
-      max_cpc: "35",
+      max_cpc: "38",
     });
   }
   return rows;
@@ -341,6 +401,9 @@ function buildNegatives() {
 }
 
 function buildAds() {
+  // Lead formula from competitor SERP research (IL + EN):
+  // 1) Click-to-call CTA in H1/H2  2) 24/7  3) Specific service intent
+  // 4) Quote / WhatsApp  5) Local hospital / bed-to-bed proof
   return [
     {
       campaign: CAMPAIGNS.ambulance.name,
@@ -348,26 +411,60 @@ function buildAds() {
       type: "Responsive search ad",
       final_url: FINAL_URL_AMBULANCE,
       path1: "טבריה",
-      path2: "אמבולנס",
+      path2: "הזמנה",
       headlines: [
-        "אמבולנס פרטי בטבריה",
+        "חייגו עכשיו — אמבולנס טבריה",
         `${BRAND}`,
-        "זמינים 24/7 בצפון",
-        "פינוי רפואי מקצועי",
-        "הגעה מהירה באזור הכנרת",
-        "שינוע בין בתי חולים",
-        "צוות רפואי מיומן",
-        "הזמנה עכשיו בטלפון",
-        "שירות פרטי ואמין",
-        "כיסוי טבריה והסביבה",
-        "ALS ו-BLS לפי הצורך",
-        "מענה אנושי מהיר",
+        "הזמנה בטלפון 24/7",
+        "אמבולנס פרטי זמין עכשיו",
+        "מענה אנושי תוך דקות",
+        "העברה מ/אל בית חולים",
+        "כיסוי טבריה והכנרת",
+        "WhatsApp להזמנה מהירה",
+        "צוות מוסמך בשטח",
+        "בלי המתנה מיותרת",
+        "שינוע לכל רחבי הארץ",
+        "קבעו העברה עכשיו",
+        "פוריה · טבריה · צפון",
+        "מחיר שקוף בשיחה",
+        "מוקד הזמנות פעיל",
       ].join(" | "),
       descriptions: [
-        "אמבולנס פרטי לטבריה והצפון — זמינות מלאה, צוות מקצועי ושינוע בטוח.",
-        `התקשרו ${PHONE} לפינוי או העברה רפואית. שירות פרטי מסביב לשעון.`,
-        "העברות בין מחלקות ובתי חולים באזור הכנרת ועמק הירדן.",
-        "שקיפות במחיר, מענה מהיר, וליווי עד היעד.",
+        `צריכים אמבולנס פרטי בטבריה? חייגו ${PHONE} — מוקד 24/7 עם מענה אנושי.`,
+        "העברות שחרור, בין בתי חולים, ושינוע לכל הארץ. הזמנה בטלפון או WhatsApp.",
+        "זמינים לטבריה, פוריה, כנרת ועמק הירדן — הגעה מהירה וליווי מקצועי.",
+        "קבלו הצעת מחיר בשיחה אחת והזמינו שירות מיידי כשצריך עכשיו.",
+      ].join(" | "),
+    },
+    {
+      campaign: CAMPAIGNS.ambulance.name,
+      ad_group: "Exact — לידים חמים פוריה/מחיר/דיאליזה",
+      type: "Responsive search ad",
+      final_url: FINAL_URL_AMBULANCE,
+      path1: "פוריה",
+      path2: "הזמנה",
+      headlines: [
+        "אמבולנס מפוריה — חייגו",
+        `${BRAND}`,
+        "שחרור מבית חולים עכשיו",
+        "העברה מפוריה לבית",
+        "הסעת דיאליזה בצפון",
+        "הצעת מחיר בטלפון",
+        "הזמנה מיידית 24/7",
+        "בין בתי חולים בצפון",
+        "מטבריה לחיפה/מרכז",
+        "WhatsApp לתיאום מהיר",
+        "מוקד הזמנות פעיל",
+        "מחיר ברור לפני יציאה",
+        "צוות מקצועי ואדיב",
+        "זמינים באזור פוריה",
+        "קבעו העברה היום",
+      ].join(" | "),
+      descriptions: [
+        `שחרור מפוריה / העברה רפואית? חייגו ${PHONE} לקביעת אמבולנס עכשיו.`,
+        "דיאליזה, אונקולוגיה, שחרור לבית והעברות בין מוסדות — תיאום בשיחה אחת.",
+        "מחפשים מחיר? קבלו הצעה מהירה בטלפון או WhatsApp לפני היציאה.",
+        "שירות פרטי לטבריה והסביבה עם דגש על זמינות ומענה אנושי.",
       ].join(" | "),
     },
     {
@@ -376,26 +473,29 @@ function buildAds() {
       type: "Responsive search ad",
       final_url: FINAL_URL_AMBULANCE,
       path1: "צפון",
-      path2: "פרטי",
+      path2: "חייגו",
       headlines: [
         "אמבולנס פרטי בצפון",
         `${BRAND}`,
-        "פינוי רפואי פרטי",
-        "זמין עכשיו באזורכם",
-        "העברה רפואית מקצועית",
-        "שירות 24 שעות",
-        "צוות מנוסה ומהיר",
-        "כיסוי יישובי הסביבה",
-        "הזמנת אמבולנס בטלפון",
-        "שינוע חולה פרטי",
-        "מענה אנושי מיידי",
-        "פתרון רפואי מלא",
+        "חייגו להזמנה מיידית",
+        "זמין 24/7 באזורכם",
+        "הצעת מחיר בשיחה",
+        "פינוי והעברה פרטית",
+        "שחרור מבית חולים",
+        "WhatsApp — מענה מהיר",
+        "צוות מיומן בשטח",
+        "כיסוי יישובי הגליל",
+        "בלי תורים מיותרים",
+        "הזמנה אונליין/טלפון",
+        "שינוע חולה מקצועי",
+        "מוקד אנושי פעיל",
+        "הזמינו עכשיו",
       ].join(" | "),
       descriptions: [
-        "מחפשים אמבולנס פרטי בצפון? הגעה מהירה וליווי רפואי מקצועי.",
-        `צרו קשר ב-${PHONE} לקביעת פינוי או העברה.`,
-        "שירות לטבריה, כנרת, עמק הירדן ויישובי הגליל.",
-        "דיוק, זמינות ושירות אישי — בלי המתנה מיותרת.",
+        `אמבולנס פרטי בצפון — חייגו ${PHONE} או שלחו WhatsApp להזמנה מהירה.`,
+        "העברות שגרתיות ודחופות, שחרורים, ודיאליזה. מחיר ברור בשיחה.",
+        "טבריה, פוריה, צפת, עפולה והסביבה — זמינות גבוהה ומענה אישי.",
+        "רוצים ליד מהיר? השאירו טלפון בדף או התקשרו עכשיו למוקד.",
       ].join(" | "),
     },
     {
@@ -404,26 +504,91 @@ function buildAds() {
       type: "Responsive search ad",
       final_url: FINAL_URL_FLIGHT,
       path1: "הטסה",
-      path2: "רפואית",
+      path2: "לידים",
       headlines: [
-        "הטסה רפואית לישראל",
+        "הטסה רפואית — חייגו עכשיו",
         `${BRAND}`,
-        "מטוס אמבולנס פרטי",
-        "פינוי אווירי מקצועי",
-        "שינוע חולה מחו״ל",
-        "צוות ICU בטיסה",
-        "תיאום מלא עד הארץ",
-        "מענה 24/7 למשפחות",
-        "Bed-to-Bed לישראל",
-        "הטסה דחופה מאורגנת",
-        "ליווי רפואי מלא",
-        "יצירת קשר מיידית",
+        "הצעת מחיר תוך דקות",
+        "מטוס אמבולנס לישראל",
+        "Bed-to-Bed מלא",
+        "מוקד משפחות 24/7",
+        "חילוץ רפואי מחו״ל",
+        "תיאום בית חולים ביעד",
+        "ליווי רפואי בטיסה",
+        "מענה אנושי מיידי",
+        "ICU בטיסה לפי צורך",
+        "WhatsApp לתיאום דחוף",
+        "פינוי אווירי מאורגן",
+        "ייעוץ מקרה בשיחה",
+        "התחילו תיאום היום",
       ].join(" | "),
       descriptions: [
-        "הטסה רפואית לישראל עם צוות מקצועי, תיאום בתי חולים וליווי מלא.",
-        `פנו עכשיו ל-${PHONE} להערכת מקרה ותיאום פינוי אווירי.`,
-        "מטוס אמבולנס / ליווי רפואי בטיסה לפי מצב המטופל.",
-        "שקיפות בתהליך, מענה מהיר למשפחות בארץ ובחו״ל.",
+        `קרוב משפחה צריך לחזור לישראל? חייגו ${PHONE} להערכת מקרה והצעת מחיר.`,
+        "מטוס אמבולנס או ליווי בטיסה מסחרית — נתאים פתרון לפי מצב המטופל.",
+        "Bed-to-Bed: אמבולנס בחו״ל → טיסה → בית חולים בישראל. מוקד 24/7.",
+        "ליד חם = שיחה אחת. קבלו אפשרויות, לו״ז ומחיר משוער בטלפון.",
+      ].join(" | "),
+    },
+    {
+      campaign: CAMPAIGNS.flightHe.name,
+      ad_group: "Exact — לידים הצעת מחיר/חילוץ",
+      type: "Responsive search ad",
+      final_url: FINAL_URL_FLIGHT,
+      path1: "מחיר",
+      path2: "הטסה",
+      headlines: [
+        "הצעת מחיר הטסה רפואית",
+        `${BRAND}`,
+        "חייגו לקבלת הצעה",
+        "מחיר מטוס אמבולנס",
+        "חילוץ מחו״ל לישראל",
+        "ייעוץ מקרה ללא עיכוב",
+        "ליווי רפואי בטיסה",
+        "השוו אפשרויות בשיחה",
+        "מוקד 24/7 למשפחות",
+        "Bed-to-Bed לישראל",
+        "WhatsApp — תיאום מהיר",
+        "פינוי דחוף מאורגן",
+        "שקיפות בעלויות",
+        "התחילו בשיחה אחת",
+        "מענה אנושי מיידי",
+      ].join(" | "),
+      descriptions: [
+        `רוצים הצעת מחיר להטסה רפואית? חייגו ${PHONE} — נאסוף פרטים ונחזור עם אופציות.`,
+        "מחיר תלוי ביעד, מצב רפואי וסוג המטוס/ליווי. שקיפות מלאה לפני אישור.",
+        "משפחות בחו״ל מקבלות מענה 24/7 לתיאום חילוץ והחזרה לישראל.",
+        "השאירו טלפון בדף או התקשרו עכשיו — המטרה ליד + תיאום מהיר.",
+      ].join(" | "),
+    },
+    {
+      campaign: CAMPAIGNS.flightHe.name,
+      ad_group: "Phrase — הטסות לישראל",
+      type: "Responsive search ad",
+      final_url: FINAL_URL_FLIGHT,
+      path1: "פינוי",
+      path2: "אווירי",
+      headlines: [
+        "פינוי אווירי לישראל",
+        `${BRAND}`,
+        "חייגו לתיאום מיידי",
+        "הטסת חולה מחו״ל",
+        "הצעת מחיר בטלפון",
+        "צוות רפואי בטיסה",
+        "מוקד בינלאומי 24/7",
+        "מטוס אמבולנס פרטי",
+        "ליווי בטיסה מסחרית",
+        "WhatsApp למשפחות",
+        "תיאום עד בית החולים",
+        "מענה מהיר ללידים",
+        "התחילו הערכה עכשיו",
+        "פתרון לפי מצב רפואי",
+        "שירות מלא למשפחה",
+      ].join(" | "),
+      descriptions: [
+        `הטסה רפואית לישראל — התקשרו ${PHONE} לקבלת הצעה ותיאום מהיר.`,
+        "נתאים מטוס אמבולנס או ליווי רפואי לפי דחיפות ותקציב.",
+        "מוקד למשפחות: הסבר תהליך, מסמכים, וקבלת מטופל בישראל.",
+        "כל קליק אמור להוביל לשיחה או WhatsApp — זה הליד.",
       ].join(" | "),
     },
     {
@@ -431,27 +596,61 @@ function buildAds() {
       ad_group: "Exact — TO Israel",
       type: "Responsive search ad",
       final_url: FINAL_URL_FLIGHT,
-      path1: "Medical",
-      path2: "Flight",
+      path1: "Call",
+      path2: "Now",
       headlines: [
-        "Air Ambulance to Israel",
+        "Call Now — Flight to Israel",
         `${BRAND}`,
-        "Medical Flight to Israel",
-        "24/7 Medevac Coordination",
-        "ICU-Level Air Transport",
-        "Private Patient Transfer",
-        "Bed-to-Bed to Israel",
-        "Emergency Medical Flight",
-        "International Repatriation",
-        "Experienced Flight Crew",
-        "Fast Family Response",
-        "Call for Case Review",
+        "Get a Quote in Minutes",
+        "24/7 Family Coordination",
+        "Air Ambulance to Israel",
+        "Bed-to-Bed Medical Flight",
+        "ICU Air Transport Ready",
+        "Speak to a Coordinator",
+        "WhatsApp Case Intake",
+        "Medical Repatriation Help",
+        "Hospital Handoff in Israel",
+        "Urgent Medevac Planning",
+        "Private Jet ICU Option",
+        "Fast Response for Families",
+        "Start Case Review Today",
       ].join(" | "),
       descriptions: [
-        "Private air ambulance and medical flights to Israel with full clinical coordination.",
-        `Call ${PHONE} for urgent case assessment and flight planning.`,
-        "ICU capability, bedside pickup, and hospital handoff in Israel.",
-        "Clear process for families abroad — fast response, professional care.",
+        `Need an air ambulance to Israel? Call ${PHONE} for a case review and quote.`,
+        "Bed-to-bed: ground ambulance + medical flight + receiving hospital coordination.",
+        "ICU aircraft or commercial medical escort — matched to patient condition.",
+        "Every ad click should become a phone/WhatsApp lead. We answer 24/7.",
+      ].join(" | "),
+    },
+    {
+      campaign: CAMPAIGNS.flightEn.name,
+      ad_group: "Exact — Lead Quote/Bed-to-Bed",
+      type: "Responsive search ad",
+      final_url: FINAL_URL_FLIGHT,
+      path1: "Quote",
+      path2: "Israel",
+      headlines: [
+        "Air Ambulance Quote Israel",
+        `${BRAND}`,
+        "Call for Pricing Options",
+        "Bed-to-Bed Cost Estimate",
+        "Medical Escort Alternative",
+        "Fly Patient Home to Israel",
+        "Itemized Quote by Phone",
+        "24/7 Quote Desk",
+        "WhatsApp for Fast Intake",
+        "No-Obligation Case Review",
+        "Transparent Flight Pricing",
+        "Coordinator On The Line",
+        "Urgent Quote Available",
+        "Tel Aviv Hospital Transfer",
+        "Start With One Call",
+      ].join(" | "),
+      descriptions: [
+        `Want pricing for a medical flight to Israel? Call ${PHONE} — quote desk 24/7.`,
+        "We compare air ambulance vs medical escort and explain cost drivers clearly.",
+        "Share patient location + condition; receive options and next steps on the call.",
+        "Lead goal: phone or WhatsApp within the first interaction — not just a page view.",
       ].join(" | "),
     },
     {
@@ -459,30 +658,94 @@ function buildAds() {
       ad_group: "Phrase — TO Israel",
       type: "Responsive search ad",
       final_url: FINAL_URL_FLIGHT,
-      path1: "Air",
-      path2: "Ambulance",
+      path1: "Medevac",
+      path2: "Israel",
       headlines: [
-        "Medical Evacuation Israel",
+        "Medevac to Israel — Call",
         `${BRAND}`,
-        "Fly a Patient to Israel",
+        "Request Quote Now",
+        "Family Help Line 24/7",
+        "Medical Flight Options",
         "Private Air Ambulance",
-        "Critical Care Flights",
-        "Hospital Transfer Flights",
-        "Medevac Coordination Desk",
-        "International Patient Flight",
-        "Safe Transfer Home",
+        "Escort on Commercial Flight",
+        "Critical Care Transfer",
+        "WhatsApp Us to Start",
+        "Clear Next Steps Today",
         "Licensed Medical Crew",
-        "Urgent Flight Planning",
-        "Speak to a Coordinator",
+        "Israel Hospital Intake",
+        "Fast International Desk",
+        "Patient Transfer Experts",
+        "Talk to Coordination Now",
       ].join(" | "),
       descriptions: [
-        "Need a medical flight to Israel? We coordinate aircraft, crew, and receiving hospital.",
-        `Contact ${PHONE} for a private air ambulance quote.`,
-        "From bedside abroad to hospital care in Israel — one coordinated transfer.",
-        "Built for families who need speed, clarity, and clinical reliability.",
+        `Searching medical flight to Israel? Call ${PHONE} or WhatsApp for immediate intake.`,
+        "We coordinate aircraft/escort, permits, and bedside continuity end to end.",
+        "Built for families abroad who need a clear quote and a real human now.",
+        "Conversion focus: click → call → qualified lead with case details captured.",
       ].join(" | "),
     },
   ];
+}
+
+function buildLeadAssets() {
+  return {
+    research_sources: [
+      "https://www.levadeer.org/ambulance-tiberias",
+      "https://www.ambulance24.net/",
+      "https://ambulancenter.com/",
+      "https://ambulancenter.com/booking.html",
+      "https://arrowaviation.biz/flights/medical-flights/",
+      "https://airmedical.com/air-ambulance-in-israel/",
+      "https://www.medical-air-service.com/medical-evacuation-flights/israel_il.html",
+      "https://medjets.com/medical-plane-cost/",
+    ],
+    lead_formula: [
+      "Primary CTA = phone call (click-to-call)",
+      "Secondary CTA = WhatsApp",
+      "Promise = 24/7 human answer + quote/booking in one conversation",
+      "Local proof = Poria/Tiberias/North hospitals for ground",
+      "Flight proof = Bed-to-Bed + case review + itemized quote",
+    ],
+    callouts_he: [
+      "זמינים 24/7",
+      "מענה אנושי מהיר",
+      "הצעת מחיר בשיחה",
+      "WhatsApp פעיל",
+      "העברות מפוריה",
+      "שינוע לכל הארץ",
+      "Bed-to-Bed",
+      "צוות מוסמך",
+    ],
+    callouts_en: [
+      "24/7 Coordination Desk",
+      "Call for Quote",
+      "WhatsApp Intake",
+      "Bed-to-Bed Service",
+      "ICU Aircraft Options",
+      "Medical Escort Alternative",
+      "Hospital Handoff Israel",
+      "Family Support Line",
+    ],
+    sitelinks_he: [
+      { text: "הזמנת אמבולנס עכשיו", desc1: "מוקד 24/7", desc2: "טלפון או WhatsApp" },
+      { text: "הצעת מחיר מהירה", desc1: "שיחה אחת", desc2: "מחיר לפני יציאה" },
+      { text: "העברה מפוריה", desc1: "שחרור / העברה", desc2: "תיאום מיידי" },
+      { text: "הטסה רפואית לישראל", desc1: "מטוס / ליווי", desc2: "Bed-to-Bed" },
+    ],
+    sitelinks_en: [
+      { text: "Get a Quote", desc1: "Call 24/7", desc2: "Case review now" },
+      { text: "Air Ambulance", desc1: "ICU options", desc2: "To Israel" },
+      { text: "Medical Escort", desc1: "Commercial flight", desc2: "Lower-cost path" },
+      { text: "WhatsApp Intake", desc1: "Send case details", desc2: "Fast response" },
+    ],
+    conversion_setup: [
+      "Import phone-call conversions (calls from ads > 60s)",
+      "Track WhatsApp click as conversion (GTM/event)",
+      "Track form submit on booking page as primary lead",
+      "Use Maximize Conversions only after 30+ conv/month; until then Manual CPC + Exact",
+      "Landing pages must show phone sticky on mobile + WhatsApp button above the fold",
+    ],
+  };
 }
 
 /** Google Ads Editor bulk import (campaigns + ad groups + keywords + ads + negatives) */
@@ -712,8 +975,11 @@ function main() {
   const keywordRows = [...buildAmbulanceKeywords(), ...buildFlightKeywords()];
   const negativeRows = buildNegatives();
   const adRows = buildAds();
+  const leadAssets = buildLeadAssets();
   const editorRows = buildEditorImport(keywordRows, negativeRows, adRows);
   const summary = buildSummary(keywordRows, negativeRows, adRows);
+  summary.lead_formula = leadAssets.lead_formula;
+  summary.conversion_setup = leadAssets.conversion_setup;
 
   write(
     "keywords.csv",
@@ -759,6 +1025,28 @@ function main() {
     )
   );
   write("weekly-search-terms-audit.md", buildWeeklyAuditChecklist());
+  write("lead-assets.json", JSON.stringify(leadAssets, null, 2) + "\n");
+  write(
+    "lead-research.md",
+    `# Lead research → ad decisions
+
+## What converting competitors do
+- Phone number / **חייגו עכשיו** as primary CTA (Tiberias private ambulance SERPs)
+- WhatsApp as secondary CTA (IAA + local competitors)
+- **24/7** in every headline set
+- Local hospital intents: **פוריה**, שחרור, דיאליזה, העברה בין בתי חולים
+- Flight: **הצעת מחיר**, Bed-to-Bed, case review, medical escort alternative
+
+## Our lead formula
+${leadAssets.lead_formula.map((x) => `- ${x}`).join("\n")}
+
+## Conversion tracking (required for lead ads to optimize)
+${leadAssets.conversion_setup.map((x) => `- ${x}`).join("\n")}
+
+## Sources
+${leadAssets.research_sources.map((x) => `- ${x}`).join("\n")}
+`
+  );
   write("summary.json", JSON.stringify(summary, null, 2) + "\n");
 
   // Human-readable keyword lists for quick paste
