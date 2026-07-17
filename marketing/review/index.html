@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Israel Air Ambulance — Content Review Desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b1f33;
+      --navy-2: #14324d;
+      --steel: #3d6f8f;
+      --mist: #e8eef3;
+      --sand: #f4f7fa;
+      --ink: #102033;
+      --muted: #5a6d7d;
+      --line: #c9d6e2;
+      --ok: #1f6f5b;
+      --warn: #8a5a12;
+      --card: #ffffff;
+      --shadow: 0 12px 40px rgba(11, 31, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(61, 111, 143, 0.18), transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, rgba(11, 31, 51, 0.12), transparent 50%),
+        linear-gradient(180deg, var(--sand), var(--mist) 40%, #eef3f7);
+      min-height: 100vh;
+    }
+    header {
+      padding: 28px 24px 8px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--steel);
+      margin: 0 0 8px;
+    }
+    h1 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin: 0 0 8px;
+      color: var(--navy);
+      line-height: 1.1;
+    }
+    .sub {
+      color: var(--muted);
+      max-width: 62ch;
+      line-height: 1.5;
+      margin: 0 0 18px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(138, 90, 18, 0.1);
+      color: var(--warn);
+      border: 1px solid rgba(138, 90, 18, 0.25);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .controls {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px 24px 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    select, input[type="search"] {
+      font: inherit;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+      border-radius: 10px;
+      padding: 10px 12px;
+      min-height: 42px;
+    }
+    input[type="search"] { min-width: min(100%, 280px); flex: 1; }
+    .stats {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 8px 24px 48px;
+      display: grid;
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(201, 214, 226, 0.9);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .card-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 18px 18px 0;
+    }
+    .card-head h2 {
+      font-size: 1.15rem;
+      margin: 0;
+      color: var(--navy);
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    .pill {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: var(--mist);
+      color: var(--navy-2);
+      padding: 4px 8px;
+      border-radius: 999px;
+    }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      padding: 14px 18px 0;
+      flex-wrap: wrap;
+    }
+    .tab {
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .tab.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: #fff;
+    }
+    .body {
+      padding: 14px 18px 18px;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: linear-gradient(180deg, #f7fafc, #f1f5f8);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      margin: 0 0 12px;
+      font-family: "DM Sans", ui-monospace, monospace;
+      font-size: 14px;
+      line-height: 1.45;
+      min-height: 120px;
+      color: var(--ink);
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    button.copy {
+      border: none;
+      background: var(--navy);
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.copy:hover { background: var(--navy-2); }
+    button.copy.ok { background: var(--ok); }
+    .slides {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .slide {
+      background: var(--navy);
+      color: #eef5fa;
+      border-radius: 12px;
+      padding: 12px;
+      min-height: 120px;
+      font-size: 12px;
+      line-height: 1.35;
+      white-space: pre-wrap;
+    }
+    .slide strong {
+      display: block;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #9db6c8;
+      margin-bottom: 6px;
+    }
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .empty {
+      padding: 40px;
+      text-align: center;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Israel Air Ambulance</p>
+    <h1>Content Review Desk</h1>
+    <p class="sub">
+      Prepare Instagram, Facebook, and LinkedIn posts for human review.
+      Nothing publishes automatically — use one-click copy after approval.
+    </p>
+    <div class="badge">Manual publish only · Private air ambulance TO / FROM Israel</div>
+  </header>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search title, theme, city…" />
+    <select id="platform">
+      <option value="all">All platforms</option>
+      <option value="instagram">Instagram</option>
+      <option value="facebook">Facebook</option>
+      <option value="linkedin">LinkedIn</option>
+      <option value="threads">Threads</option>
+    </select>
+    <select id="type">
+      <option value="all">All types</option>
+      <option value="feed">Feed posts</option>
+      <option value="carousel">Carousels</option>
+    </select>
+    <select id="week">
+      <option value="all">All weeks</option>
+    </select>
+    <div class="stats" id="stats">Loading…</div>
+  </div>
+
+  <main id="list"><div class="empty">Loading posts…</div></main>
+  <footer>
+    Data source: <code>../data/posts.json</code> · Regenerate with
+    <code>node marketing/tools/generate-marketing-assets.mjs</code>
+  </footer>
+
+  <script>
+    const state = { posts: [], brand: null, activeTab: {} };
+
+    async function load() {
+      const res = await fetch("../data/posts.json");
+      const data = await res.json();
+      state.posts = data.posts || [];
+      state.brand = data.brand;
+      const weeks = [...new Set(state.posts.map((p) => p.week).filter(Boolean))].sort((a,b)=>a-b);
+      const weekSel = document.getElementById("week");
+      for (const w of weeks) {
+        const opt = document.createElement("option");
+        opt.value = String(w);
+        opt.textContent = `Week ${w}`;
+        weekSel.appendChild(opt);
+      }
+      for (const el of ["q", "platform", "type", "week"]) {
+        document.getElementById(el).addEventListener("input", render);
+        document.getElementById(el).addEventListener("change", render);
+      }
+      render();
+    }
+
+    function filtered() {
+      const q = document.getElementById("q").value.trim().toLowerCase();
+      const platform = document.getElementById("platform").value;
+      const type = document.getElementById("type").value;
+      const week = document.getElementById("week").value;
+      return state.posts.filter((p) => {
+        if (type !== "all" && p.type !== type) return false;
+        if (week !== "all" && String(p.week) !== week) return false;
+        if (platform !== "all" && !(p.platforms || []).includes(platform) && !p.copy?.[platform]) return false;
+        if (!q) return true;
+        const hay = `${p.title} ${p.theme} ${p.id} ${JSON.stringify(p.copy)}`.toLowerCase();
+        return hay.includes(q);
+      });
+    }
+
+    function platformTabs(post) {
+      const keys = ["instagram", "facebook", "linkedin", "threads"].filter((k) => post.copy?.[k]);
+      return keys;
+    }
+
+    function render() {
+      const items = filtered();
+      document.getElementById("stats").textContent = `${items.length} posts ready for review`;
+      const list = document.getElementById("list");
+      if (!items.length) {
+        list.innerHTML = `<div class="card empty">No posts match these filters.</div>`;
+        return;
+      }
+      list.innerHTML = "";
+      for (const post of items) {
+        const tabs = platformTabs(post);
+        const active = state.activeTab[post.id] || tabs[0];
+        const card = document.createElement("article");
+        card.className = "card";
+        const slidesHtml = post.slides
+          ? `<div class="slides">${post.slides.map((s, i) =>
+              `<div class="slide"><strong>Slide ${i + 1}</strong>${escapeHtml(s)}</div>`
+            ).join("")}</div>`
+          : "";
+        card.innerHTML = `
+          <div class="card-head">
+            <div>
+              <h2>${escapeHtml(post.title)}</h2>
+              <div class="meta">
+                <span class="pill">${escapeHtml(post.type)}</span>
+                ${post.day ? `<span class="pill">Day ${post.day}</span>` : ""}
+                ${post.week ? `<span class="pill">Week ${post.week}</span>` : ""}
+                ${post.theme ? `<span class="pill">${escapeHtml(post.theme)}</span>` : ""}
+              </div>
+            </div>
+          </div>
+          <div class="tabs">
+            ${tabs.map((t) =>
+              `<button class="tab ${t === active ? "active" : ""}" data-tab="${t}" type="button">${label(t)}</button>`
+            ).join("")}
+          </div>
+          <div class="body">
+            ${active === "instagram" && post.slides ? slidesHtml : ""}
+            <pre class="copy-text">${escapeHtml(post.copy[active] || "")}</pre>
+            <div class="actions">
+              <button class="copy" type="button" data-copy>Copy ${label(active)} caption</button>
+            </div>
+          </div>
+        `;
+        card.querySelectorAll(".tab").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            state.activeTab[post.id] = btn.dataset.tab;
+            render();
+          });
+        });
+        const copyBtn = card.querySelector("[data-copy]");
+        copyBtn.addEventListener("click", async () => {
+          const text = post.copy[active] || "";
+          try {
+            await navigator.clipboard.writeText(text);
+          } catch {
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            ta.remove();
+          }
+          copyBtn.textContent = "Copied";
+          copyBtn.classList.add("ok");
+          setTimeout(() => {
+            copyBtn.textContent = `Copy ${label(active)} caption`;
+            copyBtn.classList.remove("ok");
+          }, 1400);
+        });
+        list.appendChild(card);
+      }
+    }
+
+    function label(p) {
+      return ({ instagram: "Instagram", facebook: "Facebook", linkedin: "LinkedIn", threads: "Threads" })[p] || p;
+    }
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+    }
+
+    load().catch((err) => {
+      document.getElementById("list").innerHTML =
+        `<div class="card empty">Failed to load posts.json. Serve the marketing folder over HTTP (e.g. <code>npx serve marketing</code>) so fetch works.<br/><br/>${escapeHtml(err.message)}</div>`;
+    });
+  </script>
+</body>
+</html>

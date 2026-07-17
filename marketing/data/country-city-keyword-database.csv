@@ -1,0 +1,108 @@
+level,name,code,priority,sample_keywords
+country,United States,US,1,air ambulance from united states to israel | medical flight united states israel | medical repatriation united states
+country,Canada,CA,1,air ambulance from canada to israel | medical flight canada israel | medical repatriation canada
+country,United Kingdom,GB,1,air ambulance from united kingdom to israel | medical flight united kingdom israel | medical repatriation united kingdom
+country,France,FR,1,air ambulance from france to israel | medical flight france israel | medical repatriation france
+country,Germany,DE,1,air ambulance from germany to israel | medical flight germany israel | medical repatriation germany
+country,Switzerland,CH,1,air ambulance from switzerland to israel | medical flight switzerland israel | medical repatriation switzerland
+country,Italy,IT,1,air ambulance from italy to israel | medical flight italy israel | medical repatriation italy
+country,Spain,ES,2,air ambulance from spain to israel | medical flight spain israel | medical repatriation spain
+country,Portugal,PT,2,air ambulance from portugal to israel | medical flight portugal israel | medical repatriation portugal
+country,Netherlands,NL,2,air ambulance from netherlands to israel | medical flight netherlands israel | medical repatriation netherlands
+country,Belgium,BE,2,air ambulance from belgium to israel | medical flight belgium israel | medical repatriation belgium
+country,Austria,AT,2,air ambulance from austria to israel | medical flight austria israel | medical repatriation austria
+country,Ireland,IE,2,air ambulance from ireland to israel | medical flight ireland israel | medical repatriation ireland
+country,Greece,GR,1,air ambulance from greece to israel | medical flight greece israel | medical repatriation greece
+country,Cyprus,CY,1,air ambulance from cyprus to israel | medical flight cyprus israel | medical repatriation cyprus
+country,Poland,PL,2,air ambulance from poland to israel | medical flight poland israel | medical repatriation poland
+country,Czech Republic,CZ,2,air ambulance from czech republic to israel | medical flight czech republic israel | medical repatriation czech republic
+country,Hungary,HU,2,air ambulance from hungary to israel | medical flight hungary israel | medical repatriation hungary
+country,Romania,RO,2,air ambulance from romania to israel | medical flight romania israel | medical repatriation romania
+country,Bulgaria,BG,2,air ambulance from bulgaria to israel | medical flight bulgaria israel | medical repatriation bulgaria
+country,Croatia,HR,2,air ambulance from croatia to israel | medical flight croatia israel | medical repatriation croatia
+country,Serbia,RS,2,air ambulance from serbia to israel | medical flight serbia israel | medical repatriation serbia
+country,Slovenia,SI,3,air ambulance from slovenia to israel | medical flight slovenia israel | medical repatriation slovenia
+country,Montenegro,ME,2,air ambulance from montenegro to israel | medical flight montenegro israel | medical repatriation montenegro
+country,Georgia,GE,2,air ambulance from georgia to israel | medical flight georgia israel | medical repatriation georgia
+country,United Arab Emirates,AE,1,air ambulance from united arab emirates to israel | medical flight united arab emirates israel | medical repatriation united arab emirates
+country,Thailand,TH,1,air ambulance from thailand to israel | medical flight thailand israel | medical repatriation thailand
+country,Japan,JP,2,air ambulance from japan to israel | medical flight japan israel | medical repatriation japan
+country,Singapore,SG,2,air ambulance from singapore to israel | medical flight singapore israel | medical repatriation singapore
+country,Australia,AU,2,air ambulance from australia to israel | medical flight australia israel | medical repatriation australia
+country,South Africa,ZA,2,air ambulance from south africa to israel | medical flight south africa israel | medical repatriation south africa
+country,Morocco,MA,2,air ambulance from morocco to israel | medical flight morocco israel | medical repatriation morocco
+city,New York,US,2,air ambulance new york to israel | medical flight new york israel | patient transfer new york israel
+city,Miami,US,2,air ambulance miami to israel | medical flight miami israel | patient transfer miami israel
+city,Fort Lauderdale,US,2,air ambulance fort lauderdale to israel | medical flight fort lauderdale israel | patient transfer fort lauderdale israel
+city,Boston,US,2,air ambulance boston to israel | medical flight boston israel | patient transfer boston israel
+city,Los Angeles,US,2,air ambulance los angeles to israel | medical flight los angeles israel | patient transfer los angeles israel
+city,San Francisco,US,2,air ambulance san francisco to israel | medical flight san francisco israel | patient transfer san francisco israel
+city,Chicago,US,2,air ambulance chicago to israel | medical flight chicago israel | patient transfer chicago israel
+city,Houston,US,2,air ambulance houston to israel | medical flight houston israel | patient transfer houston israel
+city,Washington DC,US,2,air ambulance washington dc to israel | medical flight washington dc israel | patient transfer washington dc israel
+city,Atlanta,US,2,air ambulance atlanta to israel | medical flight atlanta israel | patient transfer atlanta israel
+city,Philadelphia,US,2,air ambulance philadelphia to israel | medical flight philadelphia israel | patient transfer philadelphia israel
+city,Toronto,CA,2,air ambulance toronto to israel | medical flight toronto israel | patient transfer toronto israel
+city,Montreal,CA,2,air ambulance montreal to israel | medical flight montreal israel | patient transfer montreal israel
+city,Vancouver,CA,2,air ambulance vancouver to israel | medical flight vancouver israel | patient transfer vancouver israel
+city,London,GB,2,air ambulance london to israel | medical flight london israel | patient transfer london israel
+city,Manchester,GB,2,air ambulance manchester to israel | medical flight manchester israel | patient transfer manchester israel
+city,Dublin,IE,2,air ambulance dublin to israel | medical flight dublin israel | patient transfer dublin israel
+city,Paris,FR,2,air ambulance paris to israel | medical flight paris israel | patient transfer paris israel
+city,Nice,FR,2,air ambulance nice to israel | medical flight nice israel | patient transfer nice israel
+city,Lyon,FR,2,air ambulance lyon to israel | medical flight lyon israel | patient transfer lyon israel
+city,Marseille,FR,2,air ambulance marseille to israel | medical flight marseille israel | patient transfer marseille israel
+city,Berlin,DE,2,air ambulance berlin to israel | medical flight berlin israel | patient transfer berlin israel
+city,Frankfurt,DE,2,air ambulance frankfurt to israel | medical flight frankfurt israel | patient transfer frankfurt israel
+city,Munich,DE,2,air ambulance munich to israel | medical flight munich israel | patient transfer munich israel
+city,Zurich,CH,2,air ambulance zurich to israel | medical flight zurich israel | patient transfer zurich israel
+city,Geneva,CH,2,air ambulance geneva to israel | medical flight geneva israel | patient transfer geneva israel
+city,Vienna,AT,2,air ambulance vienna to israel | medical flight vienna israel | patient transfer vienna israel
+city,Amsterdam,NL,2,air ambulance amsterdam to israel | medical flight amsterdam israel | patient transfer amsterdam israel
+city,Brussels,BE,2,air ambulance brussels to israel | medical flight brussels israel | patient transfer brussels israel
+city,Madrid,ES,2,air ambulance madrid to israel | medical flight madrid israel | patient transfer madrid israel
+city,Barcelona,ES,2,air ambulance barcelona to israel | medical flight barcelona israel | patient transfer barcelona israel
+city,Lisbon,PT,2,air ambulance lisbon to israel | medical flight lisbon israel | patient transfer lisbon israel
+city,Porto,PT,2,air ambulance porto to israel | medical flight porto israel | patient transfer porto israel
+city,Rome,IT,2,air ambulance rome to israel | medical flight rome israel | patient transfer rome israel
+city,Milan,IT,2,air ambulance milan to israel | medical flight milan israel | patient transfer milan israel
+city,Venice,IT,2,air ambulance venice to israel | medical flight venice israel | patient transfer venice israel
+city,Naples,IT,2,air ambulance naples to israel | medical flight naples israel | patient transfer naples israel
+city,Athens,GR,2,air ambulance athens to israel | medical flight athens israel | patient transfer athens israel
+city,Thessaloniki,GR,2,air ambulance thessaloniki to israel | medical flight thessaloniki israel | patient transfer thessaloniki israel
+city,Rhodes,GR,2,air ambulance rhodes to israel | medical flight rhodes israel | patient transfer rhodes israel
+city,Heraklion,GR,2,air ambulance heraklion to israel | medical flight heraklion israel | patient transfer heraklion israel
+city,Santorini,GR,2,air ambulance santorini to israel | medical flight santorini israel | patient transfer santorini israel
+city,Mykonos,GR,2,air ambulance mykonos to israel | medical flight mykonos israel | patient transfer mykonos israel
+city,Larnaca,CY,2,air ambulance larnaca to israel | medical flight larnaca israel | patient transfer larnaca israel
+city,Paphos,CY,2,air ambulance paphos to israel | medical flight paphos israel | patient transfer paphos israel
+city,Prague,CZ,2,air ambulance prague to israel | medical flight prague israel | patient transfer prague israel
+city,Budapest,HU,2,air ambulance budapest to israel | medical flight budapest israel | patient transfer budapest israel
+city,Warsaw,PL,2,air ambulance warsaw to israel | medical flight warsaw israel | patient transfer warsaw israel
+city,Krakow,PL,2,air ambulance krakow to israel | medical flight krakow israel | patient transfer krakow israel
+city,Bucharest,RO,2,air ambulance bucharest to israel | medical flight bucharest israel | patient transfer bucharest israel
+city,Sofia,BG,2,air ambulance sofia to israel | medical flight sofia israel | patient transfer sofia israel
+city,Belgrade,RS,2,air ambulance belgrade to israel | medical flight belgrade israel | patient transfer belgrade israel
+city,Zagreb,HR,2,air ambulance zagreb to israel | medical flight zagreb israel | patient transfer zagreb israel
+city,Ljubljana,SI,2,air ambulance ljubljana to israel | medical flight ljubljana israel | patient transfer ljubljana israel
+city,Dubrovnik,HR,2,air ambulance dubrovnik to israel | medical flight dubrovnik israel | patient transfer dubrovnik israel
+city,Tivat,ME,2,air ambulance tivat to israel | medical flight tivat israel | patient transfer tivat israel
+city,Podgorica,ME,2,air ambulance podgorica to israel | medical flight podgorica israel | patient transfer podgorica israel
+city,Batumi,GE,2,air ambulance batumi to israel | medical flight batumi israel | patient transfer batumi israel
+city,Tbilisi,GE,2,air ambulance tbilisi to israel | medical flight tbilisi israel | patient transfer tbilisi israel
+city,Dubai,AE,2,air ambulance dubai to israel | medical flight dubai israel | patient transfer dubai israel
+city,Abu Dhabi,AE,2,air ambulance abu dhabi to israel | medical flight abu dhabi israel | patient transfer abu dhabi israel
+city,Tokyo,JP,2,air ambulance tokyo to israel | medical flight tokyo israel | patient transfer tokyo israel
+city,Osaka,JP,2,air ambulance osaka to israel | medical flight osaka israel | patient transfer osaka israel
+city,Bangkok,TH,2,air ambulance bangkok to israel | medical flight bangkok israel | patient transfer bangkok israel
+city,Phuket,TH,2,air ambulance phuket to israel | medical flight phuket israel | patient transfer phuket israel
+city,Singapore,SG,2,air ambulance singapore to israel | medical flight singapore israel | patient transfer singapore israel
+city,Johannesburg,ZA,2,air ambulance johannesburg to israel | medical flight johannesburg israel | patient transfer johannesburg israel
+city,Cape Town,ZA,2,air ambulance cape town to israel | medical flight cape town israel | patient transfer cape town israel
+city,Sydney,AU,2,air ambulance sydney to israel | medical flight sydney israel | patient transfer sydney israel
+city,Melbourne,AU,2,air ambulance melbourne to israel | medical flight melbourne israel | patient transfer melbourne israel
+city,Casablanca,MA,2,air ambulance casablanca to israel | medical flight casablanca israel | patient transfer casablanca israel
+city,Marrakech,MA,2,air ambulance marrakech to israel | medical flight marrakech israel | patient transfer marrakech israel
+city,Tel Aviv,IL,1,air ambulance tel aviv to israel | medical flight tel aviv israel | patient transfer tel aviv israel
+city,Jerusalem,IL,1,air ambulance jerusalem to israel | medical flight jerusalem israel | patient transfer jerusalem israel
+city,Haifa,IL,1,air ambulance haifa to israel | medical flight haifa israel | patient transfer haifa israel
