@@ -11,7 +11,21 @@ Families arrange private medical flights between New York and Israel for emergen
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: ניו יורק ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין ניו יורק לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 3: ICU equipment in the air
@@ -26,6 +40,18 @@ Clinical readiness is part of every mission plan.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+ציוד טיפול נמרץ באוויר
+
+העברות טיפול נמרץ עשויות לדרוש מנשמים, מוניטורים רב־פרמטריים, משאבות עירוי, שאיבה, ציוד נתיב אוויר מתקדם ותרופות — מותאמים למצב המטופל לפני ההמראה.
+
+מוכנות קלינית היא חלק מכל תוכנית משימה.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 5: Israel ↔ USA medical flights
@@ -40,6 +66,18 @@ Private jet ICU transfer or commercial medical escort — based on medical asses
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסות רפואיות ישראל ↔ ארה״ב
+
+אנחנו מתאמים באופן שוטף טיסות רפואיות בין ישראל לשערי כניסה מרכזיים בארה״ב כולל ניו יורק, מיאמי, פורט לודרדייל, בוסטון, לוס אנג׳לס וסן פרנסיסקו.
+
+העברת ICU במטוס פרטי או ליווי רפואי מסחרי — לפי הערכה רפואית.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 7: Medical flight: Rome ↔ Israel
@@ -51,7 +89,21 @@ Families arrange private medical flights between Rome and Israel for emergency r
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: רומא ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין רומא לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 9: Medical repatriation explained
@@ -66,6 +118,18 @@ We specialize in repatriation TO Israel and FROM Israel for private clients.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+החזרה רפואית — הסבר
+
+החזרה רפואית היא תהליך החזרת מטופל למדינת המוצא להמשך טיפול או החלמה — עם רמת הטיפול הרפואי המתאימה בטיסה.
+
+אנחנו מתמחים בהחזרה לישראל ומישראל עבור לקוחות פרטיים.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 11: Medical flight: Dubai ↔ Israel
@@ -77,7 +141,21 @@ Families arrange private medical flights between Dubai and Israel for emergency 
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: דובאי ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין דובאי לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 13: Medical flight from Greece to Israel
@@ -92,6 +170,18 @@ We arrange air ambulance or medical escort flights from Greece to Israel for pri
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית מיוון לישראל
+
+יעדים פופולריים כמו אתונה, סלוניקי, רודוס, הרקליון, סנטוריני ומיקונוס דורשים לעיתים החזרה רפואית דחופה.
+
+אנחנו מתאמים טיסות אמבולנס אווירי או ליווי רפואי מיוון לישראל עבור משפחות פרטיות.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 15: Medical flight: Lisbon ↔ Israel
@@ -103,7 +193,21 @@ Families arrange private medical flights between Lisbon and Israel for emergency
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: ליסבון ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין ליסבון לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 17: Air ambulance vs medical escort
@@ -120,6 +224,20 @@ We assess each case and recommend the safest appropriate solution.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+אמבולנס אווירי מול ליווי רפואי
+
+אמבולנס אווירי פרטי: מטוס ייעודי המוגדר כ־ICU מעופף למטופלים קריטיים.
+
+ליווי רפואי בטיסה מסחרית: רופא/פרמדיק מלווים את המטופל בטיסה מתוזמנת כשהמצב הקליני מאפשר — לעיתים אפשרות חסכונית יותר.
+
+אנחנו מעריכים כל מקרה וממליצים על הפתרון הבטוח והמתאים ביותר.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 19: The medical team on board
@@ -134,6 +252,18 @@ Your family receives clear updates from coordination through arrival.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+הצוות הרפואי במטוס
+
+הטיסות מאוישות לפי הצורך הקליני — בדרך כלל רופאי טיסה ו/או פרמדיקים לטיפול נמרץ עם ניסיון ברפואת תעופה והעברות בינלאומיות.
+
+המשפחה מקבלת עדכונים ברורים מהתיאום ועד ההגעה.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 21: Medical flight: Zurich ↔ Israel
@@ -145,7 +275,21 @@ Families arrange private medical flights between Zurich and Israel for emergency
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: ציריך ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין ציריך לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 23: Bedside to bedside — what it means
@@ -158,6 +302,16 @@ Bed-to-bed (bedside-to-bedside) means we coordinate the full continuum: origin h
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+ממיטה למיטה — מה זה אומר
+
+ממיטה למיטה פירושו שאנחנו מתאמים את כל הרצף: איסוף מבית החולים/הבית במקור, אמבולנס קרקעי לנמל התעופה, טיסה רפואית, והעברה למיטת בית החולים המקבל — עם אחריות קלינית לאורך כל הדרך.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 25: Medical flight: Amsterdam ↔ Israel
@@ -169,7 +323,21 @@ Families arrange private medical flights between Amsterdam and Israel for emerge
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: אמסטרדם ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין אמסטרדם לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 27: Travel medicine & international transfer
@@ -182,6 +350,16 @@ International patient transfer sits at the intersection of clinical care, aviati
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+רפואת נסיעות והעברה בינלאומית
+
+העברת מטופל בינלאומית נמצאת בצומת של טיפול קליני, לוגיסטיקת תעופה ורפואת נסיעות. המטרה היא רציפות טיפול — לא רק הסעה.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 29: Medical flight: Vienna ↔ Israel
@@ -193,7 +371,21 @@ Families arrange private medical flights between Vienna and Israel for emergency
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: וינה ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין וינה לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 31: When is an air ambulance needed?
@@ -208,6 +400,18 @@ Israel Air Ambulance coordinates private medical flights TO Israel and FROM Isra
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+מתי נדרש אמבולנס אווירי?
+
+אמבולנס אווירי נשקל כשהמטופל זקוק לטיפול רפואי רציף במהלך ההעברה — למשל תמיכת ICU, חמצן/הנשמה, או כשטיסה מסחרית אינה מתאימה קלינית.
+
+ישראל אייר אמבולנס מתאמת טיסות רפואיות פרטיות לישראל ומישראל, כולל לוגיסטיקה ממיטה למיטה.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 33: ICU equipment in the air
@@ -222,6 +426,18 @@ Clinical readiness is part of every mission plan.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+ציוד טיפול נמרץ באוויר
+
+העברות טיפול נמרץ עשויות לדרוש מנשמים, מוניטורים רב־פרמטריים, משאבות עירוי, שאיבה, ציוד נתיב אוויר מתקדם ותרופות — מותאמים למצב המטופל לפני ההמראה.
+
+מוכנות קלינית היא חלק מכל תוכנית משימה.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 35: Medical flight: Berlin ↔ Israel
@@ -233,7 +449,21 @@ Families arrange private medical flights between Berlin and Israel for emergency
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: ברלין ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין ברלין לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 37: Holiday emergency abroad?
@@ -248,6 +478,18 @@ Israel Air Ambulance is available 24/7 for private families needing urgent coord
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+חירום רפואי בחופשה בחו״ל?
+
+אם בן משפחה חלה או נפצע קשה בזמן נסיעה, החזרה רפואית בינלאומית יכולה להביא אותו הביתה תחת טיפול רפואי רציף.
+
+ישראל אייר אמבולנס זמינה 24/7 למשפחות פרטיות שזקוקות לתיאום דחוף.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 39: Medical flight: Barcelona ↔ Israel
@@ -259,7 +501,21 @@ Families arrange private medical flights between Barcelona and Israel for emerge
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: ברצלונה ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין ברצלונה לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 41: Behind the scenes of a medical flight
@@ -272,6 +528,16 @@ While families focus on their loved one, our coordination team manages aircraft/
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+מאחורי הקלעים של טיסה רפואית
+
+בזמן שהמשפחה מתמקדת ביקירם, צוות התיאום שלנו מנהל אפשרויות מטוס/ליווי, אישורים, אישורים רפואיים, אמבולנסים קרקעיים ומסירות לבתי חולים — לעיתים על פני כמה אזורי זמן.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 43: Medical flight: Toronto ↔ Israel
@@ -283,7 +549,21 @@ Families arrange private medical flights between Toronto and Israel for emergenc
 
 Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.
 
-Contact our 24/7 coordination team: +972-79-670-9999
+Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
+
+Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+טיסה רפואית: טורונטו ↔ ישראל
+
+משפחות מתאמות טיסות רפואיות פרטיות בין טורונטו לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.
+
+ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 45: Dubai ↔ Israel medical transport
@@ -296,6 +576,16 @@ For patients requiring transfer between Dubai/UAE and Israel, we coordinate priv
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+העברה רפואית דובאי ↔ ישראל
+
+עבור מטופלים הזקוקים להעברה בין דובאי/איחוד האמירויות לישראל, אנחנו מתאמים אמבולנס אווירי פרטי או ליווי רפואי מסחרי לפי הצורך הקליני והדחיפות.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```
 
 ## Day 47: Air ambulance vs medical escort
@@ -312,4 +602,18 @@ We assess each case and recommend the safest appropriate solution.
 Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.
 
 Contact: +972-79-670-9999 | https://ambulancenter.com
+
+────────
+
+אמבולנס אווירי מול ליווי רפואי
+
+אמבולנס אווירי פרטי: מטוס ייעודי המוגדר כ־ICU מעופף למטופלים קריטיים.
+
+ליווי רפואי בטיסה מסחרית: רופא/פרמדיק מלווים את המטופל בטיסה מתוזמנת כשהמצב הקליני מאפשר — לעיתים אפשרות חסכונית יותר.
+
+אנחנו מעריכים כל מקרה וממליצים על הפתרון הבטוח והמתאים ביותר.
+
+מיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.
+
+יצירת קשר: +972-79-670-9999 | https://ambulancenter.com
 ```

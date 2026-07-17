@@ -1,6 +1,7 @@
 # Weekly Posting Strategy — Israel Air Ambulance
 
-**Rule:** Prepare drafts for approval. **Do not auto-publish.**
+**Rule:** Prepare drafts for approval. **Do not auto-publish.**  
+**Language:** Every public post must be **bilingual — English + Hebrew** (EN first, then HE).
 
 Platforms: Instagram · Facebook · LinkedIn · Threads · Google Business Profile
 

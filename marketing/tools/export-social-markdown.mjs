@@ -18,24 +18,33 @@ function mdEscape(s) {
 // Instagram carousels
 {
   const lines = [
-    "# Instagram Carousel Scripts — Premium Brand Series",
+    "# Instagram Carousel Scripts — Premium Brand Series (EN + HE)",
     "",
     "Design notes: dark navy / clean white / subtle steel-blue accent; premium medical aviation look; no emoji overload on slides; strong brand wordmark on slide 1; final slide = CTA (Call / WhatsApp).",
+    "",
+    "**Language:** Every caption is bilingual — English block, then Hebrew block (separated by ────────).",
     "",
     "Do not auto-publish. Copy after review.",
     ""
   ];
   for (const p of carousels) {
-    lines.push(`## ${p.title}`);
+    lines.push(`## ${p.title}${p.titleHe ? ` / ${p.titleHe}` : ""}`);
     lines.push("");
     lines.push(`ID: \`${p.id}\``);
     lines.push("");
-    lines.push("### Slides");
+    lines.push("### Slides (EN)");
     p.slides.forEach((s, i) => {
       lines.push(`${i + 1}. ${s.replace(/\n/g, " — ")}`);
     });
+    if (p.slidesHe?.length) {
+      lines.push("");
+      lines.push("### Slides (HE)");
+      p.slidesHe.forEach((s, i) => {
+        lines.push(`${i + 1}. ${s.replace(/\n/g, " — ")}`);
+      });
+    }
     lines.push("");
-    lines.push("### Caption (Instagram)");
+    lines.push("### Caption (Instagram — bilingual)");
     lines.push("```");
     lines.push(p.copy.instagram);
     lines.push("```");
@@ -47,13 +56,14 @@ function mdEscape(s) {
 // Facebook long-form (first 30 feed posts)
 {
   const lines = [
-    "# Facebook Posts — Long-form Professional",
+    "# Facebook Posts — Long-form Professional (EN + HE)",
     "",
-    "Tone: calm, trustworthy, family-oriented. Always end with Call / WhatsApp CTA. Review before posting.",
+    "Tone: calm, trustworthy, family-oriented. **Every post is bilingual** (English first, then Hebrew). Always end with Call / WhatsApp CTA. Review before posting.",
     ""
   ];
   for (const p of feed.slice(0, 30)) {
-    lines.push(`## Day ${p.day}: ${p.title}`);
+    const heading = p.titleHe ? `${p.title} / ${p.titleHe}` : p.title;
+    lines.push(`## Day ${p.day}: ${heading}`);
     lines.push("");
     lines.push("```");
     lines.push(p.copy.facebook);

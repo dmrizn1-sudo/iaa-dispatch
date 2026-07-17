@@ -495,14 +495,29 @@ function pickHashtags(hashtags, seed, geoTags = []) {
   return unique([...hashtags.always_include, ...servicePick, ...cityPick, ...routePick]);
 }
 
+/** Join English + Hebrew blocks for bilingual social posts. */
+function bilingual(en, he) {
+  return `${en.trim()}\n\n────────\n\n${he.trim()}`;
+}
+
 function buildPosts() {
   const hashtags = generateHashtags();
   const posts = [];
+  const phone = geo.brand.phoneIntl;
+  const web = geo.brand.website;
+
+  const ctaEn =
+    `Need a private air ambulance or medical escort TO Israel or FROM Israel?\n` +
+    `📞 ${phone} (24/7)\n💬 WhatsApp available\n🌐 ${web}`;
+  const ctaHe =
+    `צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?\n` +
+    `📞 ${phone} (24/7)\n💬 וואטסאפ זמין\n🌐 ${web}`;
 
   const carouselSets = [
     {
       id: "carousel-01-mission",
       title: "Mission Overview — Worldwide Air Ambulance",
+      titleHe: "סקירת משימה — אמבולנס אווירי בינלאומי",
       slides: [
         "ISRAEL AIR AMBULANCE\nInternational medical flights 24/7",
         "Private air ambulance\nTO Israel & FROM Israel",
@@ -510,11 +525,20 @@ function buildPosts() {
         "Bedside to bedside\nHospital → Aircraft → Hospital",
         "Worldwide coordination\nUSA · Europe · Middle East · Asia",
         "Need a medical flight?\nCall / WhatsApp 24/7"
+      ],
+      slidesHe: [
+        "ישראל אייר אמבולנס\nטיסות רפואיות בינלאומיות 24/7",
+        "אמבולנס אווירי פרטי\nלישראל ומישראל",
+        "צוותי טיפול נמרץ\nמטוס רפואי ברמת ICU",
+        "ממיטה למיטה\nבית חולים → מטוס → בית חולים",
+        "תיאום עולמי\nארה״ב · אירופה · המזרח התיכון · אסיה",
+        "צריכים טיסה רפואית?\nשיחה / וואטסאפ 24/7"
       ]
     },
     {
       id: "carousel-02-aircraft",
       title: "Aircraft & ICU Capability",
+      titleHe: "מטוס ויכולות טיפול נמרץ",
       slides: [
         "Configured medical aircraft\nfor intensive care transport",
         "Ventilation · Monitoring · Infusion\nICU standards in the air",
@@ -522,11 +546,20 @@ function buildPosts() {
         "Stretcher & private jet options\nmatched to patient condition",
         "Commercial medical escort\nwhen clinically appropriate",
         "Request a clinical assessment\nIsrael Air Ambulance"
+      ],
+      slidesHe: [
+        "מטוס רפואי מוגדר\nלהעברת טיפול נמרץ",
+        "הנשמה · ניטור · עירוי\nסטנדרט ICU באוויר",
+        "רופאי טיסה ופרמדיקים לטיפול נמרץ",
+        "אלונקה ומטוס פרטי\nבהתאם למצב המטופל",
+        "ליווי רפואי בטיסה מסחרית\nכשהמצב הקליני מאפשר",
+        "בקשו הערכה קלינית\nישראל אייר אמבולנס"
       ]
     },
     {
       id: "carousel-03-usa",
       title: "Israel ↔ USA Routes",
+      titleHe: "מסלולים ישראל ↔ ארה״ב",
       slides: [
         "Israel ↔ USA medical flights",
         "New York · Miami · Boston\nLos Angeles · San Francisco",
@@ -534,11 +567,20 @@ function buildPosts() {
         "Medical escort on commercial flights\nwhen suitable",
         "Families paying privately\nfast, clear coordination",
         "24/7 dispatch\nWhatsApp & phone"
+      ],
+      slidesHe: [
+        "טיסות רפואיות ישראל ↔ ארה״ב",
+        "ניו יורק · מיאמי · בוסטון\nלוס אנג׳לס · סן פרנסיסקו",
+        "אמבולנס אווירי ICU למקרים מורכבים",
+        "ליווי רפואי בטיסות מסחריות\nכשמתאים קלינית",
+        "משפחות פרטיות\nתיאום מהיר וברור",
+        "מוקד 24/7\nוואטסאפ וטלפון"
       ]
     },
     {
       id: "carousel-04-europe",
       title: "Israel ↔ Europe Routes",
+      titleHe: "מסלולים ישראל ↔ אירופה",
       slides: [
         "Israel ↔ Europe air ambulance",
         "London · Paris · Berlin · Zurich\nRome · Athens · Barcelona",
@@ -546,11 +588,20 @@ function buildPosts() {
         "Bed-to-bed ground + air logistics",
         "Experienced international medical teams",
         "Call now for emergency transfer"
+      ],
+      slidesHe: [
+        "אמבולנס אווירי ישראל ↔ אירופה",
+        "לונדון · פריז · ברלין · ציריך\nרומא · אתונה · ברצלונה",
+        "חירום רפואי בחופשה\nהחזרה רפואית לישראל",
+        "לוגיסטיקה ממיטה למיטה — קרקע + אוויר",
+        "צוותים רפואיים בינלאומיים מנוסים",
+        "התקשרו עכשיו להעברה דחופה"
       ]
     },
     {
       id: "carousel-05-safety",
       title: "Patient Safety & Trust",
+      titleHe: "בטיחות מטופל ואמון",
       slides: [
         "Patient safety first\non every medical flight",
         "Clinical screening before departure",
@@ -558,11 +609,20 @@ function buildPosts() {
         "Hospital handoff at destination",
         "Clear communication with families",
         "Israel Air Ambulance — 24/7"
+      ],
+      slidesHe: [
+        "בטיחות המטופל קודמת\nבכל טיסה רפואית",
+        "סינון קליני לפני המראה",
+        "ניטור רציף במהלך הטיסה",
+        "מסירה לבית החולים ביעד",
+        "תקשורת ברורה עם המשפחה",
+        "ישראל אייר אמבולנס — 24/7"
       ]
     },
     {
       id: "carousel-06-icu-crew",
       title: "ICU Equipment & Medical Crew",
+      titleHe: "ציוד ICU וצוות רפואי",
       slides: [
         "ICU-capable medical flights\nfor critical patients",
         "Ventilators · Monitors · Infusion pumps",
@@ -570,11 +630,20 @@ function buildPosts() {
         "Equipment matched to\npatient condition",
         "Worldwide missions\nTO Israel & FROM Israel",
         "Request assessment 24/7\nCall / WhatsApp"
+      ],
+      slidesHe: [
+        "טיסות רפואיות ברמת ICU\nלמטופלים קריטיים",
+        "מנשמים · מוניטורים · משאבות עירוי",
+        "רופאי טיסה &\nפרמדיקים לטיפול נמרץ",
+        "ציוד מותאם\nלמצב המטופל",
+        "משימות ברחבי העולם\nלישראל ומישראל",
+        "בקשו הערכה 24/7\nשיחה / וואטסאפ"
       ]
     },
     {
       id: "carousel-07-fly-home",
       title: "Fly Patient Home",
+      titleHe: "להטיס את המטופל הביתה",
       slides: [
         "Fly your loved one home\nsafely under medical care",
         "After hospitalization abroad\nwe arrange the return flight",
@@ -582,11 +651,20 @@ function buildPosts() {
         "Bedside to bedside\ncoordination included",
         "Private families · Self-pay\nClear, fast guidance",
         "Israel Air Ambulance\n+972-79-670-9999"
+      ],
+      slidesHe: [
+        "מטיסים את יקירכם הביתה\nבבטחה תחת טיפול רפואי",
+        "אחרי אשפוז בחו״ל\nאנחנו מתאמים את טיסת החזרה",
+        "אמבולנס אווירי פרטי\nאו ליווי רפואי בטיסה מסחרית",
+        "תיאום ממיטה למיטה\nכלול בתהליך",
+        "משפחות פרטיות · תשלום עצמי\nהכוונה ברורה ומהירה",
+        "ישראל אייר אמבולנס\n+972-79-670-9999"
       ]
     },
     {
       id: "carousel-08-worldwide",
       title: "Worldwide Coverage 24/7",
+      titleHe: "כיסוי עולמי 24/7",
       slides: [
         "Worldwide operations\n24/7 emergency response",
         "Israel ↔ USA",
@@ -594,13 +672,21 @@ function buildPosts() {
         "Israel ↔ UAE · Asia · Africa",
         "Private international\nair ambulance only",
         "Call or WhatsApp now\nIsrael Air Ambulance"
+      ],
+      slidesHe: [
+        "פעילות עולמית\nמענה חירום 24/7",
+        "ישראל ↔ ארה״ב",
+        "ישראל ↔ אירופה",
+        "ישראל ↔ איחוד האמירויות · אסיה · אפריקה",
+        "אמבולנס אווירי בינלאומי פרטי בלבד",
+        "התקשרו או שלחו וואטסאפ עכשיו\nישראל אייר אמבולנס"
       ]
     }
   ];
 
   for (const [i, set] of carouselSets.entries()) {
-    const tags = pickHashtags(hashtags, i + 1, ["#TelAviv", "#Israel"]);
-    const ig = [
+    const tags = pickHashtags(hashtags, i + 1, ["#TelAviv", "#Israel", "#ישראל"]);
+    const enBlock = [
       set.title,
       "",
       ...set.slides.map((s, idx) => `${idx + 1}/${set.slides.length}\n${s}`),
@@ -609,11 +695,22 @@ function buildPosts() {
       "ICU-capable · Bedside to bedside · Worldwide",
       "",
       "📞 Call / WhatsApp 24/7",
-      geo.brand.phoneIntl,
-      geo.brand.website,
-      "",
-      tags.join(" ")
+      phone,
+      web
     ].join("\n");
+    const heBlock = [
+      set.titleHe,
+      "",
+      ...set.slidesHe.map((s, idx) => `${idx + 1}/${set.slidesHe.length}\n${s}`),
+      "",
+      "אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.",
+      "יכולת ICU · ממיטה למיטה · בכל העולם",
+      "",
+      "📞 שיחה / וואטסאפ 24/7",
+      phone,
+      web
+    ].join("\n");
+    const ig = `${bilingual(enBlock, heBlock)}\n\n${tags.join(" ")}`;
 
     posts.push({
       id: set.id,
@@ -622,116 +719,184 @@ function buildPosts() {
       day: (i + 1) * 5,
       theme: "carousel",
       title: set.title,
+      titleHe: set.titleHe,
       slides: set.slides,
+      slidesHe: set.slidesHe,
       copy: {
         instagram: ig,
-        facebook: ig.replace(/#\w+/g, "").replace(/\n{3,}/g, "\n\n").trim() +
-          `\n\nNeed an emergency medical flight to or from Israel?\nCall ${geo.brand.phoneIntl} or message us on WhatsApp — available 24/7.\n${geo.brand.website}`,
-        linkedin:
+        facebook: bilingual(
+          enBlock +
+            `\n\nNeed an emergency medical flight to or from Israel?\nCall ${phone} or message us on WhatsApp — available 24/7.\n${web}`,
+          heBlock +
+            `\n\nצריכים טיסה רפואית דחופה לישראל או מישראל?\nהתקשרו ${phone} או שלחו וואטסאפ — זמינים 24/7.\n${web}`
+        ),
+        linkedin: bilingual(
           `${set.title}\n\nIsrael Air Ambulance provides private international air ambulance and medical repatriation services to and from Israel.\n\n` +
-          set.slides.map((s) => `• ${s.replace(/\n/g, " — ")}`).join("\n") +
-          `\n\nAvailable 24/7 for families arranging private medical flights.\n${geo.brand.phoneIntl} | ${geo.brand.website}`
+            set.slides.map((s) => `• ${s.replace(/\n/g, " — ")}`).join("\n") +
+            `\n\nAvailable 24/7 for families arranging private medical flights.\n${phone} | ${web}`,
+          `${set.titleHe}\n\nישראל אייר אמבולנס מספקת אמבולנס אווירי בינלאומי פרטי והחזרה רפואית לישראל ומישראל.\n\n` +
+            set.slidesHe.map((s) => `• ${s.replace(/\n/g, " — ")}`).join("\n") +
+            `\n\nזמינים 24/7 למשפחות שמתאמות טיסה רפואית פרטית.\n${phone} | ${web}`
+        )
       }
     });
   }
 
-  // 90 educational / trust / route posts (approx 1/day for calendar)
+  // 90 educational / trust / route posts (approx 1/day for calendar) — bilingual EN + HE
   const themes = [
     {
       theme: "educational",
       title: "When is an air ambulance needed?",
+      titleHe: "מתי נדרש אמבולנס אווירי?",
       body:
-        "An air ambulance is considered when a patient needs continuous medical care during transfer — for example ICU support, oxygen/ventilation, or when commercial travel is not clinically appropriate.\n\nIsrael Air Ambulance coordinates private medical flights TO Israel and FROM Israel, including bedside-to-bedside logistics."
+        "An air ambulance is considered when a patient needs continuous medical care during transfer — for example ICU support, oxygen/ventilation, or when commercial travel is not clinically appropriate.\n\nIsrael Air Ambulance coordinates private medical flights TO Israel and FROM Israel, including bedside-to-bedside logistics.",
+      bodyHe:
+        "אמבולנס אווירי נשקל כשהמטופל זקוק לטיפול רפואי רציף במהלך ההעברה — למשל תמיכת ICU, חמצן/הנשמה, או כשטיסה מסחרית אינה מתאימה קלינית.\n\nישראל אייר אמבולנס מתאמת טיסות רפואיות פרטיות לישראל ומישראל, כולל לוגיסטיקה ממיטה למיטה."
     },
     {
       theme: "educational",
       title: "Air ambulance vs medical escort",
+      titleHe: "אמבולנס אווירי מול ליווי רפואי",
       body:
-        "Private air ambulance: dedicated aircraft configured as a flying ICU for critical patients.\n\nCommercial medical escort: doctor/paramedic accompany the patient on a scheduled flight when clinically suitable — often a more cost-effective option.\n\nWe assess each case and recommend the safest appropriate solution."
+        "Private air ambulance: dedicated aircraft configured as a flying ICU for critical patients.\n\nCommercial medical escort: doctor/paramedic accompany the patient on a scheduled flight when clinically suitable — often a more cost-effective option.\n\nWe assess each case and recommend the safest appropriate solution.",
+      bodyHe:
+        "אמבולנס אווירי פרטי: מטוס ייעודי המוגדר כ־ICU מעופף למטופלים קריטיים.\n\nליווי רפואי בטיסה מסחרית: רופא/פרמדיק מלווים את המטופל בטיסה מתוזמנת כשהמצב הקליני מאפשר — לעיתים אפשרות חסכונית יותר.\n\nאנחנו מעריכים כל מקרה וממליצים על הפתרון הבטוח והמתאים ביותר."
     },
     {
       theme: "equipment",
       title: "ICU equipment in the air",
+      titleHe: "ציוד טיפול נמרץ באוויר",
       body:
-        "Critical care transports may require ventilators, multiparameter monitors, infusion pumps, suction, advanced airway equipment, and medications — configured to the patient’s condition before takeoff.\n\nClinical readiness is part of every mission plan."
+        "Critical care transports may require ventilators, multiparameter monitors, infusion pumps, suction, advanced airway equipment, and medications — configured to the patient’s condition before takeoff.\n\nClinical readiness is part of every mission plan.",
+      bodyHe:
+        "העברות טיפול נמרץ עשויות לדרוש מנשמים, מוניטורים רב־פרמטריים, משאבות עירוי, שאיבה, ציוד נתיב אוויר מתקדם ותרופות — מותאמים למצב המטופל לפני ההמראה.\n\nמוכנות קלינית היא חלק מכל תוכנית משימה."
     },
     {
       theme: "crew",
       title: "The medical team on board",
+      titleHe: "הצוות הרפואי במטוס",
       body:
-        "Flights are staffed according to clinical need — typically flight physicians and/or critical care paramedics experienced in aviation medicine and international transfers.\n\nYour family receives clear updates from coordination through arrival."
+        "Flights are staffed according to clinical need — typically flight physicians and/or critical care paramedics experienced in aviation medicine and international transfers.\n\nYour family receives clear updates from coordination through arrival.",
+      bodyHe:
+        "הטיסות מאוישות לפי הצורך הקליני — בדרך כלל רופאי טיסה ו/או פרמדיקים לטיפול נמרץ עם ניסיון ברפואת תעופה והעברות בינלאומיות.\n\nהמשפחה מקבלת עדכונים ברורים מהתיאום ועד ההגעה."
     },
     {
       theme: "routes",
       title: "Israel ↔ USA medical flights",
+      titleHe: "טיסות רפואיות ישראל ↔ ארה״ב",
       body:
-        "We regularly coordinate medical flights between Israel and major U.S. gateways including New York, Miami, Fort Lauderdale, Boston, Los Angeles, and San Francisco.\n\nPrivate jet ICU transfer or commercial medical escort — based on medical assessment."
+        "We regularly coordinate medical flights between Israel and major U.S. gateways including New York, Miami, Fort Lauderdale, Boston, Los Angeles, and San Francisco.\n\nPrivate jet ICU transfer or commercial medical escort — based on medical assessment.",
+      bodyHe:
+        "אנחנו מתאמים באופן שוטף טיסות רפואיות בין ישראל לשערי כניסה מרכזיים בארה״ב כולל ניו יורק, מיאמי, פורט לודרדייל, בוסטון, לוס אנג׳לס וסן פרנסיסקו.\n\nהעברת ICU במטוס פרטי או ליווי רפואי מסחרי — לפי הערכה רפואית."
     },
     {
       theme: "routes",
       title: "Israel ↔ Europe medical repatriation",
+      titleHe: "החזרה רפואית ישראל ↔ אירופה",
       body:
-        "From London, Paris, Berlin, Zurich, Rome, Athens, Barcelona, and many other cities — we arrange emergency and planned medical repatriation to Israel, and transfers from Israel to Europe."
+        "From London, Paris, Berlin, Zurich, Rome, Athens, Barcelona, and many other cities — we arrange emergency and planned medical repatriation to Israel, and transfers from Israel to Europe.",
+      bodyHe:
+        "מלונדון, פריז, ברלין, ציריך, רומא, אתונה, ברצלונה וערים רבות נוספות — אנחנו מתאמים החזרה רפואית דחופה ומתוכננת לישראל, וגם העברות מישראל לאירופה."
     },
     {
       theme: "emergency",
       title: "Holiday emergency abroad?",
+      titleHe: "חירום רפואי בחופשה בחו״ל?",
       body:
-        "If a family member becomes seriously ill or injured while traveling, international medical repatriation can bring them home under continuous medical care.\n\nIsrael Air Ambulance is available 24/7 for private families needing urgent coordination."
+        "If a family member becomes seriously ill or injured while traveling, international medical repatriation can bring them home under continuous medical care.\n\nIsrael Air Ambulance is available 24/7 for private families needing urgent coordination.",
+      bodyHe:
+        "אם בן משפחה חלה או נפצע קשה בזמן נסיעה, החזרה רפואית בינלאומית יכולה להביא אותו הביתה תחת טיפול רפואי רציף.\n\nישראל אייר אמבולנס זמינה 24/7 למשפחות פרטיות שזקוקות לתיאום דחוף."
     },
     {
       theme: "trust",
       title: "Bedside to bedside — what it means",
+      titleHe: "ממיטה למיטה — מה זה אומר",
       body:
-        "Bed-to-bed (bedside-to-bedside) means we coordinate the full continuum: origin hospital/home pickup, ground ambulance to airport, medical flight, and transfer to the receiving hospital bed — with clinical responsibility across the journey."
+        "Bed-to-bed (bedside-to-bedside) means we coordinate the full continuum: origin hospital/home pickup, ground ambulance to airport, medical flight, and transfer to the receiving hospital bed — with clinical responsibility across the journey.",
+      bodyHe:
+        "ממיטה למיטה פירושו שאנחנו מתאמים את כל הרצף: איסוף מבית החולים/הבית במקור, אמבולנס קרקעי לנמל התעופה, טיסה רפואית, והעברה למיטת בית החולים המקבל — עם אחריות קלינית לאורך כל הדרך."
     },
     {
       theme: "repatriation",
       title: "Medical repatriation explained",
+      titleHe: "החזרה רפואית — הסבר",
       body:
-        "Medical repatriation is the process of returning a patient to their home country for continued treatment or recovery — with the right level of in-flight medical care.\n\nWe specialize in repatriation TO Israel and FROM Israel for private clients."
+        "Medical repatriation is the process of returning a patient to their home country for continued treatment or recovery — with the right level of in-flight medical care.\n\nWe specialize in repatriation TO Israel and FROM Israel for private clients.",
+      bodyHe:
+        "החזרה רפואית היא תהליך החזרת מטופל למדינת המוצא להמשך טיפול או החלמה — עם רמת הטיפול הרפואי המתאימה בטיסה.\n\nאנחנו מתמחים בהחזרה לישראל ומישראל עבור לקוחות פרטיים."
     },
     {
       theme: "safety",
       title: "Patient safety checklist before departure",
+      titleHe: "רשימת בטיחות מטופל לפני המראה",
       body:
-        "Before every flight: clinical records review, fit-to-fly assessment, equipment planning, receiving hospital confirmation, ground logistics, and family briefing.\n\nPreparation protects patients — especially in ICU-level transfers."
+        "Before every flight: clinical records review, fit-to-fly assessment, equipment planning, receiving hospital confirmation, ground logistics, and family briefing.\n\nPreparation protects patients — especially in ICU-level transfers.",
+      bodyHe:
+        "לפני כל טיסה: סקירת רשומות קליניות, הערכת כשירות לטיסה, תכנון ציוד, אישור בית חולים מקבל, לוגיסטיקה קרקעית ותדרוך למשפחה.\n\nהכנה מגנה על מטופלים — במיוחד בהעברות ברמת ICU."
     },
     {
       theme: "behind_scenes",
       title: "Behind the scenes of a medical flight",
+      titleHe: "מאחורי הקלעים של טיסה רפואית",
       body:
-        "While families focus on their loved one, our coordination team manages aircraft/escort options, permits, medical clearances, ground ambulances, and hospital handoffs — often across multiple time zones."
+        "While families focus on their loved one, our coordination team manages aircraft/escort options, permits, medical clearances, ground ambulances, and hospital handoffs — often across multiple time zones.",
+      bodyHe:
+        "בזמן שהמשפחה מתמקדת ביקירם, צוות התיאום שלנו מנהל אפשרויות מטוס/ליווי, אישורים, אישורים רפואיים, אמבולנסים קרקעיים ומסירות לבתי חולים — לעיתים על פני כמה אזורי זמן."
     },
     {
       theme: "travel_medicine",
       title: "Travel medicine & international transfer",
+      titleHe: "רפואת נסיעות והעברה בינלאומית",
       body:
-        "International patient transfer sits at the intersection of clinical care, aviation logistics, and travel medicine. The goal is continuity of care — not just transportation."
+        "International patient transfer sits at the intersection of clinical care, aviation logistics, and travel medicine. The goal is continuity of care — not just transportation.",
+      bodyHe:
+        "העברת מטופל בינלאומית נמצאת בצומת של טיפול קליני, לוגיסטיקת תעופה ורפואת נסיעות. המטרה היא רציפות טיפול — לא רק הסעה."
     },
     {
       theme: "greece",
       title: "Medical flight from Greece to Israel",
+      titleHe: "טיסה רפואית מיוון לישראל",
       body:
-        "Popular destinations like Athens, Thessaloniki, Rhodes, Heraklion, Santorini, and Mykonos occasionally require urgent medical repatriation.\n\nWe arrange air ambulance or medical escort flights from Greece to Israel for private families."
+        "Popular destinations like Athens, Thessaloniki, Rhodes, Heraklion, Santorini, and Mykonos occasionally require urgent medical repatriation.\n\nWe arrange air ambulance or medical escort flights from Greece to Israel for private families.",
+      bodyHe:
+        "יעדים פופולריים כמו אתונה, סלוניקי, רודוס, הרקליון, סנטוריני ומיקונוס דורשים לעיתים החזרה רפואית דחופה.\n\nאנחנו מתאמים טיסות אמבולנס אווירי או ליווי רפואי מיוון לישראל עבור משפחות פרטיות."
     },
     {
       theme: "cyprus",
       title: "Cyprus ↔ Israel patient transfer",
+      titleHe: "העברת מטופל קפריסין ↔ ישראל",
       body:
-        "Larnaca and Paphos corridors are frequently used for medical transfers between Cyprus and Israel. Fast response and clear bedside-to-bedside planning make a critical difference."
+        "Larnaca and Paphos corridors are frequently used for medical transfers between Cyprus and Israel. Fast response and clear bedside-to-bedside planning make a critical difference.",
+      bodyHe:
+        "מסדרונות לרנקה ופאפוס משמשים לעיתים קרובות להעברות רפואיות בין קפריסין לישראל. מענה מהיר ותכנון ברור ממיטה למיטה עושים את ההבדל."
     },
     {
       theme: "uae",
       title: "Dubai ↔ Israel medical transport",
+      titleHe: "העברה רפואית דובאי ↔ ישראל",
       body:
-        "For patients requiring transfer between Dubai/UAE and Israel, we coordinate private air ambulance or commercial medical escort options based on clinical needs and urgency."
+        "For patients requiring transfer between Dubai/UAE and Israel, we coordinate private air ambulance or commercial medical escort options based on clinical needs and urgency.",
+      bodyHe:
+        "עבור מטופלים הזקוקים להעברה בין דובאי/איחוד האמירויות לישראל, אנחנו מתאמים אמבולנס אווירי פרטי או ליווי רפואי מסחרי לפי הצורך הקליני והדחיפות."
     }
   ];
 
   const citiesSpotlight = [
-    "New York", "Miami", "London", "Paris", "Berlin", "Zurich", "Rome", "Athens",
-    "Barcelona", "Amsterdam", "Dubai", "Bangkok", "Toronto", "Vienna", "Lisbon"
+    { en: "New York", he: "ניו יורק" },
+    { en: "Miami", he: "מיאמי" },
+    { en: "London", he: "לונדון" },
+    { en: "Paris", he: "פריז" },
+    { en: "Berlin", he: "ברלין" },
+    { en: "Zurich", he: "ציריך" },
+    { en: "Rome", he: "רומא" },
+    { en: "Athens", he: "אתונה" },
+    { en: "Barcelona", he: "ברצלונה" },
+    { en: "Amsterdam", he: "אמסטרדם" },
+    { en: "Dubai", he: "דובאי" },
+    { en: "Bangkok", he: "בנגקוק" },
+    { en: "Toronto", he: "טורונטו" },
+    { en: "Vienna", he: "וינה" },
+    { en: "Lisbon", he: "ליסבון" }
   ];
 
   let day = 1;
@@ -739,37 +904,48 @@ function buildPosts() {
     for (let d = 0; d < 7; d++) {
       const themeObj = themes[(week * 7 + d) % themes.length];
       const city = citiesSpotlight[(week * 7 + d) % citiesSpotlight.length];
-      const cityTag = `#${city.replace(/\s+/g, "")}`;
-      const tags = pickHashtags(hashtags, week * 10 + d + 20, [cityTag, "#Israel", "#TelAviv"]);
+      const cityTag = `#${city.en.replace(/\s+/g, "")}`;
+      const tags = pickHashtags(hashtags, week * 10 + d + 20, [
+        cityTag,
+        "#Israel",
+        "#TelAviv",
+        "#ישראל"
+      ]);
 
-      const cta =
-        `\n\nNeed a private air ambulance or medical escort TO Israel or FROM Israel?\n` +
-        `📞 ${geo.brand.phoneIntl} (24/7)\n💬 WhatsApp available\n🌐 ${geo.brand.website}`;
-
-      const ig = `${themeObj.title}\n\n${themeObj.body}${cta}\n\n${tags.join(" ")}`;
-      const fb =
-        `${themeObj.title}\n\n${themeObj.body}\n\n` +
-        `Israel Air Ambulance supports private families with international medical flights, ICU air ambulance, stretcher flights, and commercial medical escort — worldwide.\n` +
-        cta;
-      const li =
-        `${themeObj.title}\n\n${themeObj.body}\n\n` +
-        `Service focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.\n\n` +
-        `Contact: ${geo.brand.phoneIntl} | ${geo.brand.website}`;
+      let title = themeObj.title;
+      let titleHe = themeObj.titleHe;
+      let bodyEn = themeObj.body;
+      let bodyHe = themeObj.bodyHe;
 
       // City spotlight variant every 3rd day
-      let finalIg = ig;
-      let finalFb = fb;
-      let finalLi = li;
-      let title = themeObj.title;
       if (d % 3 === 0) {
-        title = `Medical flight: ${city} ↔ Israel`;
-        const cityBody =
-          `Families arrange private medical flights between ${city} and Israel for emergency repatriation, ICU transfer, or escorted commercial travel.\n\n` +
+        title = `Medical flight: ${city.en} ↔ Israel`;
+        titleHe = `טיסה רפואית: ${city.he} ↔ ישראל`;
+        bodyEn =
+          `Families arrange private medical flights between ${city.en} and Israel for emergency repatriation, ICU transfer, or escorted commercial travel.\n\n` +
           `Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.`;
-        finalIg = `${title}\n\n${cityBody}${cta}\n\n${tags.join(" ")}`;
-        finalFb = `${title}\n\n${cityBody}\n\nProfessional international air ambulance coordination for private clients.${cta}`;
-        finalLi = `${title}\n\n${cityBody}\n\nContact our 24/7 coordination team: ${geo.brand.phoneIntl}`;
+        bodyHe =
+          `משפחות מתאמות טיסות רפואיות פרטיות בין ${city.he} לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.\n\n` +
+          `ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.`;
       }
+
+      const enCore = `${title}\n\n${bodyEn}`;
+      const heCore = `${titleHe}\n\n${bodyHe}`;
+
+      const finalIg = bilingual(
+        `${enCore}\n\n${ctaEn}`,
+        `${heCore}\n\n${ctaHe}`
+      ) + `\n\n${tags.join(" ")}`;
+
+      const finalFb = bilingual(
+        `${enCore}\n\nIsrael Air Ambulance supports private families with international medical flights, ICU air ambulance, stretcher flights, and commercial medical escort — worldwide.\n\n${ctaEn}`,
+        `${heCore}\n\nישראל אייר אמבולנס מלווה משפחות פרטיות בטיסות רפואיות בינלאומיות, אמבולנס אווירי ICU, טיסות אלונקה וליווי רפואי מסחרי — ברחבי העולם.\n\n${ctaHe}`
+      );
+
+      const finalLi = bilingual(
+        `${enCore}\n\nService focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.\n\nContact: ${phone} | ${web}`,
+        `${heCore}\n\nמיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.\n\nיצירת קשר: ${phone} | ${web}`
+      );
 
       posts.push({
         id: `day-${String(day).padStart(3, "0")}`,
@@ -779,15 +955,15 @@ function buildPosts() {
         week: week + 1,
         theme: themeObj.theme,
         title,
+        titleHe,
         copy: {
           instagram: finalIg,
           facebook: finalFb,
           linkedin: finalLi,
-          threads:
-            finalIg.split("\n\n")[0] +
-            "\n\n" +
-            finalIg.split("\n\n")[1] +
-            `\n\n24/7 · ${geo.brand.phoneIntl}`
+          threads: bilingual(
+            `${title}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · ${phone}`,
+            `${titleHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · ${phone}`
+          )
         }
       });
       day += 1;
