@@ -1,0 +1,38 @@
+{
+  "at": "2026-07-17T16:54:15.263Z",
+  "generate": "ok",
+  "deploy_exit": 2,
+  "audit_exit": 2,
+  "deploy": {
+    "started_at": "2026-07-17T16:54:14.506Z",
+    "mode": "google_ads_api_deploy",
+    "conversions": {},
+    "campaigns": {},
+    "warnings": [],
+    "raw_mutates": [],
+    "status": "blocked_missing_credentials",
+    "missing_env": [
+      "GOOGLE_ADS_CLIENT_ID",
+      "GOOGLE_ADS_CLIENT_SECRET",
+      "GOOGLE_ADS_DEVELOPER_TOKEN",
+      "GOOGLE_ADS_REFRESH_TOKEN",
+      "GOOGLE_ADS_CUSTOMER_ID"
+    ],
+    "message": "Deploy is fully automated via Google Ads API, but account credentials are not in this environment yet.",
+    "how_to_unblock": {
+      "set_once_in_env_or_secrets": [
+        "GOOGLE_ADS_CLIENT_ID",
+        "GOOGLE_ADS_CLIENT_SECRET",
+        "GOOGLE_ADS_DEVELOPER_TOKEN",
+        "GOOGLE_ADS_REFRESH_TOKEN",
+        "GOOGLE_ADS_CUSTOMER_ID",
+        "ADS_PHONE",
+        "ADS_LANDING_AMBULANCE_URL",
+        "ADS_LANDING_FLIGHT_URL"
+      ],
+      "then_run": "npm run ads:all",
+      "enable_live": "ADS_ENABLE=true npm run ads:deploy"
+    }
+  },
+  "next": "Inject GOOGLE_ADS_* credentials into the environment, then re-run npm run ads:all — zero Editor steps."
+}

@@ -1,56 +1,44 @@
-# Advertising — Google Ads (separate from dispatch)
+# Advertising — Google Ads (API, zero Editor)
 
-חבילת פרסום **נפרדת** ממערכת השיבוץ. מייצרת קמפייני Search עם **Exact + Phrase בלבד** (בלי Broad) כדי לא לבזבז תקציב.
+אוטומציה מלאה ב־API. **אין Google Ads Editor. אין שלבים ידניים בקמפיין.**
 
-## מה נוצר אוטומטית
-
-| קובץ | שימוש |
-|------|--------|
-| `google-ads/out/google-ads-editor-import.csv` | ייבוא ל־Google Ads Editor |
-| `google-ads/out/keywords.csv` | כל מילות המפתח + match type |
-| `google-ads/out/negative-keywords.csv` | Negatives ברמת חשבון/קמפיין |
-| `google-ads/out/responsive-search-ads.csv` | מודעות RSA ממוקדות לידים (חייגו/WhatsApp/הצעת מחיר) |
-| `google-ads/out/lead-assets.json` | Callouts + Sitelinks + נוסחת לידים |
-| `google-ads/out/lead-research.md` | סיכום מחקר מתחרים → החלטות מודעה |
-| `google-ads/out/keywords-paste-*.txt` | הדבקה ידנית מהירה |
-| `google-ads/out/weekly-search-terms-audit.md` | ביקורת שבועית ל־Search terms |
-| `google-ads/out/summary.json` | סיכום כמויות |
-
-
-## קמפיינים
-
-1. **אמבולנס פרטי טבריה והצפון** (עברית) — Exact ליישובים + Phrase מבוקר
-2. **הטסות רפואיות לישראל** (עברית)
-3. **Air Ambulance TO Israel** (אנגלית)
-
-## הרצה
-
+## פקודה אחת
 ```bash
-# אופציונלי — כתובות נחיתה ומספר אמיתיים
-export ADS_LANDING_AMBULANCE_URL="https://YOUR-DOMAIN/ambulance-tiberias"
-export ADS_LANDING_FLIGHT_URL="https://YOUR-DOMAIN/air-ambulance-to-israel"
-export ADS_PHONE="+972-XX-XXX-XXXX"
+export ADS_LANDING_AMBULANCE_URL="https://ambulancenter.com/"
+export ADS_LANDING_FLIGHT_URL="https://ambulancenter.com/"
+export ADS_PHONE="+972-79-6709999"
+export ADS_ENABLE=true   # או false להשאיר Paused אחרי יצירה
 
-npm run ads:generate
+# חובה לפריסה לחשבון החי:
+export GOOGLE_ADS_CLIENT_ID="..."
+export GOOGLE_ADS_CLIENT_SECRET="..."
+export GOOGLE_ADS_DEVELOPER_TOKEN="..."
+export GOOGLE_ADS_REFRESH_TOKEN="..."
+export GOOGLE_ADS_CUSTOMER_ID="1234567890"
+# export GOOGLE_ADS_LOGIN_CUSTOMER_ID="..."  # אם MCC
+
+npm run ads:all
 ```
 
-## ייבוא ל־Google Ads (צעד אחד אחרי generate)
+`ads:all` = generate → deploy (API) → audit (search terms).
 
-1. התקן [Google Ads Editor](https://ads.google.com/home/tools/ads-editor/)
-2. Account → Import → From file → `advertising/google-ads/out/google-ads-editor-import.csv`
-3. בדוק URL + טלפון במודעות
-4. החל Shared negative list מה־Account negatives (שורות עם `__ACCOUNT_NEGATIVES_APPLY_MANUALLY__`)
-5. Post / Enable קמפיינים אחרי QA
+## מה ה־API יוצר אוטומטית
+- Conversion actions: שיחות>60ש׳, WhatsApp click, טופס הזמנה
+- Shared negative list ברמת חשבון
+- 3 קמפייני Search + Exact/Phrase + RSA
+- Call asset + Callouts + Sitelinks
+- שפה + מיקום (ישראל)
+- Audit שבועי: ממיר→Exact, זבל→Negative
 
-הקמפיינים מיוצאים במצב **Paused** בכוונה.
+## סקריפטים
+| פקודה | תפקיד |
+|--------|--------|
+| `npm run ads:generate` | בניית CSV/JSON מקומי |
+| `npm run ads:deploy` | העלאה לחשבון Google Ads |
+| `npm run ads:audit` | ביקורת Search Terms אוטומטית |
+| `npm run ads:all` | הכול ברצף |
 
-## מה זה לא עושה (במכוון)
-
-- לא לוחץ על מודעות מתחרים
-- לא משתמש ב־Broad match
-- לא מתחבר ל־Google Ads API בלי credentials נפרדים
-- לא נוגע בקוד השיבוץ (`src/`)
-
-## ביקורת שבועית
-
-עקוב אחרי `out/weekly-search-terms-audit.md`: ממיר → Exact, לא רלוונטי → Negative.
+## דוחות
+- `out/deploy-report.json`
+- `out/run-all-report.json`
+- `out/qa-checklist.md`

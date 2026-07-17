@@ -11,12 +11,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "ads:generate": "node advertising/google-ads/generate.mjs"
+    "ads:generate": "node advertising/google-ads/generate.mjs",
+    "ads:deploy": "node advertising/google-ads/deploy.mjs",
+    "ads:audit": "node advertising/google-ads/audit.mjs",
+    "ads:all": "node advertising/google-ads/run-all.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.49.1",
     "bcryptjs": "^2.4.3",
+    "csv-parse": "^7.0.1",
+    "google-ads-api": "^24.1.0",
     "jose": "^5.10.0",
     "next": "^15.2.2",
     "react": "^19.0.0",
