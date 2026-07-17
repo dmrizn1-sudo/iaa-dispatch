@@ -950,6 +950,83 @@ function buildPosts() {
     { en: "Lisbon", he: "ליסבון" }
   ];
 
+  const hooks = [
+    {
+      en: "When every hour matters, clear medical-flight options make the difference.",
+      he: "כשכל שעה חשובה — אפשרויות טיסה רפואיות ברורות עושות את ההבדל."
+    },
+    {
+      en: "Families don’t need jargon. They need a safe plan TO Israel or FROM Israel — fast.",
+      he: "משפחות לא צריכות מונחים מסובכים. הן צריכות תוכנית בטוחה לישראל או מישראל — במהירות."
+    },
+    {
+      en: "Private coordination. Clinical judgment. Bedside-to-bedside logistics.",
+      he: "תיאום פרטי. שיקול דעת קליני. לוגיסטיקה ממיטה למיטה."
+    },
+    {
+      en: "Not every case needs a full ICU aircraft — but every case needs the right level of care.",
+      he: "לא כל מקרה דורש מטוס ICU מלא — אבל כל מקרה דורש את רמת הטיפול הנכונה."
+    },
+    {
+      en: "From first call to hospital handoff: one coordination line for private families.",
+      he: "מהשיחה הראשונה עד מסירה לבית החולים: קו תיאום אחד למשפחות פרטיות."
+    },
+    {
+      en: "International transfer is clinical work first — aviation is how we deliver it.",
+      he: "העברה בינלאומית היא קודם כול עבודה קלינית — התעופה היא הדרך לבצע אותה."
+    },
+    {
+      en: "Quiet professionalism for moments that feel anything but quiet.",
+      he: "מקצועיות שקטה לרגעים שהם בכלל לא שקטים."
+    },
+    {
+      en: "Ask us what is clinically appropriate — air ambulance, stretcher flight, or medical escort.",
+      he: "שאלו אותנו מה מתאים קלינית — אמבולנס אווירי, טיסת אלונקה או ליווי רפואי."
+    }
+  ];
+
+  const bridgesEn = [
+    "Israel Air Ambulance supports private families with international medical flights worldwide.",
+    "We focus only on private international air ambulance and medical escort — TO Israel and FROM Israel.",
+    "Our team helps you compare safe options and move quickly when time is critical.",
+    "Clear updates for families. Continuous care planning for the patient.",
+    "Self-pay families receive direct, practical guidance — no runaround."
+  ];
+  const bridgesHe = [
+    "ישראל אייר אמבולנס מלווה משפחות פרטיות בטיסות רפואיות בינלאומיות ברחבי העולם.",
+    "אנחנו מתמקדים רק באמבולנס אווירי בינלאומי פרטי וליווי רפואי — לישראל ומישראל.",
+    "הצוות שלנו עוזר להשוות אפשרויות בטוחות ולפעול מהר כשהזמן קריטי.",
+    "עדכונים ברורים למשפחה. תכנון טיפול רציף למטופל.",
+    "משפחות בתשלום עצמי מקבלות הכוונה ישירה ומעשית — בלי סבבים מיותרים."
+  ];
+
+  const cityExtras = {
+    "New York": {
+      en: "JFK / Newark corridors are among the most requested U.S. medical-flight pathways to Israel.",
+      he: "מסדרונות JFK / ניוארק הם מבין הנתיבים המבוקשים ביותר בארה״ב לטיסות רפואיות לישראל."
+    },
+    Miami: {
+      en: "Miami and South Florida are frequent departure points for urgent repatriation to Israel.",
+      he: "מיאמי ודרום פלורידה הן נקודות יציאה נפוצות להחזרה דחופה לישראל."
+    },
+    London: {
+      en: "From London-area hospitals, we arrange ICU jet or escorted commercial options based on fit-to-fly.",
+      he: "מבתי חולים באזור לונדון אנחנו מתאמים מטוס ICU או ליווי בטיסה מסחרית לפי כשירות לטיסה."
+    },
+    Paris: {
+      en: "Paris missions often combine European hospital discharge timing with Israel receiving-hospital beds.",
+      he: "משימות מפריז משלבות לרוב תזמון שחרור מבית חולים באירופה עם מיטה מקבלת בישראל."
+    },
+    Dubai: {
+      en: "Dubai ↔ Israel transfers require precise permits, timing, and clinical configuration.",
+      he: "העברות דובאי ↔ ישראל דורשות אישורים, תזמון והגדרה קלינית מדויקים."
+    },
+    Athens: {
+      en: "Island and mainland Greece cases need fast assessment — commercial escort is not always enough.",
+      he: "מקרים ביוון (איים ויבשה) דורשים הערכה מהירה — ליווי מסחרי לא תמיד מספיק."
+    }
+  };
+
   let day = 1;
   for (let week = 0; week < 13; week++) {
     for (let d = 0; d < 7; d++) {
@@ -978,10 +1055,22 @@ function buildPosts() {
         bodyHe =
           `משפחות מתאמות טיסות רפואיות פרטיות בין ${city.he} לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.\n\n` +
           `ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.`;
+        const extra = cityExtras[city.en];
+        if (extra) {
+          bodyEn += `\n\n${extra.en}`;
+          bodyHe += `\n\n${extra.he}`;
+        }
       }
 
-      const enCore = `${title}\n\n${bodyEn}`;
-      const heCore = `${titleHe}\n\n${bodyHe}`;
+      const hookIdx = (week * 7 + d) % hooks.length;
+      const bridgeIdx = (week * 3 + d) % bridgesEn.length;
+      const hookEn = hooks[hookIdx].en;
+      const hookHe = hooks[hookIdx].he;
+      const bridgeEn = bridgesEn[bridgeIdx];
+      const bridgeHe = bridgesHe[bridgeIdx];
+
+      const enCore = `${title}\n\n${hookEn}\n\n${bodyEn}\n\n${bridgeEn}`;
+      const heCore = `${titleHe}\n\n${hookHe}\n\n${bodyHe}\n\n${bridgeHe}`;
 
       const finalIg = bilingual(
         `${enCore}\n\n${ctaEn}`,
@@ -989,8 +1078,8 @@ function buildPosts() {
       ) + `\n\n${formatIgHashtags(tags)}`;
 
       const finalFb = bilingual(
-        `${enCore}\n\nIsrael Air Ambulance supports private families with international medical flights, ICU air ambulance, stretcher flights, and commercial medical escort — worldwide.\n\n${ctaEn}`,
-        `${heCore}\n\nישראל אייר אמבולנס מלווה משפחות פרטיות בטיסות רפואיות בינלאומיות, אמבולנס אווירי ICU, טיסות אלונקה וליווי רפואי מסחרי — ברחבי העולם.\n\n${ctaHe}`
+        `${enCore}\n\n${ctaEn}`,
+        `${heCore}\n\n${ctaHe}`
       );
 
       const finalLi = bilingual(
@@ -1007,13 +1096,14 @@ function buildPosts() {
         theme: themeObj.theme,
         title,
         titleHe,
+        angle: hooks[hookIdx].en.slice(0, 60),
         copy: {
           instagram: finalIg,
           facebook: finalFb,
           linkedin: finalLi,
           threads: bilingual(
-            `${title}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · Call ${phone}\nWhatsApp ${waLocal}`,
-            `${titleHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · שיחה ${phone}\nוואטסאפ ${waLocal}`
+            `${title}\n\n${hookEn}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · Call ${phone}\nWhatsApp ${waLocal}`,
+            `${titleHe}\n\n${hookHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · שיחה ${phone}\nוואטסאפ ${waLocal}`
           )
         }
       });

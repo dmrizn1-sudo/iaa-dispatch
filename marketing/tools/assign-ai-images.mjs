@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 /**
- * Assign rotating AI air-ambulance images to every slot in publish-queue-90d.json.
- * Does not rebuild the queue or clear Facebook schedule IDs.
+ * Assign diverse AI images across publish-queue-90d.json (anti-repeat).
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { listAiImageUrls, pickAiImageUrl, publicAssetBase } from "./ai-image-urls.mjs";
+import { assignImagesToSlots, listAiImageUrls, publicAssetBase } from "./ai-image-urls.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE = path.join(ROOT, "data/publish-queue-90d.json");
@@ -14,30 +13,26 @@ const QUEUE = path.join(ROOT, "data/publish-queue-90d.json");
 const queue = JSON.parse(fs.readFileSync(QUEUE, "utf8"));
 const images = listAiImageUrls();
 if (!images.length) {
-  console.error("No AI images found in marketing/assets/ai-images");
+  console.error("No AI images found");
   process.exit(1);
 }
 
+const { usage } = assignImagesToSlots(queue.slots);
 queue.imageLibrary = {
   base: publicAssetBase(),
   count: images.length,
-  files: images.map((i) => i.file)
+  files: images.map((i) => i.file),
+  usage
 };
 queue.imageUrl = images[0].url;
-
-for (let i = 0; i < queue.slots.length; i++) {
-  const slot = queue.slots[i];
-  const url = pickAiImageUrl({
-    title: slot.title || "",
-    sourceId: slot.sourceId || "",
-    seed: i + slot.dayIndex * 3 + slot.slot
-  });
-  slot.imageUrl = url;
-  slot.platforms.instagram.imageUrl = url;
-  slot.platforms.facebook.imageUrl = url;
-}
+queue.approval =
+  (queue.approval || "") +
+  (queue.approval?.includes("diverse AI")
+    ? ""
+    : " · diverse AI aviation imagery (anti-repeat)");
 
 fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 2));
-console.log(`Assigned AI images to ${queue.slots.length} slots`);
-console.log(`Public base: ${publicAssetBase()}`);
-console.log(`Sample: ${queue.slots[0].imageUrl}`);
+console.log(`Assigned ${images.length} image variants across ${queue.slots.length} slots`);
+console.log("Usage:", usage);
+const files = queue.slots.slice(0, 12).map((s) => s.imageUrl.split("/").pop());
+console.log("First 12:", files);

@@ -1,5 +1,6 @@
 /**
  * Public URL helpers for AI medical-aviation images.
+ * Prefers theme match, then least-used / non-adjacent rotation.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -20,7 +21,6 @@ export function publicAssetBase() {
   }
   const owner = process.env.GITHUB_OWNER || "dmrizn1-sudo";
   const repo = process.env.GITHUB_REPO || "iaa-dispatch";
-  // Prefer branch ref so images work before merge; set PUBLIC_ASSET_REF=main after merge
   const ref =
     process.env.PUBLIC_ASSET_REF ||
     process.env.GITHUB_REF_NAME ||
@@ -38,26 +38,91 @@ export function listAiImageUrls() {
   }));
 }
 
-/** Pick image by theme keywords in title/sourceId, else rotate by seed. */
-export function pickAiImageUrl({ theme = "", title = "", sourceId = "", seed = 0 } = {}) {
+function scoreThemes(img, hay) {
+  let score = 0;
+  for (const t of img.themes || []) {
+    if (hay.includes(String(t).toLowerCase())) score += 3;
+  }
+  // keyword heuristics
+  const rules = [
+    [/heli|helipad|coast|greece|cyprus|santorini|rhodes/i, ["medevac-heli-coast", "hospital-helipad-dusk", "aerial-mediterranean-route"]],
+    [/icu|equipment|ventilator|monitor|crew/i, ["air-ambulance-icu-cabin", "cabin-monitor-closeup", "fleet-hangar-dawn"]],
+    [/desert|dubai|uae|middle/i, ["jet-desert-climb"]],
+    [/rain|night|storm|holiday emergency/i, ["rain-night-transfer", "stretcher-boarding-night"]],
+    [/winter|europe|zurich|berlin|vienna|paris|london/i, ["winter-europe-turboprop", "aerial-mediterranean-route"]],
+    [/bedside|handoff|repatriation|trust|ground/i, ["ambulance-jet-handoff", "ground-ambulance-ready", "hospital-helipad-dusk"]],
+    [/sunset|travel|window|journey/i, ["cabin-window-sunset-square", "aerial-mediterranean-route"]],
+    [/fleet|hangar|behind/i, ["fleet-hangar-dawn"]],
+    [/flight|inflight|fly|route|usa|new york|miami/i, ["air-ambulance-inflight", "air-ambulance-jet-tarmac", "jet-desert-climb"]]
+  ];
+  for (const [re, ids] of rules) {
+    if (re.test(hay) && ids.includes(img.id)) score += 5;
+  }
+  return score;
+}
+
+/**
+ * Pick image with theme affinity + anti-repeat.
+ * @param {{theme?:string,title?:string,sourceId?:string,seed?:number,avoidIds?:string[],usageCounts?:Record<string,number>}} opts
+ */
+export function pickAiImageUrl(opts = {}) {
+  const {
+    theme = "",
+    title = "",
+    sourceId = "",
+    seed = 0,
+    avoidIds = [],
+    usageCounts = {}
+  } = opts;
   const images = listAiImageUrls();
   if (!images.length) return process.env.IMAGE_URL || null;
+
   const hay = `${theme} ${title} ${sourceId}`.toLowerCase();
-  const themed = images.filter((img) =>
-    (img.themes || []).some((t) => hay.includes(String(t).toLowerCase()))
-  );
-  const pool = themed.length ? themed : images;
-  // Extra heuristics
-  let preferred = pool;
-  if (/icu|equipment|ventilator|monitor|cabin/i.test(hay)) {
-    preferred = images.filter((i) => i.id.includes("icu")) || pool;
-  } else if (/night|emergency|holiday|boarding|stretcher/i.test(hay)) {
-    preferred = images.filter((i) => i.id.includes("stretcher") || i.id.includes("night")) || pool;
-  } else if (/bedside|handoff|repatriation|trust/i.test(hay)) {
-    preferred = images.filter((i) => i.id.includes("handoff")) || pool;
-  } else if (/flight|inflight|fly|route|usa|europe/i.test(hay)) {
-    preferred = images.filter((i) => i.id.includes("inflight") || i.id.includes("tarmac")) || pool;
+  const avoid = new Set(avoidIds);
+
+  const ranked = images
+    .map((img) => {
+      let score = scoreThemes(img, hay);
+      // penalize recently used / overused
+      if (avoid.has(img.id)) score -= 50;
+      score -= (usageCounts[img.id] || 0) * 4;
+      // light seed jitter for variety
+      score += ((seed * 17 + img.id.length * 3) % 7) * 0.1;
+      return { img, score };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  return ranked[0].img.url;
+}
+
+/** Assign unique-as-possible images across a full schedule (greedy). */
+export function assignImagesToSlots(slots) {
+  const images = listAiImageUrls();
+  if (!images.length) return slots;
+  const usage = Object.fromEntries(images.map((i) => [i.id, 0]));
+  let prevId = null;
+  for (let i = 0; i < slots.length; i++) {
+    const slot = slots[i];
+    const avoid = prevId ? [prevId] : [];
+    // also avoid the image used earlier same day if morning already set
+    if (slot.slot === 2 && i > 0 && slots[i - 1].localDate === slot.localDate) {
+      const morningFile = (slots[i - 1].imageUrl || "").split("/").pop()?.replace(".jpg", "");
+      if (morningFile) avoid.push(morningFile);
+    }
+    const url = pickAiImageUrl({
+      theme: slot.theme || "",
+      title: slot.title || "",
+      sourceId: slot.sourceId || "",
+      seed: i * 11 + slot.dayIndex * 3,
+      avoidIds: avoid,
+      usageCounts: usage
+    });
+    const id = url.split("/").pop().replace(".jpg", "");
+    usage[id] = (usage[id] || 0) + 1;
+    prevId = id;
+    slot.imageUrl = url;
+    if (slot.platforms?.instagram) slot.platforms.instagram.imageUrl = url;
+    if (slot.platforms?.facebook) slot.platforms.facebook.imageUrl = url;
   }
-  const use = preferred.length ? preferred : pool;
-  return use[Math.abs(seed) % use.length].url;
+  return { slots, usage };
 }
