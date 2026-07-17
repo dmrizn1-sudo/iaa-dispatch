@@ -2,6 +2,15 @@
 
 אפליקציית שיבוץ קריאות בעברית (RTL) למפעילי מוקד, בנויה עם **Next.js (App Router) + Supabase**.
 
+## International Marketing System
+
+Complete Google Ads, SEO, landing-page, and social content system for **private air ambulance leads TO/FROM Israel** lives in [`marketing/`](marketing/README.md).
+
+```bash
+npm run marketing:generate   # rebuild keywords, posts, hashtags, social markdown
+npm run marketing:review     # open Content Review Desk (one-click copy, no auto-publish)
+```
+
 ## UX למפעילים (מהיר למגע)
 
 - **שדות גדולים וכפתורים גדולים** (נוח ל‑iPad)
