@@ -1,0 +1,40 @@
+# Exact
+[הטסה רפואית לישראל]
+[פינוי רפואי לישראל]
+[מטוס אמבולנס לישראל]
+[הטסה רפואית מחו״ל לישראל]
+[העברה רפואית בטיסה]
+[הטסת חולה לישראל]
+[פינוי אווירי רפואי]
+[הטסה רפואית דחופה]
+[שינוע רפואי בינלאומי לישראל]
+[מטוס אמבולנס פרטי לישראל]
+[air ambulance to israel]
+[medical flight to israel]
+[medical evacuation to israel]
+[medevac to israel]
+[private air ambulance israel]
+[icu air ambulance to israel]
+[patient transfer to israel]
+[medical repatriation to israel]
+[emergency medical flight to israel]
+[international air ambulance israel]
+
+# Phrase
+"הטסה רפואית"
+"פינוי רפואי לישראל"
+"מטוס אמבולנס"
+"העברה רפואית מחו״ל"
+"פינוי אווירי"
+"הטסת חולה"
+"הטסה רפואית דחופה"
+"שינוע רפואי בינלאומי"
+"air ambulance to israel"
+"medical flight to israel"
+"medical evacuation to israel"
+"air ambulance israel"
+"medical repatriation israel"
+"patient transfer to israel"
+"private air ambulance"
+"icu air ambulance"
+"emergency medical flight"

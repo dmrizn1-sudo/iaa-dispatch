@@ -1,0 +1,63 @@
+level,campaign,keyword,match_type,category
+Account,,חינם,Phrase,waste_reduction
+Account,,עבודה,Phrase,waste_reduction
+Account,,דרושים,Phrase,waste_reduction
+Account,,משרה,Phrase,waste_reduction
+Account,,קורס,Phrase,waste_reduction
+Account,,קורסים,Phrase,waste_reduction
+Account,,לימודים,Phrase,waste_reduction
+Account,,מתנדב,Phrase,waste_reduction
+Account,,התנדבות,Phrase,waste_reduction
+Account,,מדא,Exact,waste_reduction
+Account,,מד״א,Exact,waste_reduction
+Account,,צעצוע,Phrase,waste_reduction
+Account,,משחק,Phrase,waste_reduction
+Account,,סימולטור,Phrase,waste_reduction
+Account,,ויקיפדיה,Phrase,waste_reduction
+Account,,חדשות,Phrase,waste_reduction
+Account,,כתבה,Phrase,waste_reduction
+Account,,משכורת,Phrase,waste_reduction
+Account,,שכר,Phrase,waste_reduction
+Account,,מכרז,Phrase,waste_reduction
+Account,,מכרזים,Phrase,waste_reduction
+Account,,הורדה,Phrase,waste_reduction
+Account,,pdf,Phrase,waste_reduction
+Account,,job,Phrase,waste_reduction
+Account,,jobs,Phrase,waste_reduction
+Account,,career,Phrase,waste_reduction
+Account,,careers,Phrase,waste_reduction
+Account,,hiring,Phrase,waste_reduction
+Account,,salary,Phrase,waste_reduction
+Account,,course,Phrase,waste_reduction
+Account,,courses,Phrase,waste_reduction
+Account,,training,Phrase,waste_reduction
+Account,,volunteer,Phrase,waste_reduction
+Account,,free,Exact,waste_reduction
+Account,,toy,Phrase,waste_reduction
+Account,,wikipedia,Phrase,waste_reduction
+Account,,news,Phrase,waste_reduction
+Account,,pdf,Exact,waste_reduction
+Account,,download,Phrase,waste_reduction
+Account,,reddit,Phrase,waste_reduction
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,טיסה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,מטוס,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,הטסה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,air ambulance,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,medical flight,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,חו״ל,Phrase,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,חול,Exact,cross_service_exclusion
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,abroad,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,טבריה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,טבריה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,צפת,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,צפת,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,עפולה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,עפולה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,מונית,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,מונית,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,הסעה רגילה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,הסעה רגילה,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,taxi,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,taxi,Phrase,cross_service_exclusion
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,ground ambulance only,Phrase,cross_service_exclusion
+Campaign,IAA | Search | Air Ambulance TO Israel EN,ground ambulance only,Phrase,cross_service_exclusion

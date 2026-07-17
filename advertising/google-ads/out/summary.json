@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-07-17T16:38:53.146Z",
+  "brand": "Israel Air & Ambulance",
+  "landing_urls": {
+    "ambulance": "https://example.com/ambulance-tiberias",
+    "flight": "https://example.com/air-ambulance-to-israel"
+  },
+  "phone_placeholder": "+972-XX-XXX-XXXX",
+  "totals": {
+    "keywords": 98,
+    "negatives": 62,
+    "ads": 5,
+    "campaigns": 3
+  },
+  "by_campaign": {
+    "IAA | Search | אמבולנס פרטי טבריה והצפון": {
+      "exact": 49,
+      "phrase": 12
+    },
+    "IAA | Search | הטסות רפואיות לישראל HE": {
+      "exact": 10,
+      "phrase": 8
+    },
+    "IAA | Search | Air Ambulance TO Israel EN": {
+      "exact": 10,
+      "phrase": 9
+    }
+  },
+  "notes": [
+    "Campaigns are exported as Paused — enable after URL/phone review in Google Ads Editor.",
+    "Replace ADS_LANDING_* and ADS_PHONE env vars before production import.",
+    "Account-level negatives are listed with campaign=__ACCOUNT_NEGATIVES_APPLY_MANUALLY__ — apply once at account shared list."
+  ]
+}
