@@ -52,9 +52,9 @@ Call / WhatsApp 24/7
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -82,9 +82,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #BedsideToBedside #Medevac #InternationalAirAmbulance #TelAviv #Israel #ישראל #IsraelEurope
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #אמבולנסאווירימישראל #פינויאווירי
@@ -135,9 +135,9 @@ Israel Air Ambulance
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -164,9 +164,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #StretcherFlight #AirMedical #AirAmbulanceIsrael #TelAviv #Israel #ישראל #IsraelUK
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #טיסהרפואיתלישראל #רפואתחירום
@@ -216,9 +216,9 @@ WhatsApp & phone
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -244,9 +244,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #MedicalJet #FlightNurse #MedicalFlightIsrael #TelAviv #Israel #ישראל #IsraelFrance
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #טיסהרפואיתמישראל #תיאוםרפואי
@@ -294,9 +294,9 @@ Call now for emergency transfer
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -320,9 +320,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #Medevac #CriticalCareFlight #RepatriationFlight #TelAviv #Israel #ישראל #IsraelGermany
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #העברהרפואית #שירותיחירום
@@ -369,9 +369,9 @@ Israel Air Ambulance — 24/7
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -394,9 +394,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #AirMedical #InternationalAirAmbulance #24x7Medical #TelAviv #Israel #ישראל #IsraelGreece
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #מטוסרפואי #ICU
@@ -447,9 +447,9 @@ Call / WhatsApp
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -476,9 +476,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #FlightNurse #AirAmbulanceIsrael #EmergencyResponse #TelAviv #Israel #ישראל #IsraelCyprus
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #פינויאווירי #מדיקלאייר
@@ -494,7 +494,7 @@ ID: `carousel-07-fly-home`
 3. Private air ambulance — or commercial medical escort
 4. Bedside to bedside — coordination included
 5. Private families · Self-pay — Clear, fast guidance
-6. Israel Air Ambulance — +972-79-670-9999
+6. Israel Air Ambulance — WhatsApp 053-232-1101
 
 ### Slides (HE)
 1. מטיסים את יקירכם הביתה — בבטחה תחת טיפול רפואי
@@ -502,7 +502,7 @@ ID: `carousel-07-fly-home`
 3. אמבולנס אווירי פרטי — או ליווי רפואי בטיסה מסחרית
 4. תיאום ממיטה למיטה — כלול בתהליך
 5. משפחות פרטיות · תשלום עצמי — הכוונה ברורה ומהירה
-6. ישראל אייר אמבולנס — +972-79-670-9999
+6. ישראל אייר אמבולנס — וואטסאפ 053-232-1101
 
 ### Caption (Instagram — bilingual)
 ```
@@ -525,14 +525,14 @@ Private families · Self-pay
 Clear, fast guidance
 6/6
 Israel Air Ambulance
-+972-79-670-9999
+WhatsApp 053-232-1101
 
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -555,14 +555,14 @@ https://ambulancenter.com
 הכוונה ברורה ומהירה
 6/6
 ישראל אייר אמבולנס
-+972-79-670-9999
+וואטסאפ 053-232-1101
 
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #CriticalCareFlight #MedicalFlightIsrael #PatientSafety #TelAviv #Israel #ישראל #IsraelDubai
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #רפואתחירום #אמבולנסאווירילישראל
@@ -611,9 +611,9 @@ Israel Air Ambulance
 Private international air ambulance TO Israel and FROM Israel.
 ICU-capable · Bedside to bedside · Worldwide
 
-📞 Call / WhatsApp 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
 
 ────────
 
@@ -637,9 +637,9 @@ https://ambulancenter.com
 אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.
 יכולת ICU · ממיטה למיטה · בכל העולם
 
-📞 שיחה / וואטסאפ 24/7
-+972-79-670-9999
-https://ambulancenter.com
+📞 +972-79-670-9999 (24/7)
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #InternationalAirAmbulance #RepatriationFlight #TravelMedicine #TelAviv #Israel #ישראל #IsraelThailand
 #ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב #תיאוםרפואי #אמבולנסאווירימישראל

@@ -13,6 +13,7 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | Brand | Israel Air Ambulance / Israel Air & Ambulance |
 | Website | https://ambulancenter.com |
 | Phone | 079-6709999 / +972-79-670-9999 |
+| WhatsApp | **053-232-1101** / +972-53-232-1101 |
 | Availability | 24/7 worldwide coordination |
 
 ## Deliverables index

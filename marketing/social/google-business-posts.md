@@ -3,7 +3,7 @@
 Prepare for manual publish. Do not auto-post.  
 Keep each post 150–300 words. Include phone CTA. Avoid domestic-only EMS positioning on international-facing posts.
 
-**Phone:** +972-79-670-9999 · **Web:** https://ambulancenter.com
+**Phone:** +972-79-670-9999 · **WhatsApp:** 053-232-1101 · **Web:** https://ambulancenter.com
 
 ---
 
@@ -12,7 +12,7 @@ Israel Air Ambulance coordinates private medical flights **to Israel** and **fro
 
 Whether the situation calls for an ICU-capable air ambulance or a commercial medical escort, our team helps you understand the safest appropriate option — including bedside-to-bedside logistics.
 
-Available 24/7. Call or WhatsApp +972-79-670-9999.
+Available 24/7. Call +972-79-670-9999 or WhatsApp 053-232-1101.
 
 ---
 
@@ -21,14 +21,14 @@ If a loved one is hospitalized abroad and needs to return to Israel — or must 
 
 We work with private families on assessment, flight optioning, and hospital handoff.
 
-Call +972-79-670-9999 anytime.
+Call +972-79-670-9999 or WhatsApp 053-232-1101 anytime.
 
 ---
 
 ## GBP-03 — ICU Capability
 Critical patients may require ventilation, advanced monitoring, and an experienced flight medical team. Our ICU air ambulance planning matches equipment and staffing to the patient’s condition before departure.
 
-Private international missions TO and FROM Israel. 24/7 coordination: +972-79-670-9999.
+Private international missions TO and FROM Israel. 24/7 coordination: call +972-79-670-9999 · WhatsApp 053-232-1101.
 
 ---
 

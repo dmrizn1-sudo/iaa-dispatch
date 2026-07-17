@@ -551,14 +551,22 @@ function buildPosts() {
   const hashtags = generateHashtags();
   const posts = [];
   const phone = geo.brand.phoneIntl;
+  const waLocal = geo.brand.whatsappLocal || "053-232-1101";
+  const waIntl = geo.brand.whatsappIntl || "+972-53-232-1101";
   const web = geo.brand.website;
 
   const ctaEn =
     `Need a private air ambulance or medical escort TO Israel or FROM Israel?\n` +
-    `📞 ${phone} (24/7)\n💬 WhatsApp available\n🌐 ${web}`;
+    `📞 ${phone} (24/7)\n` +
+    `💬 WhatsApp: ${waLocal} (${waIntl})\n` +
+    `🌐 ${web}`;
   const ctaHe =
     `צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?\n` +
-    `📞 ${phone} (24/7)\n💬 וואטסאפ זמין\n🌐 ${web}`;
+    `📞 ${phone} (24/7)\n` +
+    `💬 וואטסאפ: ${waLocal}\n` +
+    `🌐 ${web}`;
+  const ctaShortEn = `📞 ${phone} (24/7)\n💬 WhatsApp: ${waLocal}\n🌐 ${web}`;
+  const ctaShortHe = `📞 ${phone} (24/7)\n💬 וואטסאפ: ${waLocal}\n🌐 ${web}`;
 
   const carouselSets = [
     {
@@ -697,7 +705,7 @@ function buildPosts() {
         "Private air ambulance\nor commercial medical escort",
         "Bedside to bedside\ncoordination included",
         "Private families · Self-pay\nClear, fast guidance",
-        "Israel Air Ambulance\n+972-79-670-9999"
+        "Israel Air Ambulance\nWhatsApp 053-232-1101"
       ],
       slidesHe: [
         "מטיסים את יקירכם הביתה\nבבטחה תחת טיפול רפואי",
@@ -705,7 +713,7 @@ function buildPosts() {
         "אמבולנס אווירי פרטי\nאו ליווי רפואי בטיסה מסחרית",
         "תיאום ממיטה למיטה\nכלול בתהליך",
         "משפחות פרטיות · תשלום עצמי\nהכוונה ברורה ומהירה",
-        "ישראל אייר אמבולנס\n+972-79-670-9999"
+        "ישראל אייר אמבולנס\nוואטסאפ 053-232-1101"
       ]
     },
     {
@@ -741,9 +749,7 @@ function buildPosts() {
       "Private international air ambulance TO Israel and FROM Israel.",
       "ICU-capable · Bedside to bedside · Worldwide",
       "",
-      "📞 Call / WhatsApp 24/7",
-      phone,
-      web
+      ctaShortEn
     ].join("\n");
     const heBlock = [
       set.titleHe,
@@ -753,9 +759,7 @@ function buildPosts() {
       "אמבולנס אווירי בינלאומי פרטי לישראל ומישראל.",
       "יכולת ICU · ממיטה למיטה · בכל העולם",
       "",
-      "📞 שיחה / וואטסאפ 24/7",
-      phone,
-      web
+      ctaShortHe
     ].join("\n");
     const ig = `${bilingual(enBlock, heBlock)}\n\n${formatIgHashtags(tags)}`;
 
@@ -773,17 +777,17 @@ function buildPosts() {
         instagram: ig,
         facebook: bilingual(
           enBlock +
-            `\n\nNeed an emergency medical flight to or from Israel?\nCall ${phone} or message us on WhatsApp — available 24/7.\n${web}`,
+            `\n\nNeed an emergency medical flight to or from Israel?\nCall ${phone} or WhatsApp ${waLocal} — available 24/7.\n${web}`,
           heBlock +
-            `\n\nצריכים טיסה רפואית דחופה לישראל או מישראל?\nהתקשרו ${phone} או שלחו וואטסאפ — זמינים 24/7.\n${web}`
+            `\n\nצריכים טיסה רפואית דחופה לישראל או מישראל?\nהתקשרו ${phone} או וואטסאפ ${waLocal} — זמינים 24/7.\n${web}`
         ),
         linkedin: bilingual(
           `${set.title}\n\nIsrael Air Ambulance provides private international air ambulance and medical repatriation services to and from Israel.\n\n` +
             set.slides.map((s) => `• ${s.replace(/\n/g, " — ")}`).join("\n") +
-            `\n\nAvailable 24/7 for families arranging private medical flights.\n${phone} | ${web}`,
+            `\n\nAvailable 24/7 for families arranging private medical flights.\nCall ${phone} · WhatsApp ${waLocal}\n${web}`,
           `${set.titleHe}\n\nישראל אייר אמבולנס מספקת אמבולנס אווירי בינלאומי פרטי והחזרה רפואית לישראל ומישראל.\n\n` +
             set.slidesHe.map((s) => `• ${s.replace(/\n/g, " — ")}`).join("\n") +
-            `\n\nזמינים 24/7 למשפחות שמתאמות טיסה רפואית פרטית.\n${phone} | ${web}`
+            `\n\nזמינים 24/7 למשפחות שמתאמות טיסה רפואית פרטית.\nשיחה ${phone} · וואטסאפ ${waLocal}\n${web}`
         )
       }
     });
@@ -990,8 +994,8 @@ function buildPosts() {
       );
 
       const finalLi = bilingual(
-        `${enCore}\n\nService focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.\n\nContact: ${phone} | ${web}`,
-        `${heCore}\n\nמיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.\n\nיצירת קשר: ${phone} | ${web}`
+        `${enCore}\n\nService focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.\n\nCall: ${phone}\nWhatsApp: ${waLocal} (${waIntl})\n${web}`,
+        `${heCore}\n\nמיקוד שירות: אמבולנס אווירי לישראל · אמבולנס אווירי מישראל · החזרה רפואית · העברת ICU · ליווי רפואי.\n\nשיחה: ${phone}\nוואטסאפ: ${waLocal}\n${web}`
       );
 
       posts.push({
@@ -1008,8 +1012,8 @@ function buildPosts() {
           facebook: finalFb,
           linkedin: finalLi,
           threads: bilingual(
-            `${title}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · ${phone}`,
-            `${titleHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · ${phone}`
+            `${title}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · Call ${phone}\nWhatsApp ${waLocal}`,
+            `${titleHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · שיחה ${phone}\nוואטסאפ ${waLocal}`
           )
         }
       });

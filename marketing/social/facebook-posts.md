@@ -15,7 +15,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -30,7 +30,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -49,7 +49,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -66,7 +66,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -83,7 +83,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -98,7 +98,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -115,7 +115,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -130,7 +130,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -147,7 +147,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -162,7 +162,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -177,7 +177,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -190,7 +190,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -207,7 +207,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -222,7 +222,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -239,7 +239,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -254,7 +254,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -271,7 +271,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -286,7 +286,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -303,7 +303,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -318,7 +318,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -335,7 +335,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -350,7 +350,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -365,7 +365,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -378,7 +378,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -395,7 +395,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -410,7 +410,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -427,7 +427,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -442,7 +442,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -459,7 +459,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -474,7 +474,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -491,7 +491,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -506,7 +506,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -525,7 +525,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -542,7 +542,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -559,7 +559,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -574,7 +574,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -591,7 +591,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -606,7 +606,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -623,7 +623,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -638,7 +638,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -655,7 +655,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -670,7 +670,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -687,7 +687,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -702,7 +702,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -717,7 +717,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -730,7 +730,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -747,7 +747,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -762,7 +762,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -779,7 +779,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -794,7 +794,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -809,7 +809,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -822,7 +822,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -837,7 +837,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -850,7 +850,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -867,7 +867,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -882,7 +882,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -899,7 +899,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -914,7 +914,7 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
 
@@ -929,7 +929,7 @@ Israel Air Ambulance supports private families with international medical flight
 
 Need a private air ambulance or medical escort TO Israel or FROM Israel?
 📞 +972-79-670-9999 (24/7)
-💬 WhatsApp available
+💬 WhatsApp: 053-232-1101 (+972-53-232-1101)
 🌐 https://ambulancenter.com
 
 ────────
@@ -942,6 +942,6 @@ Need a private air ambulance or medical escort TO Israel or FROM Israel?
 
 צריכים אמבולנס אווירי פרטי או ליווי רפואי לישראל / מישראל?
 📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ זמין
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 ```
