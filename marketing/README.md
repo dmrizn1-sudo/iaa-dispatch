@@ -63,6 +63,7 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | [social/hashtag-library.md](social/hashtag-library.md) | Rotating hashtag database |
 | [data/posts.json](data/posts.json) | Machine-readable posts for review UI |
 | [data/publish-queue-90d.json](data/publish-queue-90d.json) | 90-day publish queue (status tracked) |
+| [assets/ai-images/](assets/ai-images/) | AI air-ambulance / medical aircraft images |
 | [review/index.html](review/index.html) | Review desk (manual copy) |
 
 ### Data

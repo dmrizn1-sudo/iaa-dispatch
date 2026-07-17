@@ -14,6 +14,7 @@
 | **Instagram** | אין תזמון מובנה ב־API. אותו Action מפרסם בזמן מהתור (`--instagram`). |
 
 תור: `marketing/data/publish-queue-90d.json`  
+תמונות AI: `marketing/assets/ai-images/` (מטוסים / אמבולנס אווירי / ICU / מסירה)  
 סקריפטים: `marketing/tools/schedule-90-days.mjs`, `marketing/tools/publish-due.mjs`  
 Workflow: `.github/workflows/iaa-social-autopublish.yml`
 

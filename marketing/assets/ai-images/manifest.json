@@ -1,0 +1,81 @@
+{
+  "brand": "Israel Air Ambulance",
+  "note": "AI-generated medical aviation imagery for bilingual social posts. Rotate by theme.",
+  "publicUrlTemplate": "https://raw.githubusercontent.com/{owner}/{repo}/{ref}/marketing/assets/ai-images/{file}",
+  "defaultOwner": "dmrizn1-sudo",
+  "defaultRepo": "iaa-dispatch",
+  "preferredRef": "main",
+  "images": [
+    {
+      "id": "air-ambulance-icu-cabin",
+      "file": "air-ambulance-icu-cabin.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-icu-cabin.jpg",
+      "bytes": 208671,
+      "themes": [
+        "equipment",
+        "icu",
+        "crew"
+      ],
+      "alt": "ICU-configured air ambulance cabin"
+    },
+    {
+      "id": "air-ambulance-inflight",
+      "file": "air-ambulance-inflight.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-inflight.jpg",
+      "bytes": 166298,
+      "themes": [
+        "routes",
+        "emergency",
+        "fly_home"
+      ],
+      "alt": "Air ambulance aircraft in flight"
+    },
+    {
+      "id": "air-ambulance-jet-tarmac",
+      "file": "air-ambulance-jet-tarmac.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-jet-tarmac.jpg",
+      "bytes": 227758,
+      "themes": [
+        "routes",
+        "city",
+        "general"
+      ],
+      "alt": "Private air ambulance jet on tarmac"
+    },
+    {
+      "id": "air-ambulance-nose-square",
+      "file": "air-ambulance-nose-square.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-nose-square.jpg",
+      "bytes": 157326,
+      "themes": [
+        "general",
+        "brand"
+      ],
+      "alt": "Air ambulance jet nose \u2014 square crop"
+    },
+    {
+      "id": "ambulance-jet-handoff",
+      "file": "ambulance-jet-handoff.jpg",
+      "path": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "bytes": 234452,
+      "themes": [
+        "trust",
+        "bedside",
+        "repatriation"
+      ],
+      "alt": "Ground ambulance and medical jet handoff"
+    },
+    {
+      "id": "stretcher-boarding-night",
+      "file": "stretcher-boarding-night.jpg",
+      "path": "marketing/assets/ai-images/stretcher-boarding-night.jpg",
+      "bytes": 247238,
+      "themes": [
+        "emergency",
+        "behind_scenes",
+        "safety"
+      ],
+      "alt": "Stretcher boarding air ambulance at night"
+    }
+  ]
+}

@@ -22,6 +22,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { pickAiImageUrl, listAiImageUrls } from "./ai-image-urls.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const QUEUE_PATH = path.join(ROOT, "data", "publish-queue-90d.json");
@@ -60,11 +62,27 @@ async function graph(method, urlPath, { token, body, query } = {}) {
 async function resolveImage(token, pageId, preferred) {
   if (preferred) return preferred;
   if (process.env.IMAGE_URL) return process.env.IMAGE_URL;
+  const ai = listAiImageUrls();
+  if (ai.length) return ai[0].url;
   const cover = await graph("GET", `/${pageId}`, {
     token,
     query: { fields: "cover" }
   });
   return cover?.cover?.source || null;
+}
+
+async function publishFacebookPhoto(token, pageId, { message, imageUrl, scheduledUnix }) {
+  const body = {
+    url: imageUrl,
+    caption: message
+  };
+  if (scheduledUnix) {
+    body.published = "false";
+    body.scheduled_publish_time = String(scheduledUnix);
+  } else {
+    body.published = "true";
+  }
+  return graph("POST", `/${pageId}/photos`, { token, body });
 }
 
 async function publishInstagram(token, igUserId, { imageUrl, caption }) {
@@ -155,20 +173,32 @@ async function main() {
         continue;
       }
       try {
-        const res = await graph("POST", `/${pageId}/feed`, {
-          token,
-          body: {
-            message: fb.message,
-            link: fb.link || "https://ambulancenter.com",
-            published: "false",
-            scheduled_publish_time: String(slot.scheduledUnix)
-          }
-        });
+        const img =
+          fb.imageUrl ||
+          slot.imageUrl ||
+          imageUrl ||
+          pickAiImageUrl({ title: slot.title || "", sourceId: slot.sourceId || "", seed: slot.dayIndex });
+        const res = img
+          ? await publishFacebookPhoto(token, pageId, {
+              message: fb.message,
+              imageUrl: img,
+              scheduledUnix: slot.scheduledUnix
+            })
+          : await graph("POST", `/${pageId}/feed`, {
+              token,
+              body: {
+                message: fb.message,
+                link: fb.link || "https://ambulancenter.com",
+                published: "false",
+                scheduled_publish_time: String(slot.scheduledUnix)
+              }
+            });
         fb.status = "scheduled";
-        fb.postId = res.id;
+        fb.postId = res.id || res.post_id || null;
+        fb.imageUrl = img || fb.imageUrl;
         fb.error = null;
         scheduled += 1;
-        console.log(`FB roll-schedule ${slot.id} → ${res.id}`);
+        console.log(`FB roll-schedule ${slot.id} → ${fb.postId}${img ? " (photo)" : ""}`);
         await new Promise((r) => setTimeout(r, 300));
       } catch (e) {
         const msg = String(e.message || e);
@@ -230,8 +260,16 @@ async function main() {
           ig.status = "dry_run";
         } else {
           try {
-            const img = ig.imageUrl || imageUrl;
-            if (!img) throw new Error("No IMAGE_URL / page cover for Instagram");
+            const img =
+              ig.imageUrl ||
+              slot.imageUrl ||
+              imageUrl ||
+              pickAiImageUrl({
+                title: slot.title || "",
+                sourceId: slot.sourceId || "",
+                seed: slot.dayIndex
+              });
+            if (!img) throw new Error("No IMAGE_URL / AI asset for Instagram");
             let caption = ig.caption || "";
             if (caption.length > 2200) {
               caption = caption.split("\n\n#")[0].slice(0, 2190);
@@ -243,6 +281,7 @@ async function main() {
             ig.status = "published";
             ig.mediaId = media.id;
             ig.permalink = media.permalink || null;
+            ig.imageUrl = img;
             ig.error = null;
             published += 1;
             console.log(`IG published ${slot.id} → ${media.permalink || media.id}`);

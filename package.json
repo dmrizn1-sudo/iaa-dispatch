@@ -16,7 +16,8 @@
     "marketing:facebook-connect": "node marketing/tools/serve-facebook-connect.mjs",
     "marketing:publish-facebook": "node marketing/tools/publish-facebook.mjs",
     "marketing:schedule-90d": "node marketing/tools/schedule-90-days.mjs --build --schedule-facebook",
-    "marketing:publish-due": "node marketing/tools/publish-due.mjs --instagram --roll-facebook"
+    "marketing:publish-due": "node marketing/tools/publish-due.mjs --instagram --roll-facebook",
+    "marketing:assign-ai-images": "node marketing/tools/assign-ai-images.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",

@@ -27,6 +27,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { pickAiImageUrl, publicAssetBase, listAiImageUrls } from "./ai-image-urls.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data");
@@ -153,6 +155,7 @@ function pickPost(library, dayIndex, slotIndex) {
       sourceId: c.id,
       title: c.title,
       titleHe: c.titleHe || "",
+      theme: c.theme || "carousel",
       facebook: c.copy.facebook,
       instagram: c.copy.instagram
     };
@@ -163,15 +166,18 @@ function pickPost(library, dayIndex, slotIndex) {
     sourceId: p.id,
     title: p.title,
     titleHe: p.titleHe || "",
+    theme: p.theme || "",
     facebook: p.copy.facebook,
     instagram: p.copy.instagram
   };
 }
 
-function buildQueue({ days, postsPerDay, startDate, pageId, igUserId, imageUrl }) {
+function buildQueue({ days, postsPerDay, startDate, pageId, igUserId, imageUrl: fallbackImage }) {
   const library = loadLibrary();
   const slots = [];
   const hours = SLOT_HOURS.slice(0, postsPerDay);
+  const libraryImages = listAiImageUrls();
+  const defaultImage = fallbackImage || libraryImages[0]?.url || null;
 
   for (let dayIndex = 0; dayIndex < days; dayIndex++) {
     const ymd = addDaysYmd(startDate, dayIndex);
@@ -181,6 +187,13 @@ function buildQueue({ days, postsPerDay, startDate, pageId, igUserId, imageUrl }
       const unix = jerusalemUnix(y, m, d, hour, 0);
       const picked = pickPost(library, dayIndex, slotIndex);
       const id = `d${String(dayIndex + 1).padStart(3, "0")}-s${slotIndex + 1}-${picked.sourceId}`;
+      const slotImage =
+        pickAiImageUrl({
+          theme: picked.theme || "",
+          title: picked.title || "",
+          sourceId: picked.sourceId || "",
+          seed: dayIndex * 3 + slotIndex
+        }) || defaultImage;
       slots.push({
         id,
         dayIndex: dayIndex + 1,
@@ -193,18 +206,20 @@ function buildQueue({ days, postsPerDay, startDate, pageId, igUserId, imageUrl }
         sourceId: picked.sourceId,
         title: picked.title,
         titleHe: picked.titleHe,
+        imageUrl: slotImage,
         platforms: {
           facebook: {
             status: "pending",
             message: picked.facebook,
             link: "https://ambulancenter.com",
+            imageUrl: slotImage,
             postId: null,
             error: null
           },
           instagram: {
             status: "pending",
             caption: picked.instagram,
-            imageUrl: imageUrl || null,
+            imageUrl: slotImage,
             mediaId: null,
             permalink: null,
             error: null
@@ -219,10 +234,15 @@ function buildQueue({ days, postsPerDay, startDate, pageId, igUserId, imageUrl }
     createdAt: new Date().toISOString(),
     brand: "Israel Air Ambulance",
     approval:
-      "Pre-approved by owner for 90 days · 2 posts/day · Facebook + Instagram · bilingual EN+HE",
+      "Pre-approved by owner for 90 days · 2 posts/day · Facebook + Instagram · bilingual EN+HE · AI medical aviation images",
     pageId: pageId || process.env.FACEBOOK_PAGE_ID || "111799957012811",
     igUserId: igUserId || process.env.INSTAGRAM_USER_ID || "17841428066112189",
-    imageUrl: imageUrl || process.env.IMAGE_URL || null,
+    imageUrl: defaultImage,
+    imageLibrary: {
+      base: publicAssetBase(),
+      count: libraryImages.length,
+      files: libraryImages.map((i) => i.file)
+    },
     days,
     postsPerDay,
     startDate,
@@ -285,20 +305,39 @@ async function scheduleFacebook(queue, { token, dryRun, delayMs = 350, maxDaysAh
       continue;
     }
     try {
-      const res = await graph("POST", `/${queue.pageId}/feed`, {
-        token,
-        body: {
-          message: fb.message,
-          link: fb.link,
-          published: "false",
-          scheduled_publish_time: String(slot.scheduledUnix)
-        }
-      });
+      const image =
+        fb.imageUrl ||
+        slot.imageUrl ||
+        queue.imageUrl ||
+        null;
+      let res;
+      if (image) {
+        // Photo post with AI aviation image
+        res = await graph("POST", `/${queue.pageId}/photos`, {
+          token,
+          body: {
+            url: image,
+            caption: fb.message,
+            published: "false",
+            scheduled_publish_time: String(slot.scheduledUnix)
+          }
+        });
+      } else {
+        res = await graph("POST", `/${queue.pageId}/feed`, {
+          token,
+          body: {
+            message: fb.message,
+            link: fb.link,
+            published: "false",
+            scheduled_publish_time: String(slot.scheduledUnix)
+          }
+        });
+      }
       fb.status = "scheduled";
-      fb.postId = res.id;
+      fb.postId = res.id || res.post_id || null;
       fb.error = null;
       ok += 1;
-      process.stdout.write(`FB scheduled ${slot.id} → ${res.id}\n`);
+      process.stdout.write(`FB scheduled ${slot.id} → ${fb.postId}\n`);
     } catch (e) {
       fb.status = "error";
       fb.error = String(e.message || e);
