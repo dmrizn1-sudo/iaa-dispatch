@@ -1,14 +1,16 @@
-# Instagram Carousel Scripts — Premium Brand Series
+# Instagram Carousel Scripts — Premium Brand Series (EN + HE)
 
 Design notes: dark navy / clean white / subtle steel-blue accent; premium medical aviation look; no emoji overload on slides; strong brand wordmark on slide 1; final slide = CTA (Call / WhatsApp).
 
+**Language:** Every caption is bilingual — English block, then Hebrew block (separated by ────────).
+
 Do not auto-publish. Copy after review.
 
-## Mission Overview — Worldwide Air Ambulance
+## Mission Overview — Worldwide Air Ambulance / סקירת משימה — אמבולנס אווירי בינלאומי
 
 ID: `carousel-01-mission`
 
-### Slides
+### Slides (EN)
 1. ISRAEL AIR AMBULANCE — International medical flights 24/7
 2. Private air ambulance — TO Israel & FROM Israel
 3. Critical care teams — ICU-capable medical aircraft
@@ -16,7 +18,15 @@ ID: `carousel-01-mission`
 5. Worldwide coordination — USA · Europe · Middle East · Asia
 6. Need a medical flight? — Call / WhatsApp 24/7
 
-### Caption (Instagram)
+### Slides (HE)
+1. ישראל אייר אמבולנס — טיסות רפואיות בינלאומיות 24/7
+2. אמבולנס אווירי פרטי — לישראל ומישראל
+3. צוותי טיפול נמרץ — מטוס רפואי ברמת ICU
+4. ממיטה למיטה — בית חולים → מטוס → בית חולים
+5. תיאום עולמי — ארה״ב · אירופה · המזרח התיכון · אסיה
+6. צריכים טיסה רפואית? — שיחה / וואטסאפ 24/7
+
+### Caption (Instagram — bilingual)
 ```
 Mission Overview — Worldwide Air Ambulance
 
@@ -79,11 +89,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #BedsideToBedside #Medevac #InternationalAirAmbulance #TelAviv #Israel #ישראל #IsraelEurope
 ```
 
-## Aircraft & ICU Capability
+## Aircraft & ICU Capability / מטוס ויכולות טיפול נמרץ
 
 ID: `carousel-02-aircraft`
 
-### Slides
+### Slides (EN)
 1. Configured medical aircraft — for intensive care transport
 2. Ventilation · Monitoring · Infusion — ICU standards in the air
 3. Flight physicians & critical care paramedics
@@ -91,7 +101,15 @@ ID: `carousel-02-aircraft`
 5. Commercial medical escort — when clinically appropriate
 6. Request a clinical assessment — Israel Air Ambulance
 
-### Caption (Instagram)
+### Slides (HE)
+1. מטוס רפואי מוגדר — להעברת טיפול נמרץ
+2. הנשמה · ניטור · עירוי — סטנדרט ICU באוויר
+3. רופאי טיסה ופרמדיקים לטיפול נמרץ
+4. אלונקה ומטוס פרטי — בהתאם למצב המטופל
+5. ליווי רפואי בטיסה מסחרית — כשהמצב הקליני מאפשר
+6. בקשו הערכה קלינית — ישראל אייר אמבולנס
+
+### Caption (Instagram — bilingual)
 ```
 Aircraft & ICU Capability
 
@@ -152,11 +170,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #StretcherFlight #AirMedical #AirAmbulanceIsrael #TelAviv #Israel #ישראל #IsraelUK
 ```
 
-## Israel ↔ USA Routes
+## Israel ↔ USA Routes / מסלולים ישראל ↔ ארה״ב
 
 ID: `carousel-03-usa`
 
-### Slides
+### Slides (EN)
 1. Israel ↔ USA medical flights
 2. New York · Miami · Boston — Los Angeles · San Francisco
 3. ICU air ambulance for complex cases
@@ -164,7 +182,15 @@ ID: `carousel-03-usa`
 5. Families paying privately — fast, clear coordination
 6. 24/7 dispatch — WhatsApp & phone
 
-### Caption (Instagram)
+### Slides (HE)
+1. טיסות רפואיות ישראל ↔ ארה״ב
+2. ניו יורק · מיאמי · בוסטון — לוס אנג׳לס · סן פרנסיסקו
+3. אמבולנס אווירי ICU למקרים מורכבים
+4. ליווי רפואי בטיסות מסחריות — כשמתאים קלינית
+5. משפחות פרטיות — תיאום מהיר וברור
+6. מוקד 24/7 — וואטסאפ וטלפון
+
+### Caption (Instagram — bilingual)
 ```
 Israel ↔ USA Routes
 
@@ -223,11 +249,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #MedicalJet #FlightNurse #MedicalFlightIsrael #TelAviv #Israel #ישראל #IsraelFrance
 ```
 
-## Israel ↔ Europe Routes
+## Israel ↔ Europe Routes / מסלולים ישראל ↔ אירופה
 
 ID: `carousel-04-europe`
 
-### Slides
+### Slides (EN)
 1. Israel ↔ Europe air ambulance
 2. London · Paris · Berlin · Zurich — Rome · Athens · Barcelona
 3. Holiday medical emergencies — repatriation to Israel
@@ -235,7 +261,15 @@ ID: `carousel-04-europe`
 5. Experienced international medical teams
 6. Call now for emergency transfer
 
-### Caption (Instagram)
+### Slides (HE)
+1. אמבולנס אווירי ישראל ↔ אירופה
+2. לונדון · פריז · ברלין · ציריך — רומא · אתונה · ברצלונה
+3. חירום רפואי בחופשה — החזרה רפואית לישראל
+4. לוגיסטיקה ממיטה למיטה — קרקע + אוויר
+5. צוותים רפואיים בינלאומיים מנוסים
+6. התקשרו עכשיו להעברה דחופה
+
+### Caption (Instagram — bilingual)
 ```
 Israel ↔ Europe Routes
 
@@ -290,11 +324,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #Medevac #CriticalCareFlight #RepatriationFlight #TelAviv #Israel #ישראל #IsraelGermany
 ```
 
-## Patient Safety & Trust
+## Patient Safety & Trust / בטיחות מטופל ואמון
 
 ID: `carousel-05-safety`
 
-### Slides
+### Slides (EN)
 1. Patient safety first — on every medical flight
 2. Clinical screening before departure
 3. Continuous monitoring in flight
@@ -302,7 +336,15 @@ ID: `carousel-05-safety`
 5. Clear communication with families
 6. Israel Air Ambulance — 24/7
 
-### Caption (Instagram)
+### Slides (HE)
+1. בטיחות המטופל קודמת — בכל טיסה רפואית
+2. סינון קליני לפני המראה
+3. ניטור רציף במהלך הטיסה
+4. מסירה לבית החולים ביעד
+5. תקשורת ברורה עם המשפחה
+6. ישראל אייר אמבולנס — 24/7
+
+### Caption (Instagram — bilingual)
 ```
 Patient Safety & Trust
 
@@ -355,11 +397,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #AirMedical #InternationalAirAmbulance #24x7Medical #TelAviv #Israel #ישראל #IsraelGreece
 ```
 
-## ICU Equipment & Medical Crew
+## ICU Equipment & Medical Crew / ציוד ICU וצוות רפואי
 
 ID: `carousel-06-icu-crew`
 
-### Slides
+### Slides (EN)
 1. ICU-capable medical flights — for critical patients
 2. Ventilators · Monitors · Infusion pumps
 3. Flight physicians & — critical care paramedics
@@ -367,7 +409,15 @@ ID: `carousel-06-icu-crew`
 5. Worldwide missions — TO Israel & FROM Israel
 6. Request assessment 24/7 — Call / WhatsApp
 
-### Caption (Instagram)
+### Slides (HE)
+1. טיסות רפואיות ברמת ICU — למטופלים קריטיים
+2. מנשמים · מוניטורים · משאבות עירוי
+3. רופאי טיסה & — פרמדיקים לטיפול נמרץ
+4. ציוד מותאם — למצב המטופל
+5. משימות ברחבי העולם — לישראל ומישראל
+6. בקשו הערכה 24/7 — שיחה / וואטסאפ
+
+### Caption (Instagram — bilingual)
 ```
 ICU Equipment & Medical Crew
 
@@ -428,11 +478,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #FlightNurse #AirAmbulanceIsrael #EmergencyResponse #TelAviv #Israel #ישראל #IsraelCyprus
 ```
 
-## Fly Patient Home
+## Fly Patient Home / להטיס את המטופל הביתה
 
 ID: `carousel-07-fly-home`
 
-### Slides
+### Slides (EN)
 1. Fly your loved one home — safely under medical care
 2. After hospitalization abroad — we arrange the return flight
 3. Private air ambulance — or commercial medical escort
@@ -440,7 +490,15 @@ ID: `carousel-07-fly-home`
 5. Private families · Self-pay — Clear, fast guidance
 6. Israel Air Ambulance — +972-79-670-9999
 
-### Caption (Instagram)
+### Slides (HE)
+1. מטיסים את יקירכם הביתה — בבטחה תחת טיפול רפואי
+2. אחרי אשפוז בחו״ל — אנחנו מתאמים את טיסת החזרה
+3. אמבולנס אווירי פרטי — או ליווי רפואי בטיסה מסחרית
+4. תיאום ממיטה למיטה — כלול בתהליך
+5. משפחות פרטיות · תשלום עצמי — הכוונה ברורה ומהירה
+6. ישראל אייר אמבולנס — +972-79-670-9999
+
+### Caption (Instagram — bilingual)
 ```
 Fly Patient Home
 
@@ -503,11 +561,11 @@ https://ambulancenter.com
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer #CriticalCareFlight #MedicalFlightIsrael #PatientSafety #TelAviv #Israel #ישראל #IsraelDubai
 ```
 
-## Worldwide Coverage 24/7
+## Worldwide Coverage 24/7 / כיסוי עולמי 24/7
 
 ID: `carousel-08-worldwide`
 
-### Slides
+### Slides (EN)
 1. Worldwide operations — 24/7 emergency response
 2. Israel ↔ USA
 3. Israel ↔ Europe
@@ -515,7 +573,15 @@ ID: `carousel-08-worldwide`
 5. Private international — air ambulance only
 6. Call or WhatsApp now — Israel Air Ambulance
 
-### Caption (Instagram)
+### Slides (HE)
+1. פעילות עולמית — מענה חירום 24/7
+2. ישראל ↔ ארה״ב
+3. ישראל ↔ אירופה
+4. ישראל ↔ איחוד האמירויות · אסיה · אפריקה
+5. אמבולנס אווירי בינלאומי פרטי בלבד
+6. התקשרו או שלחו וואטסאפ עכשיו — ישראל אייר אמבולנס
+
+### Caption (Instagram — bilingual)
 ```
 Worldwide Coverage 24/7
 
