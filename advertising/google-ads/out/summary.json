@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-17T16:44:27.433Z",
+  "generated_at": "2026-07-17T16:49:58.351Z",
   "brand": "Israel Air & Ambulance",
   "landing_urls": {
-    "ambulance": "https://example.com/ambulance-tiberias",
-    "flight": "https://example.com/air-ambulance-to-israel"
+    "ambulance": "https://ambulancenter.com/",
+    "flight": "https://ambulancenter.com/"
   },
-  "phone_placeholder": "+972-XX-XXX-XXXX",
+  "phone_placeholder": "+972-79-6709999",
   "totals": {
-    "keywords": 141,
+    "keywords": 142,
     "negatives": 62,
     "ads": 9,
     "campaigns": 3
   },
   "by_campaign": {
     "IAA | Search | אמבולנס פרטי טבריה והצפון": {
-      "exact": 66,
+      "exact": 67,
       "phrase": 18
     },
     "IAA | Search | הטסות רפואיות לישראל HE": {
