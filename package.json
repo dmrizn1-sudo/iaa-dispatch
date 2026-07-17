@@ -10,9 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "marketing:generate": "node marketing/tools/generate-marketing-assets.mjs && node marketing/tools/export-social-markdown.mjs",
-    "marketing:review": "npx --yes serve marketing -p 4173"
+    "lint": "next lint"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
