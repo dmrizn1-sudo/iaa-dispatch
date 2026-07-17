@@ -1,0 +1,79 @@
+# Auto-publish due Instagram posts from the 90-day queue (bilingual EN+HE).
+# Facebook posts are pre-scheduled via Graph API (schedule-90-days.mjs).
+#
+# Required repo secrets:
+#   FACEBOOK_PAGE_ACCESS_TOKEN  — long-lived Page token or System User token
+#                                  with pages_manage_posts + instagram_content_publish
+# Optional:
+#   FACEBOOK_PAGE_ID            — default 111799957012811
+#   INSTAGRAM_USER_ID           — default 17841428066112189
+#   IMAGE_URL                   — stable public image (recommended)
+
+name: IAA Social Auto-Publish
+
+on:
+  schedule:
+    # Israel summer (IDT=UTC+3): 10:00 → 07:00 UTC, 18:00 → 15:00 UTC
+    # Winter (IST=UTC+2): runs 1h early — still inside publish-due lookback window
+    - cron: "5 7 * * *"
+    - cron: "5 15 * * *"
+    # Hourly safety net for delayed runners / DST edges
+    - cron: "20 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no publish)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iaa-social-autopublish
+  cancel-in-progress: false
+
+jobs:
+  publish-due:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Publish due Instagram + roll Facebook schedule window
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          IMAGE_URL: ${{ secrets.IMAGE_URL }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          LOOKBACK_MIN: "120"
+          AHEAD_MIN: "45"
+          FB_MAX_DAYS_AHEAD: "25"
+        run: |
+          if [ -z "$FACEBOOK_PAGE_ACCESS_TOKEN" ]; then
+            echo "Missing secret FACEBOOK_PAGE_ACCESS_TOKEN — skip publish"
+            exit 0
+          fi
+          export FACEBOOK_PAGE_ID="${FACEBOOK_PAGE_ID:-111799957012811}"
+          export INSTAGRAM_USER_ID="${INSTAGRAM_USER_ID:-17841428066112189}"
+          # Meta allows ~30 days FB schedule; keep window topped up + publish due IG
+          node marketing/tools/publish-due.mjs --instagram --roll-facebook
+
+      - name: Commit queue status updates
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if git diff --quiet -- marketing/data/publish-queue-90d.json; then
+            echo "No queue changes"
+            exit 0
+          fi
+          git config user.name "iaa-social-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add marketing/data/publish-queue-90d.json
+          git commit -m "chore(social): update IG publish queue status" || true
+          git push || true

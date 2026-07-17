@@ -52,6 +52,7 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 ### Social & content
 | File | Purpose |
 |------|---------|
+| [facebook/AUTO-90D-HE.md](facebook/AUTO-90D-HE.md) | **90-day auto-publish** — 2 posts/day FB+IG (EN+HE) |
 | [social/90-day-content-calendar.md](social/90-day-content-calendar.md) | 90-day multi-platform calendar |
 | [social/weekly-posting-strategy.md](social/weekly-posting-strategy.md) | Weekly cadence + approval workflow |
 | [social/monthly-growth-strategy.md](social/monthly-growth-strategy.md) | Monthly growth scorecard |
@@ -61,7 +62,8 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | [social/google-business-posts.md](social/google-business-posts.md) | GBP post drafts |
 | [social/hashtag-library.md](social/hashtag-library.md) | Rotating hashtag database |
 | [data/posts.json](data/posts.json) | Machine-readable posts for review UI |
-| [review/index.html](review/index.html) | **One-click copy** review desk (do not auto-publish) |
+| [data/publish-queue-90d.json](data/publish-queue-90d.json) | 90-day publish queue (status tracked) |
+| [review/index.html](review/index.html) | Review desk (manual copy) |
 
 ### Data
 | File | Purpose |
@@ -101,7 +103,9 @@ Copy platform-specific copy for Instagram, Facebook, or LinkedIn after human rev
 
 ## Facebook / Instagram publishing connection
 
-Hebrew step-by-step (System User — recommended for Business Portfolio):
+**90-day automation (pre-approved):** [facebook/AUTO-90D-HE.md](facebook/AUTO-90D-HE.md)
+
+Hebrew step-by-step (System User — required for Instagram auto-publish):
 
 - [facebook/CONNECT-HE.md](facebook/CONNECT-HE.md)
 
