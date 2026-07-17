@@ -98,3 +98,26 @@ npx --yes serve marketing/review
 ```
 
 Copy platform-specific copy for Instagram, Facebook, or LinkedIn after human review.
+
+## Facebook / Instagram publishing connection
+
+Hebrew step-by-step (System User — recommended for Business Portfolio):
+
+- [facebook/CONNECT-HE.md](facebook/CONNECT-HE.md)
+
+Local one-click helper (needs Meta App ID):
+
+```bash
+npm run marketing:facebook-connect
+# open http://localhost:8787/connect.html?appId=YOUR_APP_ID
+```
+
+Publish once tokens are available (never commit tokens):
+
+```bash
+FACEBOOK_PAGE_ID=... FACEBOOK_PAGE_ACCESS_TOKEN=... \
+MESSAGE="$(cat marketing/facebook/first-post-ready.txt)" \
+npm run marketing:publish-facebook -- --platform facebook
+```
+
+Ready-to-paste first post (manual Business Suite fallback): [facebook/first-post-ready.txt](facebook/first-post-ready.txt)

@@ -12,7 +12,9 @@
     "start": "next start",
     "lint": "next lint",
     "marketing:generate": "node marketing/tools/generate-marketing-assets.mjs",
-    "marketing:export-social": "node marketing/tools/export-social-markdown.mjs"
+    "marketing:export-social": "node marketing/tools/export-social-markdown.mjs",
+    "marketing:facebook-connect": "node marketing/tools/serve-facebook-connect.mjs",
+    "marketing:publish-facebook": "node marketing/tools/publish-facebook.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
