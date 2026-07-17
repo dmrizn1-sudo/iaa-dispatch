@@ -23,6 +23,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { pickAiImageUrl, listAiImageUrls } from "./ai-image-urls.mjs";
+import { ensureInstagramCaption } from "./ig-hashtags.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -270,10 +271,7 @@ async function main() {
                 seed: slot.dayIndex
               });
             if (!img) throw new Error("No IMAGE_URL / AI asset for Instagram");
-            let caption = ig.caption || "";
-            if (caption.length > 2200) {
-              caption = caption.split("\n\n#")[0].slice(0, 2190);
-            }
+            let caption = ensureInstagramCaption(ig.caption || "");
             const media = await publishInstagram(token, igUserId, {
               imageUrl: img,
               caption
@@ -282,6 +280,7 @@ async function main() {
             ig.mediaId = media.id;
             ig.permalink = media.permalink || null;
             ig.imageUrl = img;
+            ig.caption = caption;
             ig.error = null;
             published += 1;
             console.log(`IG published ${slot.id} → ${media.permalink || media.id}`);

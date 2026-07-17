@@ -162,12 +162,40 @@
     "#FlyHomeSafely",
     "#BringThemHome"
   ],
+  "he_always": [
+    "#ישראלאייראמבולנס",
+    "#אמבולנסאווירי",
+    "#טיסהרפואית",
+    "#החזרהרפואית",
+    "#טיפולנמרץ",
+    "#העברתמטופל",
+    "#ליווירפואי",
+    "#ממיטהלמיטה",
+    "#ישראל",
+    "#תלאביב"
+  ],
+  "he_rotate": [
+    "#אמבולנסאווירילישראל",
+    "#אמבולנסאווירימישראל",
+    "#טיסהרפואיתלישראל",
+    "#טיסהרפואיתמישראל",
+    "#העברהרפואית",
+    "#מטוסרפואי",
+    "#פינויאווירי",
+    "#רפואתחירום",
+    "#תיאוםרפואי",
+    "#שירותיחירום",
+    "#ICU",
+    "#מדיקלאייר"
+  ],
   "rotation_rules": {
-    "per_post_total": 19,
+    "per_post_total": 30,
     "always": 12,
+    "he_always": 10,
     "service_pick": 3,
     "geo_pick": 3,
     "route_pick": 1,
-    "note": "Rotate service/geo/route tags; never reuse the same non-core combination within 14 days. Log used sets in publishing sheet."
+    "he_rotate_pick": 2,
+    "note": "Instagram: always end with EN hashtags + HE hashtags. Rotate service/geo/route; never strip tags on publish."
   }
 }

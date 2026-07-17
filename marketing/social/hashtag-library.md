@@ -1,10 +1,16 @@
 # Global Hashtag Database — Israel Air Ambulance
 
-## Always include
+## Always include (English)
 #IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #PrivateAirAmbulance #PatientTransfer
+
+## Always include (Hebrew) — Instagram
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #ישראל #תלאביב
 
 ## Service (rotate)
 #BedToBed #BedsideToBedside #StretcherFlight #MedicalJet #Medevac #AirMedical #FlightNurse #CriticalCareFlight #InternationalAirAmbulance #AirAmbulanceIsrael #MedicalFlightIsrael #RepatriationFlight #24x7Medical #EmergencyResponse #PatientSafety #TravelMedicine #ICUAirAmbulance #CommercialMedicalEscort #AirAmbulanceEurope #AirAmbulanceUSA #FlyPatientHome #EmergencyPatientReturn
+
+## Hebrew rotate
+#אמבולנסאווירילישראל #אמבולנסאווירימישראל #טיסהרפואיתלישראל #טיסהרפואיתמישראל #העברהרפואית #מטוסרפואי #פינויאווירי #רפואתחירום #תיאוםרפואי #שירותיחירום #ICU #מדיקלאייר
 
 ## Countries (rotate)
 #UnitedStates #Canada #UnitedKingdom #France #Germany #Switzerland #Italy #Spain #Portugal #Netherlands #Belgium #Austria #Ireland #Greece #Cyprus #Poland #CzechRepublic #Hungary #Romania #Bulgaria #Croatia #Serbia #Slovenia #Montenegro #Georgia #UnitedArabEmirates #Thailand #Japan #Singapore #Australia #SouthAfrica #Morocco
@@ -18,11 +24,15 @@
 ## Rotation rules
 ```json
 {
-  "per_post_total": 19,
+  "per_post_total": 30,
   "always": 12,
+  "he_always": 10,
   "service_pick": 3,
   "geo_pick": 3,
   "route_pick": 1,
-  "note": "Rotate service/geo/route tags; never reuse the same non-core combination within 14 days. Log used sets in publishing sheet."
+  "he_rotate_pick": 2,
+  "note": "Instagram: always end with EN hashtags + HE hashtags. Rotate service/geo/route; never strip tags on publish."
 }
 ```
+
+**Rule:** Every Instagram caption must end with an English hashtag line + a Hebrew hashtag line. Do not publish IG without hashtags.

@@ -19,6 +19,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { ensureInstagramCaption } from "./ig-hashtags.mjs";
 
 const API = process.env.META_API_VERSION || "v21.0";
 const BASE = `https://graph.facebook.com/${API}`;
@@ -134,7 +135,7 @@ async function main() {
     if (!igUserId) throw new Error("INSTAGRAM_USER_ID required for Instagram");
     results.instagram = await publishInstagramPhoto(igUserId, token, {
       image_url: payload.image_url,
-      caption: payload.caption || payload.message
+      caption: ensureInstagramCaption(payload.caption || payload.message || "")
     });
     console.log("Instagram OK:", results.instagram);
   }

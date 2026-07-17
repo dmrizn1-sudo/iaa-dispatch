@@ -465,19 +465,51 @@ function generateHashtags() {
     "#BringThemHome"
   ];
 
+  // Hebrew Instagram hashtags (always useful for local discovery)
+  const he_always = [
+    "#ישראלאייראמבולנס",
+    "#אמבולנסאווירי",
+    "#טיסהרפואית",
+    "#החזרהרפואית",
+    "#טיפולנמרץ",
+    "#העברתמטופל",
+    "#ליווירפואי",
+    "#ממיטהלמיטה",
+    "#ישראל",
+    "#תלאביב"
+  ];
+  const he_rotate = [
+    "#אמבולנסאווירילישראל",
+    "#אמבולנסאווירימישראל",
+    "#טיסהרפואיתלישראל",
+    "#טיסהרפואיתמישראל",
+    "#העברהרפואית",
+    "#מטוסרפואי",
+    "#פינויאווירי",
+    "#רפואתחירום",
+    "#תיאוםרפואי",
+    "#שירותיחירום",
+    "#ICU",
+    "#מדיקלאייר"
+  ];
+
   return {
     always_include: core,
     service_rotate: service,
     country_rotate: unique(countries),
     city_rotate: unique(cities),
     route_rotate: route,
+    he_always,
+    he_rotate,
     rotation_rules: {
-      per_post_total: 19,
+      per_post_total: 30,
       always: 12,
+      he_always: 10,
       service_pick: 3,
       geo_pick: 3,
       route_pick: 1,
-      note: "Rotate service/geo/route tags; never reuse the same non-core combination within 14 days. Log used sets in publishing sheet."
+      he_rotate_pick: 2,
+      note: "Instagram: always end with EN hashtags + HE hashtags. Rotate service/geo/route; never strip tags on publish."
     }
   };
 }
@@ -486,13 +518,28 @@ function pickHashtags(hashtags, seed, geoTags = []) {
   const svc = hashtags.service_rotate;
   const cities = hashtags.city_rotate;
   const routes = hashtags.route_rotate;
+  const heRot = hashtags.he_rotate || [];
   const s = seed % 1000;
   const servicePick = [svc[s % svc.length], svc[(s + 3) % svc.length], svc[(s + 7) % svc.length]];
   const cityPick = geoTags.length
     ? geoTags.slice(0, 3)
     : [cities[s % cities.length], cities[(s + 11) % cities.length], cities[(s + 19) % cities.length]];
   const routePick = [routes[s % routes.length]];
-  return unique([...hashtags.always_include, ...servicePick, ...cityPick, ...routePick]);
+  const hePick = heRot.length
+    ? [heRot[s % heRot.length], heRot[(s + 5) % heRot.length]]
+    : [];
+  const en = unique([...hashtags.always_include, ...servicePick, ...cityPick, ...routePick]);
+  const he = unique([...(hashtags.he_always || []), ...hePick, ...geoTags.filter((t) => /[\u0590-\u05FF]/.test(t))]);
+  return { en, he, all: unique([...en, ...he]) };
+}
+
+/** Instagram caption must end with EN then HE hashtag lines. */
+function formatIgHashtags(tagSets) {
+  const en = Array.isArray(tagSets) ? tagSets : tagSets.en || [];
+  const he = Array.isArray(tagSets) ? [] : tagSets.he || [];
+  const lines = [en.join(" ")];
+  if (he.length) lines.push(he.join(" "));
+  return lines.join("\n");
 }
 
 /** Join English + Hebrew blocks for bilingual social posts. */
@@ -710,7 +757,7 @@ function buildPosts() {
       phone,
       web
     ].join("\n");
-    const ig = `${bilingual(enBlock, heBlock)}\n\n${tags.join(" ")}`;
+    const ig = `${bilingual(enBlock, heBlock)}\n\n${formatIgHashtags(tags)}`;
 
     posts.push({
       id: set.id,
@@ -935,7 +982,7 @@ function buildPosts() {
       const finalIg = bilingual(
         `${enCore}\n\n${ctaEn}`,
         `${heCore}\n\n${ctaHe}`
-      ) + `\n\n${tags.join(" ")}`;
+      ) + `\n\n${formatIgHashtags(tags)}`;
 
       const finalFb = bilingual(
         `${enCore}\n\nIsrael Air Ambulance supports private families with international medical flights, ICU air ambulance, stretcher flights, and commercial medical escort — worldwide.\n\n${ctaEn}`,
@@ -1051,11 +1098,17 @@ function writeOutputs() {
   const htMd = [
     "# Global Hashtag Database — Israel Air Ambulance",
     "",
-    "## Always include",
+    "## Always include (English)",
     hashtags.always_include.join(" "),
+    "",
+    "## Always include (Hebrew) — Instagram",
+    (hashtags.he_always || []).join(" "),
     "",
     "## Service (rotate)",
     hashtags.service_rotate.join(" "),
+    "",
+    "## Hebrew rotate",
+    (hashtags.he_rotate || []).join(" "),
     "",
     "## Countries (rotate)",
     hashtags.country_rotate.join(" "),
@@ -1070,6 +1123,8 @@ function writeOutputs() {
     "```json",
     JSON.stringify(hashtags.rotation_rules, null, 2),
     "```",
+    "",
+    "**Rule:** Every Instagram caption must end with an English hashtag line + a Hebrew hashtag line. Do not publish IG without hashtags.",
     ""
   ].join("\n");
   fs.writeFileSync(path.join(SOCIAL, "hashtag-library.md"), htMd);
