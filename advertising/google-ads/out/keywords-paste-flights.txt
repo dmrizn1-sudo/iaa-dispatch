@@ -1,0 +1,60 @@
+# Exact
+[הטסה רפואית לישראל]
+[פינוי רפואי לישראל]
+[מטוס אמבולנס לישראל]
+[הטסה רפואית מחו״ל לישראל]
+[העברה רפואית בטיסה]
+[הטסת חולה לישראל]
+[פינוי אווירי רפואי]
+[הטסה רפואית דחופה]
+[שינוע רפואי בינלאומי לישראל]
+[מטוס אמבולנס פרטי לישראל]
+[הצעת מחיר הטסה רפואית]
+[מחיר מטוס אמבולנס לישראל]
+[ליווי רפואי בטיסה לישראל]
+[bed to bed לישראל]
+[חילוץ רפואי מחו״ל לישראל]
+[קרוב משפחה חולה בחו״ל הטסה]
+[air ambulance to israel]
+[medical flight to israel]
+[medical evacuation to israel]
+[medevac to israel]
+[private air ambulance israel]
+[icu air ambulance to israel]
+[patient transfer to israel]
+[medical repatriation to israel]
+[emergency medical flight to israel]
+[international air ambulance israel]
+[air ambulance quote israel]
+[bed to bed air ambulance israel]
+[medical escort to israel]
+[medical flight cost to israel]
+[fly patient home to israel]
+[air ambulance tel aviv]
+
+# Phrase
+"הטסה רפואית"
+"פינוי רפואי לישראל"
+"מטוס אמבולנס"
+"העברה רפואית מחו״ל"
+"פינוי אווירי"
+"הטסת חולה"
+"הטסה רפואית דחופה"
+"שינוע רפואי בינלאומי"
+"הצעת מחיר הטסה רפואית"
+"ליווי רפואי בטיסה"
+"מטוס אמבולנס מחיר"
+"חילוץ רפואי מחו״ל"
+"air ambulance to israel"
+"medical flight to israel"
+"medical evacuation to israel"
+"air ambulance israel"
+"medical repatriation israel"
+"patient transfer to israel"
+"private air ambulance"
+"icu air ambulance"
+"emergency medical flight"
+"air ambulance quote"
+"bed to bed medical transport"
+"medical escort flight"
+"medical flight cost"
