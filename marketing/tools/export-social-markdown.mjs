@@ -76,7 +76,7 @@ function mdEscape(s) {
 // LinkedIn
 {
   const lines = [
-    "# LinkedIn Posts — Professional Trust Series",
+    "# LinkedIn Posts — Professional Trust Series (EN + HE)",
     "",
     "Focus: clinical coordination expertise, international routes, patient safety. Soft CTA.",
     ""
