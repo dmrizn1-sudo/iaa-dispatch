@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 /**
- * Build bilingual ground-ambulance post library for Israel Air & Ambulance
- * (event medical security, prime transfers, North Israel focus).
+ * Build bilingual GROUND ambulance post library — patient transfers focus.
+ *
+ * Places = hospitals / medical destinations (Poriya, Ziv Safed, Rambam, …)
+ * Angles = inter-hospital, home discharge, stair chair, prime fleet, crew…
+ * Event security is intentionally NOT the main stream.
  *
  * Writes: marketing/data/ground-posts.json
  */
@@ -21,91 +24,210 @@ const brand = {
   website: "https://ambulancenter.com"
 };
 
+/** Tagged medical places — hospitals, not generic city labels */
 const places = [
-  { city: "Poriya", cityHe: "פוריה", region: "North", regionHe: "הצפון" },
-  { city: "Safed", cityHe: "צפת", region: "North", regionHe: "הצפון" },
-  { city: "Tiberias", cityHe: "טבריה", region: "North", regionHe: "הצפון" },
-  { city: "Haifa", cityHe: "חיפה", region: "North", regionHe: "הצפון" },
-  { city: "Nahariya", cityHe: "נהריה", region: "North", regionHe: "הצפון" },
-  { city: "Afula", cityHe: "עפולה", region: "North", regionHe: "הצפון" },
-  { city: "Kiryat Shmona", cityHe: "קריית שמונה", region: "North", regionHe: "הצפון" },
-  { city: "Nazareth", cityHe: "נצרת", region: "North", regionHe: "הצפון" },
-  { city: "Tel Aviv", cityHe: "תל אביב", region: "Center", regionHe: "המרכז" },
-  { city: "Jerusalem", cityHe: "ירושלים", region: "Center", regionHe: "המרכז" },
-  { city: "Rambam", cityHe: "רמב״ם", region: "North", regionHe: "הצפון" },
-  { city: "Ziv Hospital", cityHe: "בית חולים זיו", region: "North", regionHe: "הצפון" }
+  {
+    id: "poriya",
+    nameEn: "Poriya Hospital",
+    nameHe: "בית חולים פוריה",
+    cityEn: "Tiberias area",
+    cityHe: "אזור טבריה",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#PoriyaHospital",
+    tagHe: "#ביתחוליםפוריה"
+  },
+  {
+    id: "ziv-safed",
+    nameEn: "Ziv Medical Center, Safed",
+    nameHe: "בית חולים זיו צפת",
+    cityEn: "Safed",
+    cityHe: "צפת",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#ZivHospital #Safed",
+    tagHe: "#ביתחוליםזיו #צפת"
+  },
+  {
+    id: "rambam",
+    nameEn: "Rambam Health Care Campus",
+    nameHe: "רמב״ם חיפה",
+    cityEn: "Haifa",
+    cityHe: "חיפה",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#RambamHospital #Haifa",
+    tagHe: "#רמבם #חיפה"
+  },
+  {
+    id: "nahariya",
+    nameEn: "Galilee Medical Center, Nahariya",
+    nameHe: "המרכז הרפואי לגליל נהריה",
+    cityEn: "Nahariya",
+    cityHe: "נהריה",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#NahariyaHospital",
+    tagHe: "#נהריה"
+  },
+  {
+    id: "haemek",
+    nameEn: "HaEmek Medical Center, Afula",
+    nameHe: "העמק עפולה",
+    cityEn: "Afula",
+    cityHe: "עפולה",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#HaEmekHospital #Afula",
+    tagHe: "#העמק #עפולה"
+  },
+  {
+    id: "nazareth",
+    nameEn: "Nazareth hospitals",
+    nameHe: "בתי חולים בנצרת",
+    cityEn: "Nazareth",
+    cityHe: "נצרת",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#NazarethHospital",
+    tagHe: "#נצרת"
+  },
+  {
+    id: "kiryat-shmona",
+    nameEn: "Northern Galilee / Kiryat Shmona area",
+    nameHe: "אזור קריית שמונה והגליל העליון",
+    cityEn: "Kiryat Shmona",
+    cityHe: "קריית שמונה",
+    regionEn: "North",
+    regionHe: "הצפון",
+    tagEn: "#KiryatShmona #UpperGalilee",
+    tagHe: "#קרייתשמונה #הגליל"
+  },
+  {
+    id: "tel-aviv",
+    nameEn: "Tel Aviv medical centers",
+    nameHe: "מרכזים רפואיים בתל אביב",
+    cityEn: "Tel Aviv",
+    cityHe: "תל אביב",
+    regionEn: "Center",
+    regionHe: "המרכז",
+    tagEn: "#TelAvivHospital",
+    tagHe: "#תלאביב"
+  },
+  {
+    id: "jerusalem",
+    nameEn: "Jerusalem hospitals",
+    nameHe: "בתי חולים בירושלים",
+    cityEn: "Jerusalem",
+    cityHe: "ירושלים",
+    regionEn: "Center",
+    regionHe: "המרכז",
+    tagEn: "#JerusalemHospital",
+    tagHe: "#ירושלים"
+  },
+  {
+    id: "sheba",
+    nameEn: "Sheba Medical Center",
+    nameHe: "שיבא תל השומר",
+    cityEn: "Ramit Gan / Tel HaShomer",
+    cityHe: "תל השומר",
+    regionEn: "Center",
+    regionHe: "המרכז",
+    tagEn: "#ShebaHospital",
+    tagHe: "#שיבא"
+  }
 ];
 
 const angles = [
   {
-    id: "event-security",
-    theme: "event",
-    titleEn: "Event medical security — paramedic standby",
-    titleHe: "אבטחה רפואית לאירועים — כוננות פראמדיק",
+    id: "inter-hospital",
+    theme: "transfer",
+    titleEn: "Inter-hospital patient transfer",
+    titleHe: "העברת חולים בין בתי חולים",
     bodyEn:
-      "Professional paramedic services for medical security at events, productions, and gatherings.\nStandby coverage with fully equipped ambulances — so your event stays safe.",
+      "Professional ambulance transfers between hospitals — bedside to bedside.\nClinical continuity · monitoring · clear handoff to the receiving team.",
     bodyHe:
-      "שירותי פראמדיק לאבטחות רפואיות לאירועים, הפקות והתכנסויות.\nכוננות עם אמבולנסים מאובזרים — כדי שהאירוע שלכם יישאר בטוח."
+      "העברות אמבולנס מקצועיות בין בתי חולים — ממיטה למיטה.\nרצף קליני · ניטור · מסירה ברורה לצוות הקולט."
   },
   {
-    id: "event-ambulance",
-    theme: "event",
-    titleEn: "Ambulances for medical event coverage",
-    titleHe: "אמבולנסים לאבטחה רפואית באירועים",
+    id: "hospital-to-home",
+    theme: "transfer",
+    titleEn: "Hospital discharge — transfer home",
+    titleHe: "העברה מבית חולים חזרה הביתה",
     bodyEn:
-      "Dedicated ambulances for medical security at events across Israel.\nFast response · clinical readiness · clear coordination with organizers.",
+      "Safe, dignified transfer from hospital back home after discharge.\nComfortable ride · family coordination · professional medical escort when needed.",
     bodyHe:
-      "אמבולנסים ייעודיים לאבטחה רפואית באירועים בכל רחבי הארץ.\nמענה מהיר · מוכנות קלינית · תיאום ברור עם המפיקים."
+      "העברה בטוחה ומכובדת מבית החולים חזרה הביתה אחרי שחרור.\nנסיעה נוחה · תיאום עם המשפחה · ליווי רפואי מקצועי לפי הצורך."
+  },
+  {
+    id: "home-to-hospital",
+    theme: "transfer",
+    titleEn: "Home to hospital ambulance transfer",
+    titleHe: "העברה מהבית לבית החולים",
+    bodyEn:
+      "Private ambulance from home to hospital for planned admissions and urgent transfers.\nOn time · clinically ready · calm communication with the family.",
+    bodyHe:
+      "אמבולנס פרטי מהבית לבית החולים — לאשפוז מתוכנן ולהעברות דחופות.\nבזמן · מוכנות קלינית · תקשורת רגועה עם המשפחה."
+  },
+  {
+    id: "stair-chair",
+    theme: "equipment",
+    titleEn: "Electric stair chair for patient transfers",
+    titleHe: "כסא חשמלי מיוחד להעלאת חולה במדרגות",
+    bodyEn:
+      "Special electric stair chair to move patients safely up and down stairs.\nWhen the elevator isn’t an option — we still bring the patient home or to the ambulance with dignity.",
+    bodyHe:
+      "כסא חשמלי מיוחד להעלאת והורדת חולה במדרגות בבטחה.\nכשאין מעלית — עדיין מעבירים את המטופל הביתה או לאמבולנס בכבוד ובזהירות."
   },
   {
     id: "prime-transfer",
     theme: "prime",
-    titleEn: "Prime ambulances for patient transfers",
-    titleHe: "אמבולנסים פריים להעברת חולים",
+    titleEn: "Prime ambulance for medical transfers",
+    titleHe: "אמבולנס פריים להעברות רפואיות",
     bodyEn:
-      "Prime-level ambulances for comfortable, professional patient transfers.\nHospital to hospital · home to hospital · North to anywhere in Israel.",
+      "Prime-level ambulances for comfortable medical transfers across Israel.\nHospital ↔ hospital · hospital ↔ home · North to every region.",
     bodyHe:
-      "אמבולנסים ברמת פריים להעברות חולים נוחות ומקצועיות.\nבית חולים לבית חולים · מהבית לבית החולים · מהצפון לכל הארץ."
+      "אמבולנסים ברמת פריים להעברות רפואיות נוחות בכל הארץ.\nבית חולים ↔ בית חולים · בית חולים ↔ הבית · מהצפון לכל אזור."
   },
   {
-    id: "new-fleet",
-    theme: "fleet",
-    titleEn: "New ambulances — top tier in Israel",
-    titleHe: "אמבולנסים חדשים — ברמה הגבוהה ביותר בישראל",
+    id: "north-corridor",
+    theme: "north",
+    titleEn: "Medical transfers from the North",
+    titleHe: "העברות רפואיות מהצפון לכל הארץ",
     bodyEn:
-      "A modern fleet built to the highest clinical standard in Israel.\nClean · advanced · ready for complex transfers 24/7.",
+      "Focused coverage for northern hospitals — including Poriya and Ziv Safed — to centers nationwide.\nLocal knowledge · national reach · 24/7 dispatch.",
     bodyHe:
-      "צי אמבולנסים חדש ומתקדם ברמה הגבוהה ביותר בישראל.\nנקי · מתקדם · מוכן להעברות מורכבות 24/7."
+      "כיסוי ממוקד לבתי חולים בצפון — כולל פוריה וזיו צפת — למרכזים בכל הארץ.\nהיכרות מקומית · כיסוי ארצי · מוקד 24/7."
   },
   {
     id: "electric-beds",
     theme: "equipment",
-    titleEn: "Electric beds for safer transfers",
-    titleHe: "מיטות חשמליות להעברות בטוחות יותר",
+    titleEn: "Electric stretchers on every transfer",
+    titleHe: "מיטות חשמליות בכל העברה",
     bodyEn:
-      "Electric stretchers for smoother loading and patient comfort.\nLess strain · more dignity · better clinical control on every transfer.",
+      "Electric stretchers for smoother loading and patient comfort.\nLess strain on the patient · safer handling · better clinical control.",
     bodyHe:
-      "מיטות חשמליות להעמסה חלקה ונוחות למטופל.\nפחות עומס · יותר כבוד · שליטה קלינית טובה יותר בכל העברה."
+      "מיטות חשמליות להעמסה חלקה ולנוחות המטופל.\nפחות עומס על המטופל · טיפול בטוח יותר · שליטה קלינית טובה יותר."
   },
   {
     id: "advanced-gear",
     theme: "equipment",
     titleEn: "Advanced medical equipment on board",
-    titleHe: "ציוד רפואי מתקדם בכל אמבולנס",
+    titleHe: "ציוד רפואי מתקדם באמבולנס",
     bodyEn:
-      "Monitoring, oxygen, and advanced medical equipment on every mission.\nPrepared for real clinical needs — not just transport.",
+      "Monitoring, oxygen, and advanced equipment on every medical transfer.\nPrepared for real clinical needs — not just a ride.",
     bodyHe:
-      "ניטור, חמצן וציוד רפואי מתקדם בכל משימה.\nמוכנים לצרכים קליניים אמיתיים — לא רק להסעה."
+      "ניטור, חמצן וציוד מתקדם בכל העברה רפואית.\nמוכנים לצרכים קליניים אמיתיים — לא רק נסיעה."
   },
   {
     id: "experience-20",
     theme: "crew",
-    titleEn: "20+ years as an ICU paramedic",
+    titleEn: "20+ years ICU paramedic experience",
     titleHe: "מעל 20 שנות ניסיון כפראמדיק טיפול נמרץ",
     bodyEn:
-      "Over 20 years of ICU paramedic experience guiding every transfer.\nClinical judgment you can trust when the patient needs more than a ride.",
+      "Over 20 years as an ICU paramedic guiding complex patient transfers.\nClinical judgment families can trust.",
     bodyHe:
-      "מעל 20 שנות ניסיון כפראמדיק טיפול נמרץ מובילים כל העברה.\nשיקול דעת קליני שאפשר לסמוך עליו כשצריך יותר מנסיעה."
+      "מעל 20 שנות ניסיון כפראמדיק טיפול נמרץ בהעברות מורכבות.\nשיקול דעת קליני שמשפחות יכולות לסמוך עליו."
   },
   {
     id: "certified-crew",
@@ -113,53 +235,33 @@ const angles = [
     titleEn: "Certified medics & ambulance drivers",
     titleHe: "חובשים מוסמכים ונהגי אמבולנס",
     bodyEn:
-      "Certified medics and professional ambulance drivers on every transfer.\nTrained teams · calm communication · safe arrival.",
+      "Certified medics and professional ambulance drivers on every transfer.\nTrained teams · calm updates · safe arrival.",
     bodyHe:
-      "חובשים מוסמכים ונהגי אמבולנס מקצועיים בכל העברה.\nצוותים מיומנים · תקשורת רגועה · הגעה בטוחה."
+      "חובשים מוסמכים ונהגי אמבולנס מקצועיים בכל העברה.\nצוותים מיומנים · עדכונים רגועים · הגעה בטוחה."
   },
   {
-    id: "north-focus",
+    id: "new-fleet",
+    theme: "fleet",
+    titleEn: "Modern ambulances — top standard in Israel",
+    titleHe: "אמבולנסים חדשים ברמה הגבוהה ביותר בישראל",
+    bodyEn:
+      "A modern ambulance fleet built for serious medical transfers.\nClean · advanced · ready 24/7.",
+    bodyHe:
+      "צי אמבולנסים מודרני להעברות רפואיות ברצינות.\nנקי · מתקדם · מוכן 24/7."
+  },
+  {
+    id: "poriya-ziv-focus",
     theme: "north",
-    titleEn: "North Israel transfers — Poriya, Safed & beyond",
-    titleHe: "העברות מהצפון — פוריה, צפת ומעבר",
+    titleEn: "Transfers from Poriya & Ziv Safed",
+    titleHe: "העברות מבית חולים פוריה ומבית חולים זיו צפת",
     bodyEn:
-      "Special focus on transfers from Poriya, Safed (Tzfat), and the North — to hospitals across Israel.\nLocal knowledge · national reach.",
+      "Regular medical transfers from Poriya Hospital and Ziv Medical Center (Safed) to hospitals across Israel.\nNorth expertise · nationwide destinations.",
     bodyHe:
-      "דגש על העברות מפוריה, צפת והצפון — לכל בתי החולים בארץ.\nהיכרות מקומית · כיסוי ארצי."
-  },
-  {
-    id: "north-to-center",
-    theme: "north",
-    titleEn: "From the North to every part of Israel",
-    titleHe: "מהצפון לכל חלקי הארץ",
-    bodyEn:
-      "Patient transfers from northern Israel to the Center, Jerusalem, and nationwide.\nCoordinated · monitored · family-informed.",
-    bodyHe:
-      "העברות חולים מהצפון למרכז, לירושלים ולכל הארץ.\nמתואם · בניטור · עם עדכון למשפחה."
-  },
-  {
-    id: "hospital-transfer",
-    theme: "transfer",
-    titleEn: "Inter-hospital ambulance transfers",
-    titleHe: "העברות אמבולנס בין בתי חולים",
-    bodyEn:
-      "Smooth inter-hospital transfers with clinical continuity.\nFrom northern hospitals to specialty centers across Israel.",
-    bodyHe:
-      "העברות חלקות בין בתי חולים עם רצף קליני.\nמבתי חולים בצפון למרכזי מומחיות בכל הארץ."
-  },
-  {
-    id: "home-hospital",
-    theme: "transfer",
-    titleEn: "Home ↔ hospital ambulance service",
-    titleHe: "שירות אמבולנס מהבית לבית החולים",
-    bodyEn:
-      "Private ambulance transfers between home and hospital — with dignity and care.\nIdeal for planned admissions, discharges, and follow-up care.",
-    bodyHe:
-      "העברות אמבולנס פרטיות בין הבית לבית החולים — בכבוד ובזהירות.\nמתאים לאשפוז מתוכנן, שחרור ומעקב."
+      "העברות רפואיות שוטפות מבית חולים פוריה ומבית חולים זיו צפת לכל בתי החולים בארץ.\nמומחיות צפון · יעדים ארציים."
   }
 ];
 
-function ctaBlock() {
+function ctaEn() {
   return [
     `📞 ${brand.phoneIntl} (24/7)`,
     `💬 WhatsApp: ${brand.whatsappLocal}`,
@@ -167,7 +269,7 @@ function ctaBlock() {
   ].join("\n");
 }
 
-function ctaBlockHe() {
+function ctaHe() {
   return [
     `📞 ${brand.phoneIntl} (24/7)`,
     `💬 וואטסאפ: ${brand.whatsappLocal}`,
@@ -176,68 +278,87 @@ function ctaBlockHe() {
 }
 
 function tagsFor(angle, place) {
-  const citySlug = place.city.replace(/[^a-zA-Z0-9]+/g, "");
   const en = [
     "#IsraelAirAmbulance",
     "#AmbulanceIsrael",
-    "#MedicalTransport",
     "#PatientTransfer",
-    "#Paramedic",
-    "#EventMedical",
-    "#PrimeAmbulance",
+    "#MedicalTransport",
+    "#InterHospitalTransfer",
+    "#HospitalTransfer",
     "#NorthernIsrael",
-    `#Ambulance${citySlug}`,
+    "#PoriyaHospital",
+    "#ZivHospital",
+    "#Safed",
+    "#PrimeAmbulance",
     "#Israel"
   ];
-  if (angle.theme === "event") en.push("#EventSafety", "#MedicalStandby");
-  if (angle.theme === "equipment") en.push("#MedicalEquipment", "#ElectricStretcher");
-  if (angle.theme === "north") en.push("#Poriya", "#Safed", "#Galilee");
+  if (angle.id === "stair-chair") en.push("#StairChair", "#Accessibility");
+  if (angle.theme === "equipment") en.push("#ElectricStretcher", "#MedicalEquipment");
   if (angle.theme === "crew") en.push("#ICUParamedic", "#CertifiedMedic");
 
   const he = [
     "#ישראלאייראמבולנס",
     "#אמבולנס",
     "#העברתחולים",
-    "#פראמדיק",
-    "#אבטחהרפואית",
-    "#אמבולנספריים",
-    "#הצפון",
-    "#פוריה",
+    "#העברהביןבתיחולים",
+    "#העברהרפואית",
+    "#ביתחוליםפוריה",
+    "#ביתחוליםזיו",
     "#צפת",
-    `#אמבולנס${place.cityHe.replace(/\s+/g, "")}`,
+    "#הצפון",
+    "#כסאחשמלי",
+    "#מיטהחשמלית",
     "#ישראל"
   ];
-  return { en: en.slice(0, 16), he: he.slice(0, 12) };
+
+  // place-specific tags (split multi-tag fields)
+  const placeEn = String(place.tagEn || "")
+    .split(/\s+/)
+    .filter((t) => t.startsWith("#"));
+  const placeHe = String(place.tagHe || "")
+    .split(/\s+/)
+    .filter((t) => t.startsWith("#"));
+
+  return {
+    en: [...new Set([...placeEn, ...en])].slice(0, 16),
+    he: [...new Set([...placeHe, ...he])].slice(0, 12)
+  };
 }
 
 function buildPost(angle, place, index) {
-  const title = `${angle.titleEn} · ${place.city}`;
-  const titleHe = `${angle.titleHe} · ${place.cityHe}`;
-  const seoEn = `Private ambulance & patient transfer — ${place.city} and ${place.region} Israel.`;
-  const seoHe = `אמבולנס פרטי והעברת חולים — ${place.cityHe} ו${place.regionHe}.`;
+  const title = `${angle.titleEn} · ${place.nameEn}`;
+  const titleHe = `${angle.titleHe} · ${place.nameHe}`;
+  const placeLineEn = `📍 ${place.nameEn} (${place.cityEn}, ${place.regionEn})`;
+  const placeLineHe = `📍 ${place.nameHe} (${place.cityHe}, ${place.regionHe})`;
+  const seoEn = `Private medical ambulance transfer — ${place.nameEn} and ${place.regionEn} Israel.`;
+  const seoHe = `העברה רפואית באמבולנס פרטי — ${place.nameHe} ו${place.regionHe}.`;
 
   const en = [
     title,
+    "",
+    placeLineEn,
     "",
     angle.bodyEn,
     "",
     seoEn,
     "",
-    "Israel Air & Ambulance — ground ambulance · event medical security · prime transfers.",
+    "Israel Air & Ambulance — medical transfers · inter-hospital · home discharge · stair chair.",
     "",
-    ctaBlock()
+    ctaEn()
   ].join("\n");
 
   const he = [
     titleHe,
     "",
+    placeLineHe,
+    "",
     angle.bodyHe,
     "",
     seoHe,
     "",
-    "ישראל אייר אנד אמבולנס — אמבולנס קרקעי · אבטחה רפואית לאירועים · העברות פריים.",
+    "ישראל אייר אנד אמבולנס — העברות רפואיות · בין בתי חולים · חזרה הביתה · כסא חשמלי למדרגות.",
     "",
-    ctaBlockHe()
+    ctaHe()
   ].join("\n");
 
   const { en: enTags, he: heTags } = tagsFor(angle, place);
@@ -251,7 +372,15 @@ function buildPost(angle, place, index) {
     theme: angle.theme,
     title,
     titleHe,
-    place,
+    place: {
+      id: place.id,
+      nameEn: place.nameEn,
+      nameHe: place.nameHe,
+      cityEn: place.cityEn,
+      cityHe: place.cityHe,
+      regionEn: place.regionEn,
+      regionHe: place.regionHe
+    },
     angleId: angle.id,
     copy: {
       instagram: ensureInstagramCaption(igRaw, { maxTags: 30 }),
@@ -263,35 +392,36 @@ function buildPost(angle, place, index) {
 function main() {
   const posts = [];
   let i = 0;
-  // 12 angles × 12 places = 144 posts (enough for 90d × 2)
-  for (let round = 0; round < 2; round++) {
-    for (const angle of angles) {
-      for (const place of places) {
-        if (posts.length >= 120) break;
-        // vary pairing so same angle isn't always same city
-        const p = places[(places.indexOf(place) + round * 5 + angles.indexOf(angle)) % places.length];
-        const key = `${angle.id}-${p.city}-${round}`;
-        if (posts.some((x) => x._key === key)) continue;
-        const post = buildPost(angle, p, i++);
-        post._key = key;
-        posts.push(post);
-      }
-      if (posts.length >= 120) break;
+  // Rotate angles × places for variety (prefer transfer angles)
+  for (let pi = 0; pi < places.length && posts.length < 120; pi++) {
+    for (let ai = 0; ai < angles.length && posts.length < 120; ai++) {
+      posts.push(buildPost(angles[ai], places[(pi + ai) % places.length], i++));
     }
-    if (posts.length >= 120) break;
   }
-  for (const p of posts) delete p._key;
+  // second pass with offset for more variety up to 120
+  for (let pi = 0; pi < places.length && posts.length < 120; pi++) {
+    for (let ai = 0; ai < angles.length && posts.length < 120; ai++) {
+      posts.push(buildPost(angles[(ai + 3) % angles.length], places[(pi + ai + 4) % places.length], i++));
+    }
+  }
 
   const out = {
     generatedAt: new Date().toISOString(),
     brand,
     stream: "ground",
     note:
-      "Ground ambulance / event medical security / prime transfers — North Israel focus (Poriya, Safed, Galilee)",
+      "Ground medical TRANSFERS — Poriya Hospital, Ziv Safed, inter-hospital, home discharge, electric stair chair. Not event-security focused.",
+    places,
     posts
   };
   fs.writeFileSync(OUT, JSON.stringify(out, null, 2));
-  console.log(`Wrote ${posts.length} ground posts → ${OUT}`);
+  console.log(`Wrote ${posts.length} transfer-focused ground posts → ${OUT}`);
+  console.log(
+    "Sample:",
+    posts[0].title,
+    "|",
+    posts.find((p) => p.angleId === "stair-chair")?.titleHe
+  );
 }
 
 main();
