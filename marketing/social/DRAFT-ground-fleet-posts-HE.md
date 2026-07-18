@@ -155,9 +155,36 @@ Ambulance services across northern Israel — Lower Galilee, Upper Galilee, the 
 
 ---
 
+## פוסט 6 — כיסא זחל חשמלי
+**תמונה:** ממתין לתמונת כיסא זחל אמיתית · בינתיים FB `1704771607740506` או צי
+
+**HE**
+כיסא זחל חשמלי – פתרון בטוח להעלאה והורדה במדרגות
+
+זקוקים לפתרון מקצועי להעלאה והורדה של מטופלים במדרגות?
+
+ישראל אייר אנד אמבולנס מספקת שירותי העברת מטופלים באמצעות כיסא זחל חשמלי מתקדם, המאפשר שינוע בטוח, יציב ונוח גם במקומות ללא מעלית או גישה נוחה.
+
+השירות מתאים לבתים פרטיים, בנייני מגורים, מוסדות רפואיים וכל מקום שבו נדרשת התמודדות עם מדרגות – תוך שמירה מלאה על בטיחות המטופל והצוות.
+
+📞 +972-79-670-9999
+💬 וואטסאפ 053-232-1101
+🌐 https://ambulancenter.com
+
+**EN**
+Electric stair-chair — a safe solution for moving patients up and down stairs.
+
+Israel Air & Ambulance provides patient transfers with an advanced electric stair-chair for safe, stable, comfortable movement even without an elevator. Suitable for private homes, apartment buildings, medical facilities, and any place with stairs — with full safety for patient and crew.
+
+**האשטגים**  
+#IsraelAirAmbulance #StairChair #PatientTransfer #PrivateAmbulance #NorthernIsrael  
+#ישראלאייראמבולנס #כיסאזחל #העברתחולים #אמבולנספרטי #מדרגות #צפת
+
+---
+
 ## מה צריך ממך לאישור
-1. לאשר / לתקן את הנוסחים (בעיקר **פוסט 0** לוידאו)  
-2. לאשר פרסום: רק 0 · או 0+1+2 · או את כולם  
-3. אם יש תמונת מיטה חשמלית — לצרף לפוסט נפרד בהמשך  
+1. לאשר / לתקן את הנוסחים  
+2. לאשר פרסום: פוסט 0 · פוסט 6 (כיסא זחל) · או חבילה  
+3. אם יש תמונת **כיסא זחל** / **מיטה חשמלית** — לצרף לחיזוק  
 
 **לא מפרסם בלי אישור מפורש.**
