@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "brand": "Israel Air & Ambulance",
+  "contacts": {
+    "phone": "+972-79-670-9999",
+    "whatsapp": "053-232-1101",
+    "web": "https://ambulancenter.com"
+  },
+  "maccabiEligibilityUrl": "https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/",
+  "posts": [
+    {
+      "id": 1,
+      "stream": "ground",
+      "theme": "north-private",
+      "title": "Private ambulance Safed & Upper Galilee",
+      "titleHe": "אמבולנס פרטי בצפת ובגליל העליון",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס\n\nמספקת שירותי אמבולנס פרטי בצפת ובגליל העליון, ומתמחה בהעברות רפואיות מתוכננות, הסעת נכים ומוגבלי תנועה ושחרור מבתי חולים – תוך הקפדה על נוחות המטופל, בטיחות מלאה ויחס אנושי לאורך כל הדרך.\n\nשירות פינוי באמבולנס לבית חולים — מענה רפואי מהיר, בטוח ומקצועי, עם צוות מוסמך, אמבולנסים חדישים וציוד רפואי מתקדם.\nבטיחותכם וביטחונכם במעלה הראשונה.\nזמינים 24 שעות ביממה, 365 ימים בשנה.",
+      "en": "Israel Air & Ambulance — private ambulance in Safed & the Upper Galilee.\n\nPlanned medical transfers · transport for people with disabilities and limited mobility · hospital discharges — with comfort, full safety, and humane care.\n\nFast, safe, professional hospital evacuation. Certified crew · modern ambulances · advanced equipment. Available 24/7, 365 days a year."
+    },
+    {
+      "id": 2,
+      "stream": "ground",
+      "theme": "fleet",
+      "title": "Modern ambulance fleet",
+      "titleHe": "צי אמבולנסים חדיש ומתקדם",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס — צי אמבולנסים חדיש ומתקדם\n\nברשותנו צי אמבולנסים חדיש ומתקדם, באישור משרד הבריאות והתחבורה, העומד בכל התקנים והנהלים הנדרשים.\n\nהאמבולנסים מאובזרים בציוד רפואי מתקדם ואיכותי, המאפשר מתן טיפול רפואי מקצועי, בטוח ומציל חיים – כבר מרגע ההגעה לשטח.\n\nאנו מקפידים על תחזוקה שוטפת, בטיחות מרבית ורמת מוכנות גבוהה — כדי להבטיח שירות אמין, מהיר ואיכותי בכל קריאה ובכל מקום.",
+      "en": "A modern advanced ambulance fleet — Ministry of Health & Transport approved, fully equipped for professional, life-saving care from the moment we arrive on scene."
+    },
+    {
+      "id": 3,
+      "stream": "ground",
+      "theme": "crew",
+      "title": "Certified crew · 20 years experience",
+      "titleHe": "הצוות שלנו · 20 שנות ניסיון",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס — הצוות שלנו\n\nעומד לרשותכם צוות מוסמך, מיומן ומנוסה עם 20 שנות ניסיון.\nאנשי רפואה שעברו הכשרות מתקדמות ופועלים לפי הנהלים המחמירים ביותר — מחויבים לשירות מדויק, בטוח ואמין בכל מצב ובכל מקום.\n\nהצוות מורכב מחובשים ופראמדיקים מנוסים, הפועלים ברגישות ובהבנה.\nכל אנשי הצוות הוכשרו בקורס חובש רפואת חירום של מד״א ו/או כחובשים קרביים בצה״ל.\nבאישור ופיקוח משרד הבריאות והתחבורה.\n\nאמינות · מקצועיות · מיומנות",
+      "en": "Certified, skilled crew with 20 years of experience — EMTs and paramedics trained via MDA emergency medicine courses and/or IDF combat medic service."
+    },
+    {
+      "id": 4,
+      "stream": "ground",
+      "theme": "north-coverage",
+      "title": "Ambulance across the North",
+      "titleHe": "אמבולנס בצפון",
+      "imageHint": "ground",
+      "he": "אמבולנס בצפון — ישראל אייר אנד אמבולנס\n\nאנו מעניקים שירותי אמבולנס והעברה רפואית בכל אזור הצפון, כולל:\n• שירותי אמבולנס בגליל התחתון\n• שירותי אמבולנס בגליל העליון\n• אמבולנס והעברת חולים באזור הכנרת ועמק הירדן\n• אמבולנס בצפת\n\nניידות אמבולנס חדישות · אפשרות הזמנה מראש · ליווי רפואי צמוד",
+      "en": "Ambulance services across northern Israel — Lower Galilee, Upper Galilee, the Kinneret & Jordan Valley, and Safed."
+    },
+    {
+      "id": 5,
+      "stream": "ground",
+      "theme": "evacuation",
+      "title": "Hospital evacuation by ambulance",
+      "titleHe": "פינוי באמבולנס לבית חולים",
+      "imageHint": "ground",
+      "he": "שירות פינוי באמבולנס לבית חולים\n\nישראל אייר אנד אמבולנס מספקת מענה רפואי מהיר, בטוח ומקצועי — עם צוות מוסמך, אמבולנסים חדישים וציוד רפואי מתקדם.\n\nבטיחותכם וביטחונכם במעלה הראשונה.\nזמינים לספק את השירות הטוב ביותר 24 שעות ביום, 365 ימים בשנה.",
+      "en": "Hospital evacuation by private ambulance — fast, safe, professional response with certified crew and advanced equipment. Available 24/7."
+    },
+    {
+      "id": 6,
+      "stream": "ground",
+      "theme": "planned-transfer",
+      "title": "Planned transfers & hospital discharge",
+      "titleHe": "העברות מתוכננות ושחרור מבית חולים",
+      "imageHint": "ground",
+      "he": "העברות רפואיות מתוכננות בצפת ובגליל העליון\n\nמתמחים בהעברות רפואיות מתוכננות, הסעת נכים ומוגבלי תנועה ושחרור מבתי חולים — תוך הקפדה על נוחות המטופל, בטיחות מלאה ויחס אנושי לאורך כל הדרך.\n\nאפשרות הזמנה מראש · ליווי רפואי צמוד · ציוד רפואי חדיש ומתקדם",
+      "en": "Planned medical transfers, disability transport, and hospital discharges in Safed & the Upper Galilee — comfort, safety, and humane care."
+    },
+    {
+      "id": 7,
+      "stream": "ground",
+      "theme": "stair-chair",
+      "title": "Electric stair-chair",
+      "titleHe": "כיסא זחל חשמלי",
+      "imageHint": "ground",
+      "he": "כיסא זחל חשמלי – פתרון בטוח להעלאה והורדה במדרגות\n\nזקוקים לפתרון מקצועי להעלאה והורדה של מטופלים במדרגות?\n\nישראל אייר אנד אמבולנס מספקת שירותי העברת מטופלים באמצעות כיסא זחל חשמלי מתקדם, המאפשר שינוע בטוח, יציב ונוח גם במקומות ללא מעלית או גישה נוחה.\n\nהשירות מתאים לבתים פרטיים, בנייני מגורים, מוסדות רפואיים וכל מקום שבו נדרשת התמודדות עם מדרגות – תוך שמירה מלאה על בטיחות המטופל והצוות.",
+      "en": "Electric stair-chair — safe patient transfers up and down stairs, even without an elevator. Homes, buildings, and medical facilities."
+    },
+    {
+      "id": 8,
+      "stream": "event",
+      "theme": "event-security",
+      "title": "Event medical security",
+      "titleHe": "אבטחה רפואית לאירועים",
+      "imageHint": "event",
+      "he": "ישראל אייר אנד אמבולנס\n\nמתכננים אירוע וזקוקים לאבטחה רפואית מקצועית, אמינה ומאושרת?\n\nאנו מספקים שירותי אבטחה רפואית לאירועים מכל הסוגים — עם צוותים רפואיים מוסמכים, אמבולנסים חדישים וציוד רפואי מתקדם – לשקט נפשי מלא לאורך כל האירוע.\n\nפועלים בהתאם לדרישות הבטיחות, התקנים והאישורים הנדרשים, ומלווים אתכם משלב התכנון ועד סיום האירוע בהצלחה.",
+      "en": "Planning an event? Professional, reliable, approved medical security with certified teams, modern ambulances, and advanced equipment."
+    },
+    {
+      "id": 9,
+      "stream": "event",
+      "theme": "event-nationwide",
+      "title": "Nationwide event medical coverage",
+      "titleHe": "אבטחה רפואית בפריסה ארצית",
+      "imageHint": "event",
+      "he": "שירותי אבטחה רפואית בפריסה ארצית\n\nישראל אייר אנד אמבולנס מספקת אבטחה רפואית לאירועים בכל חלקי הארץ — בצפון, במרכז, בדרום ובירושלים — כולל הגעה לכל לוקיישן: אולמות, גני אירועים, שטחים פתוחים ואתרי טבע.\n\nבין אם מדובר באירוע קטן או בהפקה רחבת היקף — אנו מתאימים את המענה הרפואי לגודל האירוע, אופי הקהל ודרישות הרשויות.",
+      "en": "Event medical coverage nationwide — North, Center, South, and Jerusalem. Venues, gardens, open fields, and nature sites."
+    },
+    {
+      "id": 10,
+      "stream": "event",
+      "theme": "event-types",
+      "title": "Which events we cover medically",
+      "titleHe": "אילו אירועים אנחנו מאבטחים רפואית",
+      "imageHint": "event",
+      "he": "אילו אירועים אנחנו מאבטחים רפואית?\n\n• חתונות, בר/בת מצווה ואירועים משפחתיים\n• אירועי תרבות, הופעות ופסטיבלים\n• אירועי ספורט ותחרויות — ריצות ומרתון, תחרויות אופניים, משחקי כדורגל\n• כנסים, ימי גיבוש ואירועי חברות\n• אירועים עירוניים וקהילתיים\n• אירועים פרטיים ועסקיים · אירועי השקה\n• אירועים בשטח פתוח · ליווי צעדות וטיולים · טיולי בתי ספר\n\nישראל אייר אנד אמבולנס — אבטחה רפואית מותאמת לאירוע שלכם.",
+      "en": "Medical security for weddings, festivals, sports, conferences, school trips, launches, and outdoor events."
+    },
+    {
+      "id": 11,
+      "stream": "event",
+      "theme": "event-why",
+      "title": "Why our event medical security",
+      "titleHe": "אבטחה רפואית שמעניקה שקט נפשי",
+      "imageHint": "event",
+      "he": "אבטחה רפואית שמעניקה שקט נפשי\n\n✔ ניסיון רב באבטחת אירועים\n✔ זמינות גבוהה ושירות מהיר\n✔ התאמה מלאה לדרישות משטרה, עירייה וגורמי רישוי\n✔ ציוד מתקדם ועמידה בסטנדרטים רפואיים מחמירים\n✔ יחס אישי וליווי מקצועי לכל אורך הדרך\n\nאנו מבינים שאירוע מוצלח מתחיל בבטיחות.\nכשאתם איתנו — אתם יודעים שיש מי שדואג לבריאות המשתתפים, בצורה אחראית, מקצועית וללא פשרות.",
+      "en": "Event medical security that brings peace of mind — experience, fast service, police/municipality compliance, advanced equipment."
+    },
+    {
+      "id": 12,
+      "stream": "air",
+      "theme": "ecmo",
+      "title": "ECMO air ambulance transfers",
+      "titleHe": "הטסת אקמו / ECMO",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס\n\nמתמחים בהעברות טיפול נמרץ בהיטס — עם הניסיון הרב ביותר במדינת ישראל בהעברות אקמו וחולים מורכבים ומונשמים.\n\nהעברות אקמו דורשות הטסה רפואית מורכבת במיוחד במטוס אמבולנס ייעודי, בליווי צמוד של צוות מומחי טיפול נמרץ ופרפוזיוניסט.\n\n🔹 ניהול צמוד Bed to Bed — העברה באמבולנס טיפול נמרץ לטיסה, ומשם לבית החולים היעד\n🔹 צוות מומחים — רופא מומחה, אח/ות טיפול נמרץ וטכנאי אקמו מיומן\n🔹 ציוד קריטי — המטוס מאובזר כיחידת טיפול נמרץ מוטסת, כולל מערכות גיבוי מלאות\n\nלתיאום הטסה רפואית — זמינות בארץ/בחו״ל, סיוע מול ביטוח ואישורים דחופים.",
+      "en": "Specialists in critical-care air transfers — extensive ECMO and complex ventilated-patient experience in Israel. Bed-to-bed ICU air ambulance missions."
+    },
+    {
+      "id": 13,
+      "stream": "air",
+      "theme": "ecmo-short",
+      "title": "ECMO short",
+      "titleHe": "אקמו — קצר",
+      "imageHint": "air",
+      "he": "מתמחים בהעברות טיפול נמרץ בהיטס.\nהניסיון הרב ביותר בישראל בהעברות אקמו וחולים מורכבים ומונשמים.\n\nמטוס אמבולנס ייעודי · צוות טיפול נמרץ ופרפוזיוניסט · ניהול מיטה למיטה.\n\nישראל אייר & אמבולנס — לתיאום מיידי.",
+      "en": "Critical-care air transfers. Leading ECMO and complex ventilated-patient experience in Israel. Dedicated air ambulance · ICU crew · bed-to-bed."
+    },
+    {
+      "id": 14,
+      "stream": "air",
+      "theme": "repatriation",
+      "title": "Medical repatriation to Israel",
+      "titleHe": "השבה לארץ",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס — השבה לארץ\n\nאנו מודעים לצורך הקריטי בשירותי הטסה רפואית ולזמן תגובה מהיר כנדרש.\nאנו זמינים 24/7 ועושים כמיטב יכולתנו לביצוע הטסה רפואית ללא איבוד זמן מיותר.\nאנו עושים את מיטב מאמצינו להגיע מהר ככל האפשר — מרגע הפנייה.",
+      "en": "Medical repatriation to Israel — available 24/7. We do our utmost to execute medical flights without unnecessary delay from the moment you contact us."
+    },
+    {
+      "id": 15,
+      "stream": "air",
+      "theme": "post-accident",
+      "title": "When is a medical flight needed after an accident?",
+      "titleHe": "מתי נדרשת הטסה רפואית אחרי תאונה",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס\n\nמתי נדרשת הטסה רפואית אחרי תאונה?\n\nבמקרים רבים, בית החולים המקומי מעניק טיפול ראשוני בלבד — אך המשך השיקום, הניתוח או הטיפול המורכב נדרשים בישראל.\n\nהטסה רפואית מתאימה במיוחד כאשר:\n• מדובר בתאונת דרכים, נפילה או שבר שהופכים את הטיסה הרגילה לבלתי אפשרית\n• המטופל מרותק למיטה או זקוק להשגחה רפואית צמודה\n• נדרש שחרור מוקדם מבית החולים בחו״ל והעברה ישירה לבית חולים בארץ\n• קיימת פציעה רב־מערכתית, פגיעת ראש, עמוד שדרה או חזה, או צורך בחמצן ומוניטור במהלך הטיסה",
+      "en": "When is a medical flight needed after an accident? When local care is only initial, the patient cannot fly commercially, needs continuous monitoring, or requires direct transfer to a hospital in Israel."
+    },
+    {
+      "id": 16,
+      "stream": "air",
+      "theme": "flight-types",
+      "title": "Air ambulance vs medical escort",
+      "titleHe": "סוגי הטסות רפואיות",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס — סוגי ההטסות האפשריות\n\n✈️ הטסה רפואית במטוס אייר אמבולנס (Air Ambulance)\nמטוס ייעודי המצויד בציוד רפואי מתקדם ובליווי צוות רפואי, לפי צרכי המקרה.\nפתרון לפצועים במצב בינוני עד קשה, הזקוקים לטיפול רפואי רציף מההמראה עד הנחיתה.\n\n✈️ ליווי רפואי בטיסה מסחרית (Medical Escort)\nכאשר מצב המטופל יציב, ניתן לשוב לישראל בטיסה רגילה עם צוות רפואי מלווה.\nהצוות שלנו דואג לכל האישורים, לסידורי הציוד (מושב נוח, חמצן נייד, כיסא גלגלים וכו׳), ולשמירה על בטיחות המטופל לאורך כל הדרך.",
+      "en": "Air Ambulance for continuous critical care in flight · Medical Escort on commercial flights when clinically stable — with approvals and equipment arranged."
+    },
+    {
+      "id": 17,
+      "stream": "air",
+      "theme": "service-includes",
+      "title": "What medical flight service includes",
+      "titleHe": "מה כולל שירות ההטסה הרפואית",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס — מה כולל השירות\n\n• תיאום רפואי מלא עם בית החולים שבו מאושפז המטופל ועם הצוות הקולט בישראל\n• הערכת מצב רפואי ובחירת סוג ההטסה הנכון — טיסה רפואית מלאה או ליווי בטיסה רגילה\n• צוות רפואי מיומן שיכול לכלול רופא מומחה, אח/אחות ופראמדיק — בהתאם למצב המטופל\n• העברה קרקעית באמבולנס רפואי משער בית החולים אל המטוס, ומנמל התעופה בישראל לבית החולים היעד\n• טיסת «מיטה למיטה» (Bed to Bed) — המטופל מלווה לאורך כל הדרך, ללא מעברים מיותרים\n• עדכונים שוטפים למשפחה 24/7 בכל שלב של התהליך",
+      "en": "Full medical coordination, right flight type, skilled crew, ground ambulance legs, bed-to-bed care, and family updates 24/7."
+    },
+    {
+      "id": 18,
+      "stream": "air",
+      "theme": "how-it-works",
+      "title": "How medical repatriation works",
+      "titleHe": "איך זה עובד בפועל",
+      "imageHint": "air",
+      "he": "ישראל אייר & אמבולנס — איך זה עובד\n\n1. פנייה ראשונית — טלפונית או דרך האתר, עם תיאור קצר של מצב המטופל\n2. איסוף מסמכים רפואיים — סיכום אשפוז, צילום דרכון, אישור טיסה רפואי (Fit to Fly)\n3. תיאום מול הרופאים והמשפחה — מתקשרים ישירות עם בית החולים ומארגנים את כל ההיתרים והאישורים\n4. ביצוע ההטסה — העברה באמבולנס לשדה התעופה, למטוס הרפואי או לטיסה המסחרית, וליווי עד לבית החולים בישראל\n5. המשך טיפול בישראל — מסירת דו״ח רפואי מלא לצוות הקולט\n\nזמינים 24/7",
+      "en": "1) Contact 2) Medical documents + Fit to Fly 3) Hospital coordination 4) Flight execution 5) Handover in Israel. Available 24/7."
+    },
+    {
+      "id": 19,
+      "stream": "ground",
+      "theme": "maccabi",
+      "title": "Maccabi ambulance transfers · Tiberias",
+      "titleHe": "מכבי · ספקי העברות בטבריה והסביבה",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס\n\nעובדים עם מכבי — ספקי העברות באמבולנס באזור טבריה והסביבה.\n\nלחברי מכבי: בדקו למי מגיעה זכאות להעברה באמבולנס (מבית החולים הביתה, לשיקום, לבית חולים אחר ועוד) בעמוד הרשמי של מכבי:\n👉 https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\nזכאים? אנחנו כאן לביצוע ההעברה בפועל — טבריה והסביבה, בצפון.",
+      "en": "We work with Maccabi — ambulance transfer providers in Tiberias and the surrounding area. Check eligibility on Maccabi’s official page, then call us to execute the transfer."
+    },
+    {
+      "id": 20,
+      "stream": "ground",
+      "theme": "maccabi-eligibilities",
+      "title": "Maccabi · who is eligible",
+      "titleHe": "מכבי · למי מגיעה זכאות",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס — ספקי מכבי באזור טבריה והסביבה\n\nלפי מכבי, בין הזכאויות להעברות באמבולנס (תלוי תוכנית ומצב רפואי):\n• הסעה באמבולנס מבית החולים הביתה — כולל מעל גיל 65\n• העברה מבית חולים לבית חולים אחר\n• העברה מבית חולים לאשפוז במוסד המשכי / שיקום\n• הסעה באמבולנס לאחר החלפת מפרק ירך — לשיקום באשפוז או בבית\n\nבדקו זכאות כאן:\nhttps://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\nלתיאום העברה באזור טבריה והסביבה — אנחנו הספקים.",
+      "en": "Maccabi ambulance-transfer eligibilities include hospital-to-home (incl. 65+), inter-hospital, rehab/follow-on facility, and post hip-replacement transfers. We provide the service in Tiberias and area."
+    },
+    {
+      "id": 21,
+      "stream": "ground",
+      "theme": "maccabi-home",
+      "title": "Maccabi · hospital to home · Tiberias",
+      "titleHe": "מכבי · שחרור הביתה · טבריה",
+      "imageHint": "ground",
+      "he": "הסעה באמבולנס מבית החולים הביתה\n\nלחברי מכבי — בדקו זכאות בעמוד מכבי, ואנחנו הספקים לביצוע באזור טבריה והסביבה.\n\nהסעה באמבולנס מצמצמת קשיים וסיכונים בחזרה הביתה במצב של מוגבלות זמנית או קבועה — כולל מטופלים מעל גיל 65.\n\n👉 זכאות מכבי:\nhttps://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\nישראל אייר אנד אמבולנס",
+      "en": "Hospital-to-home ambulance for Maccabi members in Tiberias and surroundings — check eligibility, we execute the transfer."
+    },
+    {
+      "id": 22,
+      "stream": "ground",
+      "theme": "maccabi-inter",
+      "title": "Maccabi · inter-hospital / rehab / hip",
+      "titleHe": "מכבי · בין בתי חולים / שיקום / מפרק ירך",
+      "imageHint": "ground",
+      "he": "ישראל אייר אנד אמבולנס — ספקי העברות מכבי בטבריה והסביבה\n\nמבצעים העברות מתוכננות:\n• מבית חולים לבית חולים אחר\n• מבית חולים למוסד המשכי / שיקום\n• לאחר החלפת מפרק ירך — לשיקום באשפוז או בבית\n\nבדקו למי מגיעה זכאות במכבי:\nhttps://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/",
+      "en": "Maccabi planned transfers in Tiberias area: inter-hospital, rehab/follow-on facility, and post hip-replacement. Check eligibility, we provide the ambulance."
+    }
+  ]
+}
