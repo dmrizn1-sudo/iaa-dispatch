@@ -80,24 +80,42 @@ export function stripTrailingHashtags(caption = "") {
 }
 
 /** Keep body under limit while always appending hashtags. */
-export function ensureInstagramCaption(caption, { max = 2200 } = {}) {
+export function ensureInstagramCaption(caption, { max = 2200, maxTags = 30 } = {}) {
   let body = String(caption || "").trim();
   let tags = extractHashtagBlock(body);
   if (tags) body = stripTrailingHashtags(body);
   if (!tags || (tags.match(/#/g) || []).length < 8) {
     tags = defaultHashtagBlock();
   }
+  // Cap hashtags at Instagram API limit (30)
+  const tagTokens = tags.split(/\s+/).filter((t) => t.startsWith("#"));
+  const other = tags.split(/\n/).filter((l) => l.trim() && !l.trim().startsWith("#"));
+  if (tagTokens.length > maxTags) {
+    // Prefer keeping destination-looking tags + brand + Hebrew
+    const brand = tagTokens.filter((t) =>
+      /IsraelAirAmbulance|AirAmbulance$|MedicalFlight$|ישראלאייר|אמבולנסאווירי$|טיסהרפואית$/.test(t)
+    );
+    const dest = tagTokens.filter((t) => /ToIsrael|Israel$|TelAviv|ישראל|תלאביב|AirAmbulance[A-Z]|MedicalFlight[A-Z]|אמבולנסאווירי.+|טיסהרפואית.+/.test(t) && !brand.includes(t));
+    const rest = tagTokens.filter((t) => !brand.includes(t) && !dest.includes(t));
+    const he = [...brand, ...dest, ...rest].filter((t) => /[\u0590-\u05FF]/.test(t));
+    const en = [...brand, ...dest, ...rest].filter((t) => !/[\u0590-\u05FF]/.test(t));
+    const heKeep = he.slice(0, 10);
+    const enKeep = en.slice(0, maxTags - heKeep.length);
+    tags = `${enKeep.join(" ")}\n${heKeep.join(" ")}`.trim();
+  }
   // Ensure Hebrew tags present
   if (!/[\u0590-\u05FF]/.test(tags)) {
-    tags = `${tags}\n${FALLBACK_HE.join(" ")}`;
+    tags = `${tags}\n${FALLBACK_HE.slice(0, 6).join(" ")}`;
+    const all = tags.split(/\s+/).filter((t) => t.startsWith("#"));
+    if (all.length > maxTags) {
+      tags = all.slice(0, maxTags).join(" ");
+    }
   }
   const sep = "\n\n";
   let out = `${body}${sep}${tags}`.trim();
   if (out.length <= max) return out;
-  // Trim body only — never drop hashtags
   const room = max - tags.length - sep.length;
   if (room < 200) {
-    // Extreme: keep tags + short body
     return `${body.slice(0, 180).trim()}…${sep}${tags}`.slice(0, max);
   }
   return `${body.slice(0, room).trim()}…${sep}${tags}`;

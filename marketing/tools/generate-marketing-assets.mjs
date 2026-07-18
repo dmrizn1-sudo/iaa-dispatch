@@ -519,11 +519,11 @@ function pickHashtags(hashtags, seed, geoTags = [], destination = null) {
   const heRot = hashtags.he_rotate || [];
   const s = seed % 1000;
   const servicePick = [svc[s % svc.length], svc[(s + 3) % svc.length]];
-  const hePick = heRot.length
-    ? [heRot[s % heRot.length], heRot[(s + 5) % heRot.length]]
-    : [];
+  const hePick = heRot.length ? [heRot[s % heRot.length]] : [];
 
-  // Destination-accurate SEO tags (never mismatch route like NY + Thailand)
+  // Instagram hard-limit: max 30 hashtags per media. Prioritize destination SEO.
+  const enCore = (hashtags.always_include || []).slice(0, 6);
+  const heCore = (hashtags.he_always || []).slice(0, 5);
   const destEn = [];
   const destHe = [];
   if (destination) {
@@ -535,47 +535,34 @@ function pickHashtags(hashtags, seed, geoTags = [], destination = null) {
       `#MedicalFlight${citySlug}`,
       `#${citySlug}Israel`,
       `#${citySlug}ToIsrael`,
-      `#MedicalFlight${citySlug}Israel`,
-      `#PatientTransfer${citySlug}`,
-      `#Israel${citySlug}`
+      `#MedicalFlight${citySlug}Israel`
     );
     if (countrySlug) {
-      destEn.push(
-        `#${countrySlug}`,
-        `#AirAmbulance${countrySlug}`,
-        `#MedicalRepatriation${countrySlug}`
-      );
+      destEn.push(`#${countrySlug}`, `#AirAmbulance${countrySlug}`);
     }
-    destEn.push("#TelAviv", "#Israel", "#BenGurion", "#TLV");
+    destEn.push("#TelAviv", "#Israel");
     if (destination.he) {
       const heCity = destination.he.replace(/\s+/g, "");
-      destHe.push(
-        `#${heCity}`,
-        `#אמבולנסאווירי${heCity}`,
-        `#טיסהרפואית${heCity}`,
-        `#${heCity}ישראל`
-      );
+      destHe.push(`#${heCity}`, `#אמבולנסאווירי${heCity}`, `#טיסהרפואית${heCity}`, `#${heCity}ישראל`);
     }
     if (destination.countryHe) {
-      const heCountry = destination.countryHe.replace(/\s+/g, "");
-      destHe.push(`#${heCountry}`, `#אמבולנסאווירי${heCountry}`);
+      destHe.push(`#${destination.countryHe.replace(/\s+/g, "")}`);
     }
-    destHe.push("#ישראל", "#תלאביב", "#נתבג");
+    destHe.push("#ישראל", "#תלאביב");
   } else if (geoTags.length) {
-    destEn.push(...geoTags.filter((t) => !/[\u0590-\u05FF]/.test(t)));
-    destHe.push(...geoTags.filter((t) => /[\u0590-\u05FF]/.test(t)));
+    destEn.push(...geoTags.filter((t) => !/[\u0590-\u05FF]/.test(t)).slice(0, 6));
+    destHe.push(...geoTags.filter((t) => /[\u0590-\u05FF]/.test(t)).slice(0, 4));
   }
 
-  const en = unique([
-    ...hashtags.always_include.slice(0, 10),
-    ...servicePick,
-    ...destEn
-  ]);
-  const he = unique([
-    ...(hashtags.he_always || []).slice(0, 8),
-    ...hePick,
-    ...destHe
-  ]);
+  let en = unique([...enCore, ...servicePick, ...destEn]);
+  let he = unique([...heCore, ...hePick, ...destHe]);
+  // Cap total ≤ 30 (IG API limit)
+  const max = 30;
+  if (en.length + he.length > max) {
+    const heKeep = Math.min(he.length, 10);
+    he = he.slice(0, heKeep);
+    en = en.slice(0, max - he.length);
+  }
   return { en, he, all: unique([...en, ...he]) };
 }
 

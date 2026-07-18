@@ -86,8 +86,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #BedsideToBedside #Medevac #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #אמבולנסאווירימישראל #פינויאווירי #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #BedsideToBedside #Medevac #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #אמבולנסאווירימישראל #ישראל
 ```
 
 ## Aircraft & ICU Capability / מטוס ויכולות טיפול נמרץ
@@ -168,8 +168,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #StretcherFlight #AirMedical #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #טיסהרפואיתלישראל #רפואתחירום #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #StretcherFlight #AirMedical #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #טיסהרפואיתלישראל #ישראל
 ```
 
 ## Israel ↔ USA Routes / מסלולים ישראל ↔ ארה״ב
@@ -248,8 +248,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #MedicalJet #FlightNurse #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #טיסהרפואיתמישראל #תיאוםרפואי #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #MedicalJet #FlightNurse #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #טיסהרפואיתמישראל #ישראל
 ```
 
 ## Israel ↔ Europe Routes / מסלולים ישראל ↔ אירופה
@@ -324,8 +324,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #Medevac #CriticalCareFlight #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #העברהרפואית #שירותיחירום #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #Medevac #CriticalCareFlight #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברהרפואית #ישראל
 ```
 
 ## Patient Safety & Trust / בטיחות מטופל ואמון
@@ -398,8 +398,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #AirMedical #InternationalAirAmbulance #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #מטוסרפואי #ICU #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #AirMedical #InternationalAirAmbulance #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #מטוסרפואי #ישראל
 ```
 
 ## ICU Equipment & Medical Crew / ציוד ICU וצוות רפואי
@@ -480,8 +480,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #FlightNurse #AirAmbulanceIsrael #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #פינויאווירי #מדיקלאייר #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #FlightNurse #AirAmbulanceIsrael #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #פינויאווירי #ישראל
 ```
 
 ## Fly Patient Home / להטיס את המטופל הביתה
@@ -564,8 +564,8 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #CriticalCareFlight #MedicalFlightIsrael #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #רפואתחירום #אמבולנסאווירילישראל #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #CriticalCareFlight #MedicalFlightIsrael #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #רפואתחירום #ישראל
 ```
 
 ## Worldwide Coverage 24/7 / כיסוי עולמי 24/7
@@ -641,6 +641,6 @@ ICU-capable · Bedside to bedside · Worldwide
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #EmergencyMedicalFlight #MedicalEscort #InternationalPatientTransport #WorldwideMedicalTransport #InternationalAirAmbulance #RepatriationFlight #TelAviv #Israel
-#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #העברתמטופל #ליווירפואי #ממיטהלמיטה #תיאוםרפואי #אמבולנסאווירימישראל #ישראל
+#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #CriticalCareTransport #ICUTransport #InternationalAirAmbulance #RepatriationFlight #TelAviv #Israel
+#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #תיאוםרפואי #ישראל
 ```
