@@ -60,10 +60,25 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 
 ---
 
-## מה צריך ממך
-1. לאשר / לתקן את **A1**  
-2. לאשר פרסום (תמונת מטוס / IMG_4755)  
-3. אם יש ניסוח מדויק יותר להרכב הצוות (למשל «פרפוזיוניסט» במקום / בנוסף ל«טכנאי אקמו») — עדכנו  
+## פוסט A3 — השבה לארץ (= פוסט 14 ברשימת האישור)
+**HE**
+ישראל אייר & אמבולנס — השבה לארץ
 
-**לא מפרסם בלי אישור מפורש.**  
-הוסרו מטקסט המקור שאריות שיחת AI («האם תרצה שאבדוק…», אזהרת טעויות וכו׳).
+אנו מודעים לצורך הקריטי בשירותי הטסה רפואית ולזמן תגובה מהיר כנדרש.
+אנו זמינים 24/7 ועושים כמיטב יכולתנו לביצוע הטסה רפואית ללא איבוד זמן מיותר.
+אנו עושים את מיטב מאמצינו להגיע מהר ככל האפשר — מרגע הפנייה.
+
+📞 +972-79-670-9999
+💬 וואטסאפ 053-232-1101
+🌐 https://ambulancenter.com
+
+**EN**
+Medical repatriation to Israel — we understand the critical need for air-ambulance services and a fast response. Available 24/7, we do our utmost to execute medical flights without unnecessary delay, and to move as quickly as possible from the moment you contact us.
+
+---
+
+## מה צריך ממך
+1. לאשר לפי מספרים ב־`APPROVAL-ALL-POSTS-HE.md`  
+2. לאשר פרסום (תמונת מטוס / IMG_4755)  
+
+**לא מפרסם בלי אישור מפורש.**
