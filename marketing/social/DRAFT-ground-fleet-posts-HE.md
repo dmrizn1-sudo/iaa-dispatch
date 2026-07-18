@@ -1,247 +1,163 @@
 # טיוטות פוסטים — אמבולנסים קרקעיים (FB + IG)
 **סטטוס: ממתין לאישור — לא פורסם**
 
-מקור השראה: זוויות שירות כמו אצל מתחרים (העברות / צפת / מדרגות)  
-**מותג שלכם בלבד** · בלי שם/טלפון/כתובת של מתחרים  
-**תמונות: רק מדף הפייסבוק שלכם**
+**מותג:** ישראל אייר אנד אמבולנס · בלי שם/טלפון של מתחרים  
+**אנשי קשר בכל פוסט:** `+972-79-670-9999` · וואטסאפ `053-232-1101` · https://ambulancenter.com
 
-## יתרונות להבליט בכל פוסט
-- **ניידות רפואה דחופה**
-- **פראמדיקים בעלי ניסיון 20 שנה**
-- **נהגי אמבולנס מקצועיים**
-- **ציוד רפואי חדיש ומתקדם**
-- אמבולנסים פרטיים ממותגים · מיטה חשמלית רחבה · מערכות 220V
-- העברות רפואיות: בין בתי חולים · חזרה הביתה · צפת/זיו/פוריה · כסא זחל למדרגות
-- אנשי קשר: `+972-79-670-9999` · וואטסאפ `053-232-1101` · https://ambulancenter.com
+## מסרים מרכזיים (מנקודות ששלחת)
+- שירות פינוי והעברה באמבולנס — מענה מהיר, בטוח ומקצועי
+- בטיחות וביטחון במעלה הראשונה
+- זמינות 24/7 · 365 ימים בשנה
+- צי אמבולנסים חדיש — באישור ופיקוח משרד הבריאות והתחבורה
+- ציוד רפואי מתקדם — טיפול מקצועי כבר בשטח
+- צוות מוסמך, מיומן ומנוסה · ~20 שנות ניסיון
+- חובשים ופראמדיקים · הכשרת חובש רפואת חירום מד״א ו/או חובשים קרביים בצה״ל
+- אפשרות הזמנה מראש · ליווי רפואי צמוד
+- כיסוי צפון: גליל תחתון · גליל עליון · כנרת ועמק הירדן · צפת
+- העברות מתוכננות · הסעת נכים ומוגבלי תנועה · שחרור מבתי חולים
 
-## תמונות מומלצות מהדף (כבר הורדו לבדיקה)
-| שימוש | Photo ID | קובץ |
-|--------|----------|------|
-| אמבולנס בשקיעה | `1704771607740506` | `fb-page-photos/1704771607740506.jpg` |
-| אמבולנס צד (ממותג) | `1386437099573960` | `fb-page-photos/1386437099573960.jpg` |
-| שני אמבולנסים בלילה | `1395967495287587` | `fb-page-photos/1395967495287587.jpg` |
-| אמבולנס + מטוס (העברה) | `1537393201145015` | `fb-page-photos/1537393201145015.jpg` |
-| אלונקה/מיטה בהעברה בבי״ח | `111834927009314` | `fb-page-photos/111834927009314.jpg` |
-
-⚠️ **מיטה חשמלית רחבה בפנים האמבולנס:** אם יש תמונה טובה יותר של המיטה הייחודית בתוך האמבולנס — סמן אותה בדף ואחליף. בינתיים לפוסט המיטה אפשר להשתמש ב־`111834927009314`.
-
-### מדיה חדשה מהטלפון (IMG_4755.mov)
-| שימוש | קובץ |
-|--------|------|
-| וידאו קצר — ניידת רפואה דחופה בשדה תעופה (אורות דולקים, מטוסים ברקע) | `marketing/assets/ground/IMG_4755-airport-ambulance.mp4` (~3.3s, 1080p) |
-| סטיל מהוידאו (פוסטר) | `marketing/assets/ground/IMG_4755-poster.jpg` |
+### מדיה
+| שימוש | קובץ / מקור |
+|--------|-------------|
+| וידאו IMG_4755 | `marketing/assets/ground/IMG_4755-airport-ambulance.mp4` |
+| סטיל מהוידאו | `marketing/assets/ground/IMG_4755-poster.jpg` |
+| אמבולנס בשקיעה | FB `1704771607740506` |
+| אמבולנס צד | FB `1386437099573960` |
+| שני אמבולנסים בלילה | FB `1395967495287587` |
+| אמבולנס + מטוס | FB `1537393201145015` |
 
 ---
 
-## פוסט 0 — וידאו: אמבולנס פרטי בצפת ובגליל העליון (IMG_4755)
-**מדיה:** `IMG_4755-airport-ambulance.mp4` (Reel / Facebook video)  
-**סטיל חלופי לפוסט תמונה:** `IMG_4755-poster.jpg`
-
-**EN**
-Israel Air & Ambulance — private ambulance services in Safed & the Upper Galilee
-
-We specialize in planned medical transfers, transport for people with disabilities and limited mobility, and hospital discharges — with full attention to patient comfort, complete safety, and humane care all the way.
-
-Critical care mobile units · paramedics with 20 years of experience · professional ambulance drivers · modern advanced medical equipment.
-
-📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
-🌐 https://ambulancenter.com
-
-────────
+## פוסט 0 — וידאו IMG_4755 (ראשי)
+**מדיה:** `IMG_4755-airport-ambulance.mp4`
 
 **HE**
 ישראל אייר אנד אמבולנס
 
 מספקת שירותי אמבולנס פרטי בצפת ובגליל העליון, ומתמחה בהעברות רפואיות מתוכננות, הסעת נכים ומוגבלי תנועה ושחרור מבתי חולים – תוך הקפדה על נוחות המטופל, בטיחות מלאה ויחס אנושי לאורך כל הדרך.
 
-ניידות רפואה דחופה · פראמדיקים בעלי ניסיון 20 שנה · נהגי אמבולנס מקצועיים · ציוד רפואי חדיש ומתקדם.
+שירות פינוי באמבולנס לבית חולים — מענה רפואי מהיר, בטוח ומקצועי, עם צוות מוסמך, אמבולנסים חדישים וציוד רפואי מתקדם.
+בטיחותכם וביטחונכם במעלה הראשונה.
+זמינים 24 שעות ביממה, 365 ימים בשנה.
 
 📞 +972-79-670-9999
 💬 וואטסאפ 053-232-1101
 🌐 https://ambulancenter.com
 
-**האשטגים IG (≤30)**  
-#IsraelAirAmbulance #PrivateAmbulance #Safed #UpperGalilee #MedicalTransfer #HospitalDischarge #AmbulanceIsrael  
-#ישראלאייראמבולנס #אמבולנספרטי #צפת #הגלילהעליון #העברתחולים #שחרורמביתחולים #רפואהדחופה #ישראל
+**EN**
+Israel Air & Ambulance — private ambulance in Safed & the Upper Galilee
+
+Planned medical transfers · transport for people with disabilities and limited mobility · hospital discharges — with comfort, full safety, and humane care throughout.
+
+Fast, safe, professional hospital evacuation response.
+Certified crew · modern ambulances · advanced medical equipment.
+Safety first. Available 24/7, 365 days a year.
+
+📞 +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
+
+**האשטגים**  
+#IsraelAirAmbulance #PrivateAmbulance #Safed #UpperGalilee #MedicalTransfer #HospitalDischarge  
+#ישראלאייראמבולנס #אמבולנספרטי #צפת #הגלילהעליון #העברתחולים #פינויבאמבולנס #שחרורמביתחולים
 
 ---
 
-## פוסט 1 — האמבולנסים שלנו
-**תמונה:** `1704771607740506` (אמבולנס בשקיעה) · או סטיל מ־IMG_4755 (`IMG_4755-poster.jpg`)
-
-**EN**
-Israel Air & Ambulance — our private ambulances
-
-Not “just a ride”.
-Our ambulances are built for real medical transfers:
-wide electric stretcher · advanced 220V power systems · modern fleet.
-
-Hospital ↔ hospital · hospital ↔ home · North to all of Israel.
-
-📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
-🌐 https://ambulancenter.com
-
-────────
+## פוסט 1 — הצי והאישורים
+**תמונה:** `IMG_4755-poster.jpg` או FB `1386437099573960`
 
 **HE**
-ישראל אייר אנד אמבולנס — האמבולנסים שלנו
+ישראל אייר אנד אמבולנס — צי אמבולנסים חדיש ומתקדם
 
-לא “סתם הסעה”.
-האמבולנסים שלנו בנויים להעברות רפואיות אמיתיות:
-מיטה חשמלית רחבה ונוחה · מערכות חשמל מתקדמות 220V · צי מודרני.
+ברשותנו צי אמבולנסים חדיש ומתקדם, באישור משרד הבריאות והתחבורה, העומד בכל התקנים והנהלים הנדרשים.
 
-בין בתי חולים · מבית החולים הביתה · מהצפון לכל הארץ.
+האמבולנסים מאובזרים בציוד רפואי מתקדם ואיכותי, המאפשר מתן טיפול רפואי מקצועי, בטוח ומציל חיים – כבר מרגע ההגעה לשטח.
+
+אנו מקפידים על תחזוקה שוטפת, בטיחות מרבית ורמת מוכנות גבוהה — כדי להבטיח שירות אמין, מהיר ואיכותי בכל קריאה ובכל מקום.
+
+📞 +972-79-670-9999 · 💬 053-232-1101 · 🌐 ambulancenter.com
+
+**EN**
+A modern advanced ambulance fleet — Ministry of Health & Transport approved, fully equipped for professional, life-saving care from the moment we arrive on scene. Maintenance, safety, and readiness — every call, every place.
+
+---
+
+## פוסט 2 — הצוות (20 שנות ניסיון)
+**תמונה:** FB `1704771607740506` או `1395967495287587`
+
+**HE**
+ישראל אייר אנד אמבולנס — הצוות שלנו
+
+עומד לרשותכם צוות מוסמך, מיומן ומנוסה עם 20 שנות ניסיון.
+אנשי רפואה שעברו הכשרות מתקדמות ופועלים לפי הנהלים המחמירים ביותר — מחויבים לשירות מדויק, בטוח ואמין בכל מצב ובכל מקום.
+
+הצוות מורכב מחובשים ופראמדיקים מנוסים, הפועלים ברגישות ובהבנה.
+כל אנשי הצוות הוכשרו בקורס חובש רפואת חירום של מד״א ו/או כחובשים קרביים בצה״ל.
+באישור ופיקוח משרד הבריאות והתחבורה.
+
+אמינות · מקצועיות · מיומנות
+
+📞 +972-79-670-9999 · 💬 וואטסאפ 053-232-1101
+
+**EN**
+Certified, skilled crew with 20 years of experience — EMTs and paramedics trained via MDA emergency medicine courses and/or IDF combat medic service. Sensitive, precise, reliable care. Approved and supervised by the Ministries of Health and Transport.
+
+---
+
+## פוסט 3 — כיסוי הצפון
+**תמונה:** FB `1395967495287587` או `1537393201145015`
+
+**HE**
+אמבולנס בצפון — ישראל אייר אנד אמבולנס
+
+אנו מעניקים שירותי אמבולנס והעברה רפואית בכל אזור הצפון, כולל:
+• שירותי אמבולנס בגליל התחתון
+• שירותי אמבולנס בגליל העליון
+• אמבולנס והעברת חולים באזור הכנרת ועמק הירדן
+• אמבולנס בצפת
+
+ניידות אמבולנס חדישות · אפשרות הזמנה מראש · ליווי רפואי צמוד
+העברת חולה באמבולנס · פינוי באמבולנס · שירות אמבולנס להעברה
 
 📞 +972-79-670-9999
 💬 וואטסאפ 053-232-1101
 🌐 https://ambulancenter.com
 
-**האשטגים IG (≤30)**  
-#IsraelAirAmbulance #AmbulanceIsrael #PatientTransfer #PrivateAmbulance #NorthernIsrael #PoriyaHospital #ZivHospital #Safed #ElectricStretcher #Israel  
-#ישראלאייראמבולנס #אמבולנס #העברתחולים #מיטהחשמלית #ביתחוליםזיו #ביתחוליםפוריה #צפת #הצפון #ישראל
+**EN**
+Ambulance services across northern Israel — Lower Galilee, Upper Galilee, the Kinneret & Jordan Valley, and Safed. Modern mobiles · advance booking · close medical escort · patient transfers and evacuations.
 
 ---
 
-## פוסט 2 — מיטה חשמלית ייחודית (רחבה ונוחה)
-**תמונה:** ממתין לסימון שלכם מדף הפייסבוק (מיטה)
-
-**EN**
-Our unique electric stretcher — wide & comfortable
-
-Designed for dignity on every transfer.
-Smoother loading · more space for the patient · better clinical control.
-
-Built for hospital discharges, inter-hospital moves, and longer northern routes.
-
-WhatsApp 053-232-1101 · Call +972-79-670-9999
-
-────────
+## פוסט 4 — פינוי / העברה לבית חולים
+**תמונה:** FB `1704771607740506`
 
 **HE**
-המיטה החשמלית הייחודית שלנו — רחבה ונוחה
+שירות פינוי באמבולנס לבית חולים
 
-נבנתה לכבוד המטופל בכל העברה.
-העמסה חלקה יותר · יותר מקום למטופל · שליטה קלינית טובה יותר.
+ישראל אייר אנד אמבולנס מספקת מענה רפואי מהיר, בטוח ומקצועי — עם צוות מוסמך, אמבולנסים חדישים וציוד רפואי מתקדם.
 
-מתאימה לשחרור מבית חולים, העברות בין בתי חולים ונסיעות ארוכות מהצפון.
+בטיחותכם וביטחונכם במעלה הראשונה.
+זמינים לספק את השירות הטוב ביותר 24 שעות ביום, 365 ימים בשנה.
+
+📞 +972-79-670-9999 · 💬 053-232-1101 · 🌐 ambulancenter.com
+
+---
+
+## פוסט 5 — העברות מתוכננות / שחרור / מוגבלי תנועה
+**תמונה:** FB `1386437099573960`
+
+**HE**
+העברות רפואיות מתוכננות בצפת ובגליל העליון
+
+מתמחים בהעברות רפואיות מתוכננות, הסעת נכים ומוגבלי תנועה ושחרור מבתי חולים — תוך הקפדה על נוחות המטופל, בטיחות מלאה ויחס אנושי לאורך כל הדרך.
+
+אפשרות הזמנה מראש · ליווי רפואי צמוד · ציוד רפואי חדיש ומתקדם
 
 וואטסאפ 053-232-1101 · שיחה +972-79-670-9999
 
 ---
 
-## פוסט 3 — מערכות חשמל 220V מתקדמות
-**תמונה:** `1386437099573960` (אמבולנס צד) או פנים אם יש
-
-**EN**
-Advanced 220V electrical systems on board
-
-Power that supports real medical equipment during transfer —
-not a basic transport van.
-
-Israel Air & Ambulance · private medical transfers 24/7
-
-📞 +972-79-670-9999 · 💬 053-232-1101
-
-────────
-
-**HE**
-מערכות חשמל מתקדמות 220V באמבולנס
-
-חשמל שמחזיק ציוד רפואי אמיתי במהלך ההעברה —
-לא רק רכב הסעה בסיסי.
-
-ישראל אייר אנד אמבולנס · העברות רפואיות פרטיות 24/7
-
-📞 +972-79-670-9999 · 💬 053-232-1101
-
----
-
-## פוסט 4 — העברות מצפת / בית חולים זיו
-**תמונה:** `1685621896322144` (אמבולנס בלילה)
-
-**EN**
-Medical transfers from Safed & Ziv Medical Center
-
-Private ambulance transfers:
-hospital → home · hospital → hospital · North → anywhere in Israel.
-
-Our ambulances. Our wide electric stretcher. Our 220V systems.
-
-WhatsApp 053-232-1101
-
-────────
-
-**HE**
-העברות רפואיות מצפת ומבית חולים זיו
-
-אמבולנס פרטי להעברות:
-מבית החולים הביתה · בין בתי חולים · מהצפון לכל הארץ.
-
-האמבולנסים שלנו. המיטה החשמלית הרחבה שלנו. מערכות 220V שלנו.
-
-וואטסאפ 053-232-1101
-
----
-
-## פוסט 5 — כסא זחל / מדרגות + האמבולנס שלנו
-**תמונה:** `1704771607740506`
-
-**EN**
-Stairs? We still get the patient safely to the ambulance.
-
-Electric stair-chair transfers + our private ambulance fleet —
-wide electric stretcher · 220V systems · professional crew.
-
-From home to hospital — even without an elevator.
-
-Call +972-79-670-9999 · WhatsApp 053-232-1101
-
-────────
-
-**HE**
-מדרגות? עדיין מעבירים את המטופל בבטחה לאמבולנס.
-
-העברה עם כסא זחל חשמלי + צי האמבולנסים הפרטי שלנו —
-מיטה חשמלית רחבה · מערכות 220V · צוות מקצועי.
-
-מהבית לבית החולים — גם בלי מעלית.
-
-שיחה +972-79-670-9999 · וואטסאפ 053-232-1101
-
----
-
-## פוסט 6 — פוריה / בין בתי חולים
-**תמונה:** `1386437099573960`
-
-**EN**
-Inter-hospital transfers from Poriya Hospital
-
-Bedside-to-bedside coordination with our private ambulances —
-unique wide electric stretcher · advanced 220V power.
-
-Poriya · Ziv Safed · North · nationwide destinations.
-
-ambulancenter.com · WhatsApp 053-232-1101
-
-────────
-
-**HE**
-העברות בין בתי חולים מבית חולים פוריה
-
-תיאום ממיטה למיטה באמבולנסים הפרטיים שלנו —
-מיטה חשמלית רחבה וייחודית · חשמל מתקדם 220V.
-
-פוריה · זיו צפת · הצפון · יעדים בכל הארץ.
-
-ambulancenter.com · וואטסאפ 053-232-1101
-
----
-
 ## מה צריך ממך לאישור
-1. לאשר / לתקן את נוסחי הפוסטים (כולל **פוסט 0** מהוידאו IMG_4755)  
-2. לאשר פרסום הוידאו כ־Reel / Facebook video, או רק כסטיל  
-3. לסמן תמונת **מיטה חשמלית** (מהתמונות ששלחת / מדף הפייסבוק)  
-4. להגיד אם לפרסם עכשיו: רק פוסט 0, או 0+1+3+4, או את כולם  
-אחרי אישור — מפרסם ל-FB+IG. **לא מפרסם בלי אישור מפורש.**
+1. לאשר / לתקן את הנוסחים (בעיקר **פוסט 0** לוידאו)  
+2. לאשר פרסום: רק 0 · או 0+1+2 · או את כולם  
+3. אם יש תמונת מיטה חשמלית — לצרף לפוסט נפרד בהמשך  
+
+**לא מפרסם בלי אישור מפורש.**
