@@ -6,9 +6,11 @@
 **תמונות: רק מדף הפייסבוק שלכם**
 
 ## יתרונות להבליט בכל פוסט
-- אמבולנסים שלכם (צי פרטי ממותג)
-- **מיטה חשמלית ייחודית** — רחבה ונוחה
-- **מערכות חשמל מתקדמות 220V**
+- **ניידות רפואה דחופה**
+- **פראמדיקים בעלי ניסיון 20 שנה**
+- **נהגי אמבולנס מקצועיים**
+- **ציוד רפואי חדיש ומתקדם**
+- אמבולנסים פרטיים ממותגים · מיטה חשמלית רחבה · מערכות 220V
 - העברות רפואיות: בין בתי חולים · חזרה הביתה · צפת/זיו/פוריה · כסא זחל למדרגות
 - אנשי קשר: `+972-79-670-9999` · וואטסאפ `053-232-1101` · https://ambulancenter.com
 
@@ -26,22 +28,21 @@
 ### מדיה חדשה מהטלפון (IMG_4755.mov)
 | שימוש | קובץ |
 |--------|------|
-| וידאו קצר — אמבולנס 803 בשדה תעופה (אורות דולקים, מטוסים ברקע) | `marketing/assets/ground/IMG_4755-airport-ambulance.mp4` (~3.3s, 1080p) |
+| וידאו קצר — ניידת רפואה דחופה בשדה תעופה (אורות דולקים, מטוסים ברקע) | `marketing/assets/ground/IMG_4755-airport-ambulance.mp4` (~3.3s, 1080p) |
 | סטיל מהוידאו (פוסטר) | `marketing/assets/ground/IMG_4755-poster.jpg` |
 
 ---
 
-## פוסט 0 — וידאו: אמבולנס בשדה תעופה (IMG_4755)
+## פוסט 0 — וידאו: ניידת רפואה דחופה (IMG_4755)
 **מדיה:** `IMG_4755-airport-ambulance.mp4` (Reel / Facebook video)  
 **סטיל חלופי לפוסט תמונה:** `IMG_4755-poster.jpg`
 
 **EN**
-Israel Air & Ambulance — ground unit ready on the tarmac
+Israel Air & Ambulance — emergency medical response on the move
 
-Private ambulance #803 meeting the air side of care.
-Branded fleet · wide electric stretcher · advanced 220V systems · 24/7 transfers.
+Critical care mobile units · paramedics with 20 years of experience · professional ambulance drivers · modern advanced medical equipment.
 
-Airport ↔ hospital · hospital ↔ hospital · North ↔ nationwide.
+Ready for airport transfers, hospital moves, and urgent care anywhere in Israel — 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp 053-232-1101
@@ -50,20 +51,19 @@ Airport ↔ hospital · hospital ↔ hospital · North ↔ nationwide.
 ────────
 
 **HE**
-ישראל אייר אנד אמבולנס — האמבולנס בשדה התעופה
+ישראל אייר אנד אמבולנס — ניידות רפואה דחופה
 
-יחידה 803 מוכנה לצד האווירי של הטיפול.
-צי ממותג · מיטה חשמלית רחבה · מערכות 220V מתקדמות · העברות 24/7.
+פראמדיקים בעלי ניסיון 20 שנה · נהגי אמבולנס מקצועיים · ציוד רפואי חדיש ומתקדם.
 
-שדה תעופה ↔ בית חולים · בין בתי חולים · מהצפון לכל הארץ.
+מוכנים להעברות משדה תעופה, בין בתי חולים ולטיפול דחוף בכל הארץ — 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ 053-232-1101
 🌐 https://ambulancenter.com
 
 **האשטגים IG (≤30)**  
-#IsraelAirAmbulance #PrivateAmbulance #MedicalTransfer #AirportTransfer #AmbulanceIsrael #ElectricStretcher #CriticalCare  
-#ישראלאייראמבולנס #אמבולנספרטי #העברתחולים #שדהתעופה #מיטהחשמלית #ישראל
+#IsraelAirAmbulance #PrivateAmbulance #EmergencyMedicine #Paramedic #MedicalTransfer #AmbulanceIsrael #CriticalCare  
+#ישראלאייראמבולנס #אמבולנספרטי #רפואהדחופה #פראמדיק #העברתחולים #ציודרפואי #ישראל
 
 ---
 
