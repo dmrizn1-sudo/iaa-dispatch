@@ -33,16 +33,16 @@
 
 ---
 
-## פוסט 0 — וידאו: ניידת רפואה דחופה (IMG_4755)
+## פוסט 0 — וידאו: אמבולנס פרטי בצפת ובגליל העליון (IMG_4755)
 **מדיה:** `IMG_4755-airport-ambulance.mp4` (Reel / Facebook video)  
 **סטיל חלופי לפוסט תמונה:** `IMG_4755-poster.jpg`
 
 **EN**
-Israel Air & Ambulance — emergency medical response on the move
+Israel Air & Ambulance — private ambulance services in Safed & the Upper Galilee
+
+We specialize in planned medical transfers, transport for people with disabilities and limited mobility, and hospital discharges — with full attention to patient comfort, complete safety, and humane care all the way.
 
 Critical care mobile units · paramedics with 20 years of experience · professional ambulance drivers · modern advanced medical equipment.
-
-Ready for airport transfers, hospital moves, and urgent care anywhere in Israel — 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp 053-232-1101
@@ -51,19 +51,19 @@ Ready for airport transfers, hospital moves, and urgent care anywhere in Israel 
 ────────
 
 **HE**
-ישראל אייר אנד אמבולנס — ניידות רפואה דחופה
+ישראל אייר אנד אמבולנס
 
-פראמדיקים בעלי ניסיון 20 שנה · נהגי אמבולנס מקצועיים · ציוד רפואי חדיש ומתקדם.
+מספקת שירותי אמבולנס פרטי בצפת ובגליל העליון, ומתמחה בהעברות רפואיות מתוכננות, הסעת נכים ומוגבלי תנועה ושחרור מבתי חולים – תוך הקפדה על נוחות המטופל, בטיחות מלאה ויחס אנושי לאורך כל הדרך.
 
-מוכנים להעברות משדה תעופה, בין בתי חולים ולטיפול דחוף בכל הארץ — 24/7.
+ניידות רפואה דחופה · פראמדיקים בעלי ניסיון 20 שנה · נהגי אמבולנס מקצועיים · ציוד רפואי חדיש ומתקדם.
 
 📞 +972-79-670-9999
 💬 וואטסאפ 053-232-1101
 🌐 https://ambulancenter.com
 
 **האשטגים IG (≤30)**  
-#IsraelAirAmbulance #PrivateAmbulance #EmergencyMedicine #Paramedic #MedicalTransfer #AmbulanceIsrael #CriticalCare  
-#ישראלאייראמבולנס #אמבולנספרטי #רפואהדחופה #פראמדיק #העברתחולים #ציודרפואי #ישראל
+#IsraelAirAmbulance #PrivateAmbulance #Safed #UpperGalilee #MedicalTransfer #HospitalDischarge #AmbulanceIsrael  
+#ישראלאייראמבולנס #אמבולנספרטי #צפת #הגלילהעליון #העברתחולים #שחרורמביתחולים #רפואהדחופה #ישראל
 
 ---
 
