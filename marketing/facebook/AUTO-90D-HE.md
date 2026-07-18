@@ -1,10 +1,10 @@
-# פרסום אוטומטי 90 יום — פייסבוק + אינסטגרם
+# פרסום אוטומטי 90 יום — פייסבוק + אינסטגרם + רילס
 
-**אישור מראש:** 3 חודשים · **2 פוסטים ביום** · כל פוסט **אנגלית + עברית** · פלטפורמות: Facebook + Instagram.
+**אישור מראש:** 3 חודשים · **2 פוסטים ביום + 1 Reel ביום** · כל תוכן **אנגלית + עברית** · פלטפורמות: Facebook + Instagram.
 
-שעות ברירת מחדל (שעון ישראל): **10:00** ו־**18:00**.
+שעות ברירת מחדל (שעון ישראל): **10:00** ו־**18:00** (תמונות) · **20:00** (Reel באיכות גבוהה).
 
-**יעדים + SEO:** כל פוסט מתויג ליעד ספציפי (עיר/מדינה) עם האשטגים וביטויי חיפוש כמו `Air ambulance {City} to Israel` / `אמבולנס אווירי {עיר} לישראל`.
+**יעדים + SEO:** כל פוסט/ריל מתויג ליעד ספציפי (עיר/מדינה) עם האשטגים וביטויי חיפוש כמו `Air ambulance {City} to Israel` / `אמבולנס אווירי {עיר} לישראל`.
 **וואטסאפ בכל פוסט:** `053-232-1101` (+972-53-232-1101) + טלפון `+972-79-670-9999`.
 
 ---
@@ -13,14 +13,22 @@
 
 | פלטפורמה | איך |
 |----------|-----|
-| **Facebook** | תור 90 יום. Meta מאפשרת תזמון ~30 יום קדימה — לכן **58 פוסטים הראשונים כבר תוזמנו**, וה־GitHub Action מרחיב את החלון כל יום (`--roll-facebook`). |
-| **Instagram** | אין תזמון מובנה ב־API. אותו Action מפרסם בזמן מהתור (`--instagram`). |
+| **Facebook** | תור 90 יום. Meta מאפשרת תזמון ~30 יום קדימה — פוסטים ראשונים כבר תוזמנו, וה־GitHub Action מרחיב את החלון כל יום (`--roll-facebook`). |
+| **Instagram תמונות** | אין תזמון מובנה ב־API. אותו Action מפרסם בזמן מהתור (`--instagram`). |
+| **Instagram Reels** | ריל יומי ב־20:00. רינדור 1080×1920 (Ken Burns + כיתוב דו-לשוני, בלי מוזיקת סטוק) ואז העלאה resumable ל־Meta. |
 
 תור: `marketing/data/publish-queue-90d.json`  
-האשטגים באינסטגרם: חובה EN + HE בסוף כל כיתוב (לא נחתכים בפרסום).  
-תמונות AI: `marketing/assets/ai-images/` (מטוסים / אמבולנס אווירי / ICU / מסירה)  
+האשטגים באינסטגרם: חובה EN + HE בסוף כל כיתוב (מקסימום 30).  
+תמונות AI: `marketing/assets/ai-images/`  
+רילס: `marketing/tools/render-reel.py` + `add-daily-reels.mjs`  
 סקריפטים: `marketing/tools/schedule-90-days.mjs`, `marketing/tools/publish-due.mjs`  
 Workflow: `.github/workflows/iaa-social-autopublish.yml`
+
+### איכות הרילס
+- אנכי **1080×1920**, H.264, CRF 16, preset slow
+- תנועת Ken Burns על 2–3 תמונות תעופה רפואיות
+- כיתוב EN+HE על המסך + CTA וואטסאפ
+- **בלי מוזיקה** (מונע חסימות זכויות)
 
 ---
 
@@ -46,29 +54,32 @@ INSTAGRAM_USER_ID=17841428066112189
 IMAGE_URL=https://ambulancenter.com/logo.png
 ```
 
-(מומלץ `IMAGE_URL` יציב של תמונת מותג ציבורית — לא CDN זמני של פייסבוק.)
-
 6. Actions → **IAA Social Auto-Publish** → **Run workflow** (בדיקה).
 
-**חשוב:** GitHub Scheduled Actions רצים רק מ־**ענף ברירת המחדל (`main`)**. אחרי מיזוג ה־PR האוטומציה של אינסטגרם + הרחבת חלון הפייסבוק תתחיל.  
-פייסבוק ל־~29 הימים הקרובים **כבר מתוזמן בשרתי Meta** (58 פוסטים) — עובד גם לפני המיזוג.
+**חשוב:** GitHub Scheduled Actions רצים רק מ־**ענף ברירת המחדל (`main`)**. אחרי מיזוג ה־PR האוטומציה של אינסטגרם + רילס + הרחבת חלון הפייסבוק תתחיל.
 
-בלי הסוד הזה, **פייסבוק המתוזמן ימשיך**; אינסטגרם והרחבת החלון ייעצרו בלי טוקן ארוך.
+בלי הסוד הזה, **פייסבוק המתוזמן ימשיך**; אינסטגרם/רילס והרחבת החלון ייעצרו בלי טוקן ארוך.
 
 ---
 
 ## פקודות מקומיות
 
 ```bash
-# בניית תור 90 יום × 2/יום
+# בניית תור 90 יום × 2/יום (תמונות)
 FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
   node marketing/tools/schedule-90-days.mjs --build
+
+# הוספת ריל יומי ב־20:00 (לא מוחק סטטוס FB/IG קיים)
+node marketing/tools/add-daily-reels.mjs
+
+# רינדור ריל לבדיקה
+node marketing/tools/render-due-reels.mjs --id d001-reel-day-001
 
 # תזמון כל פייסבוק עכשיו
 FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
   node marketing/tools/schedule-90-days.mjs --schedule-facebook
 
-# פרסום פריטי IG שמגיע זמנם
+# פרסום פריטי IG (תמונות + רילס) שמגיע זמנם
 FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
   node marketing/tools/publish-due.mjs --instagram
 ```
@@ -78,5 +89,6 @@ FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
 ## היקף
 
 - תוכן דו-לשוני מ־`marketing/data/posts.json`
+- 2 פוסטי תמונה/יום + 1 Reel/יום × 90 יום
 - בלי פרסום ללינקדאין באוטומציה הזו (אין טוקן LinkedIn)
 - בלי Google Business / Threads באוטומציה הזו

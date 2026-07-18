@@ -8,3 +8,6 @@ dist
 .env.*.local
 *.log
 
+# Generated Instagram Reels (rendered on publish; do not commit large MP4s)
+marketing/assets/reels/*.mp4
+!marketing/assets/reels/.gitkeep

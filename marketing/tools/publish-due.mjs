@@ -9,6 +9,8 @@
  * Window: publishes slots whose scheduledUnix is within the last LOOKBACK_MIN
  * minutes and the next AHEAD_MIN minutes (default 90 / 30).
  *
+ * Supports photo posts and high-quality REELS (render on publish + resumable upload).
+ *
  * Env:
  *   FACEBOOK_PAGE_ID
  *   FACEBOOK_PAGE_ACCESS_TOKEN   (long-lived Page or System User token)
@@ -20,6 +22,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 import { pickAiImageUrl, listAiImageUrls } from "./ai-image-urls.mjs";
@@ -27,7 +30,9 @@ import { ensureInstagramCaption } from "./ig-hashtags.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+const REPO = path.resolve(ROOT, "..");
 const QUEUE_PATH = path.join(ROOT, "data", "publish-queue-90d.json");
+const RENDER_PY = path.join(__dirname, "render-reel.py");
 const API = process.env.META_API_VERSION || "v21.0";
 const BASE = `https://graph.facebook.com/${API}`;
 
@@ -86,25 +91,30 @@ async function publishFacebookPhoto(token, pageId, { message, imageUrl, schedule
   return graph("POST", `/${pageId}/photos`, { token, body });
 }
 
+async function waitContainerFinished(token, containerId, { polls = 40, delayMs = 4000 } = {}) {
+  for (let i = 0; i < polls; i++) {
+    const st = await graph("GET", `/${containerId}`, {
+      token,
+      query: { fields: "status_code,status" }
+    });
+    if (st.status_code === "FINISHED") {
+      await new Promise((r) => setTimeout(r, 3000));
+      return st;
+    }
+    if (st.status_code === "ERROR") {
+      throw new Error(`IG container ERROR: ${JSON.stringify(st)}`);
+    }
+    await new Promise((r) => setTimeout(r, delayMs));
+  }
+  throw new Error(`IG container timeout: ${containerId}`);
+}
+
 async function publishInstagram(token, igUserId, { imageUrl, caption }) {
   const container = await graph("POST", `/${igUserId}/media`, {
     token,
     body: { image_url: imageUrl, caption }
   });
-  for (let i = 0; i < 20; i++) {
-    const st = await graph("GET", `/${container.id}`, {
-      token,
-      query: { fields: "status_code,status" }
-    });
-    if (st.status_code === "FINISHED") {
-      await new Promise((r) => setTimeout(r, 4000));
-      break;
-    }
-    if (st.status_code === "ERROR") {
-      throw new Error(`IG container ERROR: ${JSON.stringify(st)}`);
-    }
-    await new Promise((r) => setTimeout(r, 3000));
-  }
+  await waitContainerFinished(token, container.id, { polls: 20, delayMs: 3000 });
   let pub;
   for (let attempt = 0; attempt < 5; attempt++) {
     try {
@@ -123,6 +133,120 @@ async function publishInstagram(token, igUserId, { imageUrl, caption }) {
     query: { fields: "id,permalink,timestamp" }
   });
   return media;
+}
+
+function resolveRepoPath(p) {
+  if (!p) return null;
+  if (path.isAbsolute(p) && fs.existsSync(p)) return p;
+  const a = path.resolve(REPO, p);
+  if (fs.existsSync(a)) return a;
+  const b = path.resolve(ROOT, String(p).replace(/^marketing\//, ""));
+  if (fs.existsSync(b)) return b;
+  return path.resolve(REPO, p);
+}
+
+function renderReelVideo(slot) {
+  const r = slot.reel || {};
+  const images = (r.localImages || [])
+    .map((p) => resolveRepoPath(p))
+    .filter((p) => p && fs.existsSync(p));
+  if (images.length < 2) throw new Error(`Need ≥2 images to render reel ${slot.id}`);
+  const outRel =
+    r.videoPath ||
+    slot.platforms?.instagram?.videoPath ||
+    `marketing/assets/reels/${slot.id}.mp4`;
+  const out = resolveRepoPath(outRel);
+  fs.mkdirSync(path.dirname(out), { recursive: true });
+  const args = [
+    RENDER_PY,
+    "--out",
+    out,
+    "--images",
+    images.slice(0, 3).join(","),
+    "--title-en",
+    r.titleEn || slot.title || "Israel Air Ambulance",
+    "--title-he",
+    r.titleHe || slot.titleHe || "ישראל אייר אמבולנס",
+    "--line-en",
+    r.lineEn || "Private ICU medical flights · 24/7",
+    "--line-he",
+    r.lineHe || "טיסות רפואיות פרטיות ברמת ICU · 24/7",
+    "--cta-en",
+    r.ctaEn || "WhatsApp 053-232-1101",
+    "--cta-he",
+    r.ctaHe || "וואטסאפ 053-232-1101"
+  ];
+  const res = spawnSync("python3", args, { encoding: "utf8" });
+  if (res.status !== 0) {
+    throw new Error(res.stderr || res.stdout || `render failed ${slot.id}`);
+  }
+  console.log(res.stdout.trim());
+  return out;
+}
+
+/**
+ * Instagram Reels: prefer local file via resumable upload; fallback to public video_url.
+ */
+async function publishInstagramReel(token, igUserId, { videoPath, videoUrl, caption, shareToFeed = true }) {
+  let container;
+  const bodyBase = {
+    media_type: "REELS",
+    caption,
+    share_to_feed: shareToFeed ? "true" : "false"
+  };
+
+  if (videoPath && fs.existsSync(videoPath)) {
+    const buf = fs.readFileSync(videoPath);
+    container = await graph("POST", `/${igUserId}/media`, {
+      token,
+      body: { ...bodyBase, upload_type: "resumable" }
+    });
+    const uploadUri = container.uri;
+    if (!uploadUri) {
+      throw new Error(`Resumable reel create missing uri: ${JSON.stringify(container)}`);
+    }
+    const up = await fetch(uploadUri, {
+      method: "POST",
+      headers: {
+        Authorization: `OAuth ${token}`,
+        offset: "0",
+        file_size: String(buf.length),
+        "Content-Type": "application/octet-stream"
+      },
+      body: buf
+    });
+    const upJson = await up.json().catch(() => ({}));
+    if (!up.ok || upJson.error) {
+      throw new Error(`Reel upload failed: ${JSON.stringify(upJson.error || upJson || up.statusText)}`);
+    }
+  } else if (videoUrl) {
+    container = await graph("POST", `/${igUserId}/media`, {
+      token,
+      body: { ...bodyBase, video_url: videoUrl }
+    });
+  } else {
+    throw new Error("Reel publish requires videoPath or videoUrl");
+  }
+
+  await waitContainerFinished(token, container.id, { polls: 45, delayMs: 5000 });
+
+  let pub;
+  for (let attempt = 0; attempt < 6; attempt++) {
+    try {
+      pub = await graph("POST", `/${igUserId}/media_publish`, {
+        token,
+        body: { creation_id: container.id }
+      });
+      break;
+    } catch (e) {
+      if (attempt === 5) throw e;
+      await new Promise((r) => setTimeout(r, 10000));
+    }
+  }
+  return graph("GET", `/${pub.id}`, {
+    token,
+    query: { fields: "id,permalink,timestamp" }
+  });
 }
 
 async function publishFacebookNow(token, pageId, { message, link }) {
@@ -165,8 +289,9 @@ async function main() {
     const maxUnix = now + maxDaysAhead * 24 * 3600;
     let scheduled = 0;
     for (const slot of queue.slots) {
+      if (slot.format === "reel") continue;
       const fb = slot.platforms.facebook;
-      if (fb.status === "scheduled" || fb.status === "published") continue;
+      if (fb.status === "scheduled" || fb.status === "published" || fb.status === "skipped_reel_ig_only") continue;
       if (slot.scheduledUnix < now + 600 || slot.scheduledUnix > maxUnix) continue;
       if (dry) {
         fb.status = "dry_run_schedule";
@@ -261,29 +386,46 @@ async function main() {
           ig.status = "dry_run";
         } else {
           try {
-            const img =
-              ig.imageUrl ||
-              slot.imageUrl ||
-              imageUrl ||
-              pickAiImageUrl({
-                title: slot.title || "",
-                sourceId: slot.sourceId || "",
-                seed: slot.dayIndex
-              });
-            if (!img) throw new Error("No IMAGE_URL / AI asset for Instagram");
             let caption = ensureInstagramCaption(ig.caption || "");
-            const media = await publishInstagram(token, igUserId, {
-              imageUrl: img,
-              caption
-            });
+            let media;
+            if (ig.mediaType === "REELS" || slot.format === "reel") {
+              let videoFile = resolveRepoPath(ig.videoPath || slot.reel?.videoPath);
+              if (!videoFile || !fs.existsSync(videoFile)) {
+                videoFile = renderReelVideo(slot);
+              }
+              media = await publishInstagramReel(token, igUserId, {
+                videoPath: videoFile,
+                videoUrl: ig.videoUrl || null,
+                caption,
+                shareToFeed: true
+              });
+              ig.videoPath = path.relative(REPO, videoFile);
+              ig.mediaType = "REELS";
+              console.log(`IG REEL published ${slot.id} → ${media.permalink || media.id}`);
+            } else {
+              const img =
+                ig.imageUrl ||
+                slot.imageUrl ||
+                imageUrl ||
+                pickAiImageUrl({
+                  title: slot.title || "",
+                  sourceId: slot.sourceId || "",
+                  seed: slot.dayIndex
+                });
+              if (!img) throw new Error("No IMAGE_URL / AI asset for Instagram");
+              media = await publishInstagram(token, igUserId, {
+                imageUrl: img,
+                caption
+              });
+              ig.imageUrl = img;
+              console.log(`IG published ${slot.id} → ${media.permalink || media.id}`);
+            }
             ig.status = "published";
             ig.mediaId = media.id;
             ig.permalink = media.permalink || null;
-            ig.imageUrl = img;
             ig.caption = caption;
             ig.error = null;
             published += 1;
-            console.log(`IG published ${slot.id} → ${media.permalink || media.id}`);
           } catch (e) {
             ig.status = "error";
             ig.error = String(e.message || e);
