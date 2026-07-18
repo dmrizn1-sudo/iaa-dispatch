@@ -13,9 +13,11 @@ name: IAA Social Auto-Publish
 
 on:
   schedule:
-    # Israel summer (IDT=UTC+3): 10:00 → 07:00 UTC, 18:00 → 15:00 UTC, Reels 20:00 → 17:00 UTC
-    # Winter (IST=UTC+2): runs 1h early — still inside publish-due lookback window
+    # Israel summer (IDT=UTC+3):
+    # 10:00→07:00 · 12:00 ground→09:00 · 16:00 ground→13:00 · 18:00→15:00 · Reels 20:00→17:00 UTC
     - cron: "5 7 * * *"
+    - cron: "5 9 * * *"
+    - cron: "5 13 * * *"
     - cron: "5 15 * * *"
     - cron: "5 17 * * *"
     # Hourly safety net for delayed runners / DST edges
