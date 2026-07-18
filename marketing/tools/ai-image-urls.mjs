@@ -46,14 +46,17 @@ function scoreThemes(img, hay) {
   // keyword heuristics
   const rules = [
     [/heli|helipad|coast|greece|cyprus|santorini|rhodes/i, ["medevac-heli-coast", "hospital-helipad-dusk", "aerial-mediterranean-route"]],
-    [/icu|equipment|ventilator|monitor|crew/i, ["air-ambulance-icu-cabin", "cabin-monitor-closeup", "fleet-hangar-dawn"]],
+    [/icu|equipment|ventilator|monitor|crew|electric|stretcher|מיט/i, ["ground-electric-stretcher", "air-ambulance-icu-cabin", "cabin-monitor-closeup", "fleet-hangar-dawn"]],
+    [/event|standby|paramedic|security|אבטחה|אירוע/i, ["ground-event-standby", "ground-ambulance-ready"]],
+    [/ground|prime|fleet|ambulance israel|העברת|אמבולנס(?! אווירי)/i, ["ground-prime-fleet", "ground-ambulance-ready", "ground-electric-stretcher"]],
+    [/north|poriya|safed|tzfat|tiberias|galilee|צפת|פוריה|הצפון|haifa|nahariya/i, ["ground-north-transfer", "ground-prime-fleet", "ground-ambulance-ready"]],
     [/desert|dubai|uae|middle/i, ["jet-desert-climb"]],
     [/rain|night|storm|holiday emergency/i, ["rain-night-transfer", "stretcher-boarding-night"]],
     [/winter|europe|zurich|berlin|vienna|paris|london/i, ["winter-europe-turboprop", "aerial-mediterranean-route"]],
     [/bedside|handoff|repatriation|trust|ground/i, ["ambulance-jet-handoff", "ground-ambulance-ready", "hospital-helipad-dusk"]],
     [/sunset|travel|window|journey/i, ["cabin-window-sunset-square", "aerial-mediterranean-route"]],
-    [/fleet|hangar|behind/i, ["fleet-hangar-dawn"]],
-    [/flight|inflight|fly|route|usa|new york|miami/i, ["air-ambulance-inflight", "air-ambulance-jet-tarmac", "jet-desert-climb"]]
+    [/fleet|hangar|behind/i, ["fleet-hangar-dawn", "ground-prime-fleet"]],
+    [/flight|inflight|fly|route|usa|new york|miami|air ambulance/i, ["air-ambulance-inflight", "air-ambulance-jet-tarmac", "jet-desert-climb"]]
   ];
   for (const [re, ids] of rules) {
     if (re.test(hay) && ids.includes(img.id)) score += 5;

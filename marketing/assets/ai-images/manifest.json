@@ -120,9 +120,13 @@
       "path": "marketing/assets/ai-images/ground-ambulance-ready.jpg",
       "bytes": 287886,
       "themes": [
+        "fleet",
+        "safety",
+        "transfer",
         "bedside",
         "trust",
-        "safety"
+        "ground",
+        "paramedic"
       ],
       "alt": "Ground ambulance ready"
     },
@@ -198,6 +202,63 @@
         "repatriation"
       ],
       "alt": "Winter Europe turboprop"
+    },
+    {
+      "id": "ground-prime-fleet",
+      "file": "ground-prime-fleet.jpg",
+      "themes": [
+        "ground",
+        "prime",
+        "fleet",
+        "transfer",
+        "safety"
+      ],
+      "alt": "Prime ambulance fleet",
+      "path": "marketing/assets/ai-images/ground-prime-fleet.jpg",
+      "bytes": 242592
+    },
+    {
+      "id": "ground-electric-stretcher",
+      "file": "ground-electric-stretcher.jpg",
+      "themes": [
+        "ground",
+        "equipment",
+        "electric_bed",
+        "icu",
+        "fleet"
+      ],
+      "alt": "Electric stretcher cabin",
+      "path": "marketing/assets/ai-images/ground-electric-stretcher.jpg",
+      "bytes": 226263
+    },
+    {
+      "id": "ground-event-standby",
+      "file": "ground-event-standby.jpg",
+      "themes": [
+        "ground",
+        "event",
+        "paramedic",
+        "security",
+        "standby"
+      ],
+      "alt": "Event medical standby",
+      "path": "marketing/assets/ai-images/ground-event-standby.jpg",
+      "bytes": 173131
+    },
+    {
+      "id": "ground-north-transfer",
+      "file": "ground-north-transfer.jpg",
+      "themes": [
+        "ground",
+        "north",
+        "poriya",
+        "tzfat",
+        "transfer",
+        "routes"
+      ],
+      "alt": "Northern Israel transfer",
+      "path": "marketing/assets/ai-images/ground-north-transfer.jpg",
+      "bytes": 185888
     }
   ]
 }

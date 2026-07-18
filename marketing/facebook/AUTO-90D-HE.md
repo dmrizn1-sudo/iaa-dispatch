@@ -1,11 +1,15 @@
-# פרסום אוטומטי 90 יום — פייסבוק + אינסטגרם + רילס
+# פרסום אוטומטי 90 יום — פייסבוק + אינסטגרם + רילס + אמבולנס קרקעי
 
-**אישור מראש:** 3 חודשים · **2 פוסטים ביום + 1 Reel ביום** · כל תוכן **אנגלית + עברית** · פלטפורמות: Facebook + Instagram.
+**אישור מראש:** 3 חודשים · **2 פוסטי אוויר/יום + 2 פוסטי אמבולנס קרקעי/יום + 1 Reel/יום** · כל תוכן **אנגלית + עברית**.
 
-שעות ברירת מחדל (שעון ישראל): **10:00** ו־**18:00** (תמונות) · **20:00** (Reel באיכות גבוהה).
+שעות (שעון ישראל):
+- **10:00 · 18:00** — אמבולנס אווירי (בינלאומי)
+- **12:00 · 16:00** — אמבולנס קרקעי / אבטחה רפואית / העברות
+- **20:00** — Reel באיכות גבוהה
 
-**יעדים + SEO:** כל פוסט/ריל מתויג ליעד ספציפי (עיר/מדינה) עם האשטגים וביטויי חיפוש כמו `Air ambulance {City} to Israel` / `אמבולנס אווירי {עיר} לישראל`.
-**וואטסאפ בכל פוסט:** `053-232-1101` (+972-53-232-1101) + טלפון `+972-79-670-9999`.
+**אמבולנס קרקעי — נושאים:** אבטחה רפואית לאירועים · שירותי פראמדיק · אמבולנסים פריים · צי חדש ברמה גבוהה · מיטות חשמליות · ציוד מתקדם · 20+ שנות ניסיון פראמדיק טיפול נמרץ · חובשים ונהגים מוסמכים · דגש **פוריה / צפת / הצפון** לכל הארץ.
+
+**וואטסאפ בכל פוסט:** `053-232-1101` · טלפון `+972-79-670-9999` · https://ambulancenter.com
 
 ---
 
@@ -13,82 +17,55 @@
 
 | פלטפורמה | איך |
 |----------|-----|
-| **Facebook** | תור 90 יום. Meta מאפשרת תזמון ~30 יום קדימה — פוסטים ראשונים כבר תוזמנו, וה־GitHub Action מרחיב את החלון כל יום (`--roll-facebook`). |
-| **Instagram תמונות** | אין תזמון מובנה ב־API. אותו Action מפרסם בזמן מהתור (`--instagram`). |
-| **Instagram Reels** | ריל יומי ב־20:00. רינדור 1080×1920 (Ken Burns + כיתוב דו-לשוני, בלי מוזיקת סטוק) ואז העלאה resumable ל־Meta. |
+| **Facebook** | תור 90 יום + תזמון Meta (~30 יום) + הרחבת חלון ב־Action |
+| **Instagram תמונות** | פרסום בזמן מהתור (אוויר + קרקע) |
+| **Instagram Reels** | ריל יומי ב־20:00 (רינדור + העלאה) |
 
 תור: `marketing/data/publish-queue-90d.json`  
-האשטגים באינסטגרם: חובה EN + HE בסוף כל כיתוב (מקסימום 30).  
-תמונות AI: `marketing/assets/ai-images/`  
-רילס: `marketing/tools/render-reel.py` + `add-daily-reels.mjs`  
-סקריפטים: `marketing/tools/schedule-90-days.mjs`, `marketing/tools/publish-due.mjs`  
+תוכן קרקע: `marketing/data/ground-posts.json` · `add-daily-ground.mjs`  
+תמונות: `marketing/assets/ai-images/` (כולל צי קרקעי חדש)  
 Workflow: `.github/workflows/iaa-social-autopublish.yml`
 
 ### איכות הרילס
-- אנכי **1080×1920**, H.264, CRF 16, preset slow
-- תנועת Ken Burns על 2–3 תמונות תעופה רפואיות
-- כיתוב EN+HE על המסך + CTA וואטסאפ
-- **בלי מוזיקה** (מונע חסימות זכויות)
+- אנכי **1080×1920**, H.264, CRF 16
+- Ken Burns + כיתוב EN+HE · **בלי מוזיקה**
 
 ---
 
-## חובה לאינסטגרם (טוקן ארוך טווח)
+## חובה (טוקן ארוך טווח)
 
-הטוקן מ־Graph Explorer פג תוך שעות. ל־90 יום צריך **System User token** שלא פג:
-
-1. https://business.facebook.com/settings → התיק `217437055935244`
-2. **משתמשי מערכת** → צור / בחר `IAA Publisher`
-3. שייך את הדף **Israel air&ambulance** + חשבון Instagram
-4. **Generate token** לאפליקציה **IAA Publisher** עם:
-   - `pages_manage_posts`
-   - `pages_read_engagement`
-   - `pages_show_list`
-   - `instagram_basic`
-   - `instagram_content_publish`
-5. ב־GitHub → Repo → **Settings → Secrets and variables → Actions** הוסף:
+1. Business Manager → System User token עם `pages_manage_posts` + `instagram_content_publish`
+2. GitHub Secret: `FACEBOOK_PAGE_ACCESS_TOKEN`
+3. מיזוג PR ל־`main` (Cron רץ רק מ־main)
 
 ```
-FACEBOOK_PAGE_ACCESS_TOKEN=<הטוקן הארוך>
+FACEBOOK_PAGE_ACCESS_TOKEN=<טוקן ארוך>
 FACEBOOK_PAGE_ID=111799957012811
 INSTAGRAM_USER_ID=17841428066112189
-IMAGE_URL=https://ambulancenter.com/logo.png
 ```
-
-6. Actions → **IAA Social Auto-Publish** → **Run workflow** (בדיקה).
-
-**חשוב:** GitHub Scheduled Actions רצים רק מ־**ענף ברירת המחדל (`main`)**. אחרי מיזוג ה־PR האוטומציה של אינסטגרם + רילס + הרחבת חלון הפייסבוק תתחיל.
-
-בלי הסוד הזה, **פייסבוק המתוזמן ימשיך**; אינסטגרם/רילס והרחבת החלון ייעצרו בלי טוקן ארוך.
 
 ---
 
 ## פקודות מקומיות
 
 ```bash
-# בניית תור 90 יום × 2/יום (תמונות)
-FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
-  node marketing/tools/schedule-90-days.mjs --build
-
-# הוספת ריל יומי ב־20:00 (לא מוחק סטטוס FB/IG קיים)
+node marketing/tools/schedule-90-days.mjs --build
+node marketing/tools/generate-ground-posts.mjs
+node marketing/tools/add-daily-ground.mjs
 node marketing/tools/add-daily-reels.mjs
 
-# רינדור ריל לבדיקה
-node marketing/tools/render-due-reels.mjs --id d001-reel-day-001
-
-# תזמון כל פייסבוק עכשיו
 FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
-  node marketing/tools/schedule-90-days.mjs --schedule-facebook
+  node marketing/tools/publish-due.mjs --instagram --roll-facebook
 
-# פרסום פריטי IG (תמונות + רילס) שמגיע זמנם
-FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
-  node marketing/tools/publish-due.mjs --instagram
+# פרסום מיידי של סלוטים שעבר זמנם (תמונות)
+FACEBOOK_PAGE_ACCESS_TOKEN=EAA... LOOKBACK_MIN=600 \
+  node marketing/tools/publish-due.mjs --instagram --facebook
 ```
 
 ---
 
-## היקף
+## היקף יומי
 
-- תוכן דו-לשוני מ־`marketing/data/posts.json`
-- 2 פוסטי תמונה/יום + 1 Reel/יום × 90 יום
-- בלי פרסום ללינקדאין באוטומציה הזו (אין טוקן LinkedIn)
-- בלי Google Business / Threads באוטומציה הזו
+- 2 פוסטי אוויר (FB+IG)
+- 2 פוסטי אמבולנס קרקעי (FB+IG)
+- 1 Reel (IG)

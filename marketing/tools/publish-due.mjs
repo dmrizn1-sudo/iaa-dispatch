@@ -361,15 +361,30 @@ async function main() {
           fb.status = "dry_run";
         } else {
           try {
-            const res = await publishFacebookNow(token, pageId, {
-              message: fb.message,
-              link: fb.link
-            });
+            const img =
+              fb.imageUrl ||
+              slot.imageUrl ||
+              imageUrl ||
+              pickAiImageUrl({
+                title: slot.title || "",
+                sourceId: slot.sourceId || "",
+                seed: slot.dayIndex
+              });
+            const res = img
+              ? await publishFacebookPhoto(token, pageId, {
+                  message: fb.message,
+                  imageUrl: img
+                })
+              : await publishFacebookNow(token, pageId, {
+                  message: fb.message,
+                  link: fb.link
+                });
             fb.status = "published";
-            fb.postId = res.id;
+            fb.postId = res.id || res.post_id || null;
+            fb.imageUrl = img || fb.imageUrl;
             fb.error = null;
             published += 1;
-            console.log(`FB published ${slot.id} → ${res.id}`);
+            console.log(`FB published ${slot.id} → ${fb.postId}${img ? " (photo)" : ""}`);
           } catch (e) {
             fb.status = "error";
             fb.error = String(e.message || e);
