@@ -5,6 +5,9 @@
 
 יש **3 דרכים**. מומלץ להתחיל ב־**דרך 1** (System User) — הכי מתאימה לתיק עסקי.
 
+**התראת דחיפה לפני פקיעה:** אחרי שמוסיפים את הטוקן ל־GitHub Secret, מערכת `IAA Meta Token Watch` שולחת דחיפה לטלפון (ntfy) ב־14/7/3/1 ימים ולפני 6 שעות.  
+הרשמה: https://ntfy.sh/iaa-meta-token-alerts · פירוט ב־[AUTO-90D-HE.md](./AUTO-90D-HE.md)
+
 ---
 
 ## דרך 1 — System User בתיק העסקי (מומלץ)
