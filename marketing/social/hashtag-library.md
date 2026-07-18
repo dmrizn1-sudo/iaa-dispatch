@@ -35,4 +35,4 @@
 }
 ```
 
-**Rule:** Every Instagram caption must end with an English hashtag line + a Hebrew hashtag line. Do not publish IG without hashtags.
+**Rule:** Every Instagram caption must end with destination SEO hashtags (city + country + route) in English and Hebrew. Tags must match the post destination — never mismatch routes.

@@ -2,7 +2,8 @@
 
 **Rule:** Prepare drafts for approval. **Do not auto-publish.**  
 **Language:** Every public post must be **bilingual — English + Hebrew** (EN first, then HE).  
-**Instagram:** Every caption must end with **English hashtags + Hebrew hashtags**. Never strip tags on publish.
+**Instagram:** Every caption must end with **English hashtags + Hebrew hashtags**, including **destination SEO tags** (city/country/route). Never strip tags on publish.
+**Destinations:** Rotate cities/countries; each post must name a searchable route (e.g. Air ambulance {City} to Israel).
 
 Platforms: Instagram · Facebook · LinkedIn · Threads · Google Business Profile
 

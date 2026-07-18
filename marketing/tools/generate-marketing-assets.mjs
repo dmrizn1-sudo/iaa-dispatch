@@ -514,22 +514,68 @@ function generateHashtags() {
   };
 }
 
-function pickHashtags(hashtags, seed, geoTags = []) {
+function pickHashtags(hashtags, seed, geoTags = [], destination = null) {
   const svc = hashtags.service_rotate;
-  const cities = hashtags.city_rotate;
-  const routes = hashtags.route_rotate;
   const heRot = hashtags.he_rotate || [];
   const s = seed % 1000;
-  const servicePick = [svc[s % svc.length], svc[(s + 3) % svc.length], svc[(s + 7) % svc.length]];
-  const cityPick = geoTags.length
-    ? geoTags.slice(0, 3)
-    : [cities[s % cities.length], cities[(s + 11) % cities.length], cities[(s + 19) % cities.length]];
-  const routePick = [routes[s % routes.length]];
+  const servicePick = [svc[s % svc.length], svc[(s + 3) % svc.length]];
   const hePick = heRot.length
     ? [heRot[s % heRot.length], heRot[(s + 5) % heRot.length]]
     : [];
-  const en = unique([...hashtags.always_include, ...servicePick, ...cityPick, ...routePick]);
-  const he = unique([...(hashtags.he_always || []), ...hePick, ...geoTags.filter((t) => /[\u0590-\u05FF]/.test(t))]);
+
+  // Destination-accurate SEO tags (never mismatch route like NY + Thailand)
+  const destEn = [];
+  const destHe = [];
+  if (destination) {
+    const citySlug = destination.en.replace(/\s+/g, "");
+    const countrySlug = (destination.countryEn || "").replace(/\s+/g, "");
+    destEn.push(
+      `#${citySlug}`,
+      `#AirAmbulance${citySlug}`,
+      `#MedicalFlight${citySlug}`,
+      `#${citySlug}Israel`,
+      `#${citySlug}ToIsrael`,
+      `#MedicalFlight${citySlug}Israel`,
+      `#PatientTransfer${citySlug}`,
+      `#Israel${citySlug}`
+    );
+    if (countrySlug) {
+      destEn.push(
+        `#${countrySlug}`,
+        `#AirAmbulance${countrySlug}`,
+        `#MedicalRepatriation${countrySlug}`
+      );
+    }
+    destEn.push("#TelAviv", "#Israel", "#BenGurion", "#TLV");
+    if (destination.he) {
+      const heCity = destination.he.replace(/\s+/g, "");
+      destHe.push(
+        `#${heCity}`,
+        `#אמבולנסאווירי${heCity}`,
+        `#טיסהרפואית${heCity}`,
+        `#${heCity}ישראל`
+      );
+    }
+    if (destination.countryHe) {
+      const heCountry = destination.countryHe.replace(/\s+/g, "");
+      destHe.push(`#${heCountry}`, `#אמבולנסאווירי${heCountry}`);
+    }
+    destHe.push("#ישראל", "#תלאביב", "#נתבג");
+  } else if (geoTags.length) {
+    destEn.push(...geoTags.filter((t) => !/[\u0590-\u05FF]/.test(t)));
+    destHe.push(...geoTags.filter((t) => /[\u0590-\u05FF]/.test(t)));
+  }
+
+  const en = unique([
+    ...hashtags.always_include.slice(0, 10),
+    ...servicePick,
+    ...destEn
+  ]);
+  const he = unique([
+    ...(hashtags.he_always || []).slice(0, 8),
+    ...hePick,
+    ...destHe
+  ]);
   return { en, he, all: unique([...en, ...he]) };
 }
 
@@ -542,9 +588,164 @@ function formatIgHashtags(tagSets) {
   return lines.join("\n");
 }
 
+/** Keep Instagram caption ≤2200 while preserving hashtag block. */
+function fitIgCaption(body, tagBlock, max = 2200) {
+  const sep = "\n\n";
+  const tags = String(tagBlock || "").trim();
+  let core = String(body || "").trim();
+  let out = `${core}${sep}${tags}`;
+  if (out.length <= max) return out;
+  const room = Math.max(200, max - tags.length - sep.length - 1);
+  core = `${core.slice(0, room).trim()}…`;
+  return `${core}${sep}${tags}`.slice(0, max);
+}
+
 /** Join English + Hebrew blocks for bilingual social posts. */
 function bilingual(en, he) {
   return `${en.trim()}\n\n────────\n\n${he.trim()}`;
+}
+
+/** Build searchable destination SEO lines for social discovery. */
+function destinationSeoBlock(dest) {
+  const city = dest.en;
+  const cityHe = dest.he;
+  const country = dest.countryEn || "";
+  const en = [
+    `Air ambulance ${city} to Israel · Medical flight ${city} ↔ Israel · Patient transfer ${city} Tel Aviv`,
+    country
+      ? `Medical repatriation ${country} ↔ Israel · ICU air ambulance ${city} · Commercial medical escort ${city}`
+      : `ICU air ambulance ${city} · Commercial medical escort ${city} · Bedside to bedside ${city} Israel`
+  ].join("\n");
+  const he = [
+    `אמבולנס אווירי ${cityHe} לישראל · טיסה רפואית ${cityHe} ↔ ישראל · העברת מטופל ${cityHe} תל אביב`,
+    `החזרה רפואית ${dest.countryHe || cityHe} ↔ ישראל · טיסת ICU ${cityHe} · ליווי רפואי ${cityHe}`
+  ].join("\n");
+  return { en, he };
+}
+
+function buildDestinations() {
+  const heCity = {
+    "New York": "ניו יורק",
+    Miami: "מיאמי",
+    "Fort Lauderdale": "פורט לודרדייל",
+    Boston: "בוסטון",
+    "Los Angeles": "לוס אנג׳לס",
+    "San Francisco": "סן פרנסיסקו",
+    Chicago: "שיקגו",
+    Houston: "יוסטון",
+    "Washington DC": "וושינגטון",
+    Atlanta: "אטלנטה",
+    Philadelphia: "פילדלפיה",
+    Toronto: "טורונטו",
+    Montreal: "מונטריאול",
+    Vancouver: "ונקובר",
+    London: "לונדון",
+    Manchester: "מנצ׳סטר",
+    Dublin: "דבלין",
+    Paris: "פריז",
+    Nice: "ניס",
+    Lyon: "ליון",
+    Marseille: "מרסיי",
+    Berlin: "ברלין",
+    Frankfurt: "פרנקפורט",
+    Munich: "מינכן",
+    Zurich: "ציריך",
+    Geneva: "ז׳נבה",
+    Vienna: "וינה",
+    Amsterdam: "אמסטרדם",
+    Brussels: "בריסל",
+    Madrid: "מדריד",
+    Barcelona: "ברצלונה",
+    Lisbon: "ליסבון",
+    Porto: "פורטו",
+    Rome: "רומא",
+    Milan: "מילאנו",
+    Venice: "ונציה",
+    Naples: "נאפולי",
+    Athens: "אתונה",
+    Thessaloniki: "סלוניקי",
+    Rhodes: "רודוס",
+    Heraklion: "הרקליון",
+    Santorini: "סנטוריני",
+    Mykonos: "מיקונוס",
+    Larnaca: "לרנקה",
+    Paphos: "פאפוס",
+    Prague: "פראג",
+    Budapest: "בודפשט",
+    Warsaw: "ורשה",
+    Krakow: "קרקוב",
+    Bucharest: "בוקרשט",
+    Sofia: "סופיה",
+    Belgrade: "בלגרד",
+    Zagreb: "זגרב",
+    Ljubljana: "לובליאנה",
+    Dubrovnik: "דוברובניק",
+    Tivat: "טיוואט",
+    Podgorica: "פודגוריצה",
+    Batumi: "בטומי",
+    Tbilisi: "טביליסי",
+    Dubai: "דובאי",
+    "Abu Dhabi": "אבו דאבי",
+    Tokyo: "טוקיו",
+    Osaka: "אוסקה",
+    Bangkok: "בנגקוק",
+    Phuket: "פוקט",
+    Singapore: "סינגפור",
+    Johannesburg: "יוהנסבורג",
+    "Cape Town": "קייפטאון",
+    Sydney: "סידני",
+    Melbourne: "מלבורן",
+    Casablanca: "קזבלנקה",
+    Marrakech: "מרקש"
+  };
+  const heCountry = {
+    US: "ארהב",
+    CA: "קנדה",
+    GB: "בריטניה",
+    FR: "צרפת",
+    DE: "גרמניה",
+    CH: "שוויץ",
+    IT: "איטליה",
+    ES: "ספרד",
+    PT: "פורטוגל",
+    NL: "הולנד",
+    BE: "בלגיה",
+    AT: "אוסטריה",
+    IE: "אירלנד",
+    GR: "יוון",
+    CY: "קפריסין",
+    PL: "פולין",
+    CZ: "צכיה",
+    HU: "הונגריה",
+    RO: "רומניה",
+    BG: "בולגריה",
+    HR: "קרואטיה",
+    RS: "סרביה",
+    SI: "סלובניה",
+    ME: "מונטנגרו",
+    GE: "גאורגיה",
+    AE: "איחודהאמירויות",
+    TH: "תאילנד",
+    JP: "יפן",
+    SG: "סינגפור",
+    AU: "אוסטרליה",
+    ZA: "דרוםאפריקה",
+    MA: "מרוקו"
+  };
+  const countryName = Object.fromEntries(
+    geo.priorityCountries.map((c) => [c.code, c.name])
+  );
+
+  return geo.cities
+    .filter((c) => c.country !== "IL")
+    .map((c) => ({
+      en: c.name,
+      he: heCity[c.name] || c.name,
+      country: c.country,
+      countryEn: countryName[c.country] || c.country,
+      countryHe: heCountry[c.country] || c.country,
+      aliases: c.aliases || []
+    }));
 }
 
 function buildPosts() {
@@ -554,6 +755,7 @@ function buildPosts() {
   const waLocal = geo.brand.whatsappLocal || "053-232-1101";
   const waIntl = geo.brand.whatsappIntl || "+972-53-232-1101";
   const web = geo.brand.website;
+  const destinations = buildDestinations();
 
   const ctaEn =
     `Need a private air ambulance or medical escort TO Israel or FROM Israel?\n` +
@@ -740,7 +942,7 @@ function buildPosts() {
   ];
 
   for (const [i, set] of carouselSets.entries()) {
-    const tags = pickHashtags(hashtags, i + 1, ["#TelAviv", "#Israel", "#ישראל"]);
+    const tags = pickHashtags(hashtags, i + 1, ["#TelAviv", "#Israel", "#ישראל"], null);
     const enBlock = [
       set.title,
       "",
@@ -761,7 +963,7 @@ function buildPosts() {
       "",
       ctaShortHe
     ].join("\n");
-    const ig = `${bilingual(enBlock, heBlock)}\n\n${formatIgHashtags(tags)}`;
+    const ig = fitIgCaption(bilingual(enBlock, heBlock), formatIgHashtags(tags));
 
     posts.push({
       id: set.id,
@@ -932,23 +1134,7 @@ function buildPosts() {
     }
   ];
 
-  const citiesSpotlight = [
-    { en: "New York", he: "ניו יורק" },
-    { en: "Miami", he: "מיאמי" },
-    { en: "London", he: "לונדון" },
-    { en: "Paris", he: "פריז" },
-    { en: "Berlin", he: "ברלין" },
-    { en: "Zurich", he: "ציריך" },
-    { en: "Rome", he: "רומא" },
-    { en: "Athens", he: "אתונה" },
-    { en: "Barcelona", he: "ברצלונה" },
-    { en: "Amsterdam", he: "אמסטרדם" },
-    { en: "Dubai", he: "דובאי" },
-    { en: "Bangkok", he: "בנגקוק" },
-    { en: "Toronto", he: "טורונטו" },
-    { en: "Vienna", he: "וינה" },
-    { en: "Lisbon", he: "ליסבון" }
-  ];
+  const citiesSpotlight = destinations;
 
   const hooks = [
     {
@@ -1031,35 +1217,67 @@ function buildPosts() {
   for (let week = 0; week < 13; week++) {
     for (let d = 0; d < 7; d++) {
       const themeObj = themes[(week * 7 + d) % themes.length];
-      const city = citiesSpotlight[(week * 7 + d) % citiesSpotlight.length];
-      const cityTag = `#${city.en.replace(/\s+/g, "")}`;
-      const tags = pickHashtags(hashtags, week * 10 + d + 20, [
-        cityTag,
-        "#Israel",
-        "#TelAviv",
-        "#ישראל"
-      ]);
+      // Rotate through the full destination catalog for SEO coverage
+      const dest = destinations[(week * 7 + d) % destinations.length];
+      const tags = pickHashtags(
+        hashtags,
+        week * 10 + d + 20,
+        [`#${dest.en.replace(/\s+/g, "")}`, "#Israel", "#TelAviv", "#ישראל", `#${dest.he.replace(/\s+/g, "")}`],
+        dest
+      );
+      const seo = destinationSeoBlock(dest);
 
-      let title = themeObj.title;
-      let titleHe = themeObj.titleHe;
-      let bodyEn = themeObj.body;
-      let bodyHe = themeObj.bodyHe;
+      let title;
+      let titleHe;
+      let bodyEn;
+      let bodyHe;
 
-      // City spotlight variant every 3rd day
-      if (d % 3 === 0) {
-        title = `Medical flight: ${city.en} ↔ Israel`;
-        titleHe = `טיסה רפואית: ${city.he} ↔ ישראל`;
+      // ~2/3 destination-led titles for search; ~1/3 theme-led with destination SEO footer
+      const destinationLed = d % 3 !== 1;
+      if (destinationLed) {
+        const titlePatterns = [
+          {
+            en: `Air ambulance ${dest.en} ↔ Israel`,
+            he: `אמבולנס אווירי ${dest.he} ↔ ישראל`
+          },
+          {
+            en: `Medical flight: ${dest.en} to Israel`,
+            he: `טיסה רפואית: ${dest.he} לישראל`
+          },
+          {
+            en: `Patient transfer ${dest.en} ↔ Tel Aviv`,
+            he: `העברת מטופל ${dest.he} ↔ תל אביב`
+          },
+          {
+            en: `${dest.en} medical repatriation to Israel`,
+            he: `החזרה רפואית מ${dest.he} לישראל`
+          }
+        ];
+        const tp = titlePatterns[(week + d) % titlePatterns.length];
+        title = tp.en;
+        titleHe = tp.he;
         bodyEn =
-          `Families arrange private medical flights between ${city.en} and Israel for emergency repatriation, ICU transfer, or escorted commercial travel.\n\n` +
-          `Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7.`;
+          `Looking for a private air ambulance or medical flight from ${dest.en} (${dest.countryEn}) to Israel — or from Israel to ${dest.en}?\n\n` +
+          `Israel Air Ambulance coordinates bedside-to-bedside logistics 24/7: ICU air ambulance, stretcher flight, or commercial medical escort when clinically suitable.\n\n` +
+          `${themeObj.body}`;
         bodyHe =
-          `משפחות מתאמות טיסות רפואיות פרטיות בין ${city.he} לישראל לצורך החזרה רפואית דחופה, העברת ICU, או ליווי בטיסה מסחרית.\n\n` +
-          `ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7.`;
-        const extra = cityExtras[city.en];
+          `מחפשים אמבולנס אווירי פרטי או טיסה רפואית מ${dest.he} (${dest.countryHe}) לישראל — או מישראל ל${dest.he}?\n\n` +
+          `ישראל אייר אמבולנס מתאמת לוגיסטיקה ממיטה למיטה 24/7: אמבולנס אווירי ICU, טיסת אלונקה, או ליווי רפואי מסחרי כשהמצב הקליני מאפשר.\n\n` +
+          `${themeObj.bodyHe}`;
+        const extra = cityExtras[dest.en];
         if (extra) {
           bodyEn += `\n\n${extra.en}`;
           bodyHe += `\n\n${extra.he}`;
         }
+      } else {
+        title = `${themeObj.title} · ${dest.en} ↔ Israel`;
+        titleHe = `${themeObj.titleHe} · ${dest.he} ↔ ישראל`;
+        bodyEn =
+          `${themeObj.body}\n\n` +
+          `Destination focus today: ${dest.en}, ${dest.countryEn} ↔ Israel (Tel Aviv / nationwide hospital handoff).`;
+        bodyHe =
+          `${themeObj.bodyHe}\n\n` +
+          `יעד היום: ${dest.he}, ${dest.countryHe} ↔ ישראל (תל אביב / מסירה לבית חולים ברחבי הארץ).`;
       }
 
       const hookIdx = (week * 7 + d) % hooks.length;
@@ -1069,18 +1287,15 @@ function buildPosts() {
       const bridgeEn = bridgesEn[bridgeIdx];
       const bridgeHe = bridgesHe[bridgeIdx];
 
-      const enCore = `${title}\n\n${hookEn}\n\n${bodyEn}\n\n${bridgeEn}`;
-      const heCore = `${titleHe}\n\n${hookHe}\n\n${bodyHe}\n\n${bridgeHe}`;
+      const enCore = `${title}\n\n${hookEn}\n\n${bodyEn}\n\n${seo.en}\n\n${bridgeEn}`;
+      const heCore = `${titleHe}\n\n${hookHe}\n\n${bodyHe}\n\n${seo.he}\n\n${bridgeHe}`;
 
-      const finalIg = bilingual(
-        `${enCore}\n\n${ctaEn}`,
-        `${heCore}\n\n${ctaHe}`
-      ) + `\n\n${formatIgHashtags(tags)}`;
-
-      const finalFb = bilingual(
-        `${enCore}\n\n${ctaEn}`,
-        `${heCore}\n\n${ctaHe}`
+      const finalIg = fitIgCaption(
+        bilingual(`${enCore}\n\n${ctaEn}`, `${heCore}\n\n${ctaHe}`),
+        formatIgHashtags(tags)
       );
+
+      const finalFb = bilingual(`${enCore}\n\n${ctaEn}`, `${heCore}\n\n${ctaHe}`);
 
       const finalLi = bilingual(
         `${enCore}\n\nService focus: Air Ambulance TO Israel · Air Ambulance FROM Israel · Medical Repatriation · ICU Transport · Medical Escort.\n\nCall: ${phone}\nWhatsApp: ${waLocal} (${waIntl})\n${web}`,
@@ -1096,14 +1311,21 @@ function buildPosts() {
         theme: themeObj.theme,
         title,
         titleHe,
+        destination: {
+          city: dest.en,
+          cityHe: dest.he,
+          country: dest.countryEn,
+          countryHe: dest.countryHe,
+          countryCode: dest.country
+        },
         angle: hooks[hookIdx].en.slice(0, 60),
         copy: {
           instagram: finalIg,
           facebook: finalFb,
           linkedin: finalLi,
           threads: bilingual(
-            `${title}\n\n${hookEn}\n\n${bodyEn.split("\n\n")[0]}\n\n24/7 · Call ${phone}\nWhatsApp ${waLocal}`,
-            `${titleHe}\n\n${hookHe}\n\n${bodyHe.split("\n\n")[0]}\n\n24/7 · שיחה ${phone}\nוואטסאפ ${waLocal}`
+            `${title}\n\n${hookEn}\n\n${seo.en.split("\n")[0]}\n\n24/7 · Call ${phone}\nWhatsApp ${waLocal}`,
+            `${titleHe}\n\n${hookHe}\n\n${seo.he.split("\n")[0]}\n\n24/7 · שיחה ${phone}\nוואטסאפ ${waLocal}`
           )
         }
       });
@@ -1218,7 +1440,7 @@ function writeOutputs() {
     JSON.stringify(hashtags.rotation_rules, null, 2),
     "```",
     "",
-    "**Rule:** Every Instagram caption must end with an English hashtag line + a Hebrew hashtag line. Do not publish IG without hashtags.",
+    "**Rule:** Every Instagram caption must end with destination SEO hashtags (city + country + route) in English and Hebrew. Tags must match the post destination — never mismatch routes.",
     ""
   ].join("\n");
   fs.writeFileSync(path.join(SOCIAL, "hashtag-library.md"), htMd);
