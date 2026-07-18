@@ -419,6 +419,11 @@ async function main() {
         } else {
           try {
             let caption = ensureInstagramCaption(ig.caption || "");
+            // Never publish internal agent/debug notes in captions
+            caption = caption
+              .replace(/^✅\s*Fixed Hebrew on-screen text\s*\n+/i, "")
+              .replace(/^\[internal\].*\n+/gim, "")
+              .trim();
             let media;
             if (ig.mediaType === "REELS" || slot.format === "reel") {
               let videoFile = resolveRepoPath(ig.videoPath || slot.reel?.videoPath);
