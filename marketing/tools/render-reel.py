@@ -146,7 +146,16 @@ def make_overlay(
         draw_centered(draw, line_he[:80], he_font_line, 1650, (220, 235, 255, 245), rtl=True)
     elif mode == "cta":
         draw_centered(draw, cta_en[:64], font(FONT_EN, 42), 1560, (255, 255, 255, 255))
-        draw_centered(draw, cta_he[:64], he_font_cta, 1655, (255, 255, 255, 245), rtl=True)
+        # Keep Hebrew word and digits on separate lines — mixed HE+numbers
+        # on one line often reverse into gibberish in some render paths.
+        he_word = "וואטסאפ"
+        he_num = "053-232-1101"
+        raw = sanitize_text(cta_he)
+        if "וואטסאפ" in raw or "ווטסאפ" in raw:
+            draw_centered(draw, he_word, he_font_cta, 1645, (255, 255, 255, 245), rtl=True)
+            draw_centered(draw, he_num, font(FONT_EN, 36), 1705, (255, 255, 255, 245))
+        else:
+            draw_centered(draw, raw[:64], he_font_cta, 1655, (255, 255, 255, 245), rtl=True)
     return img
 
 
