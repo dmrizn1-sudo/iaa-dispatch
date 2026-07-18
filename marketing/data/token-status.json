@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-18T17:17:52.200Z",
+  "checkedAt": "2026-07-18T18:52:47.058Z",
   "isValid": true,
   "tokenType": "PAGE",
   "tokenSource": "page_from_user",
@@ -36,10 +36,10 @@
     "facebook_branded_content_ads_brand",
     "public_profile"
   ],
-  "expiresAt": 1784397600,
-  "expiresAtIso": "2026-07-18T18:00:00.000Z",
-  "secondsLeft": 2528,
-  "humanLeft": "42m",
+  "expiresAt": 1784404800,
+  "expiresAtIso": "2026-07-18T20:00:00.000Z",
+  "secondsLeft": 4033,
+  "humanLeft": "1h 7m",
   "neverExpires": false,
   "warn": {
     "level": "6h",
@@ -55,7 +55,7 @@
     "email": "david@israelairambulance.com"
   },
   "lastAlertLevel": "6h",
-  "lastAlertAt": "2026-07-18T17:17:52.242Z",
+  "lastAlertAt": "2026-07-18T18:52:47.119Z",
   "notifications": [
     {
       "channel": "ntfy",
