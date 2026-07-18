@@ -13,3 +13,4 @@ marketing/assets/reels/*.mp4
 !marketing/assets/reels/.gitkeep
 pycache
 __pycache__/
+marketing/data/publish-queue-90d.prev-*.json
