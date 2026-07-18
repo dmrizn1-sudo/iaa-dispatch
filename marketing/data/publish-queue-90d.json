@@ -19264,6 +19264,59 @@
           "error": null
         }
       }
+    },
+    {
+      "id": "d001-reel-hebrew-fix",
+      "format": "reel",
+      "dayIndex": 1,
+      "slot": 3,
+      "localDate": "2026-07-18",
+      "localTime": "fix",
+      "timezone": "Asia/Jerusalem",
+      "scheduledUnix": 1784395801,
+      "scheduledIsoUtc": "2026-07-18T17:30:01.000Z",
+      "sourceId": "day-001",
+      "title": "Air ambulance New York ↔ Israel (Hebrew fix)",
+      "titleHe": "אמבולנס אווירי ניו יורק ↔ ישראל",
+      "destination": {
+        "city": "New York",
+        "cityHe": "ניו יורק",
+        "country": "United States",
+        "countryHe": "ארהב",
+        "countryCode": "US"
+      },
+      "reel": {
+        "titleEn": "Air ambulance New York ↔ Israel",
+        "titleHe": "אמבולנס אווירי ניו יורק ↔ ישראל",
+        "lineEn": "Private ICU medical flights · 24/7",
+        "lineHe": "טיסות רפואיות פרטיות ברמת ICU · 24/7",
+        "ctaEn": "WhatsApp 053-232-1101",
+        "ctaHe": "וואטסאפ 053-232-1101",
+        "localImages": [
+          "marketing/assets/ai-images/jet-desert-climb.jpg",
+          "marketing/assets/ai-images/stretcher-boarding-night.jpg",
+          "marketing/assets/ai-images/air-ambulance-inflight.jpg"
+        ],
+        "videoPath": "marketing/assets/reels/d001-reel-hebrew-fix.mp4"
+      },
+      "platforms": {
+        "facebook": {
+          "status": "skipped_reel_ig_only",
+          "message": null,
+          "link": "https://ambulancenter.com",
+          "postId": null,
+          "error": null
+        },
+        "instagram": {
+          "status": "published",
+          "mediaType": "REELS",
+          "caption": "✅ Fixed Hebrew on-screen text\n\nAir ambulance New York ↔ Israel\n\nPrivate ICU medical flights · bedside to bedside.\nTO Israel & FROM Israel · 24/7 coordination.\n\n📞 +972-79-670-9999\n💬 WhatsApp: 053-232-1101\n🌐 https://ambulancenter.com\n\n────────\n\nאמבולנס אווירי ניו יורק ↔ ישראל\n\nטיסות רפואיות פרטיות ברמת ICU · ממיטה למיטה.\nלישראל ומישראל · תיאום 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ: 053-232-1101\n🌐 https://ambulancenter.com\n\n#IsraelAirAmbulance #AirAmbulance #MedicalFlight #MedicalRepatriation #ICUTransport #Reels #Medevac #TelAviv #Israel #AirAmbulanceNewYork #MedicalFlightNewYork #NewYorkToIsrael #IsraelToNewYork\n#ישראלאייראמבולנס #אמבולנסאווירי #טיסהרפואית #החזרהרפואית #טיפולנמרץ #רילס #ישראל #תלאביב",
+          "videoPath": "marketing/assets/reels/d001-reel-hebrew-fix.mp4",
+          "mediaId": "17988681470834111",
+          "permalink": "https://www.instagram.com/reel/Da8VT82kTPq/",
+          "error": null
+        }
+      }
     }
   ],
   "facebookSchedule": {
@@ -19313,12 +19366,11 @@
     }
   },
   "lastDueRun": {
-    "at": "2026-07-18T17:17:16.597Z",
+    "at": "2026-07-18T17:32:07.621Z",
     "due": [
-      "d001-s2-day-046",
-      "d001-reel-day-001"
+      "d001-reel-hebrew-fix"
     ],
-    "published": 0,
+    "published": 1,
     "dry": false
   },
   "reels": {

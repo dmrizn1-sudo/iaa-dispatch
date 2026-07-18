@@ -51,7 +51,7 @@ jobs:
       - name: Install reel render deps (ffmpeg + fonts + Pillow/bidi)
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-extra
+          sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-extra fonts-dejavu-core
           pip3 install --user -q pillow python-bidi
 
       - name: Publish due Instagram (photos + Reels) + roll Facebook schedule window
