@@ -263,7 +263,7 @@ async function main() {
   const dry = process.env.DRY_RUN === "1" || hasFlag("--dry-run");
   const lookback = Number(process.env.LOOKBACK_MIN || 90) * 60;
   const ahead = Number(process.env.AHEAD_MIN || 30) * 60;
-  const maxDaysAhead = Number(process.env.FB_MAX_DAYS_AHEAD || 25);
+  const maxDaysAhead = Number(process.env.FB_MAX_DAYS_AHEAD || 29);
   const now = Math.floor(Date.now() / 1000);
 
   if (!fs.existsSync(QUEUE_PATH)) {
@@ -271,7 +271,7 @@ async function main() {
     process.exit(1);
   }
 
-  const token = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
+  let token = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
   if (!token && !dry) {
     console.error("Missing FACEBOOK_PAGE_ACCESS_TOKEN");
     process.exit(1);
@@ -280,6 +280,23 @@ async function main() {
   const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
   const pageId = process.env.FACEBOOK_PAGE_ID || queue.pageId;
   const igUserId = process.env.INSTAGRAM_USER_ID || queue.igUserId;
+
+  // Prefer Page token when a User token was provided (needed for scheduled photo posts)
+  if (token && !dry) {
+    try {
+      const page = await graph("GET", `/${pageId}`, {
+        token,
+        query: { fields: "access_token,name" }
+      });
+      if (page?.access_token) {
+        token = page.access_token;
+        console.log(`Using Page token for ${page.name || pageId}`);
+      }
+    } catch (e) {
+      console.warn("Page token lookup skipped:", String(e.message || e).slice(0, 120));
+    }
+  }
+
   const imageUrl = token
     ? await resolveImage(token, pageId, queue.imageUrl || process.env.IMAGE_URL)
     : queue.imageUrl || process.env.IMAGE_URL;

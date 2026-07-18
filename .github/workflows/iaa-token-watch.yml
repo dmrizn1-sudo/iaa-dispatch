@@ -1,0 +1,93 @@
+# Watch Meta token expiry and push-notify the owner before it dies.
+# Channels: ntfy.sh (phone push) + optional webhook + GitHub Issue.
+#
+# Secrets:
+#   FACEBOOK_PAGE_ACCESS_TOKEN   required
+# Optional:
+#   NOTIFY_NTFY_TOPIC            default iaa-meta-token-alerts
+#   NOTIFY_WEBHOOK_URL           Make/Zapier → WhatsApp
+#   FACEBOOK_PAGE_ID
+
+name: IAA Meta Token Watch
+
+on:
+  schedule:
+    # Every 6 hours + morning Israel-ish check
+    - cron: "15 */6 * * *"
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      force_notify:
+        description: "Force send a status push now"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: iaa-token-watch
+  cancel-in-progress: false
+
+jobs:
+  check-token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check token + notify if expiring
+        id: check
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          NOTIFY_NTFY_TOPIC: ${{ secrets.NOTIFY_NTFY_TOPIC }}
+          NOTIFY_WEBHOOK_URL: ${{ secrets.NOTIFY_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WARN_DAYS: "14,7,3,1"
+        run: |
+          if [ -z "$FACEBOOK_PAGE_ACCESS_TOKEN" ]; then
+            echo "Missing FACEBOOK_PAGE_ACCESS_TOKEN secret"
+            # Still push a reminder that secret is missing
+            curl -sS -H "Title: חסר טוקן Meta ב-GitHub" -H "Priority: 5" -H "Tags: warning,key" \
+              -d "אין FACEBOOK_PAGE_ACCESS_TOKEN ב-Secrets. הוסף System User token כדי שהפרסום + ההתראות יעבדו." \
+              "https://ntfy.sh/${NOTIFY_NTFY_TOPIC:-iaa-meta-token-alerts}" || true
+            exit 0
+          fi
+          export FACEBOOK_PAGE_ID="${FACEBOOK_PAGE_ID:-111799957012811}"
+          export NOTIFY_NTFY_TOPIC="${NOTIFY_NTFY_TOPIC:-iaa-meta-token-alerts}"
+          ARGS="--notify"
+          if [ "${{ github.event.inputs.force_notify }}" = "true" ]; then
+            ARGS="--force-notify"
+          fi
+          set +e
+          node marketing/tools/check-token-expiry.mjs $ARGS
+          CODE=$?
+          set -e
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          if [ "$CODE" -eq 11 ]; then
+            echo "::error::Meta token expired or invalid"
+          elif [ "$CODE" -eq 10 ]; then
+            echo "::warning::Meta token expiring soon — push notification sent"
+          fi
+          # Do not fail the workflow on warn; keep history green but annotated
+          exit 0
+
+      - name: Commit token status
+        run: |
+          if git diff --quiet -- marketing/data/token-status.json; then
+            echo "No status changes"
+            exit 0
+          fi
+          git config user.name "iaa-token-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add marketing/data/token-status.json
+          git commit -m "chore(social): update Meta token expiry status" || true
+          git push || true

@@ -7,9 +7,47 @@
 - **12:00 · 16:00** — אמבולנס קרקעי / אבטחה רפואית / העברות
 - **20:00** — Reel באיכות גבוהה
 
-**אמבולנס קרקעי — נושאים:** אבטחה רפואית לאירועים · שירותי פראמדיק · אמבולנסים פריים · צי חדש ברמה גבוהה · מיטות חשמליות · ציוד מתקדם · 20+ שנות ניסיון פראמדיק טיפול נמרץ · חובשים ונהגים מוסמכים · דגש **פוריה / צפת / הצפון** לכל הארץ.
+**אמבולנס קרקעי — נושאים:** אבטחה רפואית לאירועים · פראמדיק · אמבולנסים פריים · צי חדש · מיטות חשמליות · ציוד מתקדם · 20+ שנות ניסיון · חובשים/נהגים · **פוריה / צפת / הצפון**.
 
 **וואטסאפ בכל פוסט:** `053-232-1101` · טלפון `+972-79-670-9999` · https://ambulancenter.com
+
+---
+
+## תזמון 90 יום מראש
+
+| שכבה | מה קורה |
+|------|---------|
+| **תור מלא 90 יום** | כל הפוסטים/רילס כתובים ב־`publish-queue-90d.json` |
+| **Facebook** | Meta מאפשרת תזמון עד ~**30 יום** קדימה. ממלאים את החלון עכשיו, וה־Action מרחיב כל יום עד סוף ה־90 |
+| **Instagram** | אין תזמון API — פרסום בזמן מהתור (דורש טוקן חי) |
+
+**חשוב:** פוסטים שכבר תוזמנו בפייסבוק **ממשיכים להתפרסם גם אחרי שפג הטוקן**. אינסטגרם + הרחבת החלון דורשים טוקן תקף.
+
+---
+
+## התראת דחיפה לפני פקיעת טוקן
+
+Workflow: `.github/workflows/iaa-token-watch.yml` · סקריפט: `marketing/tools/check-token-expiry.mjs`
+
+### התקנה בטלפון (30 שניות)
+1. התקן את האפליקציה **ntfy** (iOS / Android)
+2. Subscribe לנושא: **`iaa-meta-token-alerts`**
+3. או פתח: https://ntfy.sh/iaa-meta-token-alerts
+
+תקבל דחיפה ב־**14 / 7 / 3 / 1 ימים** ולפני **6 שעות** מפקיעה.
+
+אופציונלי ב־GitHub Secrets:
+```
+NOTIFY_NTFY_TOPIC=iaa-meta-token-alerts
+NOTIFY_WEBHOOK_URL=<Make/Zapier → WhatsApp>
+FACEBOOK_PAGE_ACCESS_TOKEN=<System User / Page token ארוך>
+```
+
+בדיקה ידנית:
+```bash
+FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
+  node marketing/tools/check-token-expiry.mjs --force-notify
+```
 
 ---
 
@@ -17,31 +55,28 @@
 
 | פלטפורמה | איך |
 |----------|-----|
-| **Facebook** | תור 90 יום + תזמון Meta (~30 יום) + הרחבת חלון ב־Action |
-| **Instagram תמונות** | פרסום בזמן מהתור (אוויר + קרקע) |
-| **Instagram Reels** | ריל יומי ב־20:00 (רינדור + העלאה) |
-
-תור: `marketing/data/publish-queue-90d.json`  
-תוכן קרקע: `marketing/data/ground-posts.json` · `add-daily-ground.mjs`  
-תמונות: `marketing/assets/ai-images/` (כולל צי קרקעי חדש)  
-Workflow: `.github/workflows/iaa-social-autopublish.yml`
-
-### איכות הרילס
-- אנכי **1080×1920**, H.264, CRF 16
-- Ken Burns + כיתוב EN+HE · **בלי מוזיקה**
+| **Facebook** | תור 90 יום + תזמון Meta (~30 יום) + הרחבת חלון יומית |
+| **Instagram תמונות** | פרסום בזמן (אוויר + קרקע) |
+| **Instagram Reels** | ריל יומי ב־20:00 |
+| **Token Watch** | בדיקה כל 6 שעות + דחיפה לפני פקיעה |
 
 ---
 
-## חובה (טוקן ארוך טווח)
+## חובה — טוקן שלא פג (System User)
 
-1. Business Manager → System User token עם `pages_manage_posts` + `instagram_content_publish`
-2. GitHub Secret: `FACEBOOK_PAGE_ACCESS_TOKEN`
-3. מיזוג PR ל־`main` (Cron רץ רק מ־main)
+הטוקן מ־Graph Explorer פג תוך שעות. ל־90 יום:
+
+1. https://business.facebook.com/settings → תיק `217437055935244`
+2. **משתמשי מערכת** → `IAA Publisher` → Generate token
+3. הרשאות: `pages_manage_posts` + `instagram_content_publish` (+ בסיסיות)
+4. GitHub → Secrets → `FACEBOOK_PAGE_ACCESS_TOKEN`
+5. מיזוג PR ל־`main` (Cron רץ רק מ־main)
 
 ```
-FACEBOOK_PAGE_ACCESS_TOKEN=<טוקן ארוך>
+FACEBOOK_PAGE_ACCESS_TOKEN=<טוקן ארוך / System User>
 FACEBOOK_PAGE_ID=111799957012811
 INSTAGRAM_USER_ID=17841428066112189
+NOTIFY_NTFY_TOPIC=iaa-meta-token-alerts
 ```
 
 ---
@@ -54,12 +89,17 @@ node marketing/tools/generate-ground-posts.mjs
 node marketing/tools/add-daily-ground.mjs
 node marketing/tools/add-daily-reels.mjs
 
+# מילוי מקסימום חלון FB (~29 יום)
+FACEBOOK_PAGE_ACCESS_TOKEN=EAA... FB_MAX_DAYS_AHEAD=29 \
+  node marketing/tools/publish-due.mjs --roll-facebook
+
+# פרסום IG + הרחבת חלון
 FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
   node marketing/tools/publish-due.mjs --instagram --roll-facebook
 
-# פרסום מיידי של סלוטים שעבר זמנם (תמונות)
-FACEBOOK_PAGE_ACCESS_TOKEN=EAA... LOOKBACK_MIN=600 \
-  node marketing/tools/publish-due.mjs --instagram --facebook
+# בדיקת פקיעה + דחיפה
+FACEBOOK_PAGE_ACCESS_TOKEN=EAA... \
+  node marketing/tools/check-token-expiry.mjs --notify
 ```
 
 ---

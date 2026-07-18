@@ -63,7 +63,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
           LOOKBACK_MIN: "120"
           AHEAD_MIN: "45"
-          FB_MAX_DAYS_AHEAD: "25"
+          FB_MAX_DAYS_AHEAD: "29"
         run: |
           if [ -z "$FACEBOOK_PAGE_ACCESS_TOKEN" ]; then
             echo "Missing secret FACEBOOK_PAGE_ACCESS_TOKEN — skip publish"

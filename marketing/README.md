@@ -53,7 +53,7 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 ### Social & content
 | File | Purpose |
 |------|---------|
-| [facebook/AUTO-90D-HE.md](facebook/AUTO-90D-HE.md) | **90-day auto-publish** — 2 air + 2 ground ambulance posts/day + 1 Reel (EN+HE) |
+| [facebook/AUTO-90D-HE.md](facebook/AUTO-90D-HE.md) | **90-day auto-publish** — 2 air + 2 ground + 1 Reel/day · token push alerts |
 | [social/90-day-content-calendar.md](social/90-day-content-calendar.md) | 90-day multi-platform calendar |
 | [social/weekly-posting-strategy.md](social/weekly-posting-strategy.md) | Weekly cadence + approval workflow |
 | [social/monthly-growth-strategy.md](social/monthly-growth-strategy.md) | Monthly growth scorecard |
