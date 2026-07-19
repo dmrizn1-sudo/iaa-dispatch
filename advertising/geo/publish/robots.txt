@@ -1,0 +1,13 @@
+# robots.txt — replace or merge on Hostinger
+
+User-agent: *
+Allow: /
+
+# Keep Gemini / AI Overviews eligible (do NOT block Google-Extended)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://ambulancenter.com/sitemap.xml
