@@ -1,0 +1,90 @@
+{
+  "research_sources": [
+    "https://www.levadeer.org/ambulance-tiberias",
+    "https://www.ambulance24.net/",
+    "https://ambulancenter.com/",
+    "https://ambulancenter.com/booking.html",
+    "https://arrowaviation.biz/flights/medical-flights/",
+    "https://airmedical.com/air-ambulance-in-israel/",
+    "https://www.medical-air-service.com/medical-evacuation-flights/israel_il.html",
+    "https://medjets.com/medical-plane-cost/"
+  ],
+  "lead_formula": [
+    "Primary CTA = phone call (click-to-call)",
+    "Secondary CTA = WhatsApp",
+    "Promise = 24/7 human answer + quote/booking in one conversation",
+    "Local proof = Poria/Tiberias/North hospitals for ground",
+    "Flight proof = Bed-to-Bed + case review + itemized quote"
+  ],
+  "callouts_he": [
+    "זמינים 24/7",
+    "מענה אנושי מהיר",
+    "הצעת מחיר בשיחה",
+    "WhatsApp פעיל",
+    "העברות מפוריה",
+    "שינוע לכל הארץ",
+    "Bed-to-Bed",
+    "צוות מוסמך"
+  ],
+  "callouts_en": [
+    "24/7 Coordination Desk",
+    "Call for Quote",
+    "WhatsApp Intake",
+    "Bed-to-Bed Service",
+    "ICU Aircraft Options",
+    "Medical Escort Alternative",
+    "Hospital Handoff Israel",
+    "Family Support Line"
+  ],
+  "sitelinks_he": [
+    {
+      "text": "הזמנת אמבולנס עכשיו",
+      "desc1": "מוקד 24/7",
+      "desc2": "טלפון או WhatsApp"
+    },
+    {
+      "text": "הצעת מחיר מהירה",
+      "desc1": "שיחה אחת",
+      "desc2": "מחיר לפני יציאה"
+    },
+    {
+      "text": "העברה מפוריה",
+      "desc1": "שחרור / העברה",
+      "desc2": "תיאום מיידי"
+    },
+    {
+      "text": "הטסה רפואית לישראל",
+      "desc1": "מטוס / ליווי",
+      "desc2": "Bed-to-Bed"
+    }
+  ],
+  "sitelinks_en": [
+    {
+      "text": "Get a Quote",
+      "desc1": "Call 24/7",
+      "desc2": "Case review now"
+    },
+    {
+      "text": "Air Ambulance",
+      "desc1": "ICU options",
+      "desc2": "To Israel"
+    },
+    {
+      "text": "Medical Escort",
+      "desc1": "Commercial flight",
+      "desc2": "Lower-cost path"
+    },
+    {
+      "text": "WhatsApp Intake",
+      "desc1": "Send case details",
+      "desc2": "Fast response"
+    }
+  ],
+  "conversion_setup": [
+    "Import phone-call conversions (calls from ads > 60s)",
+    "Track WhatsApp click as conversion (GTM/event)",
+    "Track form submit on booking page as primary lead",
+    "Use Maximize Conversions only after 30+ conv/month; until then Manual CPC + Exact",
+    "Landing pages must show phone sticky on mobile + WhatsApp button above the fold"
+  ]
+}

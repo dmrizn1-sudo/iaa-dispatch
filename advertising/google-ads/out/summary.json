@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-07-17T16:54:13.819Z",
+  "brand": "Israel Air & Ambulance",
+  "landing_urls": {
+    "ambulance": "https://ambulancenter.com/",
+    "flight": "https://ambulancenter.com/"
+  },
+  "phone_placeholder": "+972-79-6709999",
+  "totals": {
+    "keywords": 142,
+    "negatives": 62,
+    "ads": 9,
+    "campaigns": 3
+  },
+  "by_campaign": {
+    "IAA | Search | אמבולנס פרטי טבריה והצפון": {
+      "exact": 67,
+      "phrase": 18
+    },
+    "IAA | Search | הטסות רפואיות לישראל HE": {
+      "exact": 16,
+      "phrase": 12
+    },
+    "IAA | Search | Air Ambulance TO Israel EN": {
+      "exact": 16,
+      "phrase": 13
+    }
+  },
+  "notes": [
+    "Campaigns are exported as Paused — enable after URL/phone review in Google Ads Editor.",
+    "Replace ADS_LANDING_* and ADS_PHONE env vars before production import.",
+    "Account-level negatives are listed with campaign=__ACCOUNT_NEGATIVES_APPLY_MANUALLY__ — apply once at account shared list."
+  ],
+  "lead_formula": [
+    "Primary CTA = phone call (click-to-call)",
+    "Secondary CTA = WhatsApp",
+    "Promise = 24/7 human answer + quote/booking in one conversation",
+    "Local proof = Poria/Tiberias/North hospitals for ground",
+    "Flight proof = Bed-to-Bed + case review + itemized quote"
+  ],
+  "conversion_setup": [
+    "Import phone-call conversions (calls from ads > 60s)",
+    "Track WhatsApp click as conversion (GTM/event)",
+    "Track form submit on booking page as primary lead",
+    "Use Maximize Conversions only after 30+ conv/month; until then Manual CPC + Exact",
+    "Landing pages must show phone sticky on mobile + WhatsApp button above the fold"
+  ]
+}

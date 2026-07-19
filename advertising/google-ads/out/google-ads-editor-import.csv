@@ -1,0 +1,226 @@
+row_type,campaign,campaign_type,campaign_status,budget,budget_type,networks,bid_strategy_type,ad_group,ad_group_status,max_cpc,keyword,criterion_type,keyword_status,final_url,path1,path2,headline_1,description_1,negative
+Campaign,IAA | Search | אמבולנס פרטי טבריה והצפון,Search,Paused,150,Daily,Google search,Manual CPC,,,,,,,,,,,,
+Campaign,IAA | Search | הטסות רפואיות לישראל HE,Search,Paused,200,Daily,Google search,Manual CPC,,,,,,,,,,,,
+Campaign,IAA | Search | Air Ambulance TO Israel EN,Search,Paused,250,Daily,Google search,Manual CPC,,,,,,,,,,,,
+Ad group,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,Enabled,28,,,,,,,,,
+Ad group,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,Enabled,40,,,,,,,,,
+Ad group,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,Enabled,20,,,,,,,,,
+Ad group,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,Enabled,45,,,,,,,,,
+Ad group,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,Enabled,55,,,,,,,,,
+Ad group,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,Enabled,32,,,,,,,,,
+Ad group,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,Enabled,48,,,,,,,,,
+Ad group,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,Enabled,60,,,,,,,,,
+Ad group,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,Enabled,34,,,,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי בצפון,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי כנרת,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי עמק הירדן,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,העברה בין בתי חולים טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי דחוף טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי 24 שעות טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,הזמנת אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי מחיר טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,שינוע חולה פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס ALS פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס BLS פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,טלפון אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,הזמנת אמבולנס פרטי עכשיו,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי וואטסאפ,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי מגדל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי גינוסר,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי יבנאל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי כפר תבור,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי כפר כנא,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי רמת ישי,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי עפולה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי בית שאן,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי צפת,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי ראש פינה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי חצור הגלילית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי קצרין,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי חיספין,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי פוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי טבריה עילית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי מנחמיה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,אמבולנס פרטי גליל תחתון,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי מגדל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי גינוסר,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי יבנאל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי כפר תבור,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי כפר כנא,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי רמת ישי,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי עפולה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי בית שאן,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי צפת,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי ראש פינה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי חצור הגלילית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי קצרין,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי חיספין,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי פוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי טבריה עילית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי מנחמיה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי כנרת,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי עמק הירדן,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,28,פינוי רפואי פרטי גליל תחתון,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס פרטי פוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס מבית חולים פוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,שחרור מבית חולים טבריה אמבולנס,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,העברה מפוריה לבית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,העברה בין בתי חולים פוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס לדיאליזה טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,הסעת דיאליזה טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס לאונקולוגיה טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,העברת חולה מטבריה לתל אביב,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס פרטי מטבריה לחיפה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,הצעת מחיר אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,מחיר אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,אמבולנס פרטי זמין עכשיו טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,הזמנת אמבולנס לפוריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,40,הזמנה אמבולנס פרטי טבריה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי טבריה,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי בצפון,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי כנרת,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,פינוי רפואי פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,העברה רפואית פרטית,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי זמין עכשיו,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי לבית חולים,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס ALS פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס BLS פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,שינוע חולה פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,העברה בין בתי חולים,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי דחוף,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,הזמנת אמבולנס פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי מחיר,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,שחרור מבית חולים אמבולנס,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,הסעת דיאליזה אמבולנס,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,אמבולנס פרטי פוריה,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,20,הצעת מחיר אמבולנס פרטי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,הטסה רפואית לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,פינוי רפואי לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,מטוס אמבולנס לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,הטסה רפואית מחו״ל לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,העברה רפואית בטיסה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,הטסת חולה לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,פינוי אווירי רפואי,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,הטסה רפואית דחופה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,שינוע רפואי בינלאומי לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,45,מטוס אמבולנס פרטי לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,הצעת מחיר הטסה רפואית,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,מחיר מטוס אמבולנס לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,ליווי רפואי בטיסה לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,bed to bed לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,חילוץ רפואי מחו״ל לישראל,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,55,קרוב משפחה חולה בחו״ל הטסה,Exact,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,הטסה רפואית,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,פינוי רפואי לישראל,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,מטוס אמבולנס,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,העברה רפואית מחו״ל,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,פינוי אווירי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,הטסת חולה,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,הטסה רפואית דחופה,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,שינוע רפואי בינלאומי,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,הצעת מחיר הטסה רפואית,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,ליווי רפואי בטיסה,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,מטוס אמבולנס מחיר,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,32,חילוץ רפואי מחו״ל,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,air ambulance to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,medical flight to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,medical evacuation to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,medevac to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,private air ambulance israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,icu air ambulance to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,patient transfer to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,medical repatriation to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,emergency medical flight to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,international air ambulance israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,60,air ambulance quote israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,60,bed to bed air ambulance israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,60,medical escort to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,60,medical flight cost to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,60,fly patient home to israel,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,48,air ambulance tel aviv,Exact,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,air ambulance to israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,medical flight to israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,medical evacuation to israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,air ambulance israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,medical repatriation israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,patient transfer to israel,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,private air ambulance,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,icu air ambulance,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,emergency medical flight,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,air ambulance quote,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,bed to bed medical transport,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,medical escort flight,Phrase,Enabled,,,,,,
+Keyword,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,34,medical flight cost,Phrase,Enabled,,,,,,
+Ad,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — ליבה מקומית,,,,,,https://ambulancenter.com/,טבריה,הזמנה,חייגו עכשיו — אמבולנס טבריה | Israel Air & Ambulance | הזמנה בטלפון 24/7 | אמבולנס פרטי זמין עכשיו | מענה אנושי תוך דקות | העברה מ/אל בית חולים | כיסוי טבריה והכנרת | WhatsApp להזמנה מהירה | צוות מוסמך בשטח | בלי המתנה מיותרת | שינוע לכל רחבי הארץ | קבעו העברה עכשיו | פוריה · טבריה · צפון | מחיר שקוף בשיחה | מוקד הזמנות פעיל,"צריכים אמבולנס פרטי בטבריה? חייגו +972-79-6709999 — מוקד 24/7 עם מענה אנושי. | העברות שחרור, בין בתי חולים, ושינוע לכל הארץ. הזמנה בטלפון או WhatsApp. | זמינים לטבריה, פוריה, כנרת ועמק הירדן — הגעה מהירה וליווי מקצועי. | קבלו הצעת מחיר בשיחה אחת והזמינו שירות מיידי כשצריך עכשיו.",
+Ad,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Exact — לידים חמים פוריה/מחיר/דיאליזה,,,,,,https://ambulancenter.com/,פוריה,הזמנה,אמבולנס מפוריה — חייגו | Israel Air & Ambulance | שחרור מבית חולים עכשיו | העברה מפוריה לבית | הסעת דיאליזה בצפון | הצעת מחיר בטלפון | הזמנה מיידית 24/7 | בין בתי חולים בצפון | מטבריה לחיפה/מרכז | WhatsApp לתיאום מהיר | מוקד הזמנות פעיל | מחיר ברור לפני יציאה | צוות מקצועי ואדיב | זמינים באזור פוריה | קבעו העברה היום,"שחרור מפוריה / העברה רפואית? חייגו +972-79-6709999 לקביעת אמבולנס עכשיו. | דיאליזה, אונקולוגיה, שחרור לבית והעברות בין מוסדות — תיאום בשיחה אחת. | מחפשים מחיר? קבלו הצעה מהירה בטלפון או WhatsApp לפני היציאה. | שירות פרטי לטבריה והסביבה עם דגש על זמינות ומענה אנושי.",
+Ad,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,Phrase — הרחבה מבוקרת,,,,,,https://ambulancenter.com/,צפון,חייגו,אמבולנס פרטי בצפון | Israel Air & Ambulance | חייגו להזמנה מיידית | זמין 24/7 באזורכם | הצעת מחיר בשיחה | פינוי והעברה פרטית | שחרור מבית חולים | WhatsApp — מענה מהיר | צוות מיומן בשטח | כיסוי יישובי הגליל | בלי תורים מיותרים | הזמנה אונליין/טלפון | שינוע חולה מקצועי | מוקד אנושי פעיל | הזמינו עכשיו,"אמבולנס פרטי בצפון — חייגו +972-79-6709999 או שלחו WhatsApp להזמנה מהירה. | העברות שגרתיות ודחופות, שחרורים, ודיאליזה. מחיר ברור בשיחה. | טבריה, פוריה, צפת, עפולה והסביבה — זמינות גבוהה ומענה אישי. | רוצים ליד מהיר? השאירו טלפון בדף או התקשרו עכשיו למוקד.",
+Ad,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — הטסות לישראל,,,,,,https://ambulancenter.com/,הטסה,לידים,הטסה רפואית — חייגו עכשיו | Israel Air & Ambulance | הצעת מחיר תוך דקות | חייגו לתיאום מיידי | הזמנה בטלפון 24/7 | מטוס אמבולנס לישראל | Bed-to-Bed מלא | מוקד משפחות 24/7 | חילוץ רפואי מחו״ל | תיאום בית חולים ביעד | ליווי רפואי בטיסה | WhatsApp לתיאום דחוף | ICU בטיסה לפי צורך | פינוי אווירי מאורגן | התחילו תיאום היום,"קרוב משפחה צריך לחזור לישראל? חייגו +972-79-6709999 להערכת מקרה והצעת מחיר. | מטוס אמבולנס או ליווי בטיסה מסחרית — נתאים פתרון לפי מצב המטופל. | Bed-to-Bed: אמבולנס בחו״ל → טיסה → בית חולים בישראל. מוקד 24/7. | ליד חם = שיחה אחת. קבלו אפשרויות, לו״ז ומחיר משוער בטלפון.",
+Ad,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Exact — לידים הצעת מחיר/חילוץ,,,,,,https://ambulancenter.com/,מחיר,הטסה,הצעת מחיר הטסה רפואית | Israel Air & Ambulance | חייגו לקבלת הצעה | הזמנה / הצעת מחיר עכשיו | מחיר מטוס אמבולנס | חילוץ מחו״ל לישראל | ייעוץ מקרה ללא עיכוב | ליווי רפואי בטיסה | השוו אפשרויות בשיחה | מוקד 24/7 למשפחות | Bed-to-Bed לישראל | WhatsApp — תיאום מהיר | פינוי דחוף מאורגן | התחילו בשיחה אחת | מענה אנושי מיידי,"רוצים הצעת מחיר להטסה רפואית? חייגו +972-79-6709999 — נאסוף פרטים ונחזור עם אופציות. | מחיר תלוי ביעד, מצב רפואי וסוג המטוס/ליווי. שקיפות מלאה לפני אישור. | משפחות בחו״ל מקבלות מענה 24/7 לתיאום חילוץ והחזרה לישראל. | השאירו טלפון בדף או התקשרו עכשיו — המטרה ליד + תיאום מהיר.",
+Ad,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,Phrase — הטסות לישראל,,,,,,https://ambulancenter.com/,פינוי,אווירי,פינוי אווירי לישראל | Israel Air & Ambulance | חייגו לתיאום מיידי | הצעת מחיר בטלפון | הזמנה עכשיו — חייגו | הטסת חולה מחו״ל | צוות רפואי בטיסה | מוקד בינלאומי 24/7 | מטוס אמבולנס פרטי | ליווי בטיסה מסחרית | WhatsApp למשפחות | תיאום עד בית החולים | התחילו הערכה עכשיו | פתרון לפי מצב רפואי | שירות מלא למשפחה,"הטסה רפואית לישראל — התקשרו +972-79-6709999 לקבלת הצעה ותיאום מהיר. | נתאים מטוס אמבולנס או ליווי רפואי לפי דחיפות ותקציב. | מוקד למשפחות: הסבר תהליך, מסמכים, וקבלת מטופל בישראל. | כל קליק אמור להוביל לשיחה או WhatsApp — זה הליד.",
+Ad,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — TO Israel,,,,,,https://ambulancenter.com/,Call,Now,Call Now — Flight to Israel | Israel Air & Ambulance | Get a Quote in Minutes | Request Quote by Phone | 24/7 Family Coordination | Air Ambulance to Israel | Bed-to-Bed Medical Flight | ICU Air Transport Ready | Speak to a Coordinator | WhatsApp Case Intake | Medical Repatriation Help | Hospital Handoff in Israel | Urgent Medevac Planning | Fast Response for Families | Start Case Review Today,Need an air ambulance to Israel? Call +972-79-6709999 for a case review and quote. | Bed-to-bed: ground ambulance + medical flight + receiving hospital coordination. | ICU aircraft or commercial medical escort — matched to patient condition. | Every ad click should become a phone/WhatsApp lead. We answer 24/7.,
+Ad,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Exact — Lead Quote/Bed-to-Bed,,,,,,https://ambulancenter.com/,Quote,Israel,Air Ambulance Quote Israel | Israel Air & Ambulance | Call for Pricing Options | Bed-to-Bed Cost Estimate | Medical Escort Alternative | Fly Patient Home to Israel | Itemized Quote by Phone | 24/7 Quote Desk | WhatsApp for Fast Intake | No-Obligation Case Review | Transparent Flight Pricing | Coordinator On The Line | Urgent Quote Available | Tel Aviv Hospital Transfer | Start With One Call,Want pricing for a medical flight to Israel? Call +972-79-6709999 — quote desk 24/7. | We compare air ambulance vs medical escort and explain cost drivers clearly. | Share patient location + condition; receive options and next steps on the call. | Lead goal: phone or WhatsApp within the first interaction — not just a page view.,
+Ad,IAA | Search | Air Ambulance TO Israel EN,,,,,,,Phrase — TO Israel,,,,,,https://ambulancenter.com/,Medevac,Israel,Medevac to Israel — Call | Israel Air & Ambulance | Request Quote Now | Call for Flight Options | Get a Quote Today | Family Help Line 24/7 | Medical Flight Options | Private Air Ambulance | Escort on Commercial Flight | Critical Care Transfer | WhatsApp Us to Start | Clear Next Steps Today | Israel Hospital Intake | Fast International Desk | Talk to Coordination Now,"Searching medical flight to Israel? Call +972-79-6709999 or WhatsApp for immediate intake. | We coordinate aircraft/escort, permits, and bedside continuity end to end. | Built for families abroad who need a clear quote and a real human now. | Conversion focus: click → call → qualified lead with case details captured.",
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,חינם,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,עבודה,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,דרושים,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,משרה,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,קורס,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,קורסים,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,לימודים,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,מתנדב,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,התנדבות,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,מדא,Exact,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,מד״א,Exact,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,צעצוע,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,משחק,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,סימולטור,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,ויקיפדיה,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,חדשות,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,כתבה,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,משכורת,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,שכר,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,מכרז,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,מכרזים,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,הורדה,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,pdf,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,job,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,jobs,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,career,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,careers,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,hiring,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,salary,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,course,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,courses,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,training,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,volunteer,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,free,Exact,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,toy,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,wikipedia,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,news,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,pdf,Exact,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,download,Phrase,,,,,,,Yes
+Campaign negative,__ACCOUNT_NEGATIVES_APPLY_MANUALLY__,,,,,,,,,,reddit,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,טיסה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,מטוס,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,הטסה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,air ambulance,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,medical flight,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,חו״ל,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,חול,Exact,,,,,,,Yes
+Campaign negative,IAA | Search | אמבולנס פרטי טבריה והצפון,,,,,,,,,,abroad,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,טבריה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,טבריה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,צפת,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,צפת,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,עפולה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,עפולה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,מונית,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,מונית,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,הסעה רגילה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,הסעה רגילה,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,taxi,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,taxi,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | הטסות רפואיות לישראל HE,,,,,,,,,,ground ambulance only,Phrase,,,,,,,Yes
+Campaign negative,IAA | Search | Air Ambulance TO Israel EN,,,,,,,,,,ground ambulance only,Phrase,,,,,,,Yes

@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://ambulancenter.com/#organization",
+  "name": "Israel Air & Ambulance",
+  "alternateName": ["ישראל אייר & אמבולנס", "IAA", "Israel Air and Ambulance"],
+  "url": "https://ambulancenter.com/",
+  "logo": "https://ambulancenter.com/assets/logo.png",
+  "image": "https://ambulancenter.com/assets/medical-flight-air-ambulance-hero.jpeg",
+  "telephone": "+972-79-6709999",
+  "email": "info@ambulancenter.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "העמקים 102",
+    "addressLocality": "טבריה",
+    "addressRegion": "North District",
+    "addressCountry": "IL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 32.7922,
+    "longitude": 35.5312
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Israel" },
+    { "@type": "City", "name": "Tiberias" },
+    { "@type": "AdministrativeArea", "name": "Northern District, Israel" }
+  ],
+  "knowsAbout": [
+    "Private ambulance Tiberias",
+    "אמבולנס פרטי טבריה",
+    "Air ambulance to Israel",
+    "Medical flight to Israel",
+    "Medical repatriation",
+    "Bed to bed medical transport",
+    "Medical escort"
+  ],
+  "sameAs": [
+    "https://ambulancenter.com/",
+    "https://ambulancenter.com/index-en.html"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+972-79-6709999",
+      "contactType": "customer service",
+      "availableLanguage": ["Hebrew", "English"],
+      "areaServed": "IL"
+    }
+  ]
+}
