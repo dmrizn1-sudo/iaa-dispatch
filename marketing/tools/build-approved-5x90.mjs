@@ -3,13 +3,13 @@
  * Build + Facebook-schedule a 90-day queue from owner-approved posts 1–22.
  * 5 posts/day (Asia/Jerusalem): mix of ground ambulances + medical flights.
  *
+ * Location policy: EVERY caption ends with 📍 location at the bottom
+ *   - Ground/event: rotating IL hospitals (עפולה, רמב״ם, פוריה, זיו…)
+ *   - Air: rotating world routes (דובאי→ישראל, תאילנד→ישראל, ארה״ב→ישראל…)
+ *
  * Usage:
  *   node marketing/tools/build-approved-5x90.mjs --build
  *   node marketing/tools/build-approved-5x90.mjs --build --schedule-facebook
- *   node marketing/tools/build-approved-5x90.mjs --schedule-facebook   # existing queue
- *
- * Env: FACEBOOK_PAGE_ACCESS_TOKEN, FACEBOOK_PAGE_ID, INSTAGRAM_USER_ID,
- *      DAYS=90 START_DATE=YYYY-MM-DD DRY_RUN=1
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -21,8 +21,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data");
 const APPROVED_PATH = path.join(DATA, "approved-posts.json");
+const GROUND_PATH = path.join(DATA, "ground-posts.json");
+const GEO_PATH = path.join(DATA, "geo.json");
 const QUEUE_PATH = path.join(DATA, "publish-queue-90d.json");
-const ARCHIVE_PATH = path.join(DATA, `publish-queue-90d.prev-${Date.now()}.json`);
 const API = process.env.META_API_VERSION || "v21.0";
 const BASE = `https://graph.facebook.com/${API}`;
 const TZ = "Asia/Jerusalem";
@@ -30,6 +31,81 @@ const TZ = "Asia/Jerusalem";
 const SLOT_HOURS = [10, 12, 14, 16, 18];
 /** Daily stream mix: air, ground, ground/maccabi, event|ground, air */
 const SLOT_STREAMS = ["air", "ground", "ground", "event", "air"];
+
+/** Hebrew names for international air routes */
+const COUNTRY_HE = {
+  US: "ארה״ב",
+  CA: "קנדה",
+  GB: "בריטניה",
+  FR: "צרפת",
+  DE: "גרמניה",
+  CH: "שווייץ",
+  IT: "איטליה",
+  ES: "ספרד",
+  PT: "פורטוגל",
+  NL: "הולנד",
+  BE: "בלגיה",
+  AT: "אוסטריה",
+  IE: "אירלנד",
+  GR: "יוון",
+  CY: "קפריסין",
+  PL: "פולין",
+  CZ: "צ׳כיה",
+  HU: "הונגריה",
+  RO: "רומניה",
+  BG: "בולגריה",
+  HR: "קרואטיה",
+  RS: "סרביה",
+  SI: "סלובניה",
+  ME: "מונטנגרו",
+  GE: "גאורגיה",
+  AE: "איחוד האמירויות",
+  TH: "תאילנד",
+  JP: "יפן",
+  SG: "סינגפור",
+  AU: "אוסטרליה",
+  ZA: "דרום אפריקה",
+  MA: "מרוקו"
+};
+
+const CITY_HE = {
+  Dubai: "דובאי",
+  "Abu Dhabi": "אבו דאבי",
+  Bangkok: "בנגקוק",
+  Phuket: "פוקט",
+  "New York": "ניו יורק",
+  Miami: "מיאמי",
+  "Los Angeles": "לוס אנג׳לס",
+  Boston: "בוסטון",
+  Chicago: "שיקגו",
+  London: "לונדון",
+  Manchester: "מנצ׳סטר",
+  Paris: "פריז",
+  Nice: "ניס",
+  Berlin: "ברלין",
+  Frankfurt: "פרנקפורט",
+  Munich: "מינכן",
+  Zurich: "ציריך",
+  Geneva: "ז׳נבה",
+  Vienna: "וינה",
+  Amsterdam: "אמסטרדם",
+  Rome: "רומא",
+  Milan: "מילאנו",
+  Athens: "אתונה",
+  Rhodes: "רודוס",
+  Larnaca: "לרנקה",
+  Toronto: "טורונטו",
+  Montreal: "מונטריאול",
+  Singapore: "סינגפור",
+  Tokyo: "טוקיו",
+  Sydney: "סידני",
+  Johannesburg: "יוהנסבורג",
+  Casablanca: "קזבלנקה",
+  Prague: "פראג",
+  Budapest: "בודפשט",
+  Warsaw: "ורשה",
+  "Tel Aviv": "תל אביב"
+};
 
 function hasFlag(name) {
   return process.argv.includes(name);
@@ -126,32 +202,189 @@ function contactBlock(contacts, he = true) {
   return `📞 ${contacts.phone}\n💬 WhatsApp ${contacts.whatsapp}\n🌐 ${contacts.web}`;
 }
 
-function composeMessage(post, contacts) {
-  return `${post.en}\n\n${contactBlock(contacts, false)}\n\n────────\n\n${post.he}\n\n${contactBlock(contacts, true)}`;
+function loadIlPlaces() {
+  try {
+    const g = JSON.parse(fs.readFileSync(GROUND_PATH, "utf8"));
+    return g.places || [];
+  } catch {
+    return [];
+  }
 }
 
-function composeIgCaption(post, contacts) {
-  const base = composeMessage(post, contacts);
-  return ensureInstagramCaption(base);
+function loadAirRoutes() {
+  const geo = JSON.parse(fs.readFileSync(GEO_PATH, "utf8"));
+  const countryName = Object.fromEntries(
+    (geo.priorityCountries || []).map((c) => [c.code, c.name])
+  );
+  // Prefer high-variety destinations (city → Israel)
+  const preferred = [
+    "Dubai",
+    "Bangkok",
+    "Phuket",
+    "New York",
+    "Miami",
+    "Los Angeles",
+    "London",
+    "Paris",
+    "Berlin",
+    "Frankfurt",
+    "Zurich",
+    "Geneva",
+    "Rome",
+    "Milan",
+    "Athens",
+    "Rhodes",
+    "Larnaca",
+    "Toronto",
+    "Montreal",
+    "Amsterdam",
+    "Vienna",
+    "Singapore",
+    "Tokyo",
+    "Sydney",
+    "Johannesburg",
+    "Abu Dhabi",
+    "Nice",
+    "Munich",
+    "Prague",
+    "Budapest",
+    "Warsaw",
+    "Casablanca",
+    "Boston",
+    "Chicago"
+  ];
+  const byName = Object.fromEntries((geo.cities || []).map((c) => [c.name, c]));
+  const routes = [];
+  for (const name of preferred) {
+    const c = byName[name];
+    if (!c || c.country === "IL") continue;
+    const countryEn = countryName[c.country] || c.country;
+    const cityHe = CITY_HE[name] || name;
+    const countryHe = COUNTRY_HE[c.country] || countryEn;
+    routes.push({
+      cityEn: name,
+      cityHe,
+      countryCode: c.country,
+      countryEn,
+      countryHe,
+      lineEn: `${name} → Israel`,
+      lineHe: `${cityHe} → ישראל`,
+      countryLineEn: `${countryEn} → Israel`,
+      countryLineHe: `${countryHe} → ישראל`,
+      bottomEn: `📍 ${name} → Israel · ${countryEn}`,
+      bottomHe: `📍 ${cityHe} → ישראל · ${countryHe}`
+    });
+  }
+  // Also add country-level variety lines for US/TH/AE emphasis
+  const countryExtras = [
+    {
+      cityEn: "United States",
+      cityHe: "ארה״ב",
+      countryCode: "US",
+      countryEn: "United States",
+      countryHe: "ארה״ב",
+      lineEn: "USA → Israel",
+      lineHe: "ארה״ב → ישראל",
+      countryLineEn: "USA → Israel",
+      countryLineHe: "ארה״ב → ישראל",
+      bottomEn: "📍 USA → Israel",
+      bottomHe: "📍 ארה״ב → ישראל"
+    },
+    {
+      cityEn: "Thailand",
+      cityHe: "תאילנד",
+      countryCode: "TH",
+      countryEn: "Thailand",
+      countryHe: "תאילנד",
+      lineEn: "Thailand → Israel",
+      lineHe: "תאילנד → ישראל",
+      countryLineEn: "Thailand → Israel",
+      countryLineHe: "תאילנד → ישראל",
+      bottomEn: "📍 Thailand → Israel",
+      bottomHe: "📍 תאילנד → ישראל"
+    }
+  ];
+  return [...routes, ...countryExtras];
+}
+
+function pickLocation(stream, seed, post) {
+  const places = loadIlPlaces();
+  if (stream === "air") {
+    const routes = loadAirRoutes();
+    return { type: "air", ...(routes[seed % routes.length] || routes[0]) };
+  }
+  // Maccabi posts stay Tiberias-focused at bottom
+  if (String(post?.theme || "").startsWith("maccabi")) {
+    const tib = places.find((p) => p.id === "poriya") || places[0];
+    return {
+      type: "ground",
+      place: tib,
+      bottomEn: `📍 ${tib.nameEn} · ${tib.cityEn}`,
+      bottomHe: `📍 ${tib.nameHe} · ${tib.cityHe}`
+    };
+  }
+  const place = places[seed % Math.max(places.length, 1)] || {
+    nameEn: "Northern Israel",
+    nameHe: "הצפון",
+    cityEn: "North",
+    cityHe: "הצפון"
+  };
+  return {
+    type: "ground",
+    place,
+    bottomEn: `📍 ${place.nameEn} · ${place.cityEn}`,
+    bottomHe: `📍 ${place.nameHe} · ${place.cityHe}`
+  };
+}
+
+/**
+ * Location ALWAYS last (bottom of ad) — after contacts.
+ * Air posts also get a route headline near the top for variety.
+ */
+function composeMessage(post, contacts, location) {
+  const airLeadEn =
+    location?.type === "air"
+      ? `Medical flight: ${location.lineEn}\n\n`
+      : "";
+  const airLeadHe =
+    location?.type === "air"
+      ? `הטסה רפואית: ${location.lineHe}\n\n`
+      : "";
+  const bottom = `${location?.bottomHe || ""}\n${location?.bottomEn || ""}`.trim();
+
+  return (
+    `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
+    `────────\n\n` +
+    `${airLeadHe}${post.he}\n\n${contactBlock(contacts, true)}\n\n` +
+    `${bottom}`
+  );
+}
+
+function composeIgCaption(post, contacts, location) {
+  return ensureInstagramCaption(composeMessage(post, contacts, location));
 }
 
 function groundAssetBase() {
   return publicAssetBase().replace(/\/ai-images$/, "/ground");
 }
 
-function pickImage(post, seed) {
+function pickImage(post, seed, location) {
   // Prefer real fleet still when available
   if (post.id === 1 || post.theme === "north-private") {
     return `${groundAssetBase()}/IMG_4755-poster.jpg`;
   }
+  const routeHint =
+    location?.type === "air"
+      ? `${location.cityEn || ""} ${location.countryEn || ""} medical flight`
+      : "";
   const hint =
     post.imageHint === "air"
-      ? "air ambulance medical flight ECMO repatriation"
+      ? `air ambulance medical flight ECMO repatriation ${routeHint}`
       : post.imageHint === "event"
         ? "event medical security paramedic standby"
         : post.theme?.includes("maccabi")
           ? "ground north Tiberias ambulance transfer"
-          : "ground ambulance Israel north fleet";
+          : `ground ambulance Israel north fleet ${location?.place?.cityEn || ""}`;
   return (
     pickAiImageUrl({
       theme: post.theme || post.stream,
@@ -189,6 +422,9 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
   let air = 0;
   let ground = 0;
   let event = 0;
+  let ilPlaceCursor = 0;
+  let airRouteCursor = 0;
+  const airRoutesSeen = new Set();
 
   for (let dayIndex = 0; dayIndex < days; dayIndex++) {
     const ymd = addDaysYmd(startDate, dayIndex);
@@ -200,14 +436,35 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
       const post = pickPostForSlot(byStream, stream, dayIndex, slotIndex);
       const hour = SLOT_HOURS[slotIndex];
       const unix = jerusalemUnix(y, m, d, hour, 0);
-      const imageUrl = pickImage(post, dayIndex * 5 + slotIndex);
-      const message = composeMessage(post, contacts);
-      const caption = composeIgCaption(post, contacts);
+      const seed = dayIndex * 5 + slotIndex;
+      // Independent cursors so every IL hospital / world route appears (not stuck on seed%N)
+      let locSeed;
+      if (stream === "air") {
+        locSeed = airRouteCursor++;
+      } else if (String(post?.theme || "").startsWith("maccabi")) {
+        locSeed = 0; // pickLocation forces Tiberias/Poriya for Maccabi
+      } else {
+        locSeed = ilPlaceCursor++;
+      }
+      const location = pickLocation(stream, locSeed, post);
+      if (location.type === "air") airRoutesSeen.add(location.lineEn);
+      const imageUrl = pickImage(post, seed, location);
+      const message = composeMessage(post, contacts, location);
+      const caption = composeIgCaption(post, contacts, location);
       const id = `d${String(dayIndex + 1).padStart(3, "0")}-s${slotIndex + 1}-ap${post.id}`;
 
       if (post.stream === "air") air += 1;
       else if (post.stream === "event") event += 1;
       else ground += 1;
+
+      const titleEn =
+        location.type === "air"
+          ? `${post.title} · ${location.lineEn}`
+          : `${post.title} · ${location.place?.cityEn || ""}`.trim();
+      const titleHe =
+        location.type === "air"
+          ? `${post.titleHe} · ${location.lineHe}`
+          : `${post.titleHe} · ${location.place?.cityHe || ""}`.trim();
 
       slots.push({
         id,
@@ -222,9 +479,32 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
         scheduledIsoUtc: new Date(unix * 1000).toISOString(),
         sourceId: `approved-${post.id}`,
         approvedPostId: post.id,
-        title: post.title,
-        titleHe: post.titleHe,
+        title: titleEn,
+        titleHe,
         theme: post.theme,
+        location: {
+          bottomEn: location.bottomEn,
+          bottomHe: location.bottomHe,
+          ...(location.type === "air"
+            ? {
+                type: "air",
+                routeEn: location.lineEn,
+                routeHe: location.lineHe,
+                city: location.cityEn,
+                cityHe: location.cityHe,
+                country: location.countryEn,
+                countryHe: location.countryHe,
+                countryCode: location.countryCode
+              }
+            : {
+                type: "ground",
+                placeId: location.place?.id,
+                nameEn: location.place?.nameEn,
+                nameHe: location.place?.nameHe,
+                cityEn: location.place?.cityEn,
+                cityHe: location.place?.cityHe
+              })
+        },
         imageUrl,
         platforms: {
           facebook: {
@@ -249,11 +529,11 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
   }
 
   return {
-    version: 2,
+    version: 3,
     createdAt: new Date().toISOString(),
     brand: "Israel Air Ambulance",
     approval:
-      "Owner-approved posts 1–22 · 5 posts/day × 90 days · ground ambulances + medical flights + events + Maccabi Tiberias · FB+IG · bilingual EN+HE",
+      "Owner-approved posts 1–22 · 5/day × 90 · location ALWAYS at bottom · rotating world air routes + IL hospitals · FB+IG · EN+HE",
     pageId,
     igUserId,
     imageUrl: slots[0]?.imageUrl || null,
@@ -263,11 +543,13 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
     endDate: addDaysYmd(startDate, days - 1),
     timezone: TZ,
     slotHoursLocal: SLOT_HOURS,
+    locationPolicy: "bottom-of-caption",
     totals: {
       slots: slots.length,
       air,
       ground,
       event,
+      uniqueAirRoutes: airRoutesSeen.size,
       facebook: slots.length,
       instagram: slots.length
     },
@@ -364,8 +646,10 @@ async function main() {
   if (doBuild || !fs.existsSync(QUEUE_PATH)) {
     const library = JSON.parse(fs.readFileSync(APPROVED_PATH, "utf8"));
     if (fs.existsSync(QUEUE_PATH)) {
-      fs.copyFileSync(QUEUE_PATH, ARCHIVE_PATH);
-      console.log(`Archived previous queue → ${path.basename(ARCHIVE_PATH)}`);
+      const archive = `/tmp/iaa-queue-archive/publish-queue-90d.prev-${Date.now()}.json`;
+      fs.mkdirSync("/tmp/iaa-queue-archive", { recursive: true });
+      fs.copyFileSync(QUEUE_PATH, archive);
+      console.log(`Archived previous queue → ${archive}`);
     }
     queue = buildQueue({ days, startDate, pageId, igUserId, library });
     fs.writeFileSync(QUEUE_PATH, JSON.stringify(queue, null, 2));
@@ -374,7 +658,7 @@ async function main() {
       `${queue.totals.slots} slots · ${startDate}→${queue.endDate} · ${SLOT_HOURS.join("/")} ${TZ}`
     );
     console.log(
-      `Mix: air=${queue.totals.air} ground=${queue.totals.ground} event=${queue.totals.event}`
+      `Mix: air=${queue.totals.air} ground=${queue.totals.ground} event=${queue.totals.event} · unique air routes=${queue.totals.uniqueAirRoutes}`
     );
   } else {
     queue = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
