@@ -1,0 +1,264 @@
+{
+  "brand": "Israel Air Ambulance",
+  "note": "Diverse AI medical-aviation imagery \u2014 jets, helicopter, ICU, weather, seasons, routes.",
+  "defaultOwner": "dmrizn1-sudo",
+  "defaultRepo": "iaa-dispatch",
+  "preferredRef": "cursor/israel-air-ambulance-marketing-a915",
+  "images": [
+    {
+      "id": "aerial-mediterranean-route",
+      "file": "aerial-mediterranean-route.jpg",
+      "path": "marketing/assets/ai-images/aerial-mediterranean-route.jpg",
+      "bytes": 352528,
+      "themes": [
+        "routes",
+        "greece",
+        "cyprus",
+        "travel_medicine"
+      ],
+      "alt": "Mediterranean aerial route"
+    },
+    {
+      "id": "air-ambulance-icu-cabin",
+      "file": "air-ambulance-icu-cabin.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-icu-cabin.jpg",
+      "bytes": 208671,
+      "themes": [
+        "equipment",
+        "icu",
+        "crew"
+      ],
+      "alt": "ICU cabin"
+    },
+    {
+      "id": "air-ambulance-inflight",
+      "file": "air-ambulance-inflight.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-inflight.jpg",
+      "bytes": 166298,
+      "themes": [
+        "routes",
+        "emergency",
+        "fly_home"
+      ],
+      "alt": "In flight"
+    },
+    {
+      "id": "air-ambulance-jet-tarmac",
+      "file": "air-ambulance-jet-tarmac.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-jet-tarmac.jpg",
+      "bytes": 227758,
+      "themes": [
+        "routes",
+        "city",
+        "general"
+      ],
+      "alt": "Jet on tarmac"
+    },
+    {
+      "id": "air-ambulance-nose-square",
+      "file": "air-ambulance-nose-square.jpg",
+      "path": "marketing/assets/ai-images/air-ambulance-nose-square.jpg",
+      "bytes": 157326,
+      "themes": [
+        "general",
+        "brand"
+      ],
+      "alt": "Jet nose square"
+    },
+    {
+      "id": "ambulance-jet-handoff",
+      "file": "ambulance-jet-handoff.jpg",
+      "path": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "bytes": 234452,
+      "themes": [
+        "trust",
+        "bedside",
+        "repatriation"
+      ],
+      "alt": "Ambulance jet handoff"
+    },
+    {
+      "id": "cabin-monitor-closeup",
+      "file": "cabin-monitor-closeup.jpg",
+      "path": "marketing/assets/ai-images/cabin-monitor-closeup.jpg",
+      "bytes": 224884,
+      "themes": [
+        "equipment",
+        "icu",
+        "crew",
+        "safety"
+      ],
+      "alt": "Cabin monitor closeup"
+    },
+    {
+      "id": "cabin-window-sunset-square",
+      "file": "cabin-window-sunset-square.jpg",
+      "path": "marketing/assets/ai-images/cabin-window-sunset-square.jpg",
+      "bytes": 118302,
+      "themes": [
+        "travel_medicine",
+        "trust",
+        "general"
+      ],
+      "alt": "Cabin window sunset"
+    },
+    {
+      "id": "fleet-hangar-dawn",
+      "file": "fleet-hangar-dawn.jpg",
+      "path": "marketing/assets/ai-images/fleet-hangar-dawn.jpg",
+      "bytes": 237004,
+      "themes": [
+        "equipment",
+        "behind_scenes",
+        "general"
+      ],
+      "alt": "Fleet hangar dawn"
+    },
+    {
+      "id": "ground-ambulance-ready",
+      "file": "ground-ambulance-ready.jpg",
+      "path": "marketing/assets/ai-images/ground-ambulance-ready.jpg",
+      "bytes": 287886,
+      "themes": [
+        "fleet",
+        "safety",
+        "transfer",
+        "bedside",
+        "trust",
+        "ground",
+        "paramedic"
+      ],
+      "alt": "Ground ambulance ready"
+    },
+    {
+      "id": "hospital-helipad-dusk",
+      "file": "hospital-helipad-dusk.jpg",
+      "path": "marketing/assets/ai-images/hospital-helipad-dusk.jpg",
+      "bytes": 219843,
+      "themes": [
+        "emergency",
+        "trust",
+        "bedside"
+      ],
+      "alt": "Hospital helipad dusk"
+    },
+    {
+      "id": "jet-desert-climb",
+      "file": "jet-desert-climb.jpg",
+      "path": "marketing/assets/ai-images/jet-desert-climb.jpg",
+      "bytes": 124039,
+      "themes": [
+        "uae",
+        "routes",
+        "middle_east"
+      ],
+      "alt": "Jet climb over desert"
+    },
+    {
+      "id": "medevac-heli-coast",
+      "file": "medevac-heli-coast.jpg",
+      "path": "marketing/assets/ai-images/medevac-heli-coast.jpg",
+      "bytes": 187856,
+      "themes": [
+        "emergency",
+        "greece",
+        "cyprus",
+        "coast"
+      ],
+      "alt": "Coastal medevac helicopter"
+    },
+    {
+      "id": "rain-night-transfer",
+      "file": "rain-night-transfer.jpg",
+      "path": "marketing/assets/ai-images/rain-night-transfer.jpg",
+      "bytes": 267033,
+      "themes": [
+        "emergency",
+        "behind_scenes",
+        "weather"
+      ],
+      "alt": "Rain night transfer"
+    },
+    {
+      "id": "stretcher-boarding-night",
+      "file": "stretcher-boarding-night.jpg",
+      "path": "marketing/assets/ai-images/stretcher-boarding-night.jpg",
+      "bytes": 247238,
+      "themes": [
+        "emergency",
+        "behind_scenes",
+        "safety"
+      ],
+      "alt": "Night stretcher boarding"
+    },
+    {
+      "id": "winter-europe-turboprop",
+      "file": "winter-europe-turboprop.jpg",
+      "path": "marketing/assets/ai-images/winter-europe-turboprop.jpg",
+      "bytes": 286269,
+      "themes": [
+        "europe",
+        "routes",
+        "repatriation"
+      ],
+      "alt": "Winter Europe turboprop"
+    },
+    {
+      "id": "ground-prime-fleet",
+      "file": "ground-prime-fleet.jpg",
+      "themes": [
+        "ground",
+        "prime",
+        "fleet",
+        "transfer",
+        "safety"
+      ],
+      "alt": "Prime ambulance fleet",
+      "path": "marketing/assets/ai-images/ground-prime-fleet.jpg",
+      "bytes": 242592
+    },
+    {
+      "id": "ground-electric-stretcher",
+      "file": "ground-electric-stretcher.jpg",
+      "themes": [
+        "ground",
+        "equipment",
+        "electric_bed",
+        "icu",
+        "fleet"
+      ],
+      "alt": "Electric stretcher cabin",
+      "path": "marketing/assets/ai-images/ground-electric-stretcher.jpg",
+      "bytes": 226263
+    },
+    {
+      "id": "ground-event-standby",
+      "file": "ground-event-standby.jpg",
+      "themes": [
+        "ground",
+        "event",
+        "paramedic",
+        "security",
+        "standby"
+      ],
+      "alt": "Event medical standby",
+      "path": "marketing/assets/ai-images/ground-event-standby.jpg",
+      "bytes": 173131
+    },
+    {
+      "id": "ground-north-transfer",
+      "file": "ground-north-transfer.jpg",
+      "themes": [
+        "ground",
+        "north",
+        "poriya",
+        "tzfat",
+        "transfer",
+        "routes"
+      ],
+      "alt": "Northern Israel transfer",
+      "path": "marketing/assets/ai-images/ground-north-transfer.jpg",
+      "bytes": 185888
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>חיבור פייסבוק — Israel Air Ambulance</title>
+  <style>
+    :root {
+      --bg: #0b1c2c;
+      --card: #132a3f;
+      --text: #f4f7fa;
+      --muted: #9fb3c4;
+      --accent: #1b7fbf;
+      --ok: #2f9e6b;
+      --warn: #c9852c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 80% -10%, #1a3a55, var(--bg));
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.6rem; margin: 0 0 .4rem; }
+    p { color: var(--muted); line-height: 1.5; }
+    .card {
+      background: var(--card);
+      border: 1px solid #23465f;
+      border-radius: 14px;
+      padding: 1.25rem;
+      margin-top: 1rem;
+    }
+    label { display: block; margin-bottom: .35rem; color: var(--muted); font-size: .9rem; }
+    input {
+      width: 100%;
+      padding: .75rem .9rem;
+      border-radius: 10px;
+      border: 1px solid #355872;
+      background: #0d2133;
+      color: var(--text);
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      appearance: none;
+      border: 0;
+      border-radius: 10px;
+      padding: .85rem 1.2rem;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+      margin-left: .5rem;
+      margin-bottom: .5rem;
+    }
+    button.secondary { background: #29485f; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-all;
+      background: #0a1824;
+      border-radius: 10px;
+      padding: 1rem;
+      border: 1px solid #2a4c66;
+      font-size: .85rem;
+      direction: ltr;
+      text-align: left;
+    }
+    .status { margin-top: .75rem; font-size: .95rem; }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .hint { font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>חיבור פייסבוק לדף Israel Air & Ambulance</h1>
+    <p>
+      כלי עזר מקומי: מתחבר לפייסבוק, מציג את מזהה הדף ואת Page Access Token.
+      העתק את הערכים לסוכן Cursor כדי לפרסם.
+    </p>
+
+    <div class="card">
+      <label for="appId">Meta App ID</label>
+      <input id="appId" placeholder="הדבק כאן את App ID מ־developers.facebook.com" />
+
+      <button id="loginBtn" type="button">התחבר לפייסבוק</button>
+      <button id="loadPagesBtn" class="secondary" type="button" disabled>טען דפים</button>
+
+      <p class="hint">
+        לפני שימוש: ב־Facebook Login של האפליקציה הוסף
+        <code style="direction:ltr">http://localhost:8787</code>
+        ל־Allowed Domains / OAuth redirect.
+        הרשאות נדרשות: pages_show_list, pages_manage_posts, pages_read_engagement.
+      </p>
+      <div id="status" class="status warn">ממתין ל־App ID ולהתחברות…</div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin-top:0;font-size:1.1rem">תוצאה להעתקה</h2>
+      <pre id="out">FACEBOOK_PAGE_ID=
+FACEBOOK_PAGE_ACCESS_TOKEN=
+INSTAGRAM_USER_ID=</pre>
+      <button id="copyBtn" class="secondary" type="button">העתק ללוח</button>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const appIdInput = document.getElementById("appId");
+    const statusEl = document.getElementById("status");
+    const outEl = document.getElementById("out");
+    const loginBtn = document.getElementById("loginBtn");
+    const loadPagesBtn = document.getElementById("loadPagesBtn");
+    const copyBtn = document.getElementById("copyBtn");
+
+    if (params.get("appId")) appIdInput.value = params.get("appId");
+
+    let fbReady = false;
+    let userToken = null;
+
+    function setStatus(msg, ok = false) {
+      statusEl.textContent = msg;
+      statusEl.className = "status " + (ok ? "ok" : "warn");
+    }
+
+    function loadFbSdk(appId) {
+      return new Promise((resolve, reject) => {
+        if (window.FB && fbReady) return resolve();
+        window.fbAsyncInit = function () {
+          FB.init({
+            appId,
+            cookie: true,
+            xfbml: false,
+            version: "v21.0"
+          });
+          fbReady = true;
+          resolve();
+        };
+        const existing = document.getElementById("facebook-jssdk");
+        if (existing) existing.remove();
+        const js = document.createElement("script");
+        js.id = "facebook-jssdk";
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        js.onerror = () => reject(new Error("Failed to load Facebook SDK"));
+        document.body.appendChild(js);
+      });
+    }
+
+    async function login() {
+      const appId = appIdInput.value.trim();
+      if (!appId) {
+        setStatus("חסר App ID");
+        return;
+      }
+      setStatus("טוען Facebook SDK…");
+      await loadFbSdk(appId);
+      FB.login(
+        (response) => {
+          if (!response.authResponse) {
+            setStatus("ההתחברות בוטלה או נכשלה");
+            return;
+          }
+          userToken = response.authResponse.accessToken;
+          loadPagesBtn.disabled = false;
+          setStatus("מחובר. לחץ «טען דפים».", true);
+          loadPages();
+        },
+        {
+          scope:
+            "pages_show_list,pages_manage_posts,pages_read_engagement,pages_read_user_content,business_management"
+        }
+      );
+    }
+
+    function graphGet(path) {
+      return new Promise((resolve, reject) => {
+        FB.api(path, (res) => {
+          if (!res || res.error) reject(res && res.error ? res.error : new Error("API error"));
+          else resolve(res);
+        });
+      });
+    }
+
+    async function loadPages() {
+      try {
+        setStatus("טוען דפים…");
+        const res = await graphGet(
+          "/me/accounts?fields=id,name,access_token,instagram_business_account{id,username}"
+        );
+        const pages = res.data || [];
+        if (!pages.length) {
+          setStatus("לא נמצאו דפים. ודא שיש לך תפקיד בדף Israel air&ambulance");
+          return;
+        }
+
+        // Prefer Israel Air / Ambulance naming
+        const preferred =
+          pages.find((p) => /israel.*air|air.*ambulance|ambulancenter/i.test(p.name)) ||
+          pages[0];
+
+        const ig = preferred.instagram_business_account || {};
+        outEl.textContent =
+          `FACEBOOK_PAGE_ID=${preferred.id}\n` +
+          `FACEBOOK_PAGE_ACCESS_TOKEN=${preferred.access_token}\n` +
+          `INSTAGRAM_USER_ID=${ig.id || ""}\n` +
+          `PAGE_NAME=${preferred.name}\n` +
+          (ig.username ? `INSTAGRAM_USERNAME=${ig.username}\n` : "");
+
+        setStatus(
+          `נמצא דף: ${preferred.name} (${preferred.id}). העתק את הבלוק ושלח לסוכן.`,
+          true
+        );
+      } catch (e) {
+        setStatus("שגיאה: " + (e.message || JSON.stringify(e)));
+      }
+    }
+
+    loginBtn.addEventListener("click", () => login().catch((e) => setStatus(String(e))));
+    loadPagesBtn.addEventListener("click", () => loadPages().catch((e) => setStatus(String(e))));
+    copyBtn.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(outEl.textContent);
+      setStatus("הועתק ללוח.", true);
+    });
+  </script>
+</body>
+</html>

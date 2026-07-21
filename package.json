@@ -10,7 +10,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "marketing:generate": "node marketing/tools/generate-marketing-assets.mjs",
+    "marketing:export-social": "node marketing/tools/export-social-markdown.mjs",
+    "marketing:facebook-connect": "node marketing/tools/serve-facebook-connect.mjs",
+    "marketing:publish-facebook": "node marketing/tools/publish-facebook.mjs",
+    "marketing:schedule-90d": "node marketing/tools/schedule-90-days.mjs --build --schedule-facebook",
+    "marketing:publish-due": "node marketing/tools/publish-due.mjs --instagram --roll-facebook",
+    "marketing:assign-ai-images": "node marketing/tools/assign-ai-images.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
