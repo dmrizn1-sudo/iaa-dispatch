@@ -15,7 +15,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { pickAiImageUrl, publicAssetBase, listAiImageUrls } from "./ai-image-urls.mjs";
-import { ensureInstagramCaption } from "./ig-hashtags.mjs";
+import { ensureInstagramCaption, buildHashtagBlock } from "./ig-hashtags.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -340,8 +340,9 @@ function pickLocation(stream, seed, post) {
 /**
  * Location ALWAYS last (bottom of ad) — after contacts.
  * Air posts also get a route headline near the top for variety.
+ * Hashtags appended after location (IG discovery + FB search).
  */
-function composeMessage(post, contacts, location) {
+function composeMessage(post, contacts, location, { withHashtags = true, seed = 0 } = {}) {
   const airLeadEn =
     location?.type === "air"
       ? `Medical flight: ${location.lineEn}\n\n`
@@ -352,16 +353,35 @@ function composeMessage(post, contacts, location) {
       : "";
   const bottom = `${location?.bottomHe || ""}\n${location?.bottomEn || ""}`.trim();
 
-  return (
+  let msg =
     `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
     `────────\n\n` +
     `${airLeadHe}${post.he}\n\n${contactBlock(contacts, true)}\n\n` +
-    `${bottom}`
-  );
+    `${bottom}`;
+
+  if (withHashtags) {
+    const tags = buildHashtagBlock({
+      stream: post.stream,
+      theme: post.theme,
+      location,
+      seed
+    });
+    msg = `${msg}\n\n${tags}`;
+  }
+  return msg;
 }
 
-function composeIgCaption(post, contacts, location) {
-  return ensureInstagramCaption(composeMessage(post, contacts, location));
+function composeIgCaption(post, contacts, location, seed = 0) {
+  // Body without duplicate tags; ensureInstagramCaption rebuilds contextual tags
+  const body = composeMessage(post, contacts, location, { withHashtags: false, seed });
+  return ensureInstagramCaption(body, {
+    context: {
+      stream: post.stream,
+      theme: post.theme,
+      location,
+      seed
+    }
+  });
 }
 
 function groundAssetBase() {
@@ -449,8 +469,8 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
       const location = pickLocation(stream, locSeed, post);
       if (location.type === "air") airRoutesSeen.add(location.lineEn);
       const imageUrl = pickImage(post, seed, location);
-      const message = composeMessage(post, contacts, location);
-      const caption = composeIgCaption(post, contacts, location);
+      const message = composeMessage(post, contacts, location, { withHashtags: true, seed });
+      const caption = composeIgCaption(post, contacts, location, seed);
       const id = `d${String(dayIndex + 1).padStart(3, "0")}-s${slotIndex + 1}-ap${post.id}`;
 
       if (post.stream === "air") air += 1;

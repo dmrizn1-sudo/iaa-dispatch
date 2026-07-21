@@ -1,5 +1,6 @@
 /**
  * Instagram hashtag helpers — never publish IG without tags.
+ * Always include brand, Israel, medical flights, plus kupot/hospitals/destinations.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -10,29 +11,23 @@ const HASHTAGS = path.join(ROOT, "data/hashtags.json");
 
 const FALLBACK_EN = [
   "#IsraelAirAmbulance",
-  "#AirAmbulance",
-  "#MedicalFlight",
-  "#MedicalRepatriation",
-  "#CriticalCareTransport",
-  "#ICUTransport",
-  "#EmergencyMedicalFlight",
-  "#MedicalEscort",
-  "#InternationalPatientTransport",
-  "#PrivateAirAmbulance",
   "#Israel",
-  "#TelAviv"
+  "#MedicalFlight",
+  "#AirAmbulance",
+  "#MedicalRepatriation",
+  "#PatientTransfer",
+  "#PrivateAmbulance",
+  "#CriticalCareTransport"
 ];
 const FALLBACK_HE = [
   "#ישראלאייראמבולנס",
-  "#אמבולנסאווירי",
-  "#טיסהרפואית",
-  "#החזרהרפואית",
-  "#טיפולנמרץ",
-  "#העברתמטופל",
-  "#ליווירפואי",
-  "#ממיטהלמיטה",
   "#ישראל",
-  "#תלאביב"
+  "#הטסותרפואיות",
+  "#טיסהרפואית",
+  "#אמבולנסאווירי",
+  "#אמבולנספרטי",
+  "#העברתחולים",
+  "#רפואהדחופה"
 ];
 
 export function loadHashtagLibrary() {
@@ -46,11 +41,130 @@ export function loadHashtagLibrary() {
   }
 }
 
-export function defaultHashtagBlock() {
+function uniqTags(tags) {
+  const seen = new Set();
+  const out = [];
+  for (const t of tags) {
+    if (!t || !t.startsWith("#")) continue;
+    const key = t.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(t);
+  }
+  return out;
+}
+
+function pickRotate(arr = [], seed = 0, n = 2) {
+  if (!arr.length || n <= 0) return [];
+  const out = [];
+  for (let i = 0; i < n; i++) {
+    out.push(arr[(seed + i) % arr.length]);
+  }
+  return out;
+}
+
+/**
+ * Build contextual hashtag block (EN + HE), max 30 tags.
+ * @param {{stream?:string, theme?:string, location?:object, seed?:number}} ctx
+ */
+export function buildHashtagBlock(ctx = {}) {
   const h = loadHashtagLibrary();
-  const en = (h.always_include || FALLBACK_EN).slice(0, 15).join(" ");
-  const he = (h.he_always || FALLBACK_HE).join(" ");
-  return `${en}\n${he}`;
+  const seed = Number(ctx.seed || 0);
+  const stream = ctx.stream || "";
+  const theme = String(ctx.theme || "");
+  const loc = ctx.location || {};
+
+  const en = [
+    ...(h.always_include || FALLBACK_EN),
+    ...pickRotate(h.service_rotate, seed, stream === "air" ? 3 : 2)
+  ];
+  const he = [
+    ...(h.he_always || FALLBACK_HE),
+    ...pickRotate(h.he_kupot, seed, 3),
+    ...pickRotate(h.he_growth, seed + 1, 2),
+    ...pickRotate(h.he_rotate, seed + 2, 2)
+  ];
+
+  // Destination / route tags for air
+  if (stream === "air" || loc.type === "air") {
+    const city = loc.city || loc.cityEn || "";
+    const country = loc.country || loc.countryEn || "";
+    const countryCode = loc.countryCode || "";
+    if (city) {
+      const compact = `#${String(city).replace(/\s+/g, "")}`;
+      en.push(compact, `#${String(city).replace(/\s+/g, "")}ToIsrael`);
+      const mapped = (h.he_dest_map || {})[city] || [];
+      he.push(...mapped);
+    }
+    if (country) {
+      en.push(`#${String(country).replace(/\s+/g, "")}`);
+    }
+    if (countryCode === "US" || /United States|USA/i.test(country) || /New York|Miami|Los Angeles/i.test(city)) {
+      en.push("#USAToIsrael", "#UnitedStates");
+      he.push("#ארהב", "#ארהבלישראל");
+    }
+    if (/Thailand|Bangkok|Phuket/i.test(`${city} ${country}`)) {
+      en.push("#ThailandToIsrael", "#Thailand");
+      he.push("#תאילנד", "#תאילנדלישראל");
+    }
+    if (/Dubai|United Arab Emirates|Abu Dhabi/i.test(`${city} ${country}`)) {
+      en.push("#DubaiToIsrael", "#Dubai");
+      he.push("#דובאי", "#דובאילישראל");
+    }
+    en.push(...pickRotate(h.route_rotate, seed, 2));
+    en.push(...pickRotate(h.country_rotate, seed, 1));
+    he.push("#הטסותרפואיות", "#טיסהרפואיתלישראל", "#השבהלארץ");
+  }
+
+  // Hospital / city tags for ground & events
+  if (stream === "ground" || stream === "event" || loc.type === "ground") {
+    const placeId = loc.placeId || loc.place?.id || "";
+    const cityHe = loc.cityHe || loc.place?.cityHe || "";
+    const cityEn = loc.cityEn || loc.place?.cityEn || "";
+    const mapped = (h.he_place_map || {})[placeId] || [];
+    he.push(...mapped);
+    if (cityHe) {
+      he.push(`#${String(cityHe).replace(/\s+/g, "")}`);
+    }
+    if (cityEn) {
+      en.push(`#${String(cityEn).replace(/\s+/g, "")}`);
+    }
+    he.push(...pickRotate(h.he_hospitals_rotate, seed, 3));
+    if (theme.startsWith("maccabi")) {
+      he.push("#מכבי", "#קופתחולים", "#טבריה");
+      en.push("#Maccabi", "#Tiberias");
+    }
+    if (stream === "event" || theme.includes("event")) {
+      he.push("#אבטחהרפואית", "#אירועים");
+      en.push("#EventMedical");
+    }
+  }
+
+  // Always reinforce brand + Israel + medical flights (user request)
+  en.unshift("#IsraelAirAmbulance", "#Israel", "#MedicalFlight");
+  he.unshift("#ישראלאייראמבולנס", "#ישראל", "#הטסותרפואיות", "#טיסהרפואית");
+
+  const enU = uniqTags(en);
+  const heU = uniqTags(he);
+  // Cap 30 total — keep brand/Israel/flights first, then HE geo, then rest
+  const priorityHe = heU.filter((t) =>
+    /ישראלאייראמבולנס|^#ישראל$|הטסותרפואיות|טיסהרפואית|מכבי|כללית|רמבם|עפולה|פוריה|זיו|דובאי|תאילנד|ארהב/.test(t)
+  );
+  const restHe = heU.filter((t) => !priorityHe.includes(t));
+  const priorityEn = enU.filter((t) =>
+    /IsraelAirAmbulance|^#Israel$|MedicalFlight|AirAmbulance|ToIsrael|Maccabi|Dubai|Thailand|USA/.test(t)
+  );
+  const restEn = enU.filter((t) => !priorityEn.includes(t));
+
+  const max = 30;
+  const heKeep = uniqTags([...priorityHe, ...restHe]).slice(0, 14);
+  const enKeep = uniqTags([...priorityEn, ...restEn]).slice(0, max - heKeep.length);
+
+  return `${enKeep.join(" ")}\n${heKeep.join(" ")}`.trim();
+}
+
+export function defaultHashtagBlock() {
+  return buildHashtagBlock({});
 }
 
 export function extractHashtagBlock(caption = "") {
@@ -79,37 +193,25 @@ export function stripTrailingHashtags(caption = "") {
   return caption.slice(0, idx).trim();
 }
 
-/** Keep body under limit while always appending hashtags. */
-export function ensureInstagramCaption(caption, { max = 2200, maxTags = 30 } = {}) {
+/** Keep body under limit while always appending contextual hashtags. */
+export function ensureInstagramCaption(caption, opts = {}) {
+  const { max = 2200, maxTags = 30, context = null } = opts;
   let body = String(caption || "").trim();
   let tags = extractHashtagBlock(body);
   if (tags) body = stripTrailingHashtags(body);
-  if (!tags || (tags.match(/#/g) || []).length < 8) {
+  // Always rebuild from context when provided (stronger brand/geo tags)
+  if (context) {
+    tags = buildHashtagBlock(context);
+  } else if (!tags || (tags.match(/#/g) || []).length < 8) {
     tags = defaultHashtagBlock();
   }
-  // Cap hashtags at Instagram API limit (30)
   const tagTokens = tags.split(/\s+/).filter((t) => t.startsWith("#"));
-  const other = tags.split(/\n/).filter((l) => l.trim() && !l.trim().startsWith("#"));
   if (tagTokens.length > maxTags) {
-    // Prefer keeping destination-looking tags + brand + Hebrew
-    const brand = tagTokens.filter((t) =>
-      /IsraelAirAmbulance|AirAmbulance$|MedicalFlight$|ישראלאייר|אמבולנסאווירי$|טיסהרפואית$/.test(t)
-    );
-    const dest = tagTokens.filter((t) => /ToIsrael|Israel$|TelAviv|ישראל|תלאביב|AirAmbulance[A-Z]|MedicalFlight[A-Z]|אמבולנסאווירי.+|טיסהרפואית.+/.test(t) && !brand.includes(t));
-    const rest = tagTokens.filter((t) => !brand.includes(t) && !dest.includes(t));
-    const he = [...brand, ...dest, ...rest].filter((t) => /[\u0590-\u05FF]/.test(t));
-    const en = [...brand, ...dest, ...rest].filter((t) => !/[\u0590-\u05FF]/.test(t));
-    const heKeep = he.slice(0, 10);
-    const enKeep = en.slice(0, maxTags - heKeep.length);
-    tags = `${enKeep.join(" ")}\n${heKeep.join(" ")}`.trim();
+    tags = tagTokens.slice(0, maxTags).join(" ");
   }
-  // Ensure Hebrew tags present
-  if (!/[\u0590-\u05FF]/.test(tags)) {
-    tags = `${tags}\n${FALLBACK_HE.slice(0, 6).join(" ")}`;
-    const all = tags.split(/\s+/).filter((t) => t.startsWith("#"));
-    if (all.length > maxTags) {
-      tags = all.slice(0, maxTags).join(" ");
-    }
+  // Ensure required Hebrew tags present
+  for (const must of ["#ישראלאייראמבולנס", "#ישראל", "#הטסותרפואיות"]) {
+    if (!tags.includes(must)) tags = `${tags} ${must}`;
   }
   const sep = "\n\n";
   let out = `${body}${sep}${tags}`.trim();
