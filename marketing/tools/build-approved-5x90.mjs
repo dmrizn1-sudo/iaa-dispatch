@@ -230,6 +230,8 @@ function loadAirRoutes() {
     "Frankfurt",
     "Zurich",
     "Geneva",
+    "Rome",
+    "Milan",
     "Athens",
     "Rhodes",
     "Larnaca",
@@ -250,7 +252,6 @@ function loadAirRoutes() {
     "Casablanca",
     "Boston",
     "Chicago"
-    // Rome / Milan intentionally deprioritized — TikTok job-seeker spam from Italy
   ];
   const byName = Object.fromEntries((geo.cities || []).map((c) => [c.name, c]));
   const routes = [];
@@ -338,9 +339,17 @@ function pickLocation(stream, seed, post) {
 
 /**
  * Location ALWAYS last (bottom of ad) — after contacts.
+ * Global policy: medical flights/transfers only — NOT hiring (all destinations).
  * Air posts also get a route headline near the top for variety.
  * Hashtags appended after location (IG discovery + FB search).
  */
+function noHiringBlock() {
+  return {
+    en: "Medical flights & patient transfers only · We are not hiring · CV/job applications are not accepted.",
+    he: "הטסות רפואיות והעברות חולים בלבד · לא מגייסים עובדים · לא מקבלים קורות חיים."
+  };
+}
+
 function composeMessage(post, contacts, location, { withHashtags = true, seed = 0 } = {}) {
   const airLeadEn =
     location?.type === "air"
@@ -350,12 +359,13 @@ function composeMessage(post, contacts, location, { withHashtags = true, seed = 
     location?.type === "air"
       ? `הטסה רפואית: ${location.lineHe}\n\n`
       : "";
+  const nh = noHiringBlock();
   const bottom = `${location?.bottomHe || ""}\n${location?.bottomEn || ""}`.trim();
 
   let msg =
-    `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
+    `${airLeadEn}${post.en}\n\n${nh.en}\n\n${contactBlock(contacts, false)}\n\n` +
     `────────\n\n` +
-    `${airLeadHe}${post.he}\n\n${contactBlock(contacts, true)}\n\n` +
+    `${airLeadHe}${post.he}\n\n${nh.he}\n\n${contactBlock(contacts, true)}\n\n` +
     `${bottom}`;
 
   if (withHashtags) {

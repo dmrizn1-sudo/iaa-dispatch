@@ -1,92 +1,109 @@
-# תיקון איכות לידים — TikTok (מחפשי עבודה מאיטליה)
+# תיקון איכות לידים — TikTok / מודעות (כל היעדים)
 
-**תאריך:** 2026-07-22  
-**בעיה שדווחה:** במקום לידים להטסות רפואיות — המון הודעות מאיטליה על חיפוש עבודה (כנראה מטיקטוק).
-
-> אין בריפו גישה ל־TikTok Ads API. התיקון נעשה ב־TikTok Ads Manager + חסימות מילים כאן.
-
----
-
-## מה כנראה קרה
-
-1. קמפיין TikTok עם יעד **Messages / Traffic** רחב מדי  
-2. קהל Interest / Broad (ambulance, medical, Israel, travel) מושך גם **מחפשי עבודה**  
-3. כפתור WhatsApp פתוח → מגיעים שואלים על משרה / lavoro / assunzione  
-4. טירגוט גיאוגרפי כולל איטליה (או Worldwide) בלי סינון כוונה
-
-זה **לא** ליד הטסה — זה spam תעסוקתי.
+**עדכון:** 2026-07-22  
+**מדיניות קשיחה:** המודעות והתוכן הם **רק להטסות רפואיות והעברות מטופלים**.  
+**אנחנו לא מחפשים עובדים · לא מגייסים · לא מקבלים קו״ח** — בכל מדינה ובכל יעד.
 
 ---
 
-## פעולות מיידיות (עכשיו בטיקטוק)
+## כלל לכל היעדים (לא רק איטליה)
 
-### 1) עצירה / צמצום
-- [ ] **Pause** קמפיינים שמביאים Messages מאיטליה / מחפשי עבודה  
-- [ ] בדוק **Breakdown → Country** ו־**Placement** להיום  
-- [ ] כבה זמנית **Italy** מטירגוט המיקומים (או הגבל ל־IL + מדינות יעד אמיתיות בלבד)
+| מותר | אסור |
+|------|------|
+| ליד: מטופל / משפחה / ביטוח / בית חולים / יעד הטסה | פניות עבודה, CV, «יש משרות?», lavoro, jobs, ديل عمل |
+| טירגוט: משפחות + מקבלי החלטה רפואית | Interest: Jobs / Career / HR / Recruitment |
+| CTA: «תיאום הטסה» / «Medical flight inquiry» | CTA שמזמין «Join our team» / גיוס |
 
-### 2) טירגוט מומלץ ללידי הטסה
-| הגדרה | המלצה |
-|--------|--------|
-| Location | ישראל + מדינות יעד משפחה (US, UK, FR, DE, AE, TH…) — **לא Broad Worldwide** |
-| Exclude | Italy זמנית אם ממשיך spam; או השאר רק אם יש קריאייטיב השבה מאיטליה |
-| Age | 30–65+ (משפחות / מקבלי החלטה) |
-| Interests | Medical travel / insurance / family care — **לא** Jobs, Career, HR |
-| Optimization | Prefer **Lead form** או **Website conversion** על פני סתם Messages |
-| Language | Hebrew + English (לא Italian בלבד) |
+חל על: דובאי, תאילנד, ארה״ב, בריטניה, צרפת, גרמניה, יוון, קפריסין, קנדה, **איטליה וכל שאר היעדים**.
 
-### 3) קריאייטיב / טקסט — חסום כוונת עבודה
-בכל מודעה וב־WhatsApp greeting:
+---
+
+## פעולות מיידיות בטיקטוק (כל הקמפיינים)
+
+1. **Pause** כל אדסט שמביא Messages בלי כוונת הטסה  
+2. בכל קמפיין Lead/Message:
+   - Location = מדינות יעד רלוונטיות בלבד (לא Worldwide פתוח)
+   - **Exclude** Interests: Jobs, Career, Employment, Human Resources, Job search  
+   - Age ≈ 30–65+  
+   - שפה: HE + EN (לפי קהל היעד)  
+3. Optimization מועדף: **Lead form** עם שאלות חובה:
+   - שם המטופל / קרבה  
+   - מדינת מוצא → ישראל (או הפוך)  
+   - האם יש ביטוח / מי מממן  
+   - «אני פונה להטסה רפואית (לא למשרה)» ✓  
+4. ברכת WhatsApp אחידה (כל השפות למטה)
+
+---
+
+## טקסט חובה במודעה / וואטסאפ / ליד פורם
 
 **HE**  
-«שירות הטסה רפואית והעברת חולים בלבד. לא מגייסים עובדים.»
+שירות הטסה רפואית והעברת חולים בלבד.  
+לא מגייסים עובדים · לא מקבלים קורות חיים.
 
 **EN**  
-«Medical flight / patient transfer inquiries only. We are not hiring.»
+Medical flights & patient transfers only.  
+We are not hiring · CV / job applications are not accepted.
 
-**IT** (לסינון מהיר)  
-«Solo voli medici / trasferimenti pazienti. Non assumiamo.»
-
-### 4) רשימת חסימות / Negative (TikTok + Google)
-
-העתק ל־TikTok keyword exclude / comment filter / interest exclude:
-
-```
-job, jobs, work, working, hiring, hire, career, careers, vacancy, CV, resume,
-employment, salary, wage, apply, recruitment, linkedin, indeed,
-lavoro, lavori, assunzione, assunzioni, stipendio, curriculum, candidatura,
-offerta di lavoro, cerco lavoro, posti di lavoro, paramedico lavoro,
-משרה, משרות, דרושים, עבודה, גיוס, שכר, קו״ח, קורות חיים, דרוש פרמדיק
-```
-
-רשימה מורחבת גם ב־`marketing/google-ads/negative-keywords.csv` (קטגוריית jobs + IT).
-
-### 5) WhatsApp Business
-- [ ] הודעת פתיחה: «הטסות רפואיות / העברות בלבד — לא מגייסים»  
-- [ ] תווית **Spam / Job seeker** + ארכיון מהיר  
-- [ ] אל תשיבו באריכות למחפשי עבודה (מחזק את האלגוריתם)
+**IT** — Solo voli medici / trasferimenti pazienti. Non assumiamo.  
+**FR** — Uniquement vols médicaux / transferts patients. Nous ne recrutons pas.  
+**DE** — Nur medizinische Flüge / Patiententransporte. Keine Stellenangebote.  
+**ES** — Solo vuelos médicos / traslados de pacientes. No estamos contratando.  
+**TH** — สำหรับบริการส่งผู้ป่วยทางอากาศเท่านั้น ไม่รับสมัครงาน  
+**AR** — خدمة الإخلاء الطبي فقط — لسنا نوظّف · لا نقبل السير الذاتية  
+**RU** — Только медицинская эвакуация / перевозка пациентов. Мы не нанимаем сотрудников.
 
 ---
 
-## מה לא לעשות
+## מילות חסימה גלובליות (TikTok exclude + Google negatives)
 
-- לא לפתוח קמפיין «Boost» על סרטון צי עם כפתור Message לכל העולם  
-- לא להשתמש ב־Spark Ads / Broad ללא exclude ל־Jobs  
-- לא לערבב מודעת גיוס ומודעת הטסה באותו אדסט
+### EN
+```
+job, jobs, hiring, hire, career, careers, vacancy, vacancies, CV, resume,
+employment, salary, wage, apply, recruitment, recruiter, linkedin, indeed,
+work with us, join our team, paramedic jobs, nurse jobs, emt jobs,
+flight nurse jobs, ambulance jobs, work in israel, jobs in israel
+```
+
+### HE
+```
+משרה, משרות, דרושים, עבודה, גיוס, שכר, קוח, קורות חיים,
+דרוש פרמדיק, דרוש חובש, דרוש נהג, עבודה באמבולנס, מחפש עבודה
+```
+
+### IT / FR / DE / ES / RU (עיקري)
+```
+lavoro, assunzione, stipendio, cerco lavoro, curriculum,
+emploi, recrutement, salaire, je cherche un emploi, CV,
+Job, Stellenangebot, Bewerbung, Gehalt, Arbeit suchen,
+trabajo, empleo, sueldo, busco trabajo, currículum,
+работа, вакансия, резюме, ищу работу, зарплата
+```
+
+רשימה מורחבת ב־`marketing/google-ads/negative-keywords.csv`.
 
 ---
 
-## אחרי התיקון — מדדי הצלחה (7 ימים)
+## קריאייטיב — מה לשנות
+
+- כותרת/Hook: «הטסה רפואית לישראל» / «Medical flight to Israel» — לא «Join us» / «Work with ambulance»  
+- בלי סצנות שנראות כמו גיוס צוות  
+- בכל מודעה שורת משנה קטנה: **Medical flights only · Not hiring**
+
+---
+
+## מדדי הצלחה (7 ימים, כל היעדים יחד)
 
 | מדד | יעד |
 |------|-----|
-| % הודעות «עבודה/lavoro» | ירידה חדה (<10%) |
-| לידים עם מטופל + יעד + ביטוח/משפחה | עלייה |
-| מדינות מובילות | IL + יעדי הטסה (לא IT spam) |
+| % הודעות עבודה / CV | < 5% |
+| לידים עם מטופל + מסלול + מימון | רוב הפניות |
+| פניות «jobs in Israel» מכל מדינה | כמעט אפס |
 
 ---
 
-## קשר לתוכן האורגני (FB/IG)
+## אורגני (FB/IG)
 
-בתור האורגני יש פוסטים Rome/Milan → Israel (השבה רפואית לגיטימית).  
-אם גם משם מגיעים מחפשי עבודה — הגבלת Italy בטיקטוק מספיקה בדרך כלל; האורגני לא אמור להציף כמו מודעת Message.
+בכל פוסט בתור מתווספת שורה:  
+«הטסות רפואיות והעברות בלבד · לא מגייסים עובדים»  
+`Medical flights & transfers only · Not hiring`

@@ -11,6 +11,7 @@ Regenerate via `node marketing/tools/generate-marketing-assets.mjs`.
 |----------|----------|-----|
 | Jobs / careers | job, salary, hiring, paramedic jobs | Non-buyer traffic |
 | Jobs IT (TikTok spill) | lavoro, assunzione, stipendio, cerco lavoro | Italian job-seeker spam |
+| Jobs FR/DE/ES/RU/AR/TH | emploi, Stellenangebot, busco trabajo, вакансия, وظيفة | Global job-seeker spam — all destinations |
 | Jobs HE | משרה, דרושים, קורות חיים, גיוס | Local job seekers |
 | Training | course, emt school, how to become | Education seekers |
 | Volunteer | volunteer, internship | Not private-pay missions |
