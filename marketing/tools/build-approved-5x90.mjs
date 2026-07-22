@@ -230,8 +230,6 @@ function loadAirRoutes() {
     "Frankfurt",
     "Zurich",
     "Geneva",
-    "Rome",
-    "Milan",
     "Athens",
     "Rhodes",
     "Larnaca",
@@ -252,6 +250,7 @@ function loadAirRoutes() {
     "Casablanca",
     "Boston",
     "Chicago"
+    // Rome / Milan intentionally deprioritized — TikTok job-seeker spam from Italy
   ];
   const byName = Object.fromEntries((geo.cities || []).map((c) => [c.name, c]));
   const routes = [];

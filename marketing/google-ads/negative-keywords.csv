@@ -171,3 +171,26 @@ meaning of,Phrase,Account,waste_reduction
 how much does an air ambulance cost average only,Phrase,Account,waste_reduction
 air ambulance movie,Phrase,Account,waste_reduction
 air ambulance tv show,Phrase,Account,waste_reduction
+lavoro,Phrase,Account,jobs_it
+lavori,Phrase,Account,jobs_it
+assunzione,Phrase,Account,jobs_it
+assunzioni,Phrase,Account,jobs_it
+stipendio,Phrase,Account,jobs_it
+curriculum,Phrase,Account,jobs_it
+candidatura,Phrase,Account,jobs_it
+cerco lavoro,Phrase,Account,jobs_it
+offerta di lavoro,Phrase,Account,jobs_it
+posti di lavoro,Phrase,Account,jobs_it
+paramedico,Phrase,Account,jobs_it
+infermiere lavoro,Phrase,Account,jobs_it
+lavorare in israel,Phrase,Account,jobs_it
+work in israel,Phrase,Account,jobs_en
+jobs in israel,Phrase,Account,jobs_en
+משרה,Phrase,Account,jobs_he
+משרות,Phrase,Account,jobs_he
+דרושים,Phrase,Account,jobs_he
+קורות חיים,Phrase,Account,jobs_he
+גיוס,Phrase,Account,jobs_he
+דרוש פרמדיק,Phrase,Account,jobs_he
+דרוש חובש,Phrase,Account,jobs_he
+עבודה באמבולנס,Phrase,Account,jobs_he
