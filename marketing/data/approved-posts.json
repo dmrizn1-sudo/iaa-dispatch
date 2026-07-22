@@ -32,11 +32,11 @@
       "id": 3,
       "stream": "ground",
       "theme": "crew",
-      "title": "Certified crew · 20 years experience",
-      "titleHe": "הצוות שלנו · 20 שנות ניסיון",
+      "title": "Experienced medical escort on every transfer",
+      "titleHe": "ליווי רפואי מנוסה בכל העברה",
       "imageHint": "ground",
-      "he": "ישראל אייר אנד אמבולנס — הצוות שלנו\n\nעומד לרשותכם צוות מוסמך, מיומן ומנוסה עם 20 שנות ניסיון.\nאנשי רפואה שעברו הכשרות מתקדמות ופועלים לפי הנהלים המחמירים ביותר — מחויבים לשירות מדויק, בטוח ואמין בכל מצב ובכל מקום.\n\nהצוות מורכב מחובשים ופראמדיקים מנוסים, הפועלים ברגישות ובהבנה.\nכל אנשי הצוות הוכשרו בקורס חובש רפואת חירום של מד״א ו/או כחובשים קרביים בצה״ל.\nבאישור ופיקוח משרד הבריאות והתחבורה.\n\nאמינות · מקצועיות · מיומנות",
-      "en": "Certified, skilled crew with 20 years of experience — EMTs and paramedics trained via MDA emergency medicine courses and/or IDF combat medic service."
+      "he": "ישראל אייר אנד אמבולנס — ליווי רפואי מקצועי בהעברות\n\nבכל העברת מטופל: חובשים ופראמדיקים מנוסים, עם הכשרות מתקדמות ונהלים מחמירים — לטיפול מדויק, בטוח ואמין לאורך כל הדרך.\n\nהליווי הרפואי מתבצע ברגישות ובהבנה, באישור ופיקוח משרד הבריאות והתחבורה.\n\nשירות העברות רפואיות למטופלים ולמשפחות.",
+      "en": "Professional medical escort on every patient transfer — experienced EMTs and paramedics, advanced training, strict protocols. A medical transfer service for patients and families."
     },
     {
       "id": 4,
@@ -125,8 +125,8 @@
       "title": "ECMO air ambulance transfers",
       "titleHe": "הטסת אקמו / ECMO",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס\n\nמתמחים בהעברות טיפול נמרץ בהיטס — עם הניסיון הרב ביותר במדינת ישראל בהעברות אקמו וחולים מורכבים ומונשמים.\n\nהעברות אקמו דורשות הטסה רפואית מורכבת במיוחד במטוס אמבולנס ייעודי, בליווי צמוד של צוות מומחי טיפול נמרץ ופרפוזיוניסט.\n\n🔹 ניהול צמוד Bed to Bed — העברה באמבולנס טיפול נמרץ לטיסה, ומשם לבית החולים היעד\n🔹 צוות מומחים — רופא מומחה, אח/ות טיפול נמרץ וטכנאי אקמו מיומן\n🔹 ציוד קריטי — המטוס מאובזר כיחידת טיפול נמרץ מוטסת, כולל מערכות גיבוי מלאות\n\nלתיאום הטסה רפואית — זמינות בארץ/בחו״ל, סיוע מול ביטוח ואישורים דחופים.",
-      "en": "Specialists in critical-care air transfers — extensive ECMO and complex ventilated-patient experience in Israel. Bed-to-bed ICU air ambulance missions."
+      "he": "ישראל אייר & אמבולנס — הטסה רפואית בינלאומית לישראל\n\nמתמחים בהעברות טיפול נמרץ בהיטס לישראל — כולל אקמו וחולים מורכבים ומונשמים.\n\nהעברות אקמו דורשות הטסה רפואית במטוס אמבולנס ייעודי, בליווי מומחי טיפול נמרץ ופרפוזיוניסט.\n\n🔹 Bed to Bed — מאמבולנס טיפול נמרץ לטיסה ועד בית החולים בישראל\n🔹 ליווי רפואי מלא בטיסה — רופא מומחה, אח/ות טיפול נמרץ וטכנאי אקמו\n🔹 המטוס כיחידת טיפול נמרץ מוטסת עם מערכות גיבוי\n\nלתיאום הטסה רפואית לישראל — זמינות, ביטוח ואישורים דחופים.",
+      "en": "International medical flights to Israel — ECMO and complex ventilated patients. Bed-to-bed ICU air ambulance into Israeli hospitals."
     },
     {
       "id": 13,
@@ -135,8 +135,8 @@
       "title": "ECMO short",
       "titleHe": "אקמו — קצר",
       "imageHint": "air",
-      "he": "מתמחים בהעברות טיפול נמרץ בהיטס.\nהניסיון הרב ביותר בישראל בהעברות אקמו וחולים מורכבים ומונשמים.\n\nמטוס אמבולנס ייעודי · צוות טיפול נמרץ ופרפוזיוניסט · ניהול מיטה למיטה.\n\nישראל אייר & אמבולנס — לתיאום מיידי.",
-      "en": "Critical-care air transfers. Leading ECMO and complex ventilated-patient experience in Israel. Dedicated air ambulance · ICU crew · bed-to-bed."
+      "he": "הטסה רפואית בינלאומית לישראל — העברות אקמו וחולים מורכבים ומונשמים.\n\nמטוס אמבולנס ייעודי · ליווי טיפול נמרץ ופרפוזיוניסט · מיטה למיטה עד בית החולים בארץ.\n\nישראל אייר & אמבולנס — לתיאום הטסה.",
+      "en": "International medical flight to Israel — ECMO and complex ventilated patients. Dedicated air ambulance · ICU escort · bed-to-bed to hospital in Israel."
     },
     {
       "id": 14,
@@ -145,8 +145,8 @@
       "title": "Medical repatriation to Israel",
       "titleHe": "השבה לארץ",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס — השבה לארץ\n\nאנו מודעים לצורך הקריטי בשירותי הטסה רפואית ולזמן תגובה מהיר כנדרש.\nאנו זמינים 24/7 ועושים כמיטב יכולתנו לביצוע הטסה רפואית ללא איבוד זמן מיותר.\nאנו עושים את מיטב מאמצינו להגיע מהר ככל האפשר — מרגע הפנייה.",
-      "en": "Medical repatriation to Israel — available 24/7. We do our utmost to execute medical flights without unnecessary delay from the moment you contact us."
+      "he": "ישראל אייר & אמבולנס — השבה רפואית לישראל\n\nשירות הטסה רפואית בינלאומית לישראל, עם זמן תגובה מהיר.\nזמינים 24/7 לתיאום הטסת מטופל לישראל ללא איבוד זמן מיותר — מרגע פניית המשפחה או בית החולים.",
+      "en": "Medical repatriation to Israel — international medical flights for patients, 24/7 coordination from the moment the family or hospital contacts us."
     },
     {
       "id": 15,
@@ -155,8 +155,8 @@
       "title": "When is a medical flight needed after an accident?",
       "titleHe": "מתי נדרשת הטסה רפואית אחרי תאונה",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס\n\nמתי נדרשת הטסה רפואית אחרי תאונה?\n\nבמקרים רבים, בית החולים המקומי מעניק טיפול ראשוני בלבד — אך המשך השיקום, הניתוח או הטיפול המורכב נדרשים בישראל.\n\nהטסה רפואית מתאימה במיוחד כאשר:\n• מדובר בתאונת דרכים, נפילה או שבר שהופכים את הטיסה הרגילה לבלתי אפשרית\n• המטופל מרותק למיטה או זקוק להשגחה רפואית צמודה\n• נדרש שחרור מוקדם מבית החולים בחו״ל והעברה ישירה לבית חולים בארץ\n• קיימת פציעה רב־מערכתית, פגיעת ראש, עמוד שדרה או חזה, או צורך בחמצן ומוניטור במהלך הטיסה",
-      "en": "When is a medical flight needed after an accident? When local care is only initial, the patient cannot fly commercially, needs continuous monitoring, or requires direct transfer to a hospital in Israel."
+      "he": "ישראל אייר & אמבולנס — הטסה רפואית לישראל אחרי תאונה בחו״ל\n\nבמקרים רבים בית החולים המקומי מעניק טיפול ראשוני בלבד — והמשך הטיפול נדרש בישראל.\n\nהטסה רפואית בינלאומית לישראל מתאימה כאשר:\n• תאונת דרכים, נפילה או שבר מונעים טיסה רגילה\n• המטופל מרותק למיטה או זקוק להשגחה רפואית צמודה\n• נדרש שחרור מבית חולים בחו״ל והעברה ישירה לבית חולים בישראל\n• פציעה רב־מערכתית / ראש / עמוד שדרה / חזה, או צורך בחמצן ומוניטור בטיסה",
+      "en": "International medical flight to Israel after an accident abroad — when commercial travel is not possible and the patient needs continuous care into an Israeli hospital."
     },
     {
       "id": 16,
@@ -165,8 +165,8 @@
       "title": "Air ambulance vs medical escort",
       "titleHe": "סוגי הטסות רפואיות",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס — סוגי ההטסות האפשריות\n\n✈️ הטסה רפואית במטוס אייר אמבולנס (Air Ambulance)\nמטוס ייעודי המצויד בציוד רפואי מתקדם ובליווי צוות רפואי, לפי צרכי המקרה.\nפתרון לפצועים במצב בינוני עד קשה, הזקוקים לטיפול רפואי רציף מההמראה עד הנחיתה.\n\n✈️ ליווי רפואי בטיסה מסחרית (Medical Escort)\nכאשר מצב המטופל יציב, ניתן לשוב לישראל בטיסה רגילה עם צוות רפואי מלווה.\nהצוות שלנו דואג לכל האישורים, לסידורי הציוד (מושב נוח, חמצן נייד, כיסא גלגלים וכו׳), ולשמירה על בטיחות המטופל לאורך כל הדרך.",
-      "en": "Air Ambulance for continuous critical care in flight · Medical Escort on commercial flights when clinically stable — with approvals and equipment arranged."
+      "he": "ישראל אייר & אמבולנס — סוגי הטסה רפואית בינלאומית לישראל\n\n✈️ מטוס אייר אמבולנס — ציוד רפואי מתקדם וליווי רפואי רציף מההמראה עד הנחיתה בישראל.\n✈️ ליווי רפואי בטיסה מסחרית — כשהמצב יציב, עם אישורים, חמצן נייד וכיסא גלגלים לפי הצורך.\n\nשירות למשפחות ומטופלים בדרך לישראל.",
+      "en": "International medical flight options to Israel — dedicated Air Ambulance or commercial Medical Escort when clinically suitable. For patients and families."
     },
     {
       "id": 17,
@@ -175,8 +175,8 @@
       "title": "What medical flight service includes",
       "titleHe": "מה כולל שירות ההטסה הרפואית",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס — מה כולל השירות\n\n• תיאום רפואי מלא עם בית החולים שבו מאושפז המטופל ועם הצוות הקולט בישראל\n• הערכת מצב רפואי ובחירת סוג ההטסה הנכון — טיסה רפואית מלאה או ליווי בטיסה רגילה\n• צוות רפואי מיומן שיכול לכלול רופא מומחה, אח/אחות ופראמדיק — בהתאם למצב המטופל\n• העברה קרקעית באמבולנס רפואי משער בית החולים אל המטוס, ומנמל התעופה בישראל לבית החולים היעד\n• טיסת «מיטה למיטה» (Bed to Bed) — המטופל מלווה לאורך כל הדרך, ללא מעברים מיותרים\n• עדכונים שוטפים למשפחה 24/7 בכל שלב של התהליך",
-      "en": "Full medical coordination, right flight type, skilled crew, ground ambulance legs, bed-to-bed care, and family updates 24/7."
+      "he": "ישראל אייר & אמבולנס — שירות הטסה רפואית לישראל\n\n• תיאום עם בית החולים בחו״ל ועם הצוות הקולט בישראל\n• בחירת סוג ההטסה — מטוס רפואי או ליווי בטיסה מסחרית\n• ליווי רפואי בטיסה (רופא / אח/ות / פראמדיק לפי מצב המטופל)\n• אמבולנס משער בית החולים למטוס, ומנמל התעופה בישראל לבית החולים\n• Bed to Bed עד מסירה בישראל\n• עדכונים למשפחה 24/7",
+      "en": "International medical flight to Israel — hospital coordination abroad and in Israel, right flight type, in-flight medical escort, ground ambulance legs, bed-to-bed handover, family updates 24/7."
     },
     {
       "id": 18,
@@ -185,8 +185,8 @@
       "title": "How medical repatriation works",
       "titleHe": "איך זה עובד בפועל",
       "imageHint": "air",
-      "he": "ישראל אייר & אמבולנס — איך זה עובד\n\n1. פנייה ראשונית — טלפונית או דרך האתר, עם תיאור קצר של מצב המטופל\n2. איסוף מסמכים רפואיים — סיכום אשפוז, צילום דרכון, אישור טיסה רפואי (Fit to Fly)\n3. תיאום מול הרופאים והמשפחה — מתקשרים ישירות עם בית החולים ומארגנים את כל ההיתרים והאישורים\n4. ביצוע ההטסה — העברה באמבולנס לשדה התעופה, למטוס הרפואי או לטיסה המסחרית, וליווי עד לבית החולים בישראל\n5. המשך טיפול בישראל — מסירת דו״ח רפואי מלא לצוות הקולט\n\nזמינים 24/7",
-      "en": "1) Contact 2) Medical documents + Fit to Fly 3) Hospital coordination 4) Flight execution 5) Handover in Israel. Available 24/7."
+      "he": "ישראל אייר & אמבולנס — איך מתאמים הטסה רפואית לישראל\n\n1. פנייה של המשפחה / בית החולים — תיאור מצב המטופל והיעד בישראל\n2. מסמכים רפואיים + Fit to Fly\n3. תיאום מול הרופאים והיתרים\n4. העברה באמבולנס לשדה התעופה והטסה לישראל\n5. מסירה לבית החולים הקולט בישראל עם דו״ח רפואי\n\nזמינים 24/7 לתיאום הטסות רפואיות בינלאומיות לישראל.",
+      "en": "How an international medical flight to Israel works: family/hospital contact → documents + Fit to Fly → coordination → flight → handover at the receiving hospital in Israel. Available 24/7."
     },
     {
       "id": 19,

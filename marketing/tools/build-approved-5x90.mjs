@@ -339,33 +339,25 @@ function pickLocation(stream, seed, post) {
 
 /**
  * Location ALWAYS last (bottom of ad) — after contacts.
- * Global policy: medical flights/transfers only — NOT hiring (all destinations).
- * Air posts also get a route headline near the top for variety.
+ * Air posts get a route headline (international medical flight → Israel).
+ * Copy must read as medical-flight service only — never as a hiring/דרושים ad.
  * Hashtags appended after location (IG discovery + FB search).
  */
-function noHiringBlock() {
-  return {
-    en: "Medical flights & patient transfers only · We are not hiring · CV/job applications are not accepted.",
-    he: "הטסות רפואיות והעברות חולים בלבד · לא מגייסים עובדים · לא מקבלים קורות חיים."
-  };
-}
-
 function composeMessage(post, contacts, location, { withHashtags = true, seed = 0 } = {}) {
   const airLeadEn =
     location?.type === "air"
-      ? `Medical flight: ${location.lineEn}\n\n`
+      ? `International medical flight: ${location.lineEn}\n\n`
       : "";
   const airLeadHe =
     location?.type === "air"
-      ? `הטסה רפואית: ${location.lineHe}\n\n`
+      ? `הטסה רפואית בינלאומית: ${location.lineHe}\n\n`
       : "";
-  const nh = noHiringBlock();
   const bottom = `${location?.bottomHe || ""}\n${location?.bottomEn || ""}`.trim();
 
   let msg =
-    `${airLeadEn}${post.en}\n\n${nh.en}\n\n${contactBlock(contacts, false)}\n\n` +
+    `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
     `────────\n\n` +
-    `${airLeadHe}${post.he}\n\n${nh.he}\n\n${contactBlock(contacts, true)}\n\n` +
+    `${airLeadHe}${post.he}\n\n${contactBlock(contacts, true)}\n\n` +
     `${bottom}`;
 
   if (withHashtags) {
