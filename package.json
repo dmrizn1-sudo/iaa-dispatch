@@ -14,6 +14,7 @@
     "ads:generate": "node advertising/google-ads/generate.mjs",
     "ads:deploy": "node advertising/google-ads/deploy.mjs",
     "ads:audit": "node advertising/google-ads/audit.mjs",
+    "ads:oauth": "node advertising/google-ads/oauth-setup.mjs",
     "ads:all": "node advertising/google-ads/run-all.mjs"
   },
   "dependencies": {
