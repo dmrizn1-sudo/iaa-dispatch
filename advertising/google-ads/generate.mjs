@@ -970,12 +970,47 @@ function buildSummary(keywordRows, negativeRows, adRows) {
   };
 }
 
+/**
+ * Enforce Google Ads Responsive Search Ad limits so we never emit assets that
+ * Google would truncate or disapprove. Counts characters by code points so
+ * Hebrew/RTL text is measured correctly. Throws with a full list of problems.
+ */
+const RSA_LIMITS = { headlineMax: 30, descriptionMax: 90, pathMax: 15, headlinesMax: 15, descriptionsMax: 4 };
+
+function validateAds(adRows) {
+  const len = (s) => [...String(s).trim()].length;
+  const problems = [];
+  for (const ad of adRows) {
+    const where = `${ad.campaign} › ${ad.ad_group}`;
+    const headlines = String(ad.headlines).split(" | ").map((s) => s.trim());
+    const descriptions = String(ad.descriptions).split(" | ").map((s) => s.trim());
+
+    if (headlines.length > RSA_LIMITS.headlinesMax)
+      problems.push(`${where}: ${headlines.length} headlines (max ${RSA_LIMITS.headlinesMax})`);
+    if (headlines.length < 3) problems.push(`${where}: only ${headlines.length} headlines (min 3)`);
+    if (descriptions.length > RSA_LIMITS.descriptionsMax)
+      problems.push(`${where}: ${descriptions.length} descriptions (max ${RSA_LIMITS.descriptionsMax})`);
+    if (descriptions.length < 2) problems.push(`${where}: only ${descriptions.length} descriptions (min 2)`);
+
+    for (const h of headlines)
+      if (len(h) > RSA_LIMITS.headlineMax) problems.push(`${where}: headline ${len(h)}/${RSA_LIMITS.headlineMax} "${h}"`);
+    for (const d of descriptions)
+      if (len(d) > RSA_LIMITS.descriptionMax) problems.push(`${where}: description ${len(d)}/${RSA_LIMITS.descriptionMax} "${d}"`);
+    for (const p of [ad.path1, ad.path2])
+      if (p && len(p) > RSA_LIMITS.pathMax) problems.push(`${where}: path ${len(p)}/${RSA_LIMITS.pathMax} "${p}"`);
+  }
+  if (problems.length) {
+    throw new Error(`RSA validation failed (${problems.length} issue(s)):\n- ${problems.join("\n- ")}`);
+  }
+}
+
 function main() {
   fs.mkdirSync(OUT, { recursive: true });
 
   const keywordRows = [...buildAmbulanceKeywords(), ...buildFlightKeywords()];
   const negativeRows = buildNegatives();
   const adRows = buildAds();
+  validateAds(adRows);
   const leadAssets = buildLeadAssets();
   const editorRows = buildEditorImport(keywordRows, negativeRows, adRows);
   const summary = buildSummary(keywordRows, negativeRows, adRows);
