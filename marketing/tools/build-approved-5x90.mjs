@@ -242,7 +242,6 @@ function loadAirRoutes() {
     "Singapore",
     "Tokyo",
     "Sydney",
-    "Johannesburg",
     "Abu Dhabi",
     "Nice",
     "Munich",
@@ -252,6 +251,7 @@ function loadAirRoutes() {
     "Casablanca",
     "Boston",
     "Chicago"
+    // Johannesburg / South Africa removed — TikTok job-seeker call spam
   ];
   const byName = Object.fromEntries((geo.cities || []).map((c) => [c.name, c]));
   const routes = [];
