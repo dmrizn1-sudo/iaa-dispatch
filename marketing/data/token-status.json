@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-18T19:52:21.282Z",
+  "checkedAt": "2026-07-28T21:07:36.517Z",
   "isValid": true,
   "tokenType": "PAGE",
   "tokenSource": "page_from_user",
@@ -36,10 +36,10 @@
     "facebook_branded_content_ads_brand",
     "public_profile"
   ],
-  "expiresAt": 1784408400,
-  "expiresAtIso": "2026-07-18T21:00:00.000Z",
-  "secondsLeft": 4059,
-  "humanLeft": "1h 7m",
+  "expiresAt": 1785279600,
+  "expiresAtIso": "2026-07-28T23:00:00.000Z",
+  "secondsLeft": 6744,
+  "humanLeft": "1h 52m",
   "neverExpires": false,
   "warn": {
     "level": "6h",
