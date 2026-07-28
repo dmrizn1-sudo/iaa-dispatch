@@ -339,6 +339,7 @@ function pickLocation(stream, seed, post) {
 
 /**
  * Location ALWAYS last (bottom of ad) — after contacts.
+ * Facebook (and IG): Hebrew first, English below.
  * Air posts get a route headline (international medical flight → Israel).
  * Copy must read as medical-flight service only — never as a hiring/דרושים ad.
  * Hashtags appended after location (IG discovery + FB search).
@@ -354,10 +355,11 @@ function composeMessage(post, contacts, location, { withHashtags = true, seed = 
       : "";
   const bottom = `${location?.bottomHe || ""}\n${location?.bottomEn || ""}`.trim();
 
+  // HE first → EN below (owner request for Facebook)
   let msg =
-    `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
-    `────────\n\n` +
     `${airLeadHe}${post.he}\n\n${contactBlock(contacts, true)}\n\n` +
+    `────────\n\n` +
+    `${airLeadEn}${post.en}\n\n${contactBlock(contacts, false)}\n\n` +
     `${bottom}`;
 
   if (withHashtags) {
@@ -367,6 +369,8 @@ function composeMessage(post, contacts, location, { withHashtags = true, seed = 
       location,
       seed
     });
+    // Hebrew hashtags first line preference is handled in buildHashtagBlock order;
+    // keep tag block after location
     msg = `${msg}\n\n${tags}`;
   }
   return msg;
@@ -554,7 +558,7 @@ function buildQueue({ days, startDate, pageId, igUserId, library }) {
     createdAt: new Date().toISOString(),
     brand: "Israel Air Ambulance",
     approval:
-      "Owner-approved posts 1–22 · 5/day × 90 · location ALWAYS at bottom · rotating world air routes + IL hospitals · FB+IG · EN+HE",
+      "Owner-approved posts · 5/day × 90 · HE first then EN on Facebook · location at bottom · rotating world air routes · FB+IG",
     pageId,
     igUserId,
     imageUrl: slots[0]?.imageUrl || null,

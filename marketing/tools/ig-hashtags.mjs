@@ -160,7 +160,7 @@ export function buildHashtagBlock(ctx = {}) {
   const heKeep = uniqTags([...priorityHe, ...restHe]).slice(0, 14);
   const enKeep = uniqTags([...priorityEn, ...restEn]).slice(0, max - heKeep.length);
 
-  return `${enKeep.join(" ")}\n${heKeep.join(" ")}`.trim();
+  return `${heKeep.join(" ")}\n${enKeep.join(" ")}`.trim();
 }
 
 export function defaultHashtagBlock() {
