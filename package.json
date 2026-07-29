@@ -17,6 +17,8 @@
     "marketing:publish-facebook": "node marketing/tools/publish-facebook.mjs",
     "marketing:schedule-90d": "node marketing/tools/schedule-90-days.mjs --build --schedule-facebook",
     "marketing:publish-due": "node marketing/tools/publish-due.mjs --instagram --roll-facebook",
+    "marketing:gbp-90d": "node marketing/tools/build-gbp-90d.mjs",
+    "marketing:publish-gbp": "node marketing/tools/publish-gbp-due.mjs",
     "marketing:assign-ai-images": "node marketing/tools/assign-ai-images.mjs"
   },
   "dependencies": {

@@ -110,5 +110,9 @@ Private ambulance and international medical flights to Israel — 24/7. +972-79-
 ---
 
 ## קצב פרסום
-2 פוסטים בשבוע · סובבו GBP-01–10 · רעננו רבעונית  
+2 פוסטים בשבוע (שני + חמישי) · סובבו GBP-01–16 · רעננו רבעונית  
 תמונה לכל פוסט: אמבולנס / מטוס / ציוד (בלי פרטי מטופל)
+
+**קידום מיידי:** `marketing/google-business/PUBLISH-TODAY-HE.md`  
+**לוח 90 יום:** `marketing/google-business/CALENDAR-90D-HE.md`  
+**JSON מלא:** `marketing/data/gbp-posts.json` · תור: `marketing/data/gbp-queue-90d.json`

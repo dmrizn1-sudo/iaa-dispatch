@@ -1,8 +1,13 @@
 # Google Business Profile — פתיחה וקידום
 **ישראל אייר & אמבולנס · אמבולנסים + הטסות רפואיות**
 
-אין גישה אוטומטית לחשבון Google מהמערכת.  
-המסמך הזה = **העתק-הדבק** לפתיחת / השלמת הפרופיל ב־[business.google.com](https://business.google.com) ואז קידום אורגני.
+> **סטטוס:** הפרופיל קיים ומחובר.  
+> **קידום מיידי (העתק-הדבק היום):** [`PUBLISH-TODAY-HE.md`](./PUBLISH-TODAY-HE.md)  
+> **לוח 90 יום:** [`CALENDAR-90D-HE.md`](./CALENDAR-90D-HE.md) · תור JSON: `marketing/data/gbp-queue-90d.json`  
+> **API (אופציונלי):** [`API-CONNECT-HE.md`](./API-CONNECT-HE.md)
+
+אין גישה אוטומטית לחשבון Google מהמערכת עד חיבור OAuth.  
+המסמך הזה = השלמת פרופיל + קידום אורגני ב־[business.google.com](https://business.google.com).
 
 **טלפון:** +972-79-670-9999  
 **וואטסאפ:** 053-232-1101  
@@ -102,20 +107,22 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 
 ---
 
-## 6) קידום — לוח 30 יום (2 פוסטים/שבוע)
+## 6) קידום — לוח 90 יום (שני + חמישי)
 
-| שבוע | פוסט |
-|------|------|
-| 1 | הטסה רפואית בינלאומית לישראל 24/7 |
-| 1 | אמבולנס פרטי בצפון — העברות מתוכננות |
-| 2 | השבה לארץ אחרי אשפוז בחו״ל |
-| 2 | כיסא זחל חשמלי למדרגות |
-| 3 | אקמו / טיפול נמרץ בהיטס |
-| 3 | שחרור מבית חולים הביתה (65+) |
-| 4 | Bed to Bed — ממיטה למיטה |
-| 4 | דובאי / תאילנד / ארה״ב → ישראל (גלגלו יעד) |
+קצב: **2 פוסטים/שבוע** · 10:00 ישראל · ספרייה של 16 נוסחים (GBP-01…16).
 
-נוסחי פוסטים מוכנים: `marketing/social/google-business-posts.md` (עודכן HE-first).
+| קובץ | תפקיד |
+|------|--------|
+| [`PUBLISH-TODAY-HE.md`](./PUBLISH-TODAY-HE.md) | 3 פוסטים ראשונים + Q&A + בקשת ביקורת |
+| [`CALENDAR-90D-HE.md`](./CALENDAR-90D-HE.md) | לוח תאריכים מלא |
+| `marketing/data/gbp-posts.json` | ספריית נוסחים |
+| `marketing/data/gbp-queue-90d.json` | תור עם סטטוס |
+| `marketing/social/google-business-posts.md` | ספרייה קריאה (HE-first) |
+
+בנייה מחדש:
+```bash
+node marketing/tools/build-gbp-90d.mjs --start 2026-07-30
+```
 
 **קידום ממומן (אופציונלי אחרי אימות):**  
 Google Business Profile → Advertise / Performance Max עם מיקוד «אמבולנס פרטי» + «הטסה רפואית» · **בלי** קהל Jobs.
@@ -136,10 +143,12 @@ Google Business Profile → Advertise / Performance Max עם מיקוד «אמב
 
 ---
 
-## 8) מה לשלוח לי כדי שאשלים / אבדוק
+## 8) מה לשלוח לי כדי לקדם אוטומטית
 
-1. האם כבר יש פרופיל? (קישור Maps / Place ID)  
-2. כתובת מדויקת לאימות (או «בלי כתובת — אזור שירות»)  
-3. צילום מסך אחרי מילוי השדות — אבדוק חוסרים  
+הפרופיל כבר קיים. כדי לחבר פרסום אוטומטי / לבדוק חוסרים:
 
-אחרי האימות — אפשר להריץ פוסט ראשון מהספרייה ולפתוח בקשת ביקורות.
+1. קישור Maps / Place ID  
+2. (אופציונלי) OAuth refresh + Account/Location IDs — בצ׳אט בלבד  
+3. צילום מסך של Info / Categories / Photos — אבדוק חוסרים  
+
+בינתיים: פרסמו מהחבילה [`PUBLISH-TODAY-HE.md`](./PUBLISH-TODAY-HE.md).

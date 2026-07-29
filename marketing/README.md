@@ -61,6 +61,10 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | [social/facebook-posts.md](social/facebook-posts.md) | Long-form Facebook posts (**EN + HE**) |
 | [social/linkedin-posts.md](social/linkedin-posts.md) | LinkedIn professional posts (**EN + HE**) |
 | [social/google-business-posts.md](social/google-business-posts.md) | GBP post drafts |
+| [google-business/PUBLISH-TODAY-HE.md](google-business/PUBLISH-TODAY-HE.md) | **GBP — פרסמו היום** (פרופיל מחובר) |
+| [google-business/CALENDAR-90D-HE.md](google-business/CALENDAR-90D-HE.md) | GBP 90-day Mon+Thu calendar |
+| [data/gbp-queue-90d.json](data/gbp-queue-90d.json) | GBP publish queue |
+| [google-business/API-CONNECT-HE.md](google-business/API-CONNECT-HE.md) | GBP OAuth / Local Posts API |
 | [social/hashtag-library.md](social/hashtag-library.md) | Rotating hashtag database |
 | [data/posts.json](data/posts.json) | Machine-readable posts for review UI |
 | [data/publish-queue-90d.json](data/publish-queue-90d.json) | 90-day publish queue (status tracked) |

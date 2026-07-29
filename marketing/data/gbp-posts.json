@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "brand": "Israel Air & Ambulance",
+  "platform": "google-business",
+  "contacts": {
+    "phone": "+972-79-670-9999",
+    "phoneLocal": "079-6709999",
+    "whatsapp": "053-232-1101",
+    "web": "https://ambulancenter.com"
+  },
+  "maccabiEligibilityUrl": "https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/",
+  "notes": "HE first, short EN below. No hiring language. Medical flights + private ambulance transfers only. CTA = call / WhatsApp / website.",
+  "posts": [
+    {
+      "id": "GBP-01",
+      "stream": "air",
+      "theme": "medical-flight",
+      "titleHe": "הטסה רפואית בינלאומית לישראל",
+      "cta": "CALL",
+      "he": "ישראל אייר אנד אמבולנס מתאמת הטסות רפואיות בינלאומיות לישראל — למשפחות ומטופלים שזקוקים להשבה לארץ או להעברה עם ליווי רפואי.\n\nמטוס אמבולנס או ליווי בטיסה מסחרית — לפי המצב הקליני, כולל תיאום מיטה למיטה.\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101",
+      "en": "Israel Air & Ambulance coordinates international medical flights to Israel — air ambulance or commercial medical escort, bedside-to-bedside. Call +972-79-670-9999."
+    },
+    {
+      "id": "GBP-02",
+      "stream": "ground",
+      "theme": "north-private",
+      "titleHe": "אמבולנס פרטי בצפון",
+      "cta": "CALL",
+      "he": "אמבולנס פרטי להעברות מתוכננות בצפת, טבריה, הגליל והצפון — בין בתי חולים, שחרור הביתה, והסעת מוגבלי תנועה.\n\nצוות מקצועי · צי חדיש · זמינות גבוהה.\n\nלתיאום: 079-6709999 · וואטסאפ 053-2321101",
+      "en": "Private ambulance transfers in northern Israel — hospitals, home discharge, mobility support. Call +972-79-670-9999."
+    },
+    {
+      "id": "GBP-03",
+      "stream": "air",
+      "theme": "repatriation",
+      "titleHe": "השבה לארץ",
+      "cta": "CALL",
+      "he": "אשפוז בחו״ל וצריך לחזור לישראל? אנחנו מתאמים הטסה רפואית לישראל עם ליווי מתאים — במהירות האפשרית מרגע הפנייה.\n\n079-6709999 · 053-2321101 · ambulancenter.com",
+      "en": "Medical repatriation to Israel — international medical flight coordination 24/7. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-04",
+      "stream": "ground",
+      "theme": "stair-chair",
+      "titleHe": "כיסא זחל חשמלי",
+      "cta": "CALL",
+      "he": "העלאה והורדה בטוחה במדרגות גם בלי מעלית — בתים, בניינים ומוסדות רפואיים.\n\nישראל אייר אנד אמבולנס · 079-6709999",
+      "en": "Electric stair-chair patient transfers — safe movement on stairs without an elevator. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-05",
+      "stream": "air",
+      "theme": "ecmo",
+      "titleHe": "אקמו / טיפול נמרץ בהיטס",
+      "cta": "CALL",
+      "he": "העברות אקמו וחולים מורכבים ומונשמים דורשות מטוס אמבולנס וליווי טיפול נמרץ. תיאום Bed to Bed עד בית החולים בישראל.\n\nלתיאום דחוף: 079-6709999",
+      "en": "ECMO and critical-care air transfers to Israeli hospitals — bed-to-bed. Call +972-79-670-9999."
+    },
+    {
+      "id": "GBP-06",
+      "stream": "ground",
+      "theme": "hospital-home",
+      "titleHe": "שחרור מבית חולים הביתה",
+      "cta": "WHATSAPP",
+      "he": "הסעה באמבולנס מבית החולים הביתה — נוחות, בטיחות ויחס אנושי. מתאים גם למטופלים מעל גיל 65.\n\nטבריה והסביבה · הצפון · 053-2321101",
+      "en": "Hospital-to-home private ambulance — safe discharge transport. WhatsApp 053-232-1101."
+    },
+    {
+      "id": "GBP-07",
+      "stream": "air",
+      "theme": "routes",
+      "titleHe": "דובאי / תאילנד / ארה״ב → ישראל",
+      "cta": "LEARN_MORE",
+      "he": "הטסה רפואית בינלאומית לישראל מיעדים כמו דובאי, תאילנד וארה״ב — לפי מצב המטופל וצורכי הביטוח.\n\nישראל אייר אנד אמבולנס · 079-6709999 · ambulancenter.com",
+      "en": "International medical flights to Israel from hubs such as Dubai, Thailand, and the USA. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-08",
+      "stream": "air",
+      "theme": "bed-to-bed",
+      "titleHe": "מיטה למיטה",
+      "cta": "LEARN_MORE",
+      "he": "ממיטת בית החולים בחו״ל → אמבולנס → טיסה → בית החולים בישראל. תיאום מלא למשפחה 24/7.\n\nambulancenter.com · 079-6709999",
+      "en": "Bed-to-bed medical transport into Israel — full coordination. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-09",
+      "stream": "ground",
+      "theme": "maccabi",
+      "titleHe": "מכבי · העברות באזור טבריה",
+      "cta": "LEARN_MORE",
+      "he": "ספקי העברות באמבולנס באזור טבריה והסביבה. בדקו זכאות במכבי ופנו אלינו לביצוע.\n\nזכאות: עמוד מכבי להעברות באמבולנס · תיאום: 053-2321101",
+      "en": "Maccabi ambulance transfers in the Tiberias area — check eligibility, we execute. WhatsApp 053-232-1101."
+    },
+    {
+      "id": "GBP-10",
+      "stream": "mixed",
+      "theme": "247",
+      "titleHe": "זמינים 24/7",
+      "cta": "CALL",
+      "he": "חירום או העברה מתוכננת — ישראל אייר אנד אמבולנס כאן מסביב לשעון לאמבולנס פרטי ולהטסות רפואיות לישראל.\n\nהתקשרו / וואטסאפ: 079-6709999 · 053-2321101",
+      "en": "Private ambulance and international medical flights to Israel — 24/7. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-11",
+      "stream": "air",
+      "theme": "flight-types",
+      "titleHe": "מטוס אמבולנס מול ליווי בטיסה",
+      "cta": "CALL",
+      "he": "סוגי הטסה רפואית לישראל:\n• מטוס אמבולנס — ציוד מתקדם וליווי רציף\n• ליווי רפואי בטיסה מסחרית — כשהמצב יציב\n\nמתאימים את הפתרון למצב הקליני. 079-6709999",
+      "en": "Air ambulance or commercial medical escort to Israel — matched to the clinical need. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-12",
+      "stream": "ground",
+      "theme": "fleet",
+      "titleHe": "צי אמבולנסים מאושר",
+      "cta": "CALL",
+      "he": "צי אמבולנסים חדיש באישור משרד הבריאות והתחבורה — ציוד מתקדם, תחזוקה שוטפת ומוכנות גבוהה להעברות מתוכננות בצפון.\n\n079-6709999 · 053-2321101",
+      "en": "Modern MoH-approved ambulance fleet for planned northern transfers. Call +972-79-670-9999."
+    },
+    {
+      "id": "GBP-13",
+      "stream": "air",
+      "theme": "how-it-works",
+      "titleHe": "איך מתאמים הטסה רפואית",
+      "cta": "LEARN_MORE",
+      "he": "1) פנייה של המשפחה / בית החולים\n2) מסמכים + Fit to Fly\n3) תיאום רופאים והיתרים\n4) העברה והטסה לישראל\n5) מסירה לבית החולים הקולט\n\nזמינים 24/7 · ambulancenter.com · 079-6709999",
+      "en": "How medical repatriation to Israel works — contact → documents → coordination → flight → hospital handover. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-14",
+      "stream": "ground",
+      "theme": "inter-hospital",
+      "titleHe": "העברה בין בתי חולים",
+      "cta": "CALL",
+      "he": "העברות מתוכננות בין בתי חולים בצפון — כולל פוריה, זיו, רמב״ם והעמק — עם ליווי רפואי צמוד.\n\nלתיאום: 079-6709999 · וואטסאפ 053-2321101",
+      "en": "Planned inter-hospital ambulance transfers in northern Israel. Call +972-79-670-9999."
+    },
+    {
+      "id": "GBP-15",
+      "stream": "event",
+      "theme": "event-security",
+      "titleHe": "אבטחה רפואית לאירועים",
+      "cta": "CALL",
+      "he": "אבטחה רפואית מקצועית לאירועים — צוותים מוסמכים, אמבולנסים חדישים וציוד מתקדם. משלב התכנון ועד סיום האירוע.\n\nישראל אייר אנד אמבולנס · 079-6709999",
+      "en": "Event medical security with certified teams and modern ambulances. +972-79-670-9999."
+    },
+    {
+      "id": "GBP-16",
+      "stream": "ground",
+      "theme": "maccabi-home",
+      "titleHe": "מכבי · שחרור הביתה · טבריה",
+      "cta": "LEARN_MORE",
+      "he": "לחברי מכבי באזור טבריה והסביבה — בדקו זכאות להסעה באמבולנס מבית החולים הביתה, ואנחנו מבצעים.\n\nזכאות מכבי + תיאום: 053-2321101",
+      "en": "Maccabi hospital-to-home ambulance in Tiberias area — check eligibility, we execute. WhatsApp 053-232-1101."
+    }
+  ]
+}
