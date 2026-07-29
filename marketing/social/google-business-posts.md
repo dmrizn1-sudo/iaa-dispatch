@@ -10,6 +10,7 @@
 | העברת / הטסת נפטרים | https://ambulancenter.com/deceased-services.html |
 | טבריה | https://ambulancenter.com/ambulance-tiberias.html |
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
+| הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 
 מקור מלא: `marketing/data/gbp-posts.json` · קידום היום: `marketing/google-business/PUBLISH-TODAY-HE.md`
@@ -93,22 +94,40 @@ Patient medical flights with doctor escort — commercial Medical Escort or air 
 
 ---
 
+## GBP-05P — הטסות חולים בליווי פראמדיק
+**Learn more:** https://ambulancenter.com/paramedic-flights.html
+
+הטסות חולים בליווי פראמדיק — ליווי רפואי מקצועי בטיסה בארץ ובחו״ל, לפני הטיסה ובמהלכה.
+
+מתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות שזקוקות לשקט נפשי.
+
+פרטים:
+https://ambulancenter.com/paramedic-flights.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Patient medical flights with paramedic escort — Israel and international. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999
+
+---
+
 ## GBP-05B — הטסה רפואית לישראל
 **Learn more:** https://ambulancenter.com/medical-flight.html
 
-הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (כולל ליווי רופא), תיאום מיטה למיטה.
+הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק), תיאום מיטה למיטה.
 
 https://ambulancenter.com/medical-flight.html  
-ליווי רופא: https://ambulancenter.com/medical-escort.html
+ליווי רופא: https://ambulancenter.com/medical-escort.html  
+ליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html
 
 זמינים 24/7: 079-6709999 · וואטסאפ 053-2321101
 
 ────────
-International medical flights to Israel — including doctor-escorted commercial flights. https://ambulancenter.com/medical-flight.html · +972-79-670-9999
+International medical flights to Israel — doctor or paramedic escort. https://ambulancenter.com/medical-flight.html · +972-79-670-9999
 
 ---
 
 ## קצב פרסום
-שני + חמישי · סובבו את הספרייה JSON (כולל ליווי רופא)  
+שני + חמישי · סובבו את הספרייה JSON (כולל ליווי רופא / פראמדיק)  
 בכל פוסט: לינק בטקסט + כפתור Learn more לאותו URL  
 תמונה: אמבולנס / שדה תעופה (בלי פרטי מטופל; לעניין נפטרים — תמונה מכובדת/נייטרלית של צי)

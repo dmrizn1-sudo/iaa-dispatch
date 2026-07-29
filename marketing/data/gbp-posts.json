@@ -16,13 +16,14 @@
     "deceased": "https://ambulancenter.com/deceased-services.html",
     "medicalFlight": "https://ambulancenter.com/medical-flight.html",
     "medicalEscort": "https://ambulancenter.com/medical-escort.html",
+    "paramedicFlights": "https://ambulancenter.com/paramedic-flights.html",
     "airAmbulance": "https://ambulancenter.com/air-ambulance.html",
     "repatriation": "https://ambulancenter.com/repatriation-israel.html",
     "bedToBed": "https://ambulancenter.com/bed-to-bed.html",
     "booking": "https://ambulancenter.com/booking.html",
     "maccabi": "https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/"
   },
-  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services: patient transfers, Poriya, deceased nationwide, deceased air repatriation, medical flights with doctor escort (Medical Escort). No hiring language.",
+  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services: patient transfers, Poriya, deceased nationwide, deceased air repatriation, medical flights with doctor escort and paramedic escort. No hiring language.",
   "posts": [
     {
       "id": "GBP-01",
@@ -75,14 +76,24 @@
       "en": "Patient medical flights with doctor escort — commercial Medical Escort or air ambulance. https://ambulancenter.com/medical-escort.html · +972-79-670-9999"
     },
     {
+      "id": "GBP-05P",
+      "stream": "air",
+      "theme": "paramedic-escort-flight",
+      "titleHe": "הטסות חולים בליווי פראמדיק",
+      "cta": "LEARN_MORE",
+      "linkKey": "paramedicFlights",
+      "he": "הטסות חולים בליווי פראמדיק — ליווי רפואי מקצועי בטיסה בארץ ובחו״ל, לפני הטיסה ובמהלכה.\n\nמתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות שזקוקות לשקט נפשי.\n\nפרטים:\nhttps://ambulancenter.com/paramedic-flights.html\n\n079-6709999 · וואטסאפ 053-2321101",
+      "en": "Patient medical flights with paramedic escort — Israel and international. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999"
+    },
+    {
       "id": "GBP-05B",
       "stream": "air",
       "theme": "medical-flight",
       "titleHe": "הטסה רפואית בינלאומית לישראל",
       "cta": "LEARN_MORE",
       "linkKey": "medicalFlight",
-      "he": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (כולל ליווי רופא), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101",
-      "en": "International medical flights to Israel — including doctor-escorted commercial flights. https://ambulancenter.com/medical-flight.html · +972-79-670-9999"
+      "he": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\nליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101",
+      "en": "International medical flights to Israel — doctor or paramedic escort. https://ambulancenter.com/medical-flight.html · +972-79-670-9999"
     },
     {
       "id": "GBP-06",
@@ -221,8 +232,8 @@
       "titleHe": "שירותים עם קישורים",
       "cta": "LEARN_MORE",
       "linkKey": "home",
-      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
-      "en": "Service links: Poriya · patient transfers · deceased · doctor-escorted medical flights. https://ambulancenter.com/medical-escort.html · +972-79-670-9999"
+      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
+      "en": "Service links: Poriya · patient transfers · deceased · doctor/paramedic-escorted medical flights. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999"
     }
   ]
 }

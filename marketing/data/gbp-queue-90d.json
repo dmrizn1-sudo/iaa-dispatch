@@ -2,7 +2,7 @@
   "version": 1,
   "brand": "Israel Air & Ambulance",
   "platform": "google-business",
-  "builtAt": "2026-07-29T21:41:38.262Z",
+  "builtAt": "2026-07-29T21:42:36.139Z",
   "startDate": "2026-07-30",
   "endDate": "2026-10-26",
   "cadence": "Mon+Thu 10:00 Asia/Jerusalem",
@@ -122,9 +122,30 @@
       "error": null
     },
     {
-      "id": "gbp-2026-08-17-GBP-05B",
+      "id": "gbp-2026-08-17-GBP-05P",
       "scheduledFor": "2026-08-17T07:00:00.000Z",
       "localDate": "2026-08-17",
+      "localTime": "10:00",
+      "timezone": "Asia/Jerusalem",
+      "postId": "GBP-05P",
+      "stream": "air",
+      "theme": "paramedic-escort-flight",
+      "titleHe": "הטסות חולים בליווי פראמדיק",
+      "languageCode": "he",
+      "topicType": "STANDARD",
+      "callToAction": "LEARN_MORE",
+      "actionUrl": "https://ambulancenter.com/paramedic-flights.html",
+      "link": "https://ambulancenter.com/paramedic-flights.html",
+      "summary": "הטסות חולים בליווי פראמדיק — ליווי רפואי מקצועי בטיסה בארץ ובחו״ל, לפני הטיסה ובמהלכה.\n\nמתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות שזקוקות לשקט נפשי.\n\nפרטים:\nhttps://ambulancenter.com/paramedic-flights.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient medical flights with paramedic escort — Israel and international. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999",
+      "status": "pending",
+      "publishedAt": null,
+      "publishName": null,
+      "error": null
+    },
+    {
+      "id": "gbp-2026-08-20-GBP-05B",
+      "scheduledFor": "2026-08-20T07:00:00.000Z",
+      "localDate": "2026-08-20",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-05B",
@@ -136,16 +157,16 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-flight.html",
       "link": "https://ambulancenter.com/medical-flight.html",
-      "summary": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (כולל ליווי רופא), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101\n\n────────\nInternational medical flights to Israel — including doctor-escorted commercial flights. https://ambulancenter.com/medical-flight.html · +972-79-670-9999",
+      "summary": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\nליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101\n\n────────\nInternational medical flights to Israel — doctor or paramedic escort. https://ambulancenter.com/medical-flight.html · +972-79-670-9999",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
       "error": null
     },
     {
-      "id": "gbp-2026-08-20-GBP-06",
-      "scheduledFor": "2026-08-20T07:00:00.000Z",
-      "localDate": "2026-08-20",
+      "id": "gbp-2026-08-24-GBP-06",
+      "scheduledFor": "2026-08-24T07:00:00.000Z",
+      "localDate": "2026-08-24",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-06",
@@ -164,9 +185,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-08-24-GBP-07",
-      "scheduledFor": "2026-08-24T07:00:00.000Z",
-      "localDate": "2026-08-24",
+      "id": "gbp-2026-08-27-GBP-07",
+      "scheduledFor": "2026-08-27T07:00:00.000Z",
+      "localDate": "2026-08-27",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-07",
@@ -185,9 +206,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-08-27-GBP-08",
-      "scheduledFor": "2026-08-27T07:00:00.000Z",
-      "localDate": "2026-08-27",
+      "id": "gbp-2026-08-31-GBP-08",
+      "scheduledFor": "2026-08-31T07:00:00.000Z",
+      "localDate": "2026-08-31",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-08",
@@ -206,9 +227,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-08-31-GBP-09",
-      "scheduledFor": "2026-08-31T07:00:00.000Z",
-      "localDate": "2026-08-31",
+      "id": "gbp-2026-09-03-GBP-09",
+      "scheduledFor": "2026-09-03T07:00:00.000Z",
+      "localDate": "2026-09-03",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-09",
@@ -227,9 +248,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-03-GBP-10",
-      "scheduledFor": "2026-09-03T07:00:00.000Z",
-      "localDate": "2026-09-03",
+      "id": "gbp-2026-09-07-GBP-10",
+      "scheduledFor": "2026-09-07T07:00:00.000Z",
+      "localDate": "2026-09-07",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-10",
@@ -248,9 +269,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-07-GBP-11",
-      "scheduledFor": "2026-09-07T07:00:00.000Z",
-      "localDate": "2026-09-07",
+      "id": "gbp-2026-09-10-GBP-11",
+      "scheduledFor": "2026-09-10T07:00:00.000Z",
+      "localDate": "2026-09-10",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-11",
@@ -269,9 +290,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-10-GBP-12",
-      "scheduledFor": "2026-09-10T07:00:00.000Z",
-      "localDate": "2026-09-10",
+      "id": "gbp-2026-09-14-GBP-12",
+      "scheduledFor": "2026-09-14T07:00:00.000Z",
+      "localDate": "2026-09-14",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-12",
@@ -290,9 +311,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-14-GBP-13",
-      "scheduledFor": "2026-09-14T07:00:00.000Z",
-      "localDate": "2026-09-14",
+      "id": "gbp-2026-09-17-GBP-13",
+      "scheduledFor": "2026-09-17T07:00:00.000Z",
+      "localDate": "2026-09-17",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-13",
@@ -311,9 +332,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-17-GBP-14",
-      "scheduledFor": "2026-09-17T07:00:00.000Z",
-      "localDate": "2026-09-17",
+      "id": "gbp-2026-09-21-GBP-14",
+      "scheduledFor": "2026-09-21T07:00:00.000Z",
+      "localDate": "2026-09-21",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-14",
@@ -332,9 +353,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-21-GBP-15",
-      "scheduledFor": "2026-09-21T07:00:00.000Z",
-      "localDate": "2026-09-21",
+      "id": "gbp-2026-09-24-GBP-15",
+      "scheduledFor": "2026-09-24T07:00:00.000Z",
+      "localDate": "2026-09-24",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-15",
@@ -353,9 +374,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-24-GBP-15B",
-      "scheduledFor": "2026-09-24T07:00:00.000Z",
-      "localDate": "2026-09-24",
+      "id": "gbp-2026-09-28-GBP-15B",
+      "scheduledFor": "2026-09-28T07:00:00.000Z",
+      "localDate": "2026-09-28",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-15B",
@@ -374,9 +395,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-09-28-GBP-16",
-      "scheduledFor": "2026-09-28T07:00:00.000Z",
-      "localDate": "2026-09-28",
+      "id": "gbp-2026-10-01-GBP-16",
+      "scheduledFor": "2026-10-01T07:00:00.000Z",
+      "localDate": "2026-10-01",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-16",
@@ -395,9 +416,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-01-GBP-17",
-      "scheduledFor": "2026-10-01T07:00:00.000Z",
-      "localDate": "2026-10-01",
+      "id": "gbp-2026-10-05-GBP-17",
+      "scheduledFor": "2026-10-05T07:00:00.000Z",
+      "localDate": "2026-10-05",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-17",
@@ -416,9 +437,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-05-GBP-18",
-      "scheduledFor": "2026-10-05T07:00:00.000Z",
-      "localDate": "2026-10-05",
+      "id": "gbp-2026-10-08-GBP-18",
+      "scheduledFor": "2026-10-08T07:00:00.000Z",
+      "localDate": "2026-10-08",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-18",
@@ -430,16 +451,16 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/",
       "link": "https://ambulancenter.com/",
-      "summary": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101\n\n────────\nService links: Poriya · patient transfers · deceased · doctor-escorted medical flights. https://ambulancenter.com/medical-escort.html · +972-79-670-9999",
+      "summary": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101\n\n────────\nService links: Poriya · patient transfers · deceased · doctor/paramedic-escorted medical flights. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
       "error": null
     },
     {
-      "id": "gbp-2026-10-08-GBP-01",
-      "scheduledFor": "2026-10-08T07:00:00.000Z",
-      "localDate": "2026-10-08",
+      "id": "gbp-2026-10-12-GBP-01",
+      "scheduledFor": "2026-10-12T07:00:00.000Z",
+      "localDate": "2026-10-12",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-01",
@@ -458,9 +479,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-12-GBP-02",
-      "scheduledFor": "2026-10-12T07:00:00.000Z",
-      "localDate": "2026-10-12",
+      "id": "gbp-2026-10-15-GBP-02",
+      "scheduledFor": "2026-10-15T07:00:00.000Z",
+      "localDate": "2026-10-15",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-02",
@@ -479,9 +500,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-15-GBP-03",
-      "scheduledFor": "2026-10-15T07:00:00.000Z",
-      "localDate": "2026-10-15",
+      "id": "gbp-2026-10-19-GBP-03",
+      "scheduledFor": "2026-10-19T07:00:00.000Z",
+      "localDate": "2026-10-19",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-03",
@@ -500,9 +521,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-19-GBP-04",
-      "scheduledFor": "2026-10-19T07:00:00.000Z",
-      "localDate": "2026-10-19",
+      "id": "gbp-2026-10-22-GBP-04",
+      "scheduledFor": "2026-10-22T07:00:00.000Z",
+      "localDate": "2026-10-22",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-04",
@@ -521,9 +542,9 @@
       "error": null
     },
     {
-      "id": "gbp-2026-10-22-GBP-05",
-      "scheduledFor": "2026-10-22T07:00:00.000Z",
-      "localDate": "2026-10-22",
+      "id": "gbp-2026-10-26-GBP-05",
+      "scheduledFor": "2026-10-26T08:00:42.187Z",
+      "localDate": "2026-10-26",
       "localTime": "10:00",
       "timezone": "Asia/Jerusalem",
       "postId": "GBP-05",
@@ -536,27 +557,6 @@
       "actionUrl": "https://ambulancenter.com/medical-escort.html",
       "link": "https://ambulancenter.com/medical-escort.html",
       "summary": "הטסות חולים בליווי רופא — Medical Escort בטיסה מסחרית או במטוס אמבולנס, לפי המצב הקליני.\n\nליווי רופא / פראמדיק / אחות · חמצן ואלונקה לפי הצורך · תיאום Bed to Bed.\n\nפרטים:\nhttps://ambulancenter.com/medical-escort.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient medical flights with doctor escort — commercial Medical Escort or air ambulance. https://ambulancenter.com/medical-escort.html · +972-79-670-9999",
-      "status": "pending",
-      "publishedAt": null,
-      "publishName": null,
-      "error": null
-    },
-    {
-      "id": "gbp-2026-10-26-GBP-05B",
-      "scheduledFor": "2026-10-26T08:00:42.187Z",
-      "localDate": "2026-10-26",
-      "localTime": "10:00",
-      "timezone": "Asia/Jerusalem",
-      "postId": "GBP-05B",
-      "stream": "air",
-      "theme": "medical-flight",
-      "titleHe": "הטסה רפואית בינלאומית לישראל",
-      "languageCode": "he",
-      "topicType": "STANDARD",
-      "callToAction": "LEARN_MORE",
-      "actionUrl": "https://ambulancenter.com/medical-flight.html",
-      "link": "https://ambulancenter.com/medical-flight.html",
-      "summary": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (כולל ליווי רופא), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101\n\n────────\nInternational medical flights to Israel — including doctor-escorted commercial flights. https://ambulancenter.com/medical-flight.html · +972-79-670-9999",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,

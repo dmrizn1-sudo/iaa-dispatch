@@ -17,6 +17,7 @@
 | העברת / הטסת נפטרים | https://ambulancenter.com/deceased-services.html |
 | אמבולנס טבריה | https://ambulancenter.com/ambulance-tiberias.html |
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
+| הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 | הזמנה אונליין | https://ambulancenter.com/booking.html |
 
@@ -99,6 +100,23 @@ Patient medical flights with doctor escort — commercial Medical Escort or air 
 
 ---
 
+## פוסט 6 — הטסות חולים בליווי פראמדיק  
+**CTA →** https://ambulancenter.com/paramedic-flights.html
+
+הטסות חולים בליווי פראמדיק — ליווי רפואי מקצועי בטיסה בארץ ובחו״ל, לפני הטיסה ובמהלכה.
+
+מתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות שזקוקות לשקט נפשי.
+
+פרטים:
+https://ambulancenter.com/paramedic-flights.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Patient medical flights with paramedic escort — Israel and international. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999
+
+---
+
 ## Q&A — הוסיפו בפרופיל
 
 **ש: יש אמבולנס מבית חולים פוריה?**  
@@ -113,8 +131,11 @@ Patient medical flights with doctor escort — commercial Medical Escort or air 
 **ש: יש הטסות חולים בליווי רופא?**  
 ת: כן. ליווי רופא בטיסה מסחרית (Medical Escort) או במטוס אמבולנס — לפי מצב המטופל. https://ambulancenter.com/medical-escort.html · 079-6709999
 
+**ש: יש הטסות חולים בליווי פראמדיק?**  
+ת: כן. פראמדיק לליווי טיסות בארץ ובחו״ל — לפני הטיסה ובמהלכה. https://ambulancenter.com/paramedic-flights.html · 079-6709999
+
 **ש: האם אתם מחפשים עובדים?**  
-ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בליווי רופא בלבד.
+ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בליווי רופא או פראמדיק בלבד.
 
 ---
 
