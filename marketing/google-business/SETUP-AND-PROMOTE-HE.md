@@ -4,6 +4,7 @@
 > **סטטוס:** הפרופיל קיים ומחובר.  
 > **קידום מיידי (העתק-הדבק היום):** [`PUBLISH-TODAY-HE.md`](./PUBLISH-TODAY-HE.md)  
 > **לוח 90 יום:** [`CALENDAR-90D-HE.md`](./CALENDAR-90D-HE.md) · תור JSON: `marketing/data/gbp-queue-90d.json`  
+> **SEO:** כל פוסט = מותג + מילת מפתח ראשית + מיקום/שירות + לינק + NAP (`gbp-seo.json` + `gbp-posts.json` v3)  
 > **API (אופציונלי):** [`API-CONNECT-HE.md`](./API-CONNECT-HE.md)
 
 אין גישה אוטומטית לחשבון Google מהמערכת עד חיבור OAuth.  
