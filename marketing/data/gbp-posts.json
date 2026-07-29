@@ -17,13 +17,14 @@
     "medicalFlight": "https://ambulancenter.com/medical-flight.html",
     "medicalEscort": "https://ambulancenter.com/medical-escort.html",
     "paramedicFlights": "https://ambulancenter.com/paramedic-flights.html",
+    "eventSecurity": "https://ambulancenter.com/medical-security-events.html",
     "airAmbulance": "https://ambulancenter.com/air-ambulance.html",
     "repatriation": "https://ambulancenter.com/repatriation-israel.html",
     "bedToBed": "https://ambulancenter.com/bed-to-bed.html",
     "booking": "https://ambulancenter.com/booking.html",
     "maccabi": "https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/"
   },
-  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services: patient transfers, Poriya, deceased nationwide, deceased air repatriation, medical flights with doctor escort and paramedic escort. No hiring language.",
+  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services: patient transfers, Poriya, deceased, medical flights (doctor/paramedic escort), event medical security for shows. No hiring language.",
   "posts": [
     {
       "id": "GBP-01",
@@ -94,6 +95,26 @@
       "linkKey": "medicalFlight",
       "he": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\nליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101",
       "en": "International medical flights to Israel — doctor or paramedic escort. https://ambulancenter.com/medical-flight.html · +972-79-670-9999"
+    },
+    {
+      "id": "GBP-05E",
+      "stream": "event",
+      "theme": "event-security",
+      "titleHe": "אבטחה רפואית לאירועים ומופעים",
+      "cta": "LEARN_MORE",
+      "linkKey": "eventSecurity",
+      "he": "אבטחה רפואית לאירועים ומופעים — פראמדיק, חובשים וצוותי כוננות לפי גודל האירוע וסוג הקהל.\n\nמתאים להופעות, פסטיבלים, כנסים, חתונות, אירועי חברה ו־VIP.\n\nפרטים:\nhttps://ambulancenter.com/medical-security-events.html\n\n079-6709999 · וואטסאפ 053-2321101",
+      "en": "Medical security for events and shows — paramedics and medics on site. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999"
+    },
+    {
+      "id": "GBP-05E2",
+      "stream": "event",
+      "theme": "event-shows",
+      "titleHe": "מעטפת רפואית למופעים והפקות",
+      "cta": "LEARN_MORE",
+      "linkKey": "eventSecurity",
+      "he": "מתכננים מופע או הפקה? מעטפת רפואית מקצועית בשטח — שקט נפשי למפיקים ולמשתתפים, כולל אמבולנס לפי דרישה.\n\nhttps://ambulancenter.com/medical-security-events.html\n\nישראל אייר אנד אמבולנס · 079-6709999",
+      "en": "On-site medical coverage for performances and productions. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999"
     },
     {
       "id": "GBP-06",
@@ -232,8 +253,8 @@
       "titleHe": "שירותים עם קישורים",
       "cta": "LEARN_MORE",
       "linkKey": "home",
-      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
-      "en": "Service links: Poriya · patient transfers · deceased · doctor/paramedic-escorted medical flights. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999"
+      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• אבטחה רפואית לאירועים ומופעים: https://ambulancenter.com/medical-security-events.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
+      "en": "Service links include event medical security for shows. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999"
     }
   ]
 }

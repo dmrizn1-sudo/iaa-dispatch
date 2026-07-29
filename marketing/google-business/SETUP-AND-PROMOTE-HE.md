@@ -76,7 +76,7 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 | ליווי רפואי בטיסה | Medical escort | https://ambulancenter.com/medical-escort.html |
 | אמבולנס טבריה | העברות באזור טבריה | https://ambulancenter.com/ambulance-tiberias.html |
 | כיסא זחל חשמלי | מדרגות בלי מעלית | https://ambulancenter.com/patient-transfers.html |
-| אבטחה רפואית לאירועים | לפי דרישה | https://ambulancenter.com/medical-security-events.html |
+| אבטחה רפואית לאירועים ומופעים | פראמדיק/חובשים להופעות והפקות | https://ambulancenter.com/medical-security-events.html |
 
 מחיר: «לפי מקרה / הצעת מחיר» · אל תפרסמו מחיר גיוס או משרות.  
 **בכל פוסט GBP:** לינק בטקסט + כפתור Learn more לאותו עמוד.

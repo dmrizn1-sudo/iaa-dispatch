@@ -18,6 +18,7 @@
 | אמבולנס טבריה | https://ambulancenter.com/ambulance-tiberias.html |
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
+| אבטחה רפואית לאירועים ומופעים | https://ambulancenter.com/medical-security-events.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 | הזמנה אונליין | https://ambulancenter.com/booking.html |
 
@@ -117,6 +118,23 @@ Patient medical flights with paramedic escort — Israel and international. http
 
 ---
 
+## פוסט 7 — אבטחה רפואית לאירועים ומופעים  
+**CTA →** https://ambulancenter.com/medical-security-events.html
+
+אבטחה רפואית לאירועים ומופעים — פראמדיק, חובשים וצוותי כוננות לפי גודל האירוע וסוג הקהל.
+
+מתאים להופעות, פסטיבלים, כנסים, חתונות, אירועי חברה ו־VIP.
+
+פרטים:
+https://ambulancenter.com/medical-security-events.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Medical security for events and shows — paramedics and medics on site. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999
+
+---
+
 ## Q&A — הוסיפו בפרופיל
 
 **ש: יש אמבולנס מבית חולים פוריה?**  
@@ -134,8 +152,11 @@ Patient medical flights with paramedic escort — Israel and international. http
 **ש: יש הטסות חולים בליווי פראמדיק?**  
 ת: כן. פראמדיק לליווי טיסות בארץ ובחו״ל — לפני הטיסה ובמהלכה. https://ambulancenter.com/paramedic-flights.html · 079-6709999
 
+**ש: יש אבטחה רפואית לאירועים ומופעים?**  
+ת: כן. פראמדיק, חובשים וצוותי כוננות להופעות, פסטיבלים, כנסים וחתונות. https://ambulancenter.com/medical-security-events.html · 079-6709999
+
 **ש: האם אתם מחפשים עובדים?**  
-ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בליווי רופא או פראמדיק בלבד.
+ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים, הטסות רפואיות ואבטחה רפואית לאירועים בלבד.
 
 ---
 

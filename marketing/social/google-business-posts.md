@@ -11,6 +11,7 @@
 | טבריה | https://ambulancenter.com/ambulance-tiberias.html |
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
+| אבטחה רפואית לאירועים ומופעים | https://ambulancenter.com/medical-security-events.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 
 מקור מלא: `marketing/data/gbp-posts.json` · קידום היום: `marketing/google-business/PUBLISH-TODAY-HE.md`
@@ -127,7 +128,24 @@ International medical flights to Israel — doctor or paramedic escort. https://
 
 ---
 
+## GBP-05E — אבטחה רפואית לאירועים ומופעים
+**Learn more:** https://ambulancenter.com/medical-security-events.html
+
+אבטחה רפואית לאירועים ומופעים — פראמדיק, חובשים וצוותי כוננות לפי גודל האירוע וסוג הקהל.
+
+מתאים להופעות, פסטיבלים, כנסים, חתונות, אירועי חברה ו־VIP.
+
+פרטים:
+https://ambulancenter.com/medical-security-events.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Medical security for events and shows — paramedics and medics on site. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999
+
+---
+
 ## קצב פרסום
-שני + חמישי · סובבו את הספרייה JSON (כולל ליווי רופא / פראמדיק)  
+שני + חמישי · סובבו את הספרייה JSON (כולל אירועים / ליווי רופא / פראמדיק)  
 בכל פוסט: לינק בטקסט + כפתור Learn more לאותו URL  
-תמונה: אמבולנס / שדה תעופה (בלי פרטי מטופל; לעניין נפטרים — תמונה מכובדת/נייטרלית של צי)
+תמונה: אמבולנס / שדה תעופה / אירוע (בלי פרטי מטופל; לעניין נפטרים — תמונה מכובדת/נייטרלית של צי)
