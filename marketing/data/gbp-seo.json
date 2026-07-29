@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "brandHe": "ישראל אייר אנד אמבולנס",
+  "brandEn": "Israel Air & Ambulance",
+  "coreKeywordsHe": [
+    "אמבולנס פרטי",
+    "העברת חולים",
+    "הטסה רפואית",
+    "מטוס אמבולנס",
+    "ליווי רפואי בטיסה",
+    "העברת נפטרים",
+    "הטסת נפטרים",
+    "אבטחה רפואית לאירועים",
+    "קופות חולים",
+    "בית חולים פוריה",
+    "אמבולנס טבריה"
+  ],
+  "coreKeywordsEn": [
+    "private ambulance",
+    "patient transfer",
+    "medical flight",
+    "air ambulance",
+    "medical escort",
+    "deceased transport",
+    "event medical security",
+    "Israel health funds"
+  ],
+  "napHe": "📞 079-6709999 · וואטסאפ 053-2321101 · https://ambulancenter.com",
+  "napEn": "Call +972-79-670-9999 · WhatsApp 053-232-1101 · https://ambulancenter.com",
+  "notes": "Applied by build-gbp-90d.mjs into every caption. Natural SEO — no keyword stuffing lists."
+}

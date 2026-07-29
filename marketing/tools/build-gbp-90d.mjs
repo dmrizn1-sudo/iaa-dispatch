@@ -85,8 +85,22 @@ function jerusalemLocalToIso(ymd, hour = 10) {
   return new Date(lo).toISOString();
 }
 
-function buildCaption(post) {
-  return `${post.he.trim()}\n\n────────\n${post.en.trim()}`;
+const SEO_PATH = path.join(DATA, "gbp-seo.json");
+
+function buildCaption(post, lib = {}) {
+  const seo = fs.existsSync(SEO_PATH) ? JSON.parse(fs.readFileSync(SEO_PATH, "utf8")) : {};
+  const brandHe = seo.brandHe || "ישראל אייר אנד אמבולנס";
+  const brandEn = seo.brandEn || "Israel Air & Ambulance";
+  let he = post.he.trim();
+  let en = post.en.trim();
+  if (!he.includes("ישראל אייר")) he = `${brandHe} — ${post.titleHe}\n\n${he}`;
+  if (!en.toLowerCase().includes("israel air")) en = `${brandEn} — ${en}`;
+  // Soft SEO: keep primary keywords near the top (already in post body); ensure NAP once
+  if (!/079-6709999|053-2321101/.test(he) && seo.napHe) he = `${he}\n\n${seo.napHe}`;
+  if (!/\+972-79-670-9999|053-232-1101/.test(en) && seo.napEn) en = `${en}\n\n${seo.napEn}`;
+  const summary = `${he}\n\n────────\n${en}`;
+  // Google Local Post summary soft limit ~1500
+  return summary.length <= 1500 ? summary : summary.slice(0, 1497) + "…";
 }
 
 function collectSlotDates(startYmd) {
@@ -140,7 +154,9 @@ function main() {
             ? undefined
             : deepLink,
       link: deepLink,
-      summary: buildCaption(post),
+      seoKeywordsHe: post.seoKeywordsHe || [],
+      seoKeywordsEn: post.seoKeywordsEn || [],
+      summary: buildCaption(post, lib),
       status: "pending",
       publishedAt: null,
       publishName: null,

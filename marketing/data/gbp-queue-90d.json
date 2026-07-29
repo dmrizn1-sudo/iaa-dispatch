@@ -2,7 +2,7 @@
   "version": 1,
   "brand": "Israel Air & Ambulance",
   "platform": "google-business",
-  "builtAt": "2026-07-29T21:45:06.934Z",
+  "builtAt": "2026-07-29T21:53:39.337Z",
   "startDate": "2026-07-30",
   "endDate": "2026-10-26",
   "cadence": "Mon+Thu 10:00 Asia/Jerusalem",
@@ -25,13 +25,24 @@
       "postId": "GBP-01",
       "stream": "ground",
       "theme": "poria",
-      "titleHe": "אמבולנס מבית חולים פוריה",
+      "titleHe": "אמבולנס פרטי מבית חולים פוריה בטבריה",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/ambulance-poria.html",
       "link": "https://ambulancenter.com/ambulance-poria.html",
-      "summary": "אמבולנס להעברת חולים מבית חולים פוריה (טבריה) — שחרור הביתה, העברה לבית חולים אחר, או המשך טיפול.\n\nמידע והזמנה:\nhttps://ambulancenter.com/ambulance-poria.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient ambulance transfers from Poriya Hospital (Tiberias). Details: https://ambulancenter.com/ambulance-poria.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס פוריה",
+        "אמבולנס פרטי טבריה",
+        "העברת חולים מפוריה",
+        "שחרור מבית חולים"
+      ],
+      "seoKeywordsEn": [
+        "Poriya ambulance",
+        "Tiberias private ambulance",
+        "patient transfer Poriya"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס פרטי להעברת חולים מבית חולים פוריה בטבריה.\n\nשירות אמבולנס מפוריה: שחרור הביתה, העברה בין בתי חולים והמשך טיפול בצפון.\n\nאמבולנס פוריה · הזמנה:\nhttps://ambulancenter.com/ambulance-poria.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulance for patient transfers from Poriya Hospital, Tiberias.\n\nHospital discharge · inter-hospital transfer · northern Israel coverage.\n\nhttps://ambulancenter.com/ambulance-poria.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -46,13 +57,24 @@
       "postId": "GBP-02",
       "stream": "ground",
       "theme": "patient-transfers",
-      "titleHe": "אמבולנסים להעברת חולים",
+      "titleHe": "אמבולנסים להעברת חולים בישראל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/patient-transfers.html",
       "link": "https://ambulancenter.com/patient-transfers.html",
-      "summary": "אמבולנסים להעברת חולים — בין בתי חולים, שחרור הביתה, הסעת מוגבלי תנועה וכיסא זחל.\n\nמדריך השירות:\nhttps://ambulancenter.com/patient-transfers.html\n\nזמינים 24/7 · 079-6709999\n\n────────\nPrivate ambulances for patient transfers nationwide. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "העברת חולים באמבולנס",
+        "אמבולנס פרטי",
+        "העברה בין בתי חולים",
+        "כיסא זחל"
+      ],
+      "seoKeywordsEn": [
+        "patient transfer ambulance",
+        "private ambulance Israel",
+        "inter-hospital transfer"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנסים להעברת חולים בישראל.\n\nאמבולנס פרטי להעברה בין בתי חולים, שחרור הביתה, הסעת מוגבלי תנועה וכיסא זחל חשמלי — בפריסה ארצית.\n\nמדריך העברת חולים:\nhttps://ambulancenter.com/patient-transfers.html\n\nזמינים 24/7 · 079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulances for patient transfers across Israel.\n\nInter-hospital · hospital-to-home · mobility & stair-chair support.\n\nhttps://ambulancenter.com/patient-transfers.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -73,7 +95,18 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/deceased-services.html",
       "link": "https://ambulancenter.com/deceased-services.html",
-      "summary": "העברת נפטרים בפריסה ארצית — מבתי חולים, בתים ומוסדות, בצפון, במרכז, בירושלים ובדרום. שירות דיסקרטי ומכבד.\n\nפרטים וזכאות (כולל ביטוח לאומי / 0120* במקרים מתאימים):\nhttps://ambulancenter.com/deceased-services.html\n\n079-6709999 · 053-2321101\n\n────────\nNationwide deceased transport — discreet and respectful. https://ambulancenter.com/deceased-services.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "העברת נפטרים",
+        "פינוי נפטרים",
+        "הובלת נפטרים ארצית",
+        "ביטוח לאומי נפטרים"
+      ],
+      "seoKeywordsEn": [
+        "deceased transport Israel",
+        "nationwide body transport",
+        "funeral logistics"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — העברת נפטרים לכל חלקי הארץ.\n\nפינוי והובלת נפטרים בפריסה ארצית: צפון, מרכז, ירושלים ודרום — מבתי חולים, בתים ומוסדות. שירות דיסקרטי ומכבד.\n\nפרטים וזכאות (ביטוח לאומי / 0120* במקרים מתאימים):\nhttps://ambulancenter.com/deceased-services.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — nationwide deceased transport across Israel.\n\nDiscreet hospital, home and facility pickup — North to South.\n\nhttps://ambulancenter.com/deceased-services.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -88,13 +121,24 @@
       "postId": "GBP-04",
       "stream": "deceased",
       "theme": "deceased-air",
-      "titleHe": "הטסת נפטרים",
+      "titleHe": "הטסת נפטרים לישראל ומחו״ל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/deceased-services.html",
       "link": "https://ambulancenter.com/deceased-services.html",
-      "summary": "הטסת נפטרים לחו״ל או הבאה לקבורה בישראל — כולל תיאום מסמכים, לוגיסטיקה ושירותי קרקע.\n\nעמוד השירות:\nhttps://ambulancenter.com/deceased-services.html\n\nישראל אייר אנד אמבולנס · 079-6709999\n\n────────\nInternational deceased air repatriation to/from Israel. https://ambulancenter.com/deceased-services.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הטסת נפטרים",
+        "השבת נפטר לישראל",
+        "הטסת נפטרים לחו״ל",
+        "repatriation נפטרים"
+      ],
+      "seoKeywordsEn": [
+        "deceased air repatriation",
+        "repatriation of remains to Israel",
+        "international funeral flight"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הטסת נפטרים לישראל ומחו״ל.\n\nהטסת נפטרים לקבורה בישראל או לחו״ל — תיאום מסמכים, לוגיסטיקה ושירותי קרקע. שירות בינלאומי רגיש ומקצועי.\n\nעמוד הטסת נפטרים:\nhttps://ambulancenter.com/deceased-services.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — international deceased air repatriation to and from Israel.\n\nDocuments, logistics and ground support included.\n\nhttps://ambulancenter.com/deceased-services.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -115,7 +159,18 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-escort.html",
       "link": "https://ambulancenter.com/medical-escort.html",
-      "summary": "הטסות חולים בליווי רופא — Medical Escort בטיסה מסחרית או במטוס אמבולנס, לפי המצב הקליני.\n\nליווי רופא / פראמדיק / אחות · חמצן ואלונקה לפי הצורך · תיאום Bed to Bed.\n\nפרטים:\nhttps://ambulancenter.com/medical-escort.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient medical flights with doctor escort — commercial Medical Escort or air ambulance. https://ambulancenter.com/medical-escort.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הטסה רפואית בליווי רופא",
+        "Medical Escort",
+        "ליווי רופא בטיסה",
+        "הטסת חולים"
+      ],
+      "seoKeywordsEn": [
+        "medical flight with doctor",
+        "doctor medical escort",
+        "physician escort flight"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הטסות חולים בליווי רופא.\n\nהטסה רפואית / Medical Escort: ליווי רופא בטיסה מסחרית או במטוס אמבולנס, לפי המצב הקליני. חמצן, אלונקה ותיאום Bed to Bed.\n\nליווי רופא בטיסה:\nhttps://ambulancenter.com/medical-escort.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — patient medical flights with doctor escort.\n\nCommercial Medical Escort or air ambulance — oxygen, stretcher, bed-to-bed.\n\nhttps://ambulancenter.com/medical-escort.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -136,7 +191,18 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/paramedic-flights.html",
       "link": "https://ambulancenter.com/paramedic-flights.html",
-      "summary": "הטסות חולים בליווי פראמדיק — ליווי רפואי מקצועי בטיסה בארץ ובחו״ל, לפני הטיסה ובמהלכה.\n\nמתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות שזקוקות לשקט נפשי.\n\nפרטים:\nhttps://ambulancenter.com/paramedic-flights.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient medical flights with paramedic escort — Israel and international. https://ambulancenter.com/paramedic-flights.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "ליווי פראמדיק בטיסה",
+        "פראמדיק לליווי טיסות",
+        "הטסת חולים פראמדיק",
+        "medical escort פראמדיק"
+      ],
+      "seoKeywordsEn": [
+        "paramedic flight escort",
+        "paramedic medical escort",
+        "in-flight paramedic"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הטסות חולים בליווי פראמדיק.\n\nפראמדיק לליווי טיסות בארץ ובחו״ל — לפני הטיסה ובמהלכה. מתאים למטופלים אחרי אשפוז, מבוגרים ומשפחות.\n\nליווי פראמדיק בטיסה:\nhttps://ambulancenter.com/paramedic-flights.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — patient medical flights with paramedic escort in Israel and abroad.\n\nPre-flight and in-flight paramedic coverage.\n\nhttps://ambulancenter.com/paramedic-flights.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -157,7 +223,18 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-flight.html",
       "link": "https://ambulancenter.com/medical-flight.html",
-      "summary": "הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק), תיאום מיטה למיטה.\n\nhttps://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\nליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n\nזמינים 24/7: 079-6709999 · וואטסאפ 053-2321101\n\n────────\nInternational medical flights to Israel — doctor or paramedic escort. https://ambulancenter.com/medical-flight.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הטסה רפואית לישראל",
+        "טיסה רפואית",
+        "מטוס אמבולנס",
+        "השבה לארץ"
+      ],
+      "seoKeywordsEn": [
+        "medical flight to Israel",
+        "air ambulance to Israel",
+        "medical repatriation"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הטסה רפואית בינלאומית לישראל.\n\nטיסה רפואית / מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (רופא / פראמדיק) — תיאום מיטה למיטה עד בית החולים בישראל.\n\nהטסה רפואית: https://ambulancenter.com/medical-flight.html\nליווי רופא: https://ambulancenter.com/medical-escort.html\nליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n\nזמינים 24/7 · 079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — international medical flights to Israel.\n\nAir ambulance or commercial medical escort (doctor / paramedic), bed-to-bed.\n\nhttps://ambulancenter.com/medical-flight.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -178,7 +255,18 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-security-events.html",
       "link": "https://ambulancenter.com/medical-security-events.html",
-      "summary": "אבטחה רפואית לאירועים ומופעים — פראמדיק, חובשים וצוותי כוננות לפי גודל האירוע וסוג הקהל.\n\nמתאים להופעות, פסטיבלים, כנסים, חתונות, אירועי חברה ו־VIP.\n\nפרטים:\nhttps://ambulancenter.com/medical-security-events.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nMedical security for events and shows — paramedics and medics on site. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אבטחה רפואית לאירועים",
+        "אבטחה רפואית למופעים",
+        "פראמדיק לאירוע",
+        "חובש לאירוע"
+      ],
+      "seoKeywordsEn": [
+        "event medical security",
+        "medical cover for shows",
+        "paramedic for events"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אבטחה רפואית לאירועים ומופעים.\n\nפראמדיק, חובשים וצוותי כוננות להופעות, פסטיבלים, כנסים, חתונות ואירועי VIP — לפי גודל האירוע וסוג הקהל.\n\nאבטחה רפואית לאירועים:\nhttps://ambulancenter.com/medical-security-events.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — medical security for events and shows.\n\nParamedics and medics for concerts, festivals, conferences and weddings.\n\nhttps://ambulancenter.com/medical-security-events.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -199,7 +287,17 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-security-events.html",
       "link": "https://ambulancenter.com/medical-security-events.html",
-      "summary": "מתכננים מופע או הפקה? מעטפת רפואית מקצועית בשטח — שקט נפשי למפיקים ולמשתתפים, כולל אמבולנס לפי דרישה.\n\nhttps://ambulancenter.com/medical-security-events.html\n\nישראל אייר אנד אמבולנס · 079-6709999\n\n────────\nOn-site medical coverage for performances and productions. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "מעטפת רפואית למופע",
+        "אמבולנס לאירוע",
+        "אבטחה רפואית להפקה"
+      ],
+      "seoKeywordsEn": [
+        "medical coverage for productions",
+        "ambulance for events",
+        "show medical team"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — מעטפת רפואית למופעים והפקות.\n\nאבטחה רפואית מקצועית בשטח למפיקים — כולל אמבולנס לאירוע לפי דרישה. שקט נפשי למשתתפים ולצוות ההפקה.\n\nhttps://ambulancenter.com/medical-security-events.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — on-site medical coverage for performances and productions.\n\nEvent ambulance available on request.\n\nhttps://ambulancenter.com/medical-security-events.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -214,13 +312,24 @@
       "postId": "GBP-06",
       "stream": "ground",
       "theme": "tiberias",
-      "titleHe": "אמבולנס פרטי בטבריה",
+      "titleHe": "אמבולנס פרטי בטבריה והכנרת",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/ambulance-tiberias.html",
       "link": "https://ambulancenter.com/ambulance-tiberias.html",
-      "summary": "אמבולנס פרטי בטבריה והסביבה — העברות מתוכננות, שחרור מבית חולים וליווי רפואי.\n\nhttps://ambulancenter.com/ambulance-tiberias.html\n\n079-6709999 · 053-2321101\n\n────────\nPrivate ambulance in Tiberias area. https://ambulancenter.com/ambulance-tiberias.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס טבריה",
+        "אמבולנס פרטי בטבריה",
+        "העברת חולים טבריה",
+        "אמבולנס כנרת"
+      ],
+      "seoKeywordsEn": [
+        "private ambulance Tiberias",
+        "Tiberias patient transfer",
+        "Kinneret ambulance"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס פרטי בטבריה והסביבה.\n\nהעברות מתוכננות, שחרור מבית חולים וליווי רפואי באזור טבריה, הכנרת ופוריה.\n\nאמבולנס טבריה:\nhttps://ambulancenter.com/ambulance-tiberias.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulance in Tiberias, Kinneret and Poriya area.\n\nhttps://ambulancenter.com/ambulance-tiberias.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -235,13 +344,23 @@
       "postId": "GBP-07",
       "stream": "ground",
       "theme": "poria-discharge",
-      "titleHe": "שחרור מפוריה הביתה",
+      "titleHe": "שחרור מבית חולים פוריה באמבולנס",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/ambulance-poria.html",
       "link": "https://ambulancenter.com/ambulance-poria.html",
-      "summary": "שחרור מבית חולים פוריה הביתה באמבולנס — נוחות, בטיחות ויחס אנושי. מתאים גם למטופלים מעל גיל 65.\n\nהזמנה:\nhttps://ambulancenter.com/ambulance-poria.html\n\nוואטסאפ 053-2321101\n\n────────\nHospital-to-home from Poriya. https://ambulancenter.com/ambulance-poria.html · WhatsApp 053-232-1101",
+      "seoKeywordsHe": [
+        "שחרור מפוריה",
+        "אמבולנס מבית חולים הביתה",
+        "הסעה מפוריה",
+        "אמבולנס 65+"
+      ],
+      "seoKeywordsEn": [
+        "Poriya hospital discharge ambulance",
+        "hospital to home Tiberias"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — שחרור מבית חולים פוריה הביתה באמבולנס פרטי.\n\nהסעה בטוחה ומקצועית מפוריה — מתאים גם למטופלים מעל גיל 65 ולמשפחות בצפון.\n\nהזמנת אמבולנס מפוריה:\nhttps://ambulancenter.com/ambulance-poria.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — hospital-to-home private ambulance from Poriya Hospital.\n\nIdeal for seniors and northern families.\n\nhttps://ambulancenter.com/ambulance-poria.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -256,13 +375,24 @@
       "postId": "GBP-08",
       "stream": "deceased",
       "theme": "deceased-hospital",
-      "titleHe": "פינוי נפטרים מבתי חולים",
+      "titleHe": "פינוי נפטרים מבתי חולים בצפון",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/deceased-services.html",
       "link": "https://ambulancenter.com/deceased-services.html",
-      "summary": "פינוי נפטרים מבתי חולים ומוסדות — כולל פוריה, זיו, רמב״ם והעמק — והעברה ליעד שנקבע בכל הארץ.\n\nhttps://ambulancenter.com/deceased-services.html\n\nמענה רגיש 24/7 · 079-6709999\n\n────────\nHospital deceased pickup and nationwide transfer. https://ambulancenter.com/deceased-services.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "פינוי נפטרים מבית חולים",
+        "פינוי נפטרים פוריה",
+        "העברת נפטרים זיו",
+        "רמב״ם נפטרים"
+      ],
+      "seoKeywordsEn": [
+        "hospital deceased pickup",
+        "Poriya deceased transport",
+        "Ziv Rambam deceased"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — פינוי נפטרים מבתי חולים ומוסדות.\n\nכולל פוריה, זיו, רמב״ם והעמק — והעברת נפטרים ליעד בכל הארץ. שירות דיסקרטי 24/7.\n\nhttps://ambulancenter.com/deceased-services.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — hospital deceased pickup (Poriya, Ziv, Rambam, Emek) and nationwide transfer.\n\nhttps://ambulancenter.com/deceased-services.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -277,13 +407,24 @@
       "postId": "GBP-09",
       "stream": "air",
       "theme": "bed-to-bed",
-      "titleHe": "מיטה למיטה",
+      "titleHe": "הטסה רפואית Bed to Bed לישראל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/bed-to-bed.html",
       "link": "https://ambulancenter.com/bed-to-bed.html",
-      "summary": "Bed to Bed: ממיטת בית החולים בחו״ל → אמבולנס → טיסה → בית החולים בישראל.\n\nhttps://ambulancenter.com/bed-to-bed.html\n\n079-6709999\n\n────────\nBed-to-bed medical transport into Israel. https://ambulancenter.com/bed-to-bed.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "Bed to Bed",
+        "מיטה למיטה",
+        "הטסה רפואית מיטה למיטה",
+        "אמבולנס לשדה תעופה"
+      ],
+      "seoKeywordsEn": [
+        "bed to bed medical transport",
+        "bedside to bedside Israel",
+        "airport ambulance transfer"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הטסה רפואית Bed to Bed (מיטה למיטה) לישראל.\n\nממיטת בית החולים בחו״ל → אמבולנס → טיסה רפואית → בית החולים בישראל. תיאום מלא למשפחה.\n\nhttps://ambulancenter.com/bed-to-bed.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — bed-to-bed medical transport into Israeli hospitals.\n\nhttps://ambulancenter.com/bed-to-bed.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -304,7 +445,17 @@
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/patient-transfers.html",
       "link": "https://ambulancenter.com/patient-transfers.html",
-      "summary": "העברת חולים בין בתי חולים — פוריה, זיו, רמב״ם, העמק וכל הארץ — עם ליווי רפואי צמוד.\n\nhttps://ambulancenter.com/patient-transfers.html\n\n079-6709999 · 053-2321101\n\n────────\nInter-hospital patient transfers. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "העברה בין בתי חולים",
+        "אמבולנס בין בתי חולים",
+        "העברת חולים פוריה רמבם",
+        "ליווי רפואי בהעברה"
+      ],
+      "seoKeywordsEn": [
+        "inter-hospital ambulance",
+        "hospital to hospital transfer Israel"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — העברת חולים בין בתי חולים באמבולנס פרטי.\n\nפוריה, זיו, רמב״ם, העמק וכל הארץ — עם ליווי רפואי צמוד והעברה מתוכננת.\n\nhttps://ambulancenter.com/patient-transfers.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — inter-hospital patient transfers by private ambulance across Israel.\n\nhttps://ambulancenter.com/patient-transfers.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -319,13 +470,22 @@
       "postId": "GBP-11",
       "stream": "deceased",
       "theme": "deceased-air-to-israel",
-      "titleHe": "הבאת נפטר מחו״ל לישראל",
+      "titleHe": "הבאת נפטר מחו״ל לקבורה בישראל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/deceased-services.html",
       "link": "https://ambulancenter.com/deceased-services.html",
-      "summary": "הבאת נפטר מחו״ל לקבורה בישראל — תיאום הטסה, מסמכים ושירותי קרקע בארץ.\n\nhttps://ambulancenter.com/deceased-services.html\n\nישראל אייר אנד אמבולנס · 079-6709999\n\n────────\nDeceased repatriation from abroad to Israel. https://ambulancenter.com/deceased-services.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הבאת נפטר לישראל",
+        "הטסת נפטר לישראל",
+        "קבורה בישראל מחו״ל"
+      ],
+      "seoKeywordsEn": [
+        "bring deceased to Israel",
+        "repatriation of remains to Israel"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הבאת נפטר מחו״ל לקבורה בישראל.\n\nהטסת נפטרים לישראל כולל מסמכים, תיאום ושירותי קרקע בארץ.\n\nhttps://ambulancenter.com/deceased-services.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — deceased repatriation from abroad for burial in Israel.\n\nhttps://ambulancenter.com/deceased-services.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -340,13 +500,22 @@
       "postId": "GBP-12",
       "stream": "air",
       "theme": "repatriation",
-      "titleHe": "השבה רפואית לישראל",
+      "titleHe": "השבה רפואית לישראל מחו״ל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/repatriation-israel.html",
       "link": "https://ambulancenter.com/repatriation-israel.html",
-      "summary": "אשפוז בחו״ל וצריך לחזור לישראל? תיאום הטסה רפואית עם ליווי מתאים.\n\nhttps://ambulancenter.com/repatriation-israel.html\n\n079-6709999 · 053-2321101\n\n────────\nMedical repatriation to Israel. https://ambulancenter.com/repatriation-israel.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "השבה רפואית לישראל",
+        "הטסת חולה לישראל",
+        "חזרה לישראל אחרי אשפוז בחו״ל"
+      ],
+      "seoKeywordsEn": [
+        "medical repatriation to Israel",
+        "patient repatriation flight"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — השבה רפואית לישראל מחו״ל.\n\nאשפוז בחו״ל וצריך לחזור? תיאום הטסה רפואית לישראל עם ליווי רופא או פראמדיק — 24/7.\n\nhttps://ambulancenter.com/repatriation-israel.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — medical repatriation flights to Israel after hospitalization abroad.\n\nhttps://ambulancenter.com/repatriation-israel.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -361,13 +530,22 @@
       "postId": "GBP-13",
       "stream": "ground",
       "theme": "stair-chair",
-      "titleHe": "כיסא זחל בהעברת חולים",
+      "titleHe": "כיסא זחל חשמלי להעברת חולים",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/patient-transfers.html",
       "link": "https://ambulancenter.com/patient-transfers.html",
-      "summary": "העברת חולים עם כיסא זחל חשמלי — העלאה והורדה במדרגות גם בלי מעלית.\n\nhttps://ambulancenter.com/patient-transfers.html\n\n079-6709999\n\n────────\nStair-chair patient transfers. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "כיסא זחל חשמלי",
+        "העברת חולים במדרגות",
+        "אמבולנס בלי מעלית"
+      ],
+      "seoKeywordsEn": [
+        "electric stair chair",
+        "stair chair patient transfer"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — כיסא זחל חשמלי להעברת חולים במדרגות.\n\nהעלאה והורדה בטוחה גם בלי מעלית — בתים, בניינים ומוסדות. חלק משירות העברת חולים באמבולנס פרטי.\n\nhttps://ambulancenter.com/patient-transfers.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — electric stair-chair patient transfers without an elevator.\n\nhttps://ambulancenter.com/patient-transfers.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -382,13 +560,23 @@
       "postId": "GBP-14",
       "stream": "ground",
       "theme": "kupot-all",
-      "titleHe": "שירות ללקוחות כל קופות החולים",
+      "titleHe": "אמבולנס לכל קופות החולים",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/#insurance-partners",
       "link": "https://ambulancenter.com/#insurance-partners",
-      "summary": "שירות ללקוחות כל קופות החולים — מכבי, מאוחדת, לאומית וכללית.\n\nהעברות באמבולנס, שחרור מבית חולים והמשך טיפול — לפי זכאות הקופה. בדקו זכאות בקופה ופנו אלינו לביצוע.\n\nמידע על החזרים וקופות:\nhttps://ambulancenter.com/#insurance-partners\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nService for members of all Israeli health funds — Clalit, Maccabi, Meuhedet, Leumit (subject to eligibility). https://ambulancenter.com/#insurance-partners · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס קופת חולים",
+        "מכבי מאוחדת לאומית כללית",
+        "העברת חולים בקופה",
+        "החזר אמבולנס"
+      ],
+      "seoKeywordsEn": [
+        "health fund ambulance",
+        "Clalit Maccabi Meuhedet Leumit ambulance"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — שירות אמבולנס ללקוחות כל קופות החולים: מכבי, מאוחדת, לאומית וכללית.\n\nהעברת חולים באמבולנס, שחרור מבית חולים והמשך טיפול — לפי זכאות הקופה. בדקו זכאות ופנו לביצוע.\n\nהחזרים וקופות חולים:\nhttps://ambulancenter.com/#insurance-partners\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — ambulance service for Clalit, Maccabi, Meuhedet and Leumit members (subject to eligibility).\n\nhttps://ambulancenter.com/#insurance-partners\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -403,13 +591,23 @@
       "postId": "GBP-14B",
       "stream": "ground",
       "theme": "maccabi",
-      "titleHe": "מכבי · העברות באזור טבריה / פוריה",
+      "titleHe": "אמבולנס מכבי בטבריה ופוריה",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/ambulance-tiberias.html",
       "link": "https://ambulancenter.com/ambulance-tiberias.html",
-      "summary": "ספקי העברות באמבולנס באזור טבריה ופוריה לחברי מכבי. בדקו זכאות במכבי ופנו אלינו לביצוע.\n\nשירות טבריה: https://ambulancenter.com/ambulance-tiberias.html\nזכאות מכבי: https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\n053-2321101\n\n────────\nMaccabi transfers in Tiberias / Poriya area. https://ambulancenter.com/ambulance-tiberias.html · WhatsApp 053-232-1101",
+      "seoKeywordsHe": [
+        "אמבולנס מכבי",
+        "העברות מכבי טבריה",
+        "מכבי פוריה",
+        "זכאות מכבי אמבולנס"
+      ],
+      "seoKeywordsEn": [
+        "Maccabi ambulance Tiberias",
+        "Maccabi Poriya transfer"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס להעברות מכבי באזור טבריה ופוריה.\n\nספקי העברות באמבולנס לחברי מכבי. בדקו זכאות במכבי ופנו אלינו לביצוע.\n\nאמבולנס טבריה: https://ambulancenter.com/ambulance-tiberias.html\nזכאות מכבי: https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — Maccabi ambulance transfers in Tiberias / Poriya area.\n\nhttps://ambulancenter.com/ambulance-tiberias.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -424,13 +622,25 @@
       "postId": "GBP-14C",
       "stream": "ground",
       "theme": "kupot-names",
-      "titleHe": "מכבי · מאוחדת · לאומית · כללית",
+      "titleHe": "אמבולנס מכבי מאוחדת לאומית כללית",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/patient-transfers.html",
       "link": "https://ambulancenter.com/patient-transfers.html",
-      "summary": "חברי מכבי, מאוחדת, לאומית וכללית — אנחנו כאן להעברת חולים באמבולנס לפי זכאות הקופה.\n\nהעברה בין בתי חולים · שחרור הביתה · שיקום — תיאמו איתנו אחרי אישור/טופס מהקופה.\n\nhttps://ambulancenter.com/patient-transfers.html\nהחזרים: https://ambulancenter.com/#insurance-partners\n\n079-6709999\n\n────────\nAmbulance transfers for Clalit, Maccabi, Meuhedet and Leumit members — subject to fund eligibility. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס כללית",
+        "אמבולנס מאוחדת",
+        "אמבולנס לאומית",
+        "אמבולנס מכבי"
+      ],
+      "seoKeywordsEn": [
+        "Clalit ambulance",
+        "Meuhedet ambulance",
+        "Leumit ambulance",
+        "Maccabi ambulance"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס פרטי לחברי מכבי, מאוחדת, לאומית וכללית.\n\nהעברה בין בתי חולים · שחרור הביתה · שיקום — אחרי אישור/טופס מהקופה.\n\nהעברת חולים: https://ambulancenter.com/patient-transfers.html\nהחזרים: https://ambulancenter.com/#insurance-partners\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulance for Clalit, Maccabi, Meuhedet and Leumit members.\n\nhttps://ambulancenter.com/patient-transfers.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -445,13 +655,24 @@
       "postId": "GBP-15",
       "stream": "air",
       "theme": "air-ambulance",
-      "titleHe": "מטוס אמבולנס",
+      "titleHe": "מטוס אמבולנס לישראל",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/air-ambulance.html",
       "link": "https://ambulancenter.com/air-ambulance.html",
-      "summary": "מטוס אמבולנס לישראל — ציוד טיפול נמרץ וליווי רופא / צוות טיפול נמרץ רציף עד בית החולים.\n\nhttps://ambulancenter.com/air-ambulance.html\n\n079-6709999\n\n────────\nDedicated air ambulance to Israel with continuous medical/doctor escort. https://ambulancenter.com/air-ambulance.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "מטוס אמבולנס",
+        "אייר אמבולנס",
+        "הטסת טיפול נמרץ",
+        "air ambulance ישראל"
+      ],
+      "seoKeywordsEn": [
+        "air ambulance to Israel",
+        "ICU air ambulance",
+        "dedicated medical aircraft"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — מטוס אמבולנס (Air Ambulance) לישראל.\n\nהטסה רפואית עם ציוד טיפול נמרץ וליווי רופא / צוות רפואי רציף עד בית החולים בישראל.\n\nhttps://ambulancenter.com/air-ambulance.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — dedicated air ambulance to Israel with ICU equipment and doctor escort.\n\nhttps://ambulancenter.com/air-ambulance.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -466,13 +687,22 @@
       "postId": "GBP-15B",
       "stream": "air",
       "theme": "doctor-escort-commercial",
-      "titleHe": "ליווי רופא בטיסה מסחרית",
+      "titleHe": "ליווי רופא בטיסה מסחרית Medical Escort",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/medical-escort.html",
       "link": "https://ambulancenter.com/medical-escort.html",
-      "summary": "חולים יציבים יחסית שזקוקים להשגחה בטיסה? ליווי רופא בטיסה מסחרית (Medical Escort) — כולל תיאום מול חברת התעופה, חמצן ואלונקה לפי אישור.\n\nhttps://ambulancenter.com/medical-escort.html\n\n079-6709999 · 053-2321101\n\n────────\nDoctor medical escort on commercial flights for stable patients. https://ambulancenter.com/medical-escort.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "ליווי רופא בטיסה מסחרית",
+        "Medical Escort ישראל",
+        "הטסת חולה בטיסה רגילה"
+      ],
+      "seoKeywordsEn": [
+        "commercial flight medical escort",
+        "doctor on commercial flight"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — ליווי רופא בטיסה מסחרית (Medical Escort).\n\nהטסת חולים יציבים יחסית עם השגחה רפואית, תיאום מול חברת התעופה, חמצן ואלונקה לפי אישור.\n\nhttps://ambulancenter.com/medical-escort.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — doctor medical escort on commercial flights for stable patients.\n\nhttps://ambulancenter.com/medical-escort.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -487,13 +717,22 @@
       "postId": "GBP-16",
       "stream": "deceased",
       "theme": "deceased-nationwide-2",
-      "titleHe": "העברת נפטרים · צפון עד דרום",
+      "titleHe": "הובלת נפטרים מצפון עד דרום",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/deceased-services.html",
       "link": "https://ambulancenter.com/deceased-services.html",
-      "summary": "העברת נפטרים לכל חלקי הארץ — תיאום מהיר למשפחות ומוסדות, כולל אפשרות לסיוע מול ביטוח לאומי.\n\nhttps://ambulancenter.com/deceased-services.html\n\nהזמנה: https://ambulancenter.com/booking.html · 079-6709999\n\n────────\nDeceased transport across Israel. https://ambulancenter.com/deceased-services.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הובלת נפטרים",
+        "העברת נפטרים ארצית",
+        "פינוי נפטרים 24/7"
+      ],
+      "seoKeywordsEn": [
+        "body transport Israel",
+        "nationwide deceased logistics"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הובלת והעברת נפטרים מצפון עד דרום.\n\nתיאום מהיר למשפחות ומוסדות, כולל סיוע מול ביטוח לאומי במקרים מתאימים.\n\nhttps://ambulancenter.com/deceased-services.html\nהזמנה: https://ambulancenter.com/booking.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — deceased transport from north to south across Israel.\n\nhttps://ambulancenter.com/deceased-services.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -508,13 +747,22 @@
       "postId": "GBP-17",
       "stream": "ground",
       "theme": "booking",
-      "titleHe": "הזמנת אמבולנס אונליין",
+      "titleHe": "הזמנת אמבולנס פרטי אונליין 24/7",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/booking.html",
       "link": "https://ambulancenter.com/booking.html",
-      "summary": "הזמנת אמבולנס להעברת חולים או פינוי נפטרים — אונליין 24/7.\n\nhttps://ambulancenter.com/booking.html\n\nאו חייגו 079-6709999\n\n────────\nBook ambulance / deceased transport online. https://ambulancenter.com/booking.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "הזמנת אמבולנס אונליין",
+        "הזמנת אמבולנס פרטי",
+        "אמבולנס 24/7"
+      ],
+      "seoKeywordsEn": [
+        "book private ambulance online",
+        "ambulance booking Israel"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — הזמנת אמבולנס פרטי אונליין 24/7.\n\nהזמנת אמבולנס להעברת חולים או פינוי נפטרים — מהיר ומאובטח באתר.\n\nhttps://ambulancenter.com/booking.html\n\nאו חייגו 079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — book a private ambulance or deceased transport online 24/7.\n\nhttps://ambulancenter.com/booking.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -529,13 +777,26 @@
       "postId": "GBP-18",
       "stream": "mixed",
       "theme": "services-pack",
-      "titleHe": "שירותים עם קישורים",
+      "titleHe": "שירותי אמבולנס והטסה רפואית — קישורים",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/",
       "link": "https://ambulancenter.com/",
-      "summary": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• קופות חולים (מכבי/מאוחדת/לאומית/כללית): https://ambulancenter.com/#insurance-partners\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• אבטחה רפואית לאירועים ומופעים: https://ambulancenter.com/medical-security-events.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101\n\n────────\nService for all health funds + full service links. https://ambulancenter.com/#insurance-partners · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס פרטי",
+        "הטסה רפואית",
+        "העברת נפטרים",
+        "אבטחה רפואית",
+        "קופות חולים"
+      ],
+      "seoKeywordsEn": [
+        "private ambulance Israel",
+        "medical flight",
+        "deceased transport",
+        "event medical"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס פרטי, הטסה רפואית והעברת נפטרים | קישורים ישירים ל־SEO ולשירות:\n\n• אמבולנס פוריה / טבריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים באמבולנס: https://ambulancenter.com/patient-transfers.html\n• קופות חולים מכבי מאוחדת לאומית כללית: https://ambulancenter.com/#insurance-partners\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• אבטחה רפואית לאירועים ומופעים: https://ambulancenter.com/medical-security-events.html\n• הטסה רפואית לישראל: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulance, medical flights, deceased transport and event medical security.\n\nHub: https://ambulancenter.com/\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
@@ -550,13 +811,24 @@
       "postId": "GBP-01",
       "stream": "ground",
       "theme": "poria",
-      "titleHe": "אמבולנס מבית חולים פוריה",
+      "titleHe": "אמבולנס פרטי מבית חולים פוריה בטבריה",
       "languageCode": "he",
       "topicType": "STANDARD",
       "callToAction": "LEARN_MORE",
       "actionUrl": "https://ambulancenter.com/ambulance-poria.html",
       "link": "https://ambulancenter.com/ambulance-poria.html",
-      "summary": "אמבולנס להעברת חולים מבית חולים פוריה (טבריה) — שחרור הביתה, העברה לבית חולים אחר, או המשך טיפול.\n\nמידע והזמנה:\nhttps://ambulancenter.com/ambulance-poria.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nPatient ambulance transfers from Poriya Hospital (Tiberias). Details: https://ambulancenter.com/ambulance-poria.html · +972-79-670-9999",
+      "seoKeywordsHe": [
+        "אמבולנס פוריה",
+        "אמבולנס פרטי טבריה",
+        "העברת חולים מפוריה",
+        "שחרור מבית חולים"
+      ],
+      "seoKeywordsEn": [
+        "Poriya ambulance",
+        "Tiberias private ambulance",
+        "patient transfer Poriya"
+      ],
+      "summary": "ישראל אייר אנד אמבולנס — אמבולנס פרטי להעברת חולים מבית חולים פוריה בטבריה.\n\nשירות אמבולנס מפוריה: שחרור הביתה, העברה בין בתי חולים והמשך טיפול בצפון.\n\nאמבולנס פוריה · הזמנה:\nhttps://ambulancenter.com/ambulance-poria.html\n\n079-6709999 · וואטסאפ 053-2321101\n\n────────\nIsrael Air & Ambulance — private ambulance for patient transfers from Poriya Hospital, Tiberias.\n\nHospital discharge · inter-hospital transfer · northern Israel coverage.\n\nhttps://ambulancenter.com/ambulance-poria.html\n+972-79-670-9999 · WhatsApp 053-232-1101",
       "status": "pending",
       "publishedAt": null,
       "publishName": null,
