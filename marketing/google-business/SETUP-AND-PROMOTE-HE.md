@@ -70,6 +70,7 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 | העברת חולים | אמבולנסים להעברת חולים בארץ | https://ambulancenter.com/patient-transfers.html |
 | העברת נפטרים | פריסה ארצית, דיסקרטי | https://ambulancenter.com/deceased-services.html |
 | הטסת נפטרים | לחו״ל / הבאה לישראל | https://ambulancenter.com/deceased-services.html |
+| הטסות חולים בליווי רופא | Medical Escort / רופא בטיסה | https://ambulancenter.com/medical-escort.html |
 | הטסה רפואית לישראל | השבה ומטוס אמבולנס | https://ambulancenter.com/medical-flight.html |
 | ליווי רפואי בטיסה | Medical escort | https://ambulancenter.com/medical-escort.html |
 | אמבולנס טבריה | העברות באזור טבריה | https://ambulancenter.com/ambulance-tiberias.html |

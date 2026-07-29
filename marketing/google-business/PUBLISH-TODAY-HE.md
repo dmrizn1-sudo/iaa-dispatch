@@ -16,6 +16,7 @@
 | העברת חולים | https://ambulancenter.com/patient-transfers.html |
 | העברת / הטסת נפטרים | https://ambulancenter.com/deceased-services.html |
 | אמבולנס טבריה | https://ambulancenter.com/ambulance-tiberias.html |
+| הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 | הזמנה אונליין | https://ambulancenter.com/booking.html |
 
@@ -81,6 +82,23 @@ International deceased air repatriation to/from Israel. https://ambulancenter.co
 
 ---
 
+## פוסט 5 — הטסות חולים בליווי רופא  
+**CTA →** https://ambulancenter.com/medical-escort.html
+
+הטסות חולים בליווי רופא — Medical Escort בטיסה מסחרית או במטוס אמבולנס, לפי המצב הקליני.
+
+ליווי רופא / פראמדיק / אחות · חמצן ואלונקה לפי הצורך · תיאום Bed to Bed.
+
+פרטים:
+https://ambulancenter.com/medical-escort.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Patient medical flights with doctor escort — commercial Medical Escort or air ambulance. https://ambulancenter.com/medical-escort.html · +972-79-670-9999
+
+---
+
 ## Q&A — הוסיפו בפרופיל
 
 **ש: יש אמבולנס מבית חולים פוריה?**  
@@ -92,8 +110,11 @@ International deceased air repatriation to/from Israel. https://ambulancenter.co
 **ש: יש הטסת נפטרים?**  
 ת: כן — לחו״ל או הבאה לישראל לקבורה, כולל מסמכים ותיאום. https://ambulancenter.com/deceased-services.html
 
+**ש: יש הטסות חולים בליווי רופא?**  
+ת: כן. ליווי רופא בטיסה מסחרית (Medical Escort) או במטוס אמבולנס — לפי מצב המטופל. https://ambulancenter.com/medical-escort.html · 079-6709999
+
 **ש: האם אתם מחפשים עובדים?**  
-ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בלבד.
+ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בליווי רופא בלבד.
 
 ---
 

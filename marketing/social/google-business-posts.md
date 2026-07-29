@@ -9,6 +9,7 @@
 | העברת חולים | https://ambulancenter.com/patient-transfers.html |
 | העברת / הטסת נפטרים | https://ambulancenter.com/deceased-services.html |
 | טבריה | https://ambulancenter.com/ambulance-tiberias.html |
+| הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 
 מקור מלא: `marketing/data/gbp-posts.json` · קידום היום: `marketing/google-business/PUBLISH-TODAY-HE.md`
@@ -75,21 +76,39 @@ International deceased air repatriation to/from Israel. https://ambulancenter.co
 
 ---
 
-## GBP-05 — הטסה רפואית לישראל
+## GBP-05 — הטסות חולים בליווי רופא
+**Learn more:** https://ambulancenter.com/medical-escort.html
+
+הטסות חולים בליווי רופא — Medical Escort בטיסה מסחרית או במטוס אמבולנס, לפי המצב הקליני.
+
+ליווי רופא / פראמדיק / אחות · חמצן ואלונקה לפי הצורך · תיאום Bed to Bed.
+
+פרטים:
+https://ambulancenter.com/medical-escort.html
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Patient medical flights with doctor escort — commercial Medical Escort or air ambulance. https://ambulancenter.com/medical-escort.html · +972-79-670-9999
+
+---
+
+## GBP-05B — הטסה רפואית לישראל
 **Learn more:** https://ambulancenter.com/medical-flight.html
 
-הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי בטיסה מסחרית, תיאום מיטה למיטה.
+הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי רפואי בטיסה מסחרית (כולל ליווי רופא), תיאום מיטה למיטה.
 
-https://ambulancenter.com/medical-flight.html
+https://ambulancenter.com/medical-flight.html  
+ליווי רופא: https://ambulancenter.com/medical-escort.html
 
 זמינים 24/7: 079-6709999 · וואטסאפ 053-2321101
 
 ────────
-International medical flights to Israel. https://ambulancenter.com/medical-flight.html · +972-79-670-9999
+International medical flights to Israel — including doctor-escorted commercial flights. https://ambulancenter.com/medical-flight.html · +972-79-670-9999
 
 ---
 
 ## קצב פרסום
-שני + חמישי · סובבו GBP-01–18 מהספרייה JSON  
+שני + חמישי · סובבו את הספרייה JSON (כולל ליווי רופא)  
 בכל פוסט: לינק בטקסט + כפתור Learn more לאותו URL  
 תמונה: אמבולנס / שדה תעופה (בלי פרטי מטופל; לעניין נפטרים — תמונה מכובדת/נייטרלית של צי)

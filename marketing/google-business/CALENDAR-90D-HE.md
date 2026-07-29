@@ -4,39 +4,37 @@
 **ספרייה:** `marketing/data/gbp-posts.json`
 **תור:** `marketing/data/gbp-queue-90d.json`
 
-פרסום ידני: העתיקו את `summary` ל־Google Business → Create post → **Learn more** = עמודת לינק.
+פרסום ידני: העתיקו את `summary` ל־Google Business → Create post.
 פרסום API: `node marketing/tools/publish-gbp-due.mjs` (אחרי חיבור OAuth).
 
-לינקים מרכזיים: פוריה · העברת חולים · העברת/הטסת נפטרים — ראו `PUBLISH-TODAY-HE.md`.
-
-| תאריך | מזהה | נושא | לינק | סטטוס |
-|--------|------|------|------|--------|
-| 2026-07-30 | GBP-01 | אמבולנס מבית חולים פוריה | https://ambulancenter.com/ambulance-poria.html | pending |
-| 2026-08-03 | GBP-02 | אמבולנסים להעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
-| 2026-08-06 | GBP-03 | העברת נפטרים לכל חלקי הארץ | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-08-10 | GBP-04 | הטסת נפטרים | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-08-13 | GBP-05 | הטסה רפואית בינלאומית לישראל | https://ambulancenter.com/medical-flight.html | pending |
-| 2026-08-17 | GBP-06 | אמבולנס פרטי בטבריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
-| 2026-08-20 | GBP-07 | שחרור מפוריה הביתה | https://ambulancenter.com/ambulance-poria.html | pending |
-| 2026-08-24 | GBP-08 | פינוי נפטרים מבתי חולים | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-08-27 | GBP-09 | מיטה למיטה | https://ambulancenter.com/bed-to-bed.html | pending |
-| 2026-08-31 | GBP-10 | העברת חולים בין בתי חולים | https://ambulancenter.com/patient-transfers.html | pending |
-| 2026-09-03 | GBP-11 | הבאת נפטר מחו״ל לישראל | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-09-07 | GBP-12 | השבה רפואית לישראל | https://ambulancenter.com/repatriation-israel.html | pending |
-| 2026-09-10 | GBP-13 | כיסא זחל בהעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
-| 2026-09-14 | GBP-14 | מכבי · העברות באזור טבריה / פוריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
-| 2026-09-17 | GBP-15 | מטוס אמבולנס | https://ambulancenter.com/air-ambulance.html | pending |
-| 2026-09-21 | GBP-16 | העברת נפטרים · צפון עד דרום | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-09-24 | GBP-17 | הזמנת אמבולנס אונליין | https://ambulancenter.com/booking.html | pending |
-| 2026-09-28 | GBP-18 | שירותים עם קישורים | https://ambulancenter.com/ | pending |
-| 2026-10-01 | GBP-01 | אמבולנס מבית חולים פוריה | https://ambulancenter.com/ambulance-poria.html | pending |
-| 2026-10-05 | GBP-02 | אמבולנסים להעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
-| 2026-10-08 | GBP-03 | העברת נפטרים לכל חלקי הארץ | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-10-12 | GBP-04 | הטסת נפטרים | https://ambulancenter.com/deceased-services.html | pending |
-| 2026-10-15 | GBP-05 | הטסה רפואית בינלאומית לישראל | https://ambulancenter.com/medical-flight.html | pending |
-| 2026-10-19 | GBP-06 | אמבולנס פרטי בטבריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
-| 2026-10-22 | GBP-07 | שחרור מפוריה הביתה | https://ambulancenter.com/ambulance-poria.html | pending |
-| 2026-10-26 | GBP-08 | פינוי נפטרים מבתי חולים | https://ambulancenter.com/deceased-services.html | pending |
+| תאריך | מזהה | נושא | סטטוס |
+|--------|------|------|--------|
+| 2026-07-30 | GBP-01 | אמבולנס מבית חולים פוריה | pending |
+| 2026-08-03 | GBP-02 | אמבולנסים להעברת חולים | pending |
+| 2026-08-06 | GBP-03 | העברת נפטרים לכל חלקי הארץ | pending |
+| 2026-08-10 | GBP-04 | הטסת נפטרים | pending |
+| 2026-08-13 | GBP-05 | הטסות חולים בליווי רופא | pending |
+| 2026-08-17 | GBP-05B | הטסה רפואית בינלאומית לישראל | pending |
+| 2026-08-20 | GBP-06 | אמבולנס פרטי בטבריה | pending |
+| 2026-08-24 | GBP-07 | שחרור מפוריה הביתה | pending |
+| 2026-08-27 | GBP-08 | פינוי נפטרים מבתי חולים | pending |
+| 2026-08-31 | GBP-09 | מיטה למיטה | pending |
+| 2026-09-03 | GBP-10 | העברת חולים בין בתי חולים | pending |
+| 2026-09-07 | GBP-11 | הבאת נפטר מחו״ל לישראל | pending |
+| 2026-09-10 | GBP-12 | השבה רפואית לישראל | pending |
+| 2026-09-14 | GBP-13 | כיסא זחל בהעברת חולים | pending |
+| 2026-09-17 | GBP-14 | מכבי · העברות באזור טבריה / פוריה | pending |
+| 2026-09-21 | GBP-15 | מטוס אמבולנס | pending |
+| 2026-09-24 | GBP-15B | ליווי רופא בטיסה מסחרית | pending |
+| 2026-09-28 | GBP-16 | העברת נפטרים · צפון עד דרום | pending |
+| 2026-10-01 | GBP-17 | הזמנת אמבולנס אונליין | pending |
+| 2026-10-05 | GBP-18 | שירותים עם קישורים | pending |
+| 2026-10-08 | GBP-01 | אמבולנס מבית חולים פוריה | pending |
+| 2026-10-12 | GBP-02 | אמבולנסים להעברת חולים | pending |
+| 2026-10-15 | GBP-03 | העברת נפטרים לכל חלקי הארץ | pending |
+| 2026-10-19 | GBP-04 | הטסת נפטרים | pending |
+| 2026-10-22 | GBP-05 | הטסות חולים בליווי רופא | pending |
+| 2026-10-26 | GBP-05B | הטסה רפואית בינלאומית לישראל | pending |
 
 ## 3 הפוסטים הבאים (העתק-הדבק)
 
