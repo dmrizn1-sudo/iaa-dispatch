@@ -1,91 +1,101 @@
-# Google Business — פרסמו היום (פרופיל קיים ומחובר)
+# Google Business — פרסמו היום (עם לינקים)
 **ישראל אייר אנד אמבולנס**
 
-היכנסו: https://business.google.com → הפרופיל → **Posts / עדכונים** → **Create post**
+היכנסו: https://business.google.com → **Posts** → **Create post**  
+בכל פוסט בחרו **Learn more / מידע נוסף** והדביקו את הלינק שמתחת לכותרת.
 
-**טלפון:** 079-6709999 · **וואטסאפ:** 053-2321101 · **אתר:** https://ambulancenter.com
-
----
-
-## צ׳קליסט קידום (15 דקות)
-
-1. ודאו קטגוריה ראשית: **שירותי אמבולנס / Ambulance service**
-2. שעות: **Open 24 hours**
-3. כפתורי פעולה: Call + Website (+ WhatsApp אם זמין)
-4. העלו לפחות 3 תמונות צי / שדה תעופה (בלי פרטי מטופל)
-5. פרסמו **פוסט 1** למטה עכשיו
-6. הוסיפו את 4 שאלות ה־Q&A
-7. שלחו קישור ביקורות ל־2–3 לקוחות אחרונים
+**טלפון:** 079-6709999 · **וואטסאפ:** 053-2321101
 
 ---
 
-## פוסט 1 — פרסמו עכשיו (הטסה רפואית)
+## לינקים קבועים (שמרו)
 
-ישראל אייר אנד אמבולנס מתאמת הטסות רפואיות בינלאומיות לישראל — למשפחות ומטופלים שזקוקים להשבה לארץ או להעברה עם ליווי רפואי.
+| נושא | קישור |
+|------|--------|
+| אמבולנס פוריה | https://ambulancenter.com/ambulance-poria.html |
+| העברת חולים | https://ambulancenter.com/patient-transfers.html |
+| העברת / הטסת נפטרים | https://ambulancenter.com/deceased-services.html |
+| אמבולנס טבריה | https://ambulancenter.com/ambulance-tiberias.html |
+| הטסה רפואית | https://ambulancenter.com/medical-flight.html |
+| הזמנה אונליין | https://ambulancenter.com/booking.html |
 
-מטוס אמבולנס או ליווי בטיסה מסחרית — לפי המצב הקליני, כולל תיאום מיטה למיטה.
+---
 
-זמינים 24/7: 079-6709999 · וואטסאפ 053-2321101
+## פוסט 1 — עכשיו · פוריה  
+**CTA Learn more →** https://ambulancenter.com/ambulance-poria.html
+
+אמבולנס להעברת חולים מבית חולים פוריה (טבריה) — שחרור הביתה, העברה לבית חולים אחר, או המשך טיפול.
+
+מידע והזמנה:
+https://ambulancenter.com/ambulance-poria.html
+
+079-6709999 · וואטסאפ 053-2321101
 
 ────────
-Israel Air & Ambulance coordinates international medical flights to Israel — air ambulance or commercial medical escort, bedside-to-bedside. Call +972-79-670-9999.
-
-**CTA בפוסט:** Call / או Learn more → https://ambulancenter.com  
-**תמונה:** אמבולנס בשדה תעופה / צי ממותג
+Patient ambulance transfers from Poriya Hospital (Tiberias). Details: https://ambulancenter.com/ambulance-poria.html · +972-79-670-9999
 
 ---
 
-## פוסט 2 — חמישי הקרוב (אמבולנס בצפון)
+## פוסט 2 — היום / מחר · העברת חולים  
+**CTA →** https://ambulancenter.com/patient-transfers.html
 
-אמבולנס פרטי להעברות מתוכננות בצפת, טבריה, הגליל והצפון — בין בתי חולים, שחרור הביתה, והסעת מוגבלי תנועה.
+אמבולנסים להעברת חולים — בין בתי חולים, שחרור הביתה, הסעת מוגבלי תנועה וכיסא זחל.
 
-צוות מקצועי · צי חדיש · זמינות גבוהה.
+מדריך השירות:
+https://ambulancenter.com/patient-transfers.html
 
-לתיאום: 079-6709999 · וואטסאפ 053-2321101
+זמינים 24/7 · 079-6709999
 
 ────────
-Private ambulance transfers in northern Israel — hospitals, home discharge, mobility support. Call +972-79-670-9999.
+Private ambulances for patient transfers nationwide. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999
 
 ---
 
-## פוסט 3 — שני הבא (השבה לארץ)
+## פוסט 3 — חמישי · העברת נפטרים לכל הארץ  
+**CTA →** https://ambulancenter.com/deceased-services.html
 
-אשפוז בחו״ל וצריך לחזור לישראל? אנחנו מתאמים הטסה רפואית לישראל עם ליווי מתאים — במהירות האפשרית מרגע הפנייה.
+העברת נפטרים בפריסה ארצית — מבתי חולים, בתים ומוסדות, בצפון, במרכז, בירושלים ובדרום. שירות דיסקרטי ומכבד.
 
-079-6709999 · 053-2321101 · ambulancenter.com
+פרטים וזכאות (כולל ביטוח לאומי / 0120* במקרים מתאימים):
+https://ambulancenter.com/deceased-services.html
+
+079-6709999 · 053-2321101
 
 ────────
-Medical repatriation to Israel — international medical flight coordination 24/7. +972-79-670-9999.
+Nationwide deceased transport — discreet and respectful. https://ambulancenter.com/deceased-services.html · +972-79-670-9999
 
 ---
 
-## Q&A — פרסמו עכשיו (אתם שואלים + עונים)
+## פוסט 4 — שני · הטסת נפטרים  
+**CTA →** https://ambulancenter.com/deceased-services.html
+
+הטסת נפטרים לחו״ל או הבאה לקבורה בישראל — כולל תיאום מסמכים, לוגיסטיקה ושירותי קרקע.
+
+עמוד השירות:
+https://ambulancenter.com/deceased-services.html
+
+ישראל אייר אנד אמבולנס · 079-6709999
+
+────────
+International deceased air repatriation to/from Israel. https://ambulancenter.com/deceased-services.html · +972-79-670-9999
+
+---
+
+## Q&A — הוסיפו בפרופיל
+
+**ש: יש אמבולנס מבית חולים פוריה?**  
+ת: כן. העברת חולים משחרור, בין בתי חולים והמשך טיפול. פרטים: https://ambulancenter.com/ambulance-poria.html · 079-6709999
+
+**ש: יש העברת נפטרים בכל הארץ?**  
+ת: כן, פריסה ארצית. פרטים וזכאות: https://ambulancenter.com/deceased-services.html
+
+**ש: יש הטסת נפטרים?**  
+ת: כן — לחו״ל או הבאה לישראל לקבורה, כולל מסמכים ותיאום. https://ambulancenter.com/deceased-services.html
 
 **ש: האם אתם מחפשים עובדים?**  
-ת: לא. אנחנו מספקים שירותי אמבולנס והטסות רפואיות בלבד. לא מגייסים ולא מקבלים קורות חיים.
-
-**ש: האם יש הטסה רפואית לישראל מחו״ל?**  
-ת: כן. מתאמים הטסות רפואיות בינלאומיות לישראל — מטוס אמבולנס או ליווי בטיסה מסחרית, לפי מצב המטופל. 079-6709999
-
-**ש: האם יש אמבולנס פרטי בצפון / טבריה / צפת?**  
-ת: כן. העברות מתוכננות, שחרור מבית חולים וכיסא זחל — כולל אזור טבריה, צפת והגליל. וואטסאפ 053-2321101
-
-**ש: האם עובדים עם מכבי?**  
-ת: כן באזור טבריה והסביבה להעברות באמבולנס לפי זכאות. בדקו זכאות במכבי ופנו אלינו לביצוע.
-
----
-
-## בקשת ביקורת (וואטסאפ / SMS)
-
-שלום, תודה שבחרתם בישראל אייר אנד אמבולנס.  
-אם חוויתם שירות טוב — נשמח לביקורת קצרה בגוגל (עוזרת למשפחות אחרות למצוא אותנו):  
-[הדביקו כאן קישור הביקורות מהפרופיל]
-
-זמינים 24/7: 079-6709999
+ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים והטסות רפואיות בלבד.
 
 ---
 
 ## לוח המשך
-לוח 90 יום מלא (שני+חמישי): `marketing/google-business/CALENDAR-90D-HE.md`  
-ספריית 16 פוסטים: `marketing/data/gbp-posts.json`  
-חיבור API לאוטומציה: `marketing/google-business/API-CONNECT-HE.md`
+`marketing/google-business/CALENDAR-90D-HE.md` · כל פוסט עם לינק עמוק בתור `gbp-queue-90d.json`

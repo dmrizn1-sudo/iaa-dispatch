@@ -115,6 +115,11 @@ function main() {
   for (let i = 0; i < slotDates.length; i++) {
     const post = posts[i % posts.length];
     const ymd = slotDates[i];
+    const deepLink =
+      post.link ||
+      (post.linkKey && lib.links?.[post.linkKey]) ||
+      lib.contacts.web;
+    const cta = post.cta || "LEARN_MORE";
     queue.push({
       id: `gbp-${ymd}-${post.id}`,
       scheduledFor: jerusalemLocalToIso(ymd, SLOT_HOUR),
@@ -127,13 +132,14 @@ function main() {
       titleHe: post.titleHe,
       languageCode: "he",
       topicType: "STANDARD",
-      callToAction: post.cta || "CALL",
+      callToAction: cta,
       actionUrl:
-        post.cta === "LEARN_MORE"
-          ? lib.contacts.web
-          : post.cta === "WHATSAPP"
-            ? "https://wa.me/972532321101"
-            : undefined,
+        cta === "WHATSAPP"
+          ? "https://wa.me/972532321101"
+          : cta === "CALL"
+            ? undefined
+            : deepLink,
+      link: deepLink,
       summary: buildCaption(post),
       status: "pending",
       publishedAt: null,

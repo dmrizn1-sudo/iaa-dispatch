@@ -4,74 +4,81 @@
 **ספרייה:** `marketing/data/gbp-posts.json`
 **תור:** `marketing/data/gbp-queue-90d.json`
 
-פרסום ידני: העתיקו את `summary` ל־Google Business → Create post.
+פרסום ידני: העתיקו את `summary` ל־Google Business → Create post → **Learn more** = עמודת לינק.
 פרסום API: `node marketing/tools/publish-gbp-due.mjs` (אחרי חיבור OAuth).
 
-| תאריך | מזהה | נושא | סטטוס |
-|--------|------|------|--------|
-| 2026-07-30 | GBP-01 | הטסה רפואית בינלאומית לישראל | pending |
-| 2026-08-03 | GBP-02 | אמבולנס פרטי בצפון | pending |
-| 2026-08-06 | GBP-03 | השבה לארץ | pending |
-| 2026-08-10 | GBP-04 | כיסא זחל חשמלי | pending |
-| 2026-08-13 | GBP-05 | אקמו / טיפול נמרץ בהיטס | pending |
-| 2026-08-17 | GBP-06 | שחרור מבית חולים הביתה | pending |
-| 2026-08-20 | GBP-07 | דובאי / תאילנד / ארה״ב → ישראל | pending |
-| 2026-08-24 | GBP-08 | מיטה למיטה | pending |
-| 2026-08-27 | GBP-09 | מכבי · העברות באזור טבריה | pending |
-| 2026-08-31 | GBP-10 | זמינים 24/7 | pending |
-| 2026-09-03 | GBP-11 | מטוס אמבולנס מול ליווי בטיסה | pending |
-| 2026-09-07 | GBP-12 | צי אמבולנסים מאושר | pending |
-| 2026-09-10 | GBP-13 | איך מתאמים הטסה רפואית | pending |
-| 2026-09-14 | GBP-14 | העברה בין בתי חולים | pending |
-| 2026-09-17 | GBP-15 | אבטחה רפואית לאירועים | pending |
-| 2026-09-21 | GBP-16 | מכבי · שחרור הביתה · טבריה | pending |
-| 2026-09-24 | GBP-01 | הטסה רפואית בינלאומית לישראל | pending |
-| 2026-09-28 | GBP-02 | אמבולנס פרטי בצפון | pending |
-| 2026-10-01 | GBP-03 | השבה לארץ | pending |
-| 2026-10-05 | GBP-04 | כיסא זחל חשמלי | pending |
-| 2026-10-08 | GBP-05 | אקמו / טיפול נמרץ בהיטס | pending |
-| 2026-10-12 | GBP-06 | שחרור מבית חולים הביתה | pending |
-| 2026-10-15 | GBP-07 | דובאי / תאילנד / ארה״ב → ישראל | pending |
-| 2026-10-19 | GBP-08 | מיטה למיטה | pending |
-| 2026-10-22 | GBP-09 | מכבי · העברות באזור טבריה | pending |
-| 2026-10-26 | GBP-10 | זמינים 24/7 | pending |
+לינקים מרכזיים: פוריה · העברת חולים · העברת/הטסת נפטרים — ראו `PUBLISH-TODAY-HE.md`.
+
+| תאריך | מזהה | נושא | לינק | סטטוס |
+|--------|------|------|------|--------|
+| 2026-07-30 | GBP-01 | אמבולנס מבית חולים פוריה | https://ambulancenter.com/ambulance-poria.html | pending |
+| 2026-08-03 | GBP-02 | אמבולנסים להעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
+| 2026-08-06 | GBP-03 | העברת נפטרים לכל חלקי הארץ | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-08-10 | GBP-04 | הטסת נפטרים | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-08-13 | GBP-05 | הטסה רפואית בינלאומית לישראל | https://ambulancenter.com/medical-flight.html | pending |
+| 2026-08-17 | GBP-06 | אמבולנס פרטי בטבריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
+| 2026-08-20 | GBP-07 | שחרור מפוריה הביתה | https://ambulancenter.com/ambulance-poria.html | pending |
+| 2026-08-24 | GBP-08 | פינוי נפטרים מבתי חולים | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-08-27 | GBP-09 | מיטה למיטה | https://ambulancenter.com/bed-to-bed.html | pending |
+| 2026-08-31 | GBP-10 | העברת חולים בין בתי חולים | https://ambulancenter.com/patient-transfers.html | pending |
+| 2026-09-03 | GBP-11 | הבאת נפטר מחו״ל לישראל | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-09-07 | GBP-12 | השבה רפואית לישראל | https://ambulancenter.com/repatriation-israel.html | pending |
+| 2026-09-10 | GBP-13 | כיסא זחל בהעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
+| 2026-09-14 | GBP-14 | מכבי · העברות באזור טבריה / פוריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
+| 2026-09-17 | GBP-15 | מטוס אמבולנס | https://ambulancenter.com/air-ambulance.html | pending |
+| 2026-09-21 | GBP-16 | העברת נפטרים · צפון עד דרום | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-09-24 | GBP-17 | הזמנת אמבולנס אונליין | https://ambulancenter.com/booking.html | pending |
+| 2026-09-28 | GBP-18 | שירותים עם קישורים | https://ambulancenter.com/ | pending |
+| 2026-10-01 | GBP-01 | אמבולנס מבית חולים פוריה | https://ambulancenter.com/ambulance-poria.html | pending |
+| 2026-10-05 | GBP-02 | אמבולנסים להעברת חולים | https://ambulancenter.com/patient-transfers.html | pending |
+| 2026-10-08 | GBP-03 | העברת נפטרים לכל חלקי הארץ | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-10-12 | GBP-04 | הטסת נפטרים | https://ambulancenter.com/deceased-services.html | pending |
+| 2026-10-15 | GBP-05 | הטסה רפואית בינלאומית לישראל | https://ambulancenter.com/medical-flight.html | pending |
+| 2026-10-19 | GBP-06 | אמבולנס פרטי בטבריה | https://ambulancenter.com/ambulance-tiberias.html | pending |
+| 2026-10-22 | GBP-07 | שחרור מפוריה הביתה | https://ambulancenter.com/ambulance-poria.html | pending |
+| 2026-10-26 | GBP-08 | פינוי נפטרים מבתי חולים | https://ambulancenter.com/deceased-services.html | pending |
 
 ## 3 הפוסטים הבאים (העתק-הדבק)
 
-### 2026-07-30 · GBP-01 — הטסה רפואית בינלאומית לישראל
+### 2026-07-30 · GBP-01 — אמבולנס מבית חולים פוריה
 
 ```
-ישראל אייר אנד אמבולנס מתאמת הטסות רפואיות בינלאומיות לישראל — למשפחות ומטופלים שזקוקים להשבה לארץ או להעברה עם ליווי רפואי.
+אמבולנס להעברת חולים מבית חולים פוריה (טבריה) — שחרור הביתה, העברה לבית חולים אחר, או המשך טיפול.
 
-מטוס אמבולנס או ליווי בטיסה מסחרית — לפי המצב הקליני, כולל תיאום מיטה למיטה.
+מידע והזמנה:
+https://ambulancenter.com/ambulance-poria.html
 
-זמינים 24/7: 079-6709999 · וואטסאפ 053-2321101
+079-6709999 · וואטסאפ 053-2321101
 
 ────────
-Israel Air & Ambulance coordinates international medical flights to Israel — air ambulance or commercial medical escort, bedside-to-bedside. Call +972-79-670-9999.
+Patient ambulance transfers from Poriya Hospital (Tiberias). Details: https://ambulancenter.com/ambulance-poria.html · +972-79-670-9999
 ```
 
-### 2026-08-03 · GBP-02 — אמבולנס פרטי בצפון
+### 2026-08-03 · GBP-02 — אמבולנסים להעברת חולים
 
 ```
-אמבולנס פרטי להעברות מתוכננות בצפת, טבריה, הגליל והצפון — בין בתי חולים, שחרור הביתה, והסעת מוגבלי תנועה.
+אמבולנסים להעברת חולים — בין בתי חולים, שחרור הביתה, הסעת מוגבלי תנועה וכיסא זחל.
 
-צוות מקצועי · צי חדיש · זמינות גבוהה.
+מדריך השירות:
+https://ambulancenter.com/patient-transfers.html
 
-לתיאום: 079-6709999 · וואטסאפ 053-2321101
+זמינים 24/7 · 079-6709999
 
 ────────
-Private ambulance transfers in northern Israel — hospitals, home discharge, mobility support. Call +972-79-670-9999.
+Private ambulances for patient transfers nationwide. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999
 ```
 
-### 2026-08-06 · GBP-03 — השבה לארץ
+### 2026-08-06 · GBP-03 — העברת נפטרים לכל חלקי הארץ
 
 ```
-אשפוז בחו״ל וצריך לחזור לישראל? אנחנו מתאמים הטסה רפואית לישראל עם ליווי מתאים — במהירות האפשרית מרגע הפנייה.
+העברת נפטרים בפריסה ארצית — מבתי חולים, בתים ומוסדות, בצפון, במרכז, בירושלים ובדרום. שירות דיסקרטי ומכבד.
 
-079-6709999 · 053-2321101 · ambulancenter.com
+פרטים וזכאות (כולל ביטוח לאומי / 0120* במקרים מתאימים):
+https://ambulancenter.com/deceased-services.html
+
+079-6709999 · 053-2321101
 
 ────────
-Medical repatriation to Israel — international medical flight coordination 24/7. +972-79-670-9999.
+Nationwide deceased transport — discreet and respectful. https://ambulancenter.com/deceased-services.html · +972-79-670-9999
 ```
 

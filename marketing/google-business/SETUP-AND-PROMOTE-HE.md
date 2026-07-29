@@ -64,18 +64,20 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 
 ## 3) שירותים להוספה בפרופיל
 
-| שירות | תיאור קצר HE |
-|--------|----------------|
-| הטסה רפואית לישראל | השבה לארץ ומטוס אמבולנס בינלאומי |
-| ליווי רפואי בטיסה | Medical escort בטיסה מסחרית |
-| העברת אקמו / טיפול נמרץ | הטסת חולים מורכבים ומונשמים |
-| אמבולנס פרטי | העברות מתוכננות בצפון ובארץ |
-| העברה בין בתי חולים | כולל פוריה, זיו, רמב״ם, העמק |
-| שחרור מבית חולים הביתה | הסעה בטוחה ומקצועית |
-| כיסא זחל חשמלי | העלאה/הורדה במדרגות בלי מעלית |
-| אבטחה רפואית לאירועים | לפי דרישה (משני להטסות/העברות) |
+| שירות | תיאור קצר HE | לינק |
+|--------|----------------|------|
+| אמבולנס פוריה | העברת חולים מבית חולים פוריה | https://ambulancenter.com/ambulance-poria.html |
+| העברת חולים | אמבולנסים להעברת חולים בארץ | https://ambulancenter.com/patient-transfers.html |
+| העברת נפטרים | פריסה ארצית, דיסקרטי | https://ambulancenter.com/deceased-services.html |
+| הטסת נפטרים | לחו״ל / הבאה לישראל | https://ambulancenter.com/deceased-services.html |
+| הטסה רפואית לישראל | השבה ומטוס אמבולנס | https://ambulancenter.com/medical-flight.html |
+| ליווי רפואי בטיסה | Medical escort | https://ambulancenter.com/medical-escort.html |
+| אמבולנס טבריה | העברות באזור טבריה | https://ambulancenter.com/ambulance-tiberias.html |
+| כיסא זחל חשמלי | מדרגות בלי מעלית | https://ambulancenter.com/patient-transfers.html |
+| אבטחה רפואית לאירועים | לפי דרישה | https://ambulancenter.com/medical-security-events.html |
 
-מחיר: «לפי מקרה / הצעת מחיר» · אל תפרסמו מחיר גיוס או משרות.
+מחיר: «לפי מקרה / הצעת מחיר» · אל תפרסמו מחיר גיוס או משרות.  
+**בכל פוסט GBP:** לינק בטקסט + כפתור Learn more לאותו עמוד.
 
 ---
 
