@@ -19,6 +19,7 @@
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
 | אבטחה רפואית לאירועים ומופעים | https://ambulancenter.com/medical-security-events.html |
+| קופות חולים (החזרים) | https://ambulancenter.com/#insurance-partners |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 | הזמנה אונליין | https://ambulancenter.com/booking.html |
 
@@ -135,6 +136,23 @@ Medical security for events and shows — paramedics and medics on site. https:/
 
 ---
 
+## פוסט 8 — שירות לכל קופות החולים  
+**CTA →** https://ambulancenter.com/#insurance-partners
+
+שירות ללקוחות כל קופות החולים — מכבי, מאוחדת, לאומית וכללית.
+
+העברות באמבולנס, שחרור מבית חולים והמשך טיפול — לפי זכאות הקופה. בדקו זכאות בקופה ופנו אלינו לביצוע.
+
+מידע על החזרים וקופות:
+https://ambulancenter.com/#insurance-partners
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Service for members of all Israeli health funds — Clalit, Maccabi, Meuhedet, Leumit (subject to eligibility). https://ambulancenter.com/#insurance-partners · +972-79-670-9999
+
+---
+
 ## Q&A — הוסיפו בפרופיל
 
 **ש: יש אמבולנס מבית חולים פוריה?**  
@@ -154,6 +172,9 @@ Medical security for events and shows — paramedics and medics on site. https:/
 
 **ש: יש אבטחה רפואית לאירועים ומופעים?**  
 ת: כן. פראמדיק, חובשים וצוותי כוננות להופעות, פסטיבלים, כנסים וחתונות. https://ambulancenter.com/medical-security-events.html · 079-6709999
+
+**ש: עובדים עם כל קופות החולים?**  
+ת: כן — מכבי, מאוחדת, לאומית וכללית, לפי זכאות כל קופה. בדקו זכאות בקופה ופנו אלינו לביצוע. https://ambulancenter.com/#insurance-partners · 079-6709999
 
 **ש: האם אתם מחפשים עובדים?**  
 ת: לא. אנחנו מספקים שירותי אמבולנס, העברת חולים, העברת/הטסת נפטרים, הטסות רפואיות ואבטחה רפואית לאירועים בלבד.

@@ -12,6 +12,7 @@
 | הטסות חולים בליווי רופא | https://ambulancenter.com/medical-escort.html |
 | הטסות חולים בליווי פראמדיק | https://ambulancenter.com/paramedic-flights.html |
 | אבטחה רפואית לאירועים ומופעים | https://ambulancenter.com/medical-security-events.html |
+| קופות חולים | https://ambulancenter.com/#insurance-partners |
 | הטסה רפואית | https://ambulancenter.com/medical-flight.html |
 
 מקור מלא: `marketing/data/gbp-posts.json` · קידום היום: `marketing/google-business/PUBLISH-TODAY-HE.md`
@@ -145,7 +146,24 @@ Medical security for events and shows — paramedics and medics on site. https:/
 
 ---
 
+## GBP-14 — שירות ללקוחות כל קופות החולים
+**Learn more:** https://ambulancenter.com/#insurance-partners
+
+שירות ללקוחות כל קופות החולים — מכבי, מאוחדת, לאומית וכללית.
+
+העברות באמבולנס, שחרור מבית חולים והמשך טיפול — לפי זכאות הקופה. בדקו זכאות בקופה ופנו אלינו לביצוע.
+
+מידע על החזרים וקופות:
+https://ambulancenter.com/#insurance-partners
+
+079-6709999 · וואטסאפ 053-2321101
+
+────────
+Service for members of all Israeli health funds — Clalit, Maccabi, Meuhedet, Leumit (subject to eligibility). https://ambulancenter.com/#insurance-partners · +972-79-670-9999
+
+---
+
 ## קצב פרסום
-שני + חמישי · סובבו את הספרייה JSON (כולל אירועים / ליווי רופא / פראמדיק)  
+שני + חמישי · סובבו את הספרייה JSON (כולל קופות / אירועים / ליווי)  
 בכל פוסט: לינק בטקסט + כפתור Learn more לאותו URL  
 תמונה: אמבולנס / שדה תעופה / אירוע (בלי פרטי מטופל; לעניין נפטרים — תמונה מכובדת/נייטרלית של צי)

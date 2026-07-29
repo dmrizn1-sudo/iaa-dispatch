@@ -22,9 +22,11 @@
     "repatriation": "https://ambulancenter.com/repatriation-israel.html",
     "bedToBed": "https://ambulancenter.com/bed-to-bed.html",
     "booking": "https://ambulancenter.com/booking.html",
+    "insurancePartners": "https://ambulancenter.com/#insurance-partners",
+    "partners": "https://ambulancenter.com/partners-credentials.html",
     "maccabi": "https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/"
   },
-  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services: patient transfers, Poriya, deceased, medical flights (doctor/paramedic escort), event medical security for shows. No hiring language.",
+  "notes": "HE first, short EN below. Every post includes a deep link (CTA LEARN_MORE). Services include all kupot (Clalit, Maccabi, Meuhedet, Leumit) subject to eligibility. No hiring language.",
   "posts": [
     {
       "id": "GBP-01",
@@ -199,12 +201,32 @@
     {
       "id": "GBP-14",
       "stream": "ground",
+      "theme": "kupot-all",
+      "titleHe": "שירות ללקוחות כל קופות החולים",
+      "cta": "LEARN_MORE",
+      "linkKey": "insurancePartners",
+      "he": "שירות ללקוחות כל קופות החולים — מכבי, מאוחדת, לאומית וכללית.\n\nהעברות באמבולנס, שחרור מבית חולים והמשך טיפול — לפי זכאות הקופה. בדקו זכאות בקופה ופנו אלינו לביצוע.\n\nמידע על החזרים וקופות:\nhttps://ambulancenter.com/#insurance-partners\n\n079-6709999 · וואטסאפ 053-2321101",
+      "en": "Service for members of all Israeli health funds — Clalit, Maccabi, Meuhedet, Leumit (subject to eligibility). https://ambulancenter.com/#insurance-partners · +972-79-670-9999"
+    },
+    {
+      "id": "GBP-14B",
+      "stream": "ground",
       "theme": "maccabi",
       "titleHe": "מכבי · העברות באזור טבריה / פוריה",
       "cta": "LEARN_MORE",
       "linkKey": "tiberias",
-      "he": "ספקי העברות באמבולנס באזור טבריה ופוריה. בדקו זכאות במכבי ופנו אלינו לביצוע.\n\nשירות טבריה: https://ambulancenter.com/ambulance-tiberias.html\nזכאות מכבי: https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\n053-2321101",
+      "he": "ספקי העברות באמבולנס באזור טבריה ופוריה לחברי מכבי. בדקו זכאות במכבי ופנו אלינו לביצוע.\n\nשירות טבריה: https://ambulancenter.com/ambulance-tiberias.html\nזכאות מכבי: https://www.maccabi4u.co.il/eligibilities_insuranceplan/eligibilities/ambulance/%D7%94%D7%A2%D7%91%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%9E%D7%91%D7%95%D7%9C%D7%A0%D7%A1/\n\n053-2321101",
       "en": "Maccabi transfers in Tiberias / Poriya area. https://ambulancenter.com/ambulance-tiberias.html · WhatsApp 053-232-1101"
+    },
+    {
+      "id": "GBP-14C",
+      "stream": "ground",
+      "theme": "kupot-names",
+      "titleHe": "מכבי · מאוחדת · לאומית · כללית",
+      "cta": "LEARN_MORE",
+      "linkKey": "patientTransfers",
+      "he": "חברי מכבי, מאוחדת, לאומית וכללית — אנחנו כאן להעברת חולים באמבולנס לפי זכאות הקופה.\n\nהעברה בין בתי חולים · שחרור הביתה · שיקום — תיאמו איתנו אחרי אישור/טופס מהקופה.\n\nhttps://ambulancenter.com/patient-transfers.html\nהחזרים: https://ambulancenter.com/#insurance-partners\n\n079-6709999",
+      "en": "Ambulance transfers for Clalit, Maccabi, Meuhedet and Leumit members — subject to fund eligibility. https://ambulancenter.com/patient-transfers.html · +972-79-670-9999"
     },
     {
       "id": "GBP-15",
@@ -253,8 +275,8 @@
       "titleHe": "שירותים עם קישורים",
       "cta": "LEARN_MORE",
       "linkKey": "home",
-      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• אבטחה רפואית לאירועים ומופעים: https://ambulancenter.com/medical-security-events.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
-      "en": "Service links include event medical security for shows. https://ambulancenter.com/medical-security-events.html · +972-79-670-9999"
+      "he": "ישראל אייר אנד אמבולנס — שירותים עם קישורים ישירים:\n• אמבולנס פוריה: https://ambulancenter.com/ambulance-poria.html\n• העברת חולים: https://ambulancenter.com/patient-transfers.html\n• קופות חולים (מכבי/מאוחדת/לאומית/כללית): https://ambulancenter.com/#insurance-partners\n• העברת / הטסת נפטרים: https://ambulancenter.com/deceased-services.html\n• הטסות חולים בליווי רופא: https://ambulancenter.com/medical-escort.html\n• הטסות חולים בליווי פראמדיק: https://ambulancenter.com/paramedic-flights.html\n• אבטחה רפואית לאירועים ומופעים: https://ambulancenter.com/medical-security-events.html\n• הטסה רפואית: https://ambulancenter.com/medical-flight.html\n\n079-6709999 · 053-2321101",
+      "en": "Service for all health funds + full service links. https://ambulancenter.com/#insurance-partners · +972-79-670-9999"
     }
   ]
 }

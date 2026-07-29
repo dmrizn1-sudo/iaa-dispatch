@@ -75,6 +75,7 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 | הטסה רפואית לישראל | השבה ומטוס אמבולנס | https://ambulancenter.com/medical-flight.html |
 | ליווי רפואי בטיסה | Medical escort | https://ambulancenter.com/medical-escort.html |
 | אמבולנס טבריה | העברות באזור טבריה | https://ambulancenter.com/ambulance-tiberias.html |
+| שירות לקופות חולים | מכבי, מאוחדת, לאומית, כללית (לפי זכאות) | https://ambulancenter.com/#insurance-partners |
 | כיסא זחל חשמלי | מדרגות בלי מעלית | https://ambulancenter.com/patient-transfers.html |
 | אבטחה רפואית לאירועים ומופעים | פראמדיק/חובשים להופעות והפקות | https://ambulancenter.com/medical-security-events.html |
 
@@ -106,8 +107,8 @@ Call +972-79-670-9999 · WhatsApp 053-232-1101 · ambulancenter.com
 **ש: האם יש אמבולנס פרטי בצפון / טבריה / צפת?**  
 ת: כן. העברות מתוכננות, שחרור מבית חולים וכיסא זחל — כולל אזור טבריה, צפת והגליל. וואטסאפ 053-2321101
 
-**ש: האם עובדים עם מכבי?**  
-ת: כן באזור טבריה והסביבה להעברות באמבולנס לפי זכאות. בדקו זכאות במכבי ופנו אלינו לביצוע.
+**ש: עובדים עם כל קופות החולים?**  
+ת: כן — מכבי, מאוחדת, לאומית וכללית, לפי זכאות. בדקו בקופה ופנו אלינו לביצוע. https://ambulancenter.com/#insurance-partners
 
 ---
 
