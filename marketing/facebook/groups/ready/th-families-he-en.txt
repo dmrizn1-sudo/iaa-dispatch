@@ -1,54 +1,100 @@
-# For families in Thailand — medical flight home / למשפחות בתאילנד — חזרה רפואית הביתה
+# For families — medical flight home / למשפחות — הטסה רפואית הביתה
 # id: th-families-he-en
-# tone: families_soft
+# tone: insurance_gap_medical_flight
 # destinations: thailand
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-For parents and families in Thailand,
+For parents and families in Thailand 🙏
 
-When a loved one is hospitalized abroad, the questions come fast: how do we bring them home safely? Air ambulance, stretcher flight, or medical escort?
+Need a medical flight back to Israel?
 
-We coordinate medical flights from Thailand to Israel around the clock — with clear updates for the family throughout.
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Israel Air Ambulance · 24/7
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
 📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
+💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
+
+#ThailandFamilies #MedicalFlight #AirAmbulance
 
 === עברית ===
-להורים ולמשפחות בתאילנד,
+להורים ולמשפחות בתאילנד 🙏
 
-כשבן משפחה מתאשפז בחו״ל — השאלות מגיעות מהר: איך מחזירים הביתה בבטחה? האם צריך אמבולנס אווירי, אלונקה, או ליווי רפואי?
+זקוקים להטסה רפואית חזרה לישראל?
 
-אנחנו מתאמים טיסות רפואיות מתאילנד לישראל מסביב לשעון, עם עדכונים ברורים למשפחה לאורך כל הדרך.
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-ישראל אייר אמבולנס · 24/7
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
 📞 +972-79-670-9999
-💬 וואטסאפ 053-232-1101
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-For parents and families in Thailand,
+#תאילנדלמשפחות #טיסהרפואית #הטסהרפואית
 
-When a loved one is hospitalized abroad, the questions come fast: how do we bring them home safely? Air ambulance, stretcher flight, or medical escort?
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+להורים ולמשפחות בתאילנד 🙏
 
-We coordinate medical flights from Thailand to Israel around the clock — with clear updates for the family throughout.
+זקוקים להטסה רפואית חזרה לישראל?
 
-Israel Air Ambulance · 24/7
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
 📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
+
+#תאילנדלמשפחות #טיסהרפואית #הטסהרפואית
 
 ────────
 
-להורים ולמשפחות בתאילנד,
+For parents and families in Thailand 🙏
 
-כשבן משפחה מתאשפז בחו״ל — השאלות מגיעות מהר: איך מחזירים הביתה בבטחה? האם צריך אמבולנס אווירי, אלונקה, או ליווי רפואי?
+Need a medical flight back to Israel?
 
-אנחנו מתאמים טיסות רפואיות מתאילנד לישראל מסביב לשעון, עם עדכונים ברורים למשפחה לאורך כל הדרך.
+No medical insurance?
+Insurance does not cover a medical flight?
 
-ישראל אייר אמבולנס · 24/7
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
 📞 +972-79-670-9999
-💬 וואטסאפ 053-232-1101
+💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
+
+#ThailandFamilies #MedicalFlight #AirAmbulance

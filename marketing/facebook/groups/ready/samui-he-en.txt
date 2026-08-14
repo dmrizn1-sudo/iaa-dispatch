@@ -1,17 +1,27 @@
-# Koh Samui → Israel: medical flight / evacuation / קוסמוי → ישראל: טיסה רפואית / פינוי
+# Koh Samui — medical flight to Israel / קוסמוי — הטסה רפואית לישראל
 # id: samui-he-en
-# tone: destination_local
+# tone: insurance_gap_medical_flight
 # destinations: samui
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
 Israelis in Koh Samui 🏝️
 
-In a medical emergency on the island, there is an organized path home:
-local medical transfer (often via Bangkok) → medical flight / escort to Israel.
+Need a medical flight back to Israel?
 
-Israel Air Ambulance coordinates the full chain 24/7:
-bedside in Samui → bedside in Israel.
+No medical insurance?
+Insurance does not cover a medical flight?
+
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
@@ -22,45 +32,69 @@ bedside in Samui → bedside in Israel.
 === עברית ===
 ישראלים בקוסמוי / קו סמוי 🏝️
 
-במקרה חירום רפואי באי — חשוב לדעת שיש אופציה מסודרת לחזרה לישראל:
-פינוי/העברה רפואית (לעיתים דרך בנגקוק) → טיסה רפואית / ליווי רפואי לישראל.
+זקוקים להטסה רפואית חזרה לישראל?
 
-ישראל אייר אמבולנס מתאמת את כל השרשרת 24/7:
-מיטה בבית החולים בקוסמוי → מיטה בישראל.
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#קוסמוי #תאילנד #טיסהרפואית #ישראליםבקוסמוי
+#קוסמוי #תאילנד #טיסהרפואית #הטסהרפואית #ישראליםבקוסמוי
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+ישראלים בקוסמוי / קו סמוי 🏝️
+
+זקוקים להטסה רפואית חזרה לישראל?
+
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+#קוסמוי #תאילנד #טיסהרפואית #הטסהרפואית #ישראליםבקוסמוי
+
+────────
+
 Israelis in Koh Samui 🏝️
 
-In a medical emergency on the island, there is an organized path home:
-local medical transfer (often via Bangkok) → medical flight / escort to Israel.
+Need a medical flight back to Israel?
 
-Israel Air Ambulance coordinates the full chain 24/7:
-bedside in Samui → bedside in Israel.
+No medical insurance?
+Insurance does not cover a medical flight?
+
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
 #KohSamui #Thailand #MedicalFlight #AirAmbulance
-
-────────
-
-ישראלים בקוסמוי / קו סמוי 🏝️
-
-במקרה חירום רפואי באי — חשוב לדעת שיש אופציה מסודרת לחזרה לישראל:
-פינוי/העברה רפואית (לעיתים דרך בנגקוק) → טיסה רפואית / ליווי רפואי לישראל.
-
-ישראל אייר אמבולנס מתאמת את כל השרשרת 24/7:
-מיטה בבית החולים בקוסמוי → מיטה בישראל.
-
-📞 +972-79-670-9999
-💬 וואטסאפ: 053-232-1101
-🌐 https://ambulancenter.com
-
-#קוסמוי #תאילנד #טיסהרפואית #ישראליםבקוסמוי

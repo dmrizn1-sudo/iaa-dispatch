@@ -1,22 +1,27 @@
-# Medical flight from Thailand to Israel / טיסה רפואית מתאילנד לישראל
+# Medical flight from Thailand to Israel / הטסה רפואית מתאילנד לישראל
 # id: th-general-he-en
-# tone: community_service
+# tone: insurance_gap_medical_flight
 # destinations: thailand
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
 Hello everyone 🙏
 
-If you or a family member in Thailand need a safe medical repatriation to Israel — we are available 24/7.
+Need a medical flight back to Israel?
 
-Israel Air Ambulance coordinates:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Bedside-to-bedside: from the hospital in Thailand to the hospital in Israel.
+We are here to help.
 
-This is emergency medical coordination for private families — not a tourism ad.
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
@@ -27,60 +32,69 @@ This is emergency medical coordination for private families — not a tourism ad
 === עברית ===
 שלום לכולם 🙏
 
-אם אתם או מישהו מהמשפחה בתאילנד וצריכים חזרה רפואית מאובטחת לישראל — אנחנו כאן 24/7.
+זקוקים להטסה רפואית חזרה לישראל?
 
-ישראל אייר אמבולנס מתאמת:
-• אמבולנס אווירי / טיסת ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-מיטה-למיטה: מבית החולים בתאילנד עד בית החולים בישראל.
+אנחנו כאן לעזור.
 
-זה לא מודעה תיירותית — זה שירות חירום רפואי למשפחות פרטיות.
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#תאילנד #ישראליםבתאילנד #טיסהרפואית #החזרהלארץ
+#תאילנד #ישראליםבתאילנד #טיסהרפואית #הטסהרפואית #החזרהלארץ
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+שלום לכולם 🙏
+
+זקוקים להטסה רפואית חזרה לישראל?
+
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+#תאילנד #ישראליםבתאילנד #טיסהרפואית #הטסהרפואית #החזרהלארץ
+
+────────
+
 Hello everyone 🙏
 
-If you or a family member in Thailand need a safe medical repatriation to Israel — we are available 24/7.
+Need a medical flight back to Israel?
 
-Israel Air Ambulance coordinates:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Bedside-to-bedside: from the hospital in Thailand to the hospital in Israel.
+We are here to help.
 
-This is emergency medical coordination for private families — not a tourism ad.
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
 #Thailand #IsraelisInThailand #MedicalFlight #AirAmbulance
-
-────────
-
-שלום לכולם 🙏
-
-אם אתם או מישהו מהמשפחה בתאילנד וצריכים חזרה רפואית מאובטחת לישראל — אנחנו כאן 24/7.
-
-ישראל אייר אמבולנס מתאמת:
-• אמבולנס אווירי / טיסת ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
-
-מיטה-למיטה: מבית החולים בתאילנד עד בית החולים בישראל.
-
-זה לא מודעה תיירותית — זה שירות חירום רפואי למשפחות פרטיות.
-
-📞 +972-79-670-9999
-💬 וואטסאפ: 053-232-1101
-🌐 https://ambulancenter.com
-
-#תאילנד #ישראליםבתאילנד #טיסהרפואית #החזרהלארץ

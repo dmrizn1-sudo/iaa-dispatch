@@ -1,66 +1,104 @@
-# Common question: arranging a medical flight from Thailand / שאלה נפוצה: איך מארגנים טיסה רפואית מתאילנד?
+# No insurance / not covered — medical flight to Israel / אין ביטוח / לא מכסה — הטסה רפואית לישראל
 # id: th-qa-he-en
-# tone: qa_helpful
+# tone: insurance_gap_medical_flight
 # destinations: thailand
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-A question we see often in traveler groups:
-“A family member is hospitalized in Thailand — how do we get them back to Israel?”
+A question we see often:
+“No insurance / insurance won’t cover — how do we get home to Israel?”
 
-Short answer:
-1) Clinical assessment + flight type match
-2) Hospital-to-hospital coordination
-3) In-flight medical team as needed
-4) Family support through arrival in Israel
+Need a medical flight back to Israel?
 
-You can also contact us just to ask what is clinically appropriate — no obligation.
+No medical insurance?
+Insurance does not cover a medical flight?
 
-📞 +972-79-670-9999 · WhatsApp 053-232-1101
-https://ambulancenter.com
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+#Thailand #MedicalFlight #AirAmbulance
 
 === עברית ===
-שאלה שחוזרת הרבה בקבוצות:
-״בן משפחה מאושפז בתאילנד — איך מחזירים לישראל?״
+שאלה שחוזרת הרבה:
+״אין ביטוח / הביטוח לא מכסה — איך מחזירים לישראל?״
 
-בקצרה:
-1) הערכה רפואית + התאמת סוג הטיסה
-2) תיאום בית חולים → בית חולים
-3) צוות רפואי בטיסה לפי הצורך
-4) ליווי המשפחה עד הנחיתה בישראל
+זקוקים להטסה רפואית חזרה לישראל?
 
-אפשר לפנות אלינו גם רק לשאול מה מתאים קלינית — בלי התחייבות.
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-📞 +972-79-670-9999 · וואטסאפ 053-232-1101
-https://ambulancenter.com
+אנחנו כאן לעזור.
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-A question we see often in traveler groups:
-“A family member is hospitalized in Thailand — how do we get them back to Israel?”
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
 
-Short answer:
-1) Clinical assessment + flight type match
-2) Hospital-to-hospital coordination
-3) In-flight medical team as needed
-4) Family support through arrival in Israel
+זמינים 24/7.
 
-You can also contact us just to ask what is clinically appropriate — no obligation.
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
-📞 +972-79-670-9999 · WhatsApp 053-232-1101
-https://ambulancenter.com
+#תאילנד #טיסהרפואית #הטסהרפואית
+
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+שאלה שחוזרת הרבה:
+״אין ביטוח / הביטוח לא מכסה — איך מחזירים לישראל?״
+
+זקוקים להטסה רפואית חזרה לישראל?
+
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+#תאילנד #טיסהרפואית #הטסהרפואית
 
 ────────
 
-שאלה שחוזרת הרבה בקבוצות:
-״בן משפחה מאושפז בתאילנד — איך מחזירים לישראל?״
+A question we see often:
+“No insurance / insurance won’t cover — how do we get home to Israel?”
 
-בקצרה:
-1) הערכה רפואית + התאמת סוג הטיסה
-2) תיאום בית חולים → בית חולים
-3) צוות רפואי בטיסה לפי הצורך
-4) ליווי המשפחה עד הנחיתה בישראל
+Need a medical flight back to Israel?
 
-אפשר לפנות אלינו גם רק לשאול מה מתאים קלינית — בלי התחייבות.
+No medical insurance?
+Insurance does not cover a medical flight?
 
-📞 +972-79-670-9999 · וואטסאפ 053-232-1101
-https://ambulancenter.com
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+#Thailand #MedicalFlight #AirAmbulance

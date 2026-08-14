@@ -58,16 +58,16 @@
 
 ## פוסטים מוכנים (HE + EN)
 
-- **th-lametayelim-he-en** — תאילנד למטיילים — טיסה רפואית לישראל / Thailand for Travelers — medical flight to Israel → `marketing/facebook/groups/ready/th-lametayelim-he-en.txt`
-- **th-islands-phuket-samui-he-en** — פוקט / קוסמוי / קופנגן — טיסה רפואית לישראל / Phuket / Samui / Phangan — medical flight to Israel → `marketing/facebook/groups/ready/th-islands-phuket-samui-he-en.txt`
-- **th-general-he-en** — טיסה רפואית מתאילנד לישראל / Medical flight from Thailand to Israel → `marketing/facebook/groups/ready/th-general-he-en.txt`
-- **th-families-he-en** — למשפחות בתאילנד — חזרה רפואית הביתה / For families in Thailand — medical flight home → `marketing/facebook/groups/ready/th-families-he-en.txt`
-- **th-qa-he-en** — שאלה נפוצה: איך מארגנים טיסה רפואית מתאילנד? / Common question: arranging a medical flight from Thailand → `marketing/facebook/groups/ready/th-qa-he-en.txt`
-- **samui-he-en** — קוסמוי → ישראל: טיסה רפואית / פינוי / Koh Samui → Israel: medical flight / evacuation → `marketing/facebook/groups/ready/samui-he-en.txt`
-- **pattaya-he-en** — פטאיה → ישראל: טיסה רפואית למשפחות / Pattaya → Israel: medical flight for families → `marketing/facebook/groups/ready/pattaya-he-en.txt`
-- **bangkok-he-en** — בנגקוק → ישראל: אמבולנס אווירי / ליווי רפואי / Bangkok → Israel: air ambulance / medical escort → `marketing/facebook/groups/ready/bangkok-he-en.txt`
-- **th-emergency-only-he-en** — מידע חירום בלבד — החזרה רפואית לישראל / Emergency info only — medical repatriation to Israel → `marketing/facebook/groups/ready/th-emergency-only-he-en.txt`
-- **page-tag-thailand-he-en** — פוסט לדף — עם תיוג קבוצות יעד / Page post — with destination group tagging → `marketing/facebook/groups/ready/page-tag-thailand-he-en.txt`
+- **th-lametayelim-he-en** — תאילנד למטיילים — הטסה רפואית לישראל / Thailand for Travelers — medical flight to Israel → `marketing/facebook/groups/ready/th-lametayelim-he-en.txt`
+- **th-islands-phuket-samui-he-en** — פוקט / קוסמוי / קופנגן — הטסה רפואית לישראל / Phuket / Samui / Phangan — medical flight to Israel → `marketing/facebook/groups/ready/th-islands-phuket-samui-he-en.txt`
+- **th-general-he-en** — הטסה רפואית מתאילנד לישראל / Medical flight from Thailand to Israel → `marketing/facebook/groups/ready/th-general-he-en.txt`
+- **th-families-he-en** — למשפחות — הטסה רפואית הביתה / For families — medical flight home → `marketing/facebook/groups/ready/th-families-he-en.txt`
+- **th-qa-he-en** — אין ביטוח / לא מכסה — הטסה רפואית לישראל / No insurance / not covered — medical flight to Israel → `marketing/facebook/groups/ready/th-qa-he-en.txt`
+- **samui-he-en** — קוסמוי — הטסה רפואית לישראל / Koh Samui — medical flight to Israel → `marketing/facebook/groups/ready/samui-he-en.txt`
+- **pattaya-he-en** — פטאיה — הטסה רפואית לישראל / Pattaya — medical flight to Israel → `marketing/facebook/groups/ready/pattaya-he-en.txt`
+- **bangkok-he-en** — בנגקוק — הטסה רפואית לישראל / Bangkok — medical flight to Israel → `marketing/facebook/groups/ready/bangkok-he-en.txt`
+- **th-emergency-only-he-en** — מידע חירום — הטסה רפואית לישראל / Emergency info — medical flight to Israel → `marketing/facebook/groups/ready/th-emergency-only-he-en.txt`
+- **page-tag-thailand-he-en** — פוסט לדף — הטסה רפואית + תיוג קבוצות / Page post — medical flight + group tags → `marketing/facebook/groups/ready/page-tag-thailand-he-en.txt`
 
 שולחן העתקה: [`desk.html`](./desk.html)  
 מעקב: [`publish-tracker.json`](./publish-tracker.json)

@@ -1,86 +1,100 @@
-# Phuket / Samui / Phangan — medical flight to Israel / פוקט / קוסמוי / קופנגן — טיסה רפואית לישראל
+# Phuket / Samui / Phangan — medical flight to Israel / פוקט / קוסמוי / קופנגן — הטסה רפואית לישראל
 # id: th-islands-phuket-samui-he-en
-# tone: community_service_islands
+# tone: insurance_gap_medical_flight
 # destinations: thailand, samui
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
 Hello Phuket · Koh Samui · Koh Phangan community 🙏
 
-Most questions here are about transfers, hotels and island hops.
-We are here for medical emergencies:
+Need a medical flight back to Israel?
 
-If a traveler or family member in Phuket / Samui / Phangan needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Including island transfer planning (often via Bangkok) to a hospital in Israel.
-You can also just ask what fits — no obligation.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#Phuket #KohSamui #KohPhangan #MedicalFlight #Thailand
+#Phuket #KohSamui #KohPhangan #MedicalFlight #AirAmbulance #Thailand
 
 === עברית ===
 שלום לקהילת פוקט · קוסמוי · קופנגן 🙏
 
-רוב השאלות כאן על הסעות, מלונות ומעברים בין איים.
-אנחנו כאן למקרה חירום רפואי:
+זקוקים להטסה רפואית חזרה לישראל?
 
-אם מטייל/ת או בן משפחה בפוקט / קוסמוי / קופנגן צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:
-• אמבולנס אווירי / ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-כולל תיאום מהאי (לעיתים דרך בנגקוק) עד בית חולים בישראל.
-אפשר גם רק לשאול מה מתאים — בלי התחייבות.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#פוקט #קוסמוי #קופנגן #טיסהרפואית #תאילנד
+#פוקט #קוסמוי #קופנגן #טיסהרפואית #הטסהרפואית #תאילנד
 
 === BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
 שלום לקהילת פוקט · קוסמוי · קופנגן 🙏
 
-רוב השאלות כאן על הסעות, מלונות ומעברים בין איים.
-אנחנו כאן למקרה חירום רפואי:
+זקוקים להטסה רפואית חזרה לישראל?
 
-אם מטייל/ת או בן משפחה בפוקט / קוסמוי / קופנגן צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:
-• אמבולנס אווירי / ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-כולל תיאום מהאי (לעיתים דרך בנגקוק) עד בית חולים בישראל.
-אפשר גם רק לשאול מה מתאים — בלי התחייבות.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#פוקט #קוסמוי #קופנגן #טיסהרפואית #תאילנד
+#פוקט #קוסמוי #קופנגן #טיסהרפואית #הטסהרפואית #תאילנד
 
 ────────
 
 Hello Phuket · Koh Samui · Koh Phangan community 🙏
 
-Most questions here are about transfers, hotels and island hops.
-We are here for medical emergencies:
+Need a medical flight back to Israel?
 
-If a traveler or family member in Phuket / Samui / Phangan needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Including island transfer planning (often via Bangkok) to a hospital in Israel.
-You can also just ask what fits — no obligation.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#Phuket #KohSamui #KohPhangan #MedicalFlight #Thailand
+#Phuket #KohSamui #KohPhangan #MedicalFlight #AirAmbulance #Thailand

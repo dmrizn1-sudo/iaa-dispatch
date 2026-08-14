@@ -1,74 +1,100 @@
-# Pattaya → Israel: medical flight for families / פטאיה → ישראל: טיסה רפואית למשפחות
+# Pattaya — medical flight to Israel / פטאיה — הטסה רפואית לישראל
 # id: pattaya-he-en
-# tone: destination_local
+# tone: insurance_gap_medical_flight
 # destinations: pattaya
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-Israelis in Pattaya,
+Israelis in Pattaya
 
-If there is an urgent hospitalization and you need medical repatriation to Israel — we coordinate medical flights and bedside-to-bedside transfers.
+Need a medical flight back to Israel?
 
-Options include:
-• Air ambulance
-• Stretcher flight
-• Commercial medical escort
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Available 24/7 in Hebrew & English.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
 📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
+💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#Pattaya #Thailand #MedicalFlight #Israel
+#Pattaya #Thailand #MedicalFlight #AirAmbulance
 
 === עברית ===
-ישראלים בפטאיה / פאטאיה,
+ישראלים בפטאיה / פאטאיה
 
-אם יש אשפוז דחוף וצריך חזרה רפואית לישראל — אנחנו מתאמים טיסות רפואיות והעברות ממיטה למיטה.
+זקוקים להטסה רפואית חזרה לישראל?
 
-מתאים גם כשצריך:
-• אמבולנס אווירי
-• אלונקה בטיסה
-• ליווי רפואי בטיסה מסחרית
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-זמינים 24/7 בעברית.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
 📞 +972-79-670-9999
-💬 וואטסאפ 053-232-1101
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#פטאיה #פאטאיה #תאילנד #טיסהרפואית
+#פטאיה #פאטאיה #תאילנד #טיסהרפואית #הטסהרפואית
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-Israelis in Pattaya,
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+ישראלים בפטאיה / פאטאיה
 
-If there is an urgent hospitalization and you need medical repatriation to Israel — we coordinate medical flights and bedside-to-bedside transfers.
+זקוקים להטסה רפואית חזרה לישראל?
 
-Options include:
-• Air ambulance
-• Stretcher flight
-• Commercial medical escort
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-Available 24/7 in Hebrew & English.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
 📞 +972-79-670-9999
-💬 WhatsApp 053-232-1101
+💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#Pattaya #Thailand #MedicalFlight #Israel
+#פטאיה #פאטאיה #תאילנד #טיסהרפואית #הטסהרפואית
 
 ────────
 
-ישראלים בפטאיה / פאטאיה,
+Israelis in Pattaya
 
-אם יש אשפוז דחוף וצריך חזרה רפואית לישראל — אנחנו מתאמים טיסות רפואיות והעברות ממיטה למיטה.
+Need a medical flight back to Israel?
 
-מתאים גם כשצריך:
-• אמבולנס אווירי
-• אלונקה בטיסה
-• ליווי רפואי בטיסה מסחרית
+No medical insurance?
+Insurance does not cover a medical flight?
 
-זמינים 24/7 בעברית.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
 📞 +972-79-670-9999
-💬 וואטסאפ 053-232-1101
+💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#פטאיה #פאטאיה #תאילנד #טיסהרפואית
+#Pattaya #Thailand #MedicalFlight #AirAmbulance

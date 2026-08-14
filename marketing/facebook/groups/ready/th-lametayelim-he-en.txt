@@ -1,86 +1,100 @@
-# Thailand for Travelers — medical flight to Israel / תאילנד למטיילים — טיסה רפואית לישראל
+# Thailand for Travelers — medical flight to Israel / תאילנד למטיילים — הטסה רפואית לישראל
 # id: th-lametayelim-he-en
-# tone: community_service_for_lametayelim
+# tone: insurance_gap_medical_flight
 # destinations: thailand, samui, pattaya, bangkok
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
 Hello Thailand-for-Travelers community 🙏
 
-Most posts here are about hotels, drivers and trips — great.
-We are here for the less pleasant but important case:
+Need a medical flight back to Israel?
 
-If a traveler or family member in Thailand (Bangkok · Koh Samui · Pattaya and more) needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Bedside in Thailand → bedside in Israel.
-You can also just ask what fits clinically — no obligation.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight
+#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight #AirAmbulance
 
 === עברית ===
 שלום לקהילת תאילנד למטיילים 🙏
 
-רוב הפוסטים כאן על מלונות, נהגים וטיולים — וזה מעולה.
-אנחנו כאן למקרה פחות נעים אבל חשוב:
+זקוקים להטסה רפואית חזרה לישראל?
 
-אם מטייל/ת או בן משפחה בתאילנד (בנגקוק · קוסמוי · פטאיה ועוד) צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:
-• אמבולנס אווירי / ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-מיטה בבית החולים בתאילנד → מיטה בישראל.
-אפשר גם רק לשאול מה מתאים — בלי התחייבות.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית
+#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית #הטסהרפואית
 
 === BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
 שלום לקהילת תאילנד למטיילים 🙏
 
-רוב הפוסטים כאן על מלונות, נהגים וטיולים — וזה מעולה.
-אנחנו כאן למקרה פחות נעים אבל חשוב:
+זקוקים להטסה רפואית חזרה לישראל?
 
-אם מטייל/ת או בן משפחה בתאילנד (בנגקוק · קוסמוי · פטאיה ועוד) צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:
-• אמבולנס אווירי / ICU
-• טיסת אלונקה
-• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-מיטה בבית החולים בתאילנד → מיטה בישראל.
-אפשר גם רק לשאול מה מתאים — בלי התחייבות.
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
 
 📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית
+#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית #הטסהרפואית
 
 ────────
 
 Hello Thailand-for-Travelers community 🙏
 
-Most posts here are about hotels, drivers and trips — great.
-We are here for the less pleasant but important case:
+Need a medical flight back to Israel?
 
-If a traveler or family member in Thailand (Bangkok · Koh Samui · Pattaya and more) needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:
-• ICU air ambulance
-• Stretcher flight
-• Commercial medical escort (when clinically suitable)
+No medical insurance?
+Insurance does not cover a medical flight?
 
-Bedside in Thailand → bedside in Israel.
-You can also just ask what fits clinically — no obligation.
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
 
 📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
-#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight
+#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight #AirAmbulance

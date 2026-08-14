@@ -1,50 +1,64 @@
-# Emergency info only — medical repatriation to Israel / מידע חירום בלבד — החזרה רפואית לישראל
+# Emergency info — medical flight to Israel / מידע חירום — הטסה רפואית לישראל
 # id: th-emergency-only-he-en
 # tone: emergency_only_no_promo
 # destinations: thailand
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-Emergency information only (not a tourism promo):
+Emergency information:
 
-Israeli families in Thailand who need medical repatriation to Israel can contact 24/7 medical-flight coordination.
+Need a medical flight to Israel?
+No insurance / not covered?
 
-WhatsApp: 053-232-1101
-Phone: +972-79-670-9999
-https://ambulancenter.com
+Israeli doctors & paramedics · aviation-approved equipment · 24/7
 
-If group rules forbid service posts, admins may remove — intent is medical help only.
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+If group rules forbid service posts, admins may remove — medical help only.
 
 === עברית ===
-מידע לשעת חירום (לא פרסומת תיירות):
+מידע לשעת חירום:
 
-משפחה ישראלית בתאילנד שצריכה חזרה רפואית לישראל יכולה לפנות לתיאום טיסה רפואית / ליווי רפואי 24/7.
+זקוקים להטסה רפואית לישראל?
+אין ביטוח / הביטוח לא מכסה?
 
-וואטסאפ: 053-232-1101
-טלפון: +972-79-670-9999
-https://ambulancenter.com
+צוות רופאים ופראמדיקים מישראל · ציוד רפואי מאושר להטסה · 24/7
 
-אם הכללים אוסרים פרסום שירותים — מוזמנים האדמינים למחוק; המטרה היא עזרה רפואית בלבד.
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-Emergency information only (not a tourism promo):
+אם הכללים אוסרים פרסום שירותים — האדמינים מוזמנים למחוק; המטרה עזרה רפואית.
 
-Israeli families in Thailand who need medical repatriation to Israel can contact 24/7 medical-flight coordination.
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+מידע לשעת חירום:
 
-WhatsApp: 053-232-1101
-Phone: +972-79-670-9999
-https://ambulancenter.com
+זקוקים להטסה רפואית לישראל?
+אין ביטוח / הביטוח לא מכסה?
 
-If group rules forbid service posts, admins may remove — intent is medical help only.
+צוות רופאים ופראמדיקים מישראל · ציוד רפואי מאושר להטסה · 24/7
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+אם הכללים אוסרים פרסום שירותים — האדמינים מוזמנים למחוק; המטרה עזרה רפואית.
 
 ────────
 
-מידע לשעת חירום (לא פרסומת תיירות):
+Emergency information:
 
-משפחה ישראלית בתאילנד שצריכה חזרה רפואית לישראל יכולה לפנות לתיאום טיסה רפואית / ליווי רפואי 24/7.
+Need a medical flight to Israel?
+No insurance / not covered?
 
-וואטסאפ: 053-232-1101
-טלפון: +972-79-670-9999
-https://ambulancenter.com
+Israeli doctors & paramedics · aviation-approved equipment · 24/7
 
-אם הכללים אוסרים פרסום שירותים — מוזמנים האדמינים למחוק; המטרה היא עזרה רפואית בלבד.
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+If group rules forbid service posts, admins may remove — medical help only.

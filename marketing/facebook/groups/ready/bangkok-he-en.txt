@@ -1,70 +1,100 @@
-# Bangkok → Israel: air ambulance / medical escort / בנגקוק → ישראל: אמבולנס אווירי / ליווי רפואי
+# Bangkok — medical flight to Israel / בנגקוק — הטסה רפואית לישראל
 # id: bangkok-he-en
-# tone: destination_local
+# tone: insurance_gap_medical_flight
 # destinations: bangkok
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-Israelis in Bangkok,
+Israelis in Bangkok
 
-Bangkok is a key hub for medical flights to Israel — including cases arriving from Koh Samui, Pattaya, Phuket and other islands.
+Need a medical flight back to Israel?
 
-Israel Air Ambulance provides:
-• ICU / stretcher / medical-escort coordination
-• Hospital handoff planning in Israel
-• Family updates through arrival
+No medical insurance?
+Insurance does not cover a medical flight?
 
-📞 +972-79-670-9999 (24/7)
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
 #Bangkok #MedicalFlightToIsrael #AirAmbulance
 
 === עברית ===
-ישראלים בבנגקוק,
+ישראלים בבנגקוק
 
-בנגקוק היא צומת מרכזי לטיסות רפואיות לישראל — גם למקרים שמגיעים מקוסמוי, פטאיה, פוקט ואיים נוספים.
+זקוקים להטסה רפואית חזרה לישראל?
 
-ישראל אייר אמבולנס:
-• תיאום ICU / אלונקה / ליווי רפואי
-• חיבור לבתי חולים בישראל
-• ליווי המשפחה עד הנחיתה
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-📞 +972-79-670-9999 (24/7)
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
 💬 וואטסאפ: 053-232-1101
 🌐 https://ambulancenter.com
 
-#בנגקוק #טיסהרפואיתלישראל #ישראליםבבנגקוק
+#בנגקוק #טיסהרפואיתלישראל #הטסהרפואית #ישראליםבבנגקוק
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-Israelis in Bangkok,
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+ישראלים בבנגקוק
 
-Bangkok is a key hub for medical flights to Israel — including cases arriving from Koh Samui, Pattaya, Phuket and other islands.
+זקוקים להטסה רפואית חזרה לישראל?
 
-Israel Air Ambulance provides:
-• ICU / stretcher / medical-escort coordination
-• Hospital handoff planning in Israel
-• Family updates through arrival
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-📞 +972-79-670-9999 (24/7)
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+#בנגקוק #טיסהרפואיתלישראל #הטסהרפואית #ישראליםבבנגקוק
+
+────────
+
+Israelis in Bangkok
+
+Need a medical flight back to Israel?
+
+No medical insurance?
+Insurance does not cover a medical flight?
+
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
 💬 WhatsApp: 053-232-1101
 🌐 https://ambulancenter.com
 
 #Bangkok #MedicalFlightToIsrael #AirAmbulance
-
-────────
-
-ישראלים בבנגקוק,
-
-בנגקוק היא צומת מרכזי לטיסות רפואיות לישראל — גם למקרים שמגיעים מקוסמוי, פטאיה, פוקט ואיים נוספים.
-
-ישראל אייר אמבולנס:
-• תיאום ICU / אלונקה / ליווי רפואי
-• חיבור לבתי חולים בישראל
-• ליווי המשפחה עד הנחיתה
-
-📞 +972-79-670-9999 (24/7)
-💬 וואטסאפ: 053-232-1101
-🌐 https://ambulancenter.com
-
-#בנגקוק #טיסהרפואיתלישראל #ישראליםבבנגקוק

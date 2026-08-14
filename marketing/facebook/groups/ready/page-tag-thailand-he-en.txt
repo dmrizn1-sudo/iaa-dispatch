@@ -1,58 +1,108 @@
-# Page post — with destination group tagging / פוסט לדף — עם תיוג קבוצות יעד
+# Page post — medical flight + group tags / פוסט לדף — הטסה רפואית + תיוג קבוצות
 # id: page-tag-thailand-he-en
 # tone: page_feed_with_group_tags
 # destinations: thailand, samui, pattaya, bangkok
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
 
 === ENGLISH ===
-Medical flights from Thailand to Israel 🇹🇭✈️🇮🇱
+Medical flight from Thailand to Israel 🇹🇭✈️🇮🇱
 
-For Israeli travelers in Koh Samui, Pattaya, Bangkok and across Thailand — we coordinate safe medical repatriation 24/7.
+Need a medical flight back to Israel?
 
-When composing on the Page:
-1) Type @ then the group name (Thailand families / Israelis in Samui / Pattaya / Bangkok)
-2) Select from Facebook autocomplete if shown
-3) Publish as Page Israel air&ambulance
+No medical insurance?
+Insurance does not cover a medical flight?
 
-📞 +972-79-670-9999 · WhatsApp 053-232-1101
-https://ambulancenter.com
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+#Thailand #KohSamui #Pattaya #Bangkok #MedicalFlight
+
+When composing on the Page: type @ then the group name (Thailand travelers / Phuket Samui Phangan / Pattaya / Bangkok) and pick autocomplete.
 
 === עברית ===
-טיסות רפואיות מתאילנד לישראל 🇹🇭✈️🇮🇱
+הטסה רפואית מתאילנד לישראל 🇹🇭✈️🇮🇱
 
-למטיילים ישראלים בקוסמוי, פטאיה, בנגקוק וברחבי תאילנד — אנחנו מתאמים החזרה רפואית מאובטחת מסביב לשעון.
+זקוקים להטסה רפואית חזרה לישראל?
 
-כשעורכים את הפוסט בדף:
-1) כתבו @ ואז שם הקבוצה (תאילנד למשפחות / ישראלים בקוסמוי / ישראלים בפטאיה / ישראלים בבנגקוק)
-2) בחרו מההשלמה האוטומטית אם פייסבוק מציג
-3) פרסמו כדף Israel air&ambulance
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
 
-📞 +972-79-670-9999 · וואטסאפ 053-232-1101
-https://ambulancenter.com
+אנחנו כאן לעזור.
 
-=== BILINGUAL (EN then HE) — paste this in most groups ===
-Medical flights from Thailand to Israel 🇹🇭✈️🇮🇱
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
 
-For Israeli travelers in Koh Samui, Pattaya, Bangkok and across Thailand — we coordinate safe medical repatriation 24/7.
+זמינים 24/7.
 
-When composing on the Page:
-1) Type @ then the group name (Thailand families / Israelis in Samui / Pattaya / Bangkok)
-2) Select from Facebook autocomplete if shown
-3) Publish as Page Israel air&ambulance
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
 
-📞 +972-79-670-9999 · WhatsApp 053-232-1101
-https://ambulancenter.com
+#תאילנד #קוסמוי #פטאיה #בנגקוק #טיסהרפואית
+
+בעריכת הפוסט בדף: כתבו @ ואז שם הקבוצה (תאילנד למטיילים / פוקט קוסמוי קופנגן / פטאיה / בנגקוק) ובחרו מההשלמה.
+
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+הטסה רפואית מתאילנד לישראל 🇹🇭✈️🇮🇱
+
+זקוקים להטסה רפואית חזרה לישראל?
+
+אין לכם ביטוח רפואי?
+הביטוח לא מכסה הטסה רפואית?
+
+אנחנו כאן לעזור.
+
+ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+• צוות רופאים ופראמדיקים מישראל
+• ציוד רפואי מאושר להטסה
+• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
+
+זמינים 24/7.
+
+📞 +972-79-670-9999
+💬 וואטסאפ: 053-232-1101
+🌐 https://ambulancenter.com
+
+#תאילנד #קוסמוי #פטאיה #בנגקוק #טיסהרפואית
+
+בעריכת הפוסט בדף: כתבו @ ואז שם הקבוצה (תאילנד למטיילים / פוקט קוסמוי קופנגן / פטאיה / בנגקוק) ובחרו מההשלמה.
 
 ────────
 
-טיסות רפואיות מתאילנד לישראל 🇹🇭✈️🇮🇱
+Medical flight from Thailand to Israel 🇹🇭✈️🇮🇱
 
-למטיילים ישראלים בקוסמוי, פטאיה, בנגקוק וברחבי תאילנד — אנחנו מתאמים החזרה רפואית מאובטחת מסביב לשעון.
+Need a medical flight back to Israel?
 
-כשעורכים את הפוסט בדף:
-1) כתבו @ ואז שם הקבוצה (תאילנד למשפחות / ישראלים בקוסמוי / ישראלים בפטאיה / ישראלים בבנגקוק)
-2) בחרו מההשלמה האוטומטית אם פייסבוק מציג
-3) פרסמו כדף Israel air&ambulance
+No medical insurance?
+Insurance does not cover a medical flight?
 
-📞 +972-79-670-9999 · וואטסאפ 053-232-1101
-https://ambulancenter.com
+We are here to help.
+
+Israel Air Ambulance — professional medical flight with:
+• Israeli doctors and paramedics
+• Aviation-approved medical equipment
+• Professional care from ambulance to aircraft — home to Israel
+
+Available 24/7.
+
+📞 +972-79-670-9999
+💬 WhatsApp: 053-232-1101
+🌐 https://ambulancenter.com
+
+#Thailand #KohSamui #Pattaya #Bangkok #MedicalFlight
+
+When composing on the Page: type @ then the group name (Thailand travelers / Phuket Samui Phangan / Pattaya / Bangkok) and pick autocomplete.

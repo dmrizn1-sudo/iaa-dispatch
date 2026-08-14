@@ -49,6 +49,8 @@ function writeReadyPosts(campaign) {
       `# tone: ${post.tone}`,
       `# destinations: ${(post.destinations || []).join(", ")}`,
       `# contacts: ${campaign.contacts.phoneIntl} · WhatsApp ${campaign.contacts.whatsappLocal}`,
+      `# IMAGE (attach this photo): ${post.imageLocal || campaign.defaultHeroImage?.localPath || "ambulance-jet-handoff.jpg"}`,
+      `# IMAGE URL: ${post.imageUrl || campaign.defaultHeroImage?.publicUrl || ""}`,
       ``,
       `=== ENGLISH ===`,
       post.en,
