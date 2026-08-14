@@ -3,12 +3,17 @@
 # tone: insurance_gap_medical_flight
 # destinations: thailand
 # contacts: +972-79-670-9999 · WhatsApp 053-232-1101
-# IMAGE (attach this photo): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# LOGO (attach brand mark): marketing/assets/brand/logo-square-800.png
+# LOGO URL: https://ambulancenter.com/logo.png
+# IMAGE (attach plane+ambulance): marketing/assets/ai-images/ambulance-jet-handoff.jpg
 # IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# WHATSAPP LINK: https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
 
 === ENGLISH ===
 A question we see often:
 “No insurance / insurance won’t cover — how do we get home to Israel?”
+
+🇮🇱 Israel Air & Ambulance
 
 Need a medical flight back to Israel?
 
@@ -17,7 +22,7 @@ Insurance does not cover a medical flight?
 
 We are here to help.
 
-Israel Air Ambulance — professional medical flight with:
+Professional medical flight with:
 • Israeli doctors and paramedics
 • Aviation-approved medical equipment
 • Professional care from ambulance to aircraft — home to Israel
@@ -25,7 +30,7 @@ Israel Air Ambulance — professional medical flight with:
 Available 24/7.
 
 📞 +972-79-670-9999
-💬 WhatsApp: 053-232-1101
+💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
 🌐 https://ambulancenter.com
 
 #Thailand #MedicalFlight #AirAmbulance
@@ -34,6 +39,8 @@ Available 24/7.
 שאלה שחוזרת הרבה:
 ״אין ביטוח / הביטוח לא מכסה — איך מחזירים לישראל?״
 
+🇮🇱 Israel Air & Ambulance
+
 זקוקים להטסה רפואית חזרה לישראל?
 
 אין לכם ביטוח רפואי?
@@ -41,7 +48,7 @@ Available 24/7.
 
 אנחנו כאן לעזור.
 
-ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+הטסה רפואית מקצועית עם:
 • צוות רופאים ופראמדיקים מישראל
 • ציוד רפואי מאושר להטסה
 • ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
@@ -49,7 +56,7 @@ Available 24/7.
 זמינים 24/7.
 
 📞 +972-79-670-9999
-💬 וואטסאפ: 053-232-1101
+💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
 🌐 https://ambulancenter.com
 
 #תאילנד #טיסהרפואית #הטסהרפואית
@@ -58,6 +65,8 @@ Available 24/7.
 שאלה שחוזרת הרבה:
 ״אין ביטוח / הביטוח לא מכסה — איך מחזירים לישראל?״
 
+🇮🇱 Israel Air & Ambulance
+
 זקוקים להטסה רפואית חזרה לישראל?
 
 אין לכם ביטוח רפואי?
@@ -65,7 +74,7 @@ Available 24/7.
 
 אנחנו כאן לעזור.
 
-ישראל אייר אמבולנס — הטסה רפואית מקצועית עם:
+הטסה רפואית מקצועית עם:
 • צוות רופאים ופראמדיקים מישראל
 • ציוד רפואי מאושר להטסה
 • ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל
@@ -73,7 +82,7 @@ Available 24/7.
 זמינים 24/7.
 
 📞 +972-79-670-9999
-💬 וואטסאפ: 053-232-1101
+💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
 🌐 https://ambulancenter.com
 
 #תאילנד #טיסהרפואית #הטסהרפואית
@@ -83,6 +92,8 @@ Available 24/7.
 A question we see often:
 “No insurance / insurance won’t cover — how do we get home to Israel?”
 
+🇮🇱 Israel Air & Ambulance
+
 Need a medical flight back to Israel?
 
 No medical insurance?
@@ -90,7 +101,7 @@ Insurance does not cover a medical flight?
 
 We are here to help.
 
-Israel Air Ambulance — professional medical flight with:
+Professional medical flight with:
 • Israeli doctors and paramedics
 • Aviation-approved medical equipment
 • Professional care from ambulance to aircraft — home to Israel
@@ -98,7 +109,7 @@ Israel Air Ambulance — professional medical flight with:
 Available 24/7.
 
 📞 +972-79-670-9999
-💬 WhatsApp: 053-232-1101
+💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
 🌐 https://ambulancenter.com
 
 #Thailand #MedicalFlight #AirAmbulance
