@@ -56,7 +56,9 @@ function writeReadyPosts(campaign) {
       `=== עברית ===`,
       post.he,
       ``,
-      `=== BILINGUAL (EN then HE) — paste this in most groups ===`,
+      (post.preferLanguageOrder && post.preferLanguageOrder[0] === "he"
+        ? `=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===`
+        : `=== BILINGUAL (EN then HE) — paste this in most groups ===`),
       bilingualBlock(post).trimEnd(),
       ``
     ].join("\n");
