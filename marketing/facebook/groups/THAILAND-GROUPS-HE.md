@@ -35,6 +35,7 @@
 | קבוצה | חברים | סיכוי פרסום | מסחרי | פוסטים מומלצים | קישור |
 |-------|--------|-------------|--------|----------------|--------|
 | תאילנד למטיילים | ~89,200 | yes | soft_ok_community_tone | th-lametayelim-he-en, th-general-he-en, samui-he-en, bangkok-he-en, pattaya-he-en | [חיפוש](https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%9E%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%9D) |
+| תאילנד - פוקט, קוסמוי, קופנגן | ~139,300 | yes | soft_ok_community_tone | th-islands-phuket-samui-he-en, samui-he-en, th-general-he-en | [חיפוש](https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F) |
 | תאילנד למשפחות | ~105,100 | maybe | ask_admin | th-general-he-en, th-families-he-en | [חיפוש](https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA) |
 | תאילנד - שאלות ותשובות | ~84,700 | maybe | ask_admin | th-general-he-en, th-qa-he-en | [חיפוש](https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%20%D7%95%D7%AA%D7%A9%D7%95%D7%91%D7%95%D7%AA) |
 | ישראלים בתאילנד | — | maybe | unknown | th-general-he-en | [חיפוש](https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93) |
@@ -58,6 +59,7 @@
 ## פוסטים מוכנים (HE + EN)
 
 - **th-lametayelim-he-en** — תאילנד למטיילים — טיסה רפואית לישראל / Thailand for Travelers — medical flight to Israel → `marketing/facebook/groups/ready/th-lametayelim-he-en.txt`
+- **th-islands-phuket-samui-he-en** — פוקט / קוסמוי / קופנגן — טיסה רפואית לישראל / Phuket / Samui / Phangan — medical flight to Israel → `marketing/facebook/groups/ready/th-islands-phuket-samui-he-en.txt`
 - **th-general-he-en** — טיסה רפואית מתאילנד לישראל / Medical flight from Thailand to Israel → `marketing/facebook/groups/ready/th-general-he-en.txt`
 - **th-families-he-en** — למשפחות בתאילנד — חזרה רפואית הביתה / For families in Thailand — medical flight home → `marketing/facebook/groups/ready/th-families-he-en.txt`
 - **th-qa-he-en** — שאלה נפוצה: איך מארגנים טיסה רפואית מתאילנד? / Common question: arranging a medical flight from Thailand → `marketing/facebook/groups/ready/th-qa-he-en.txt`
@@ -82,8 +84,8 @@
 
 ### תורים מוכנים עכשיו
 
-- פריטי תור: **18**
-- מוכנים לביקורת+פרסום: **17**
+- פריטי תור: **21**
+- מוכנים לביקורת+פרסום: **20**
 - חסומים/זהירות: **1**
 
 ---

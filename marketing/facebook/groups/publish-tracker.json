@@ -1,12 +1,12 @@
 {
   "campaignId": "th-il-medical-flights-groups-2026",
-  "updatedAt": "2026-08-14T09:35:32.821Z",
+  "updatedAt": "2026-08-14T09:45:51.083Z",
   "apiAutoPublish": false,
   "summary": {
-    "groups": 10,
-    "posts": 9,
-    "queueItems": 18,
-    "readyMaybe": 17,
+    "groups": 11,
+    "posts": 10,
+    "queueItems": 21,
+    "readyMaybe": 20,
     "blocked": 1
   },
   "items": [
@@ -84,6 +84,51 @@
       "postedBy": null,
       "facebookUrl": null,
       "notes": "אומת מצילום מסך של הבעלים: קבוצה ציבורית ~89.2K, הדף Israel Air Ambulance כבר יכול לכתוב פוסט בקבוצה. פרסום ראשון מומלץ: th-lametayelim-he-en."
+    },
+    {
+      "groupId": "th-phuket-samui-phangan",
+      "groupNameHe": "תאילנד - פוקט, קוסמוי, קופנגן",
+      "groupNameEn": "Thailand — Phuket, Koh Samui, Koh Phangan",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F",
+      "postId": "th-islands-phuket-samui-he-en",
+      "postTitleHe": "פוקט / קוסמוי / קופנגן — טיסה רפואית לישראל",
+      "canPublishLikely": "yes",
+      "publishMethod": "manual_as_page",
+      "status": "ready_to_audit_then_post",
+      "postedAt": null,
+      "postedBy": null,
+      "facebookUrl": null,
+      "notes": "אומת מצילום מסך: קבוצה ציבורית ~139.3K, הדף Israel Air Ambulance יכול לכתוב פוסט. דגש: פוקט/קוסמוי/קופנגן."
+    },
+    {
+      "groupId": "th-phuket-samui-phangan",
+      "groupNameHe": "תאילנד - פוקט, קוסמוי, קופנגן",
+      "groupNameEn": "Thailand — Phuket, Koh Samui, Koh Phangan",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F",
+      "postId": "samui-he-en",
+      "postTitleHe": "קוסמוי → ישראל: טיסה רפואית / פינוי",
+      "canPublishLikely": "yes",
+      "publishMethod": "manual_as_page",
+      "status": "ready_to_audit_then_post",
+      "postedAt": null,
+      "postedBy": null,
+      "facebookUrl": null,
+      "notes": "אומת מצילום מסך: קבוצה ציבורית ~139.3K, הדף Israel Air Ambulance יכול לכתוב פוסט. דגש: פוקט/קוסמוי/קופנגן."
+    },
+    {
+      "groupId": "th-phuket-samui-phangan",
+      "groupNameHe": "תאילנד - פוקט, קוסמוי, קופנגן",
+      "groupNameEn": "Thailand — Phuket, Koh Samui, Koh Phangan",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F",
+      "postId": "th-general-he-en",
+      "postTitleHe": "טיסה רפואית מתאילנד לישראל",
+      "canPublishLikely": "yes",
+      "publishMethod": "manual_as_page",
+      "status": "ready_to_audit_then_post",
+      "postedAt": null,
+      "postedBy": null,
+      "facebookUrl": null,
+      "notes": "אומת מצילום מסך: קבוצה ציבורית ~139.3K, הדף Israel Air Ambulance יכול לכתוב פוסט. דגש: פוקט/קוסמוי/קופנגן."
     },
     {
       "groupId": "th-families",

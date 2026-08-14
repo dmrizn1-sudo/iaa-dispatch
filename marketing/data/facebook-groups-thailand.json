@@ -88,6 +88,28 @@
       }
     },
     {
+      "id": "th-phuket-samui-phangan",
+      "nameHe": "תאילנד - פוקט, קוסמוי, קופנגן",
+      "nameEn": "Thailand — Phuket, Koh Samui, Koh Phangan",
+      "destinationIds": ["thailand", "samui"],
+      "approxMembers": 139300,
+      "privacy": "public",
+      "searchQuery": "תאילנד פוקט קוסמוי קופנגן",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F",
+      "verifiedFromOwnerScreenshot": true,
+      "postingPolicyHint": "Large islands traveler group (Phuket/Samui/Phangan logistics). Soft emergency medical-repatriation tone.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "joined",
+        "allowsPagePosts": "yes",
+        "commercialPosts": "soft_ok_community_tone",
+        "canPublishLikely": "yes",
+        "publishMethod": "manual_as_page",
+        "recommendedPostIds": ["th-islands-phuket-samui-he-en", "samui-he-en", "th-general-he-en"],
+        "notesHe": "אומת מצילום מסך: קבוצה ציבורית ~139.3K, הדף Israel Air Ambulance יכול לכתוב פוסט. דגש: פוקט/קוסמוי/קופנגן."
+      }
+    },
+    {
       "id": "th-families",
       "nameHe": "תאילנד למשפחות",
       "nameEn": "Thailand for Families",
@@ -285,6 +307,18 @@
       "he": "שלום לקהילת תאילנד למטיילים 🙏\n\nרוב הפוסטים כאן על מלונות, נהגים וטיולים — וזה מעולה.\nאנחנו כאן למקרה פחות נעים אבל חשוב:\n\nאם מטייל/ת או בן משפחה בתאילנד (בנגקוק · קוסמוי · פטאיה ועוד) צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:\n• אמבולנס אווירי / ICU\n• טיסת אלונקה\n• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)\n\nמיטה בבית החולים בתאילנד → מיטה בישראל.\nאפשר גם רק לשאול מה מתאים — בלי התחייבות.\n\n📞 +972-79-670-9999\n💬 וואטסאפ: 053-232-1101\n🌐 https://ambulancenter.com\n\n#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית",
       "en": "Hello Thailand-for-Travelers community 🙏\n\nMost posts here are about hotels, drivers and trips — great.\nWe are here for the less pleasant but important case:\n\nIf a traveler or family member in Thailand (Bangkok · Koh Samui · Pattaya and more) needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:\n• ICU air ambulance\n• Stretcher flight\n• Commercial medical escort (when clinically suitable)\n\nBedside in Thailand → bedside in Israel.\nYou can also just ask what fits clinically — no obligation.\n\n📞 +972-79-670-9999\n💬 WhatsApp: 053-232-1101\n🌐 https://ambulancenter.com\n\n#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight",
       "preferLanguageOrder": ["he", "en"]
+    },
+    {
+      "id": "th-islands-phuket-samui-he-en",
+      "destinations": ["thailand", "samui"],
+      "tone": "community_service_islands",
+      "titleHe": "פוקט / קוסמוי / קופנגן — טיסה רפואית לישראל",
+      "titleEn": "Phuket / Samui / Phangan — medical flight to Israel",
+      "imageTheme": "medevac-heli-coast",
+      "forGroupId": "th-phuket-samui-phangan",
+      "preferLanguageOrder": ["he", "en"],
+      "he": "שלום לקהילת פוקט · קוסמוי · קופנגן 🙏\n\nרוב השאלות כאן על הסעות, מלונות ומעברים בין איים.\nאנחנו כאן למקרה חירום רפואי:\n\nאם מטייל/ת או בן משפחה בפוקט / קוסמוי / קופנגן צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:\n• אמבולנס אווירי / ICU\n• טיסת אלונקה\n• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)\n\nכולל תיאום מהאי (לעיתים דרך בנגקוק) עד בית חולים בישראל.\nאפשר גם רק לשאול מה מתאים — בלי התחייבות.\n\n📞 +972-79-670-9999\n💬 וואטסאפ: 053-232-1101\n🌐 https://ambulancenter.com\n\n#פוקט #קוסמוי #קופנגן #טיסהרפואית #תאילנד",
+      "en": "Hello Phuket · Koh Samui · Koh Phangan community 🙏\n\nMost questions here are about transfers, hotels and island hops.\nWe are here for medical emergencies:\n\nIf a traveler or family member in Phuket / Samui / Phangan needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:\n• ICU air ambulance\n• Stretcher flight\n• Commercial medical escort (when clinically suitable)\n\nIncluding island transfer planning (often via Bangkok) to a hospital in Israel.\nYou can also just ask what fits — no obligation.\n\n📞 +972-79-670-9999\n💬 WhatsApp: 053-232-1101\n🌐 https://ambulancenter.com\n\n#Phuket #KohSamui #KohPhangan #MedicalFlight #Thailand"
     },
     {
       "id": "th-general-he-en",
