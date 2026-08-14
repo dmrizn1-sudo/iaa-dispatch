@@ -32,6 +32,10 @@ function ensureDirs() {
 }
 
 function bilingualBlock(post) {
+  const order = post.preferLanguageOrder || ["en", "he"];
+  if (order[0] === "he") {
+    return `${post.he}\n\n────────\n\n${post.en}\n`;
+  }
   return `${post.en}\n\n────────\n\n${post.he}\n`;
 }
 
@@ -419,7 +423,9 @@ function buildDeskHtml(campaign, tracker) {
         const a = g.audit || {};
         const rec = (a.recommendedPostIds || []).map(id => postsById[id]).filter(Boolean);
         const postsHtml = rec.map(p => {
-          const text = bilingual(p);
+          const text = (p.preferLanguageOrder && p.preferLanguageOrder[0] === 'he')
+              ? (p.he + "\\n\\n────────\\n\\n" + p.en)
+              : bilingual(p);
           return \`
             <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.06)">
               <div class="meta">\${p.titleHe} · <code>\${p.id}</code></div>

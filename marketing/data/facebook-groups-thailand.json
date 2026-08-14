@@ -66,6 +66,28 @@
   ],
   "groups": [
     {
+      "id": "th-lametayelim",
+      "nameHe": "תאילנד למטיילים",
+      "nameEn": "Thailand for Travelers",
+      "destinationIds": ["thailand", "bangkok", "samui", "pattaya"],
+      "approxMembers": 89200,
+      "privacy": "public",
+      "searchQuery": "תאילנד למטיילים",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%9E%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%9D",
+      "verifiedFromOwnerScreenshot": true,
+      "postingPolicyHint": "Active Israeli traveler Q&A (Samui drivers, Bangkok hotels, etc.). Soft community-service tone — not a hard ad.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "joined",
+        "allowsPagePosts": "yes",
+        "commercialPosts": "soft_ok_community_tone",
+        "canPublishLikely": "yes",
+        "publishMethod": "manual_as_page",
+        "recommendedPostIds": ["th-lametayelim-he-en", "th-general-he-en", "samui-he-en", "bangkok-he-en", "pattaya-he-en"],
+        "notesHe": "אומת מצילום מסך של הבעלים: קבוצה ציבורית ~89.2K, הדף Israel Air Ambulance כבר יכול לכתוב פוסט בקבוצה. פרסום ראשון מומלץ: th-lametayelim-he-en."
+      }
+    },
+    {
       "id": "th-families",
       "nameHe": "תאילנד למשפחות",
       "nameEn": "Thailand for Families",
@@ -252,6 +274,18 @@
     }
   ],
   "posts": [
+    {
+      "id": "th-lametayelim-he-en",
+      "destinations": ["thailand", "samui", "pattaya", "bangkok"],
+      "tone": "community_service_for_lametayelim",
+      "titleHe": "תאילנד למטיילים — טיסה רפואית לישראל",
+      "titleEn": "Thailand for Travelers — medical flight to Israel",
+      "imageTheme": "air-ambulance-inflight",
+      "forGroupId": "th-lametayelim",
+      "he": "שלום לקהילת תאילנד למטיילים 🙏\n\nרוב הפוסטים כאן על מלונות, נהגים וטיולים — וזה מעולה.\nאנחנו כאן למקרה פחות נעים אבל חשוב:\n\nאם מטייל/ת או בן משפחה בתאילנד (בנגקוק · קוסמוי · פטאיה ועוד) צריך חזרה רפואית לישראל — ישראל אייר אמבולנס מתאמת 24/7:\n• אמבולנס אווירי / ICU\n• טיסת אלונקה\n• ליווי רפואי בטיסה מסחרית (כשהמצב מאפשר)\n\nמיטה בבית החולים בתאילנד → מיטה בישראל.\nאפשר גם רק לשאול מה מתאים — בלי התחייבות.\n\n📞 +972-79-670-9999\n💬 וואטסאפ: 053-232-1101\n🌐 https://ambulancenter.com\n\n#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית",
+      "en": "Hello Thailand-for-Travelers community 🙏\n\nMost posts here are about hotels, drivers and trips — great.\nWe are here for the less pleasant but important case:\n\nIf a traveler or family member in Thailand (Bangkok · Koh Samui · Pattaya and more) needs medical repatriation to Israel — Israel Air Ambulance coordinates 24/7:\n• ICU air ambulance\n• Stretcher flight\n• Commercial medical escort (when clinically suitable)\n\nBedside in Thailand → bedside in Israel.\nYou can also just ask what fits clinically — no obligation.\n\n📞 +972-79-670-9999\n💬 WhatsApp: 053-232-1101\n🌐 https://ambulancenter.com\n\n#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight",
+      "preferLanguageOrder": ["he", "en"]
+    },
     {
       "id": "th-general-he-en",
       "destinations": ["thailand"],
