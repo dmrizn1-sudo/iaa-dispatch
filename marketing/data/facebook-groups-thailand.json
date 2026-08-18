@@ -1,0 +1,687 @@
+{
+  "version": 1,
+  "campaignId": "th-il-medical-flights-groups-2026",
+  "createdAt": "2026-08-14T09:20:00.000Z",
+  "brand": "Israel Air Ambulance",
+  "page": {
+    "name": "Israel air&ambulance",
+    "pageId": "111799957012811",
+    "url": "https://www.facebook.com/IsraelAirAmbulance"
+  },
+  "objective": "Reach Israeli travelers in Thailand (nationwide + Koh Samui + Pattaya + Bangkok) with bilingual medical-flight / repatriation-to-Israel posts in Facebook groups — not only the brand Page.",
+  "apiReality": {
+    "groupsApi": "deprecated",
+    "deprecatedSince": "2024-04-22",
+    "permissionRemoved": "publish_to_groups",
+    "autoPublishPossible": false,
+    "supportedMethods": [
+      "manual_post_as_page_if_group_allows_pages",
+      "manual_post_as_personal_profile_member",
+      "page_feed_post_with_group_mention_when_autocomplete_allows",
+      "ask_group_admin_for_approved_service_post"
+    ],
+    "noteHe": "Meta ביטלה את Groups API באפריל 2024. אי אפשר לפרסם אוטומטית לקבוצות דרך Graph API. הקמפיין הזה מכין תוכן + ביקורת + שולחן הדבקה ידני לכל קבוצה שניתן לפרסם בה."
+  },
+  "contacts": {
+    "phoneLocal": "079-6709999",
+    "phoneIntl": "+972-79-670-9999",
+    "whatsappLocal": "053-232-1101",
+    "whatsappIntl": "+972-53-232-1101",
+    "website": "https://ambulancenter.com",
+    "email": "david@israelairambulance.com",
+    "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+    "whatsappLinkPlain": "https://wa.me/972532321101"
+  },
+  "destinations": [
+    {
+      "id": "thailand",
+      "nameHe": "תאילנד — מטיילים ישראלים",
+      "nameEn": "Thailand — Israeli travelers",
+      "focus": "countrywide medical flight / repatriation to Israel",
+      "tagsHe": [
+        "#תאילנד",
+        "#ישראליםבתאילנד",
+        "#טיסהרפואית",
+        "#החזרהלארץ"
+      ],
+      "tagsEn": [
+        "#Thailand",
+        "#IsraelisInThailand",
+        "#MedicalFlight",
+        "#AirAmbulance"
+      ]
+    },
+    {
+      "id": "samui",
+      "nameHe": "קוסמוי / קו סמוי",
+      "nameEn": "Koh Samui",
+      "focus": "island medical evacuation → Bangkok hub → Israel",
+      "tagsHe": [
+        "#קוסמוי",
+        "#קוסמויישראלים",
+        "#טיסהרפואית"
+      ],
+      "tagsEn": [
+        "#KohSamui",
+        "#Samui",
+        "#MedicalRepatriation"
+      ]
+    },
+    {
+      "id": "pattaya",
+      "nameHe": "פטאיה / פאטאיה",
+      "nameEn": "Pattaya",
+      "focus": "urgent transfer from Pattaya hospitals to Israel",
+      "tagsHe": [
+        "#פטאיה",
+        "#פאטאיה",
+        "#ישראליםבפטאיה"
+      ],
+      "tagsEn": [
+        "#Pattaya",
+        "#MedicalFlight",
+        "#Israel"
+      ]
+    },
+    {
+      "id": "bangkok",
+      "nameHe": "בנגקוק",
+      "nameEn": "Bangkok",
+      "focus": "BKK hub: ICU air ambulance / stretcher / medical escort to Israel",
+      "tagsHe": [
+        "#בנגקוק",
+        "#ישראליםבבנגקוק",
+        "#טיסהרפואיתלישראל"
+      ],
+      "tagsEn": [
+        "#Bangkok",
+        "#BKK",
+        "#AirAmbulanceToIsrael"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "th-lametayelim",
+      "nameHe": "תאילנד למטיילים",
+      "nameEn": "Thailand for Travelers",
+      "destinationIds": [
+        "thailand",
+        "bangkok",
+        "samui",
+        "pattaya"
+      ],
+      "approxMembers": 89200,
+      "privacy": "public",
+      "searchQuery": "תאילנד למטיילים",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%9E%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%9D",
+      "verifiedFromOwnerScreenshot": true,
+      "postingPolicyHint": "Active Israeli traveler Q&A (Samui drivers, Bangkok hotels, etc.). Soft community-service tone — not a hard ad.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "joined",
+        "allowsPagePosts": "yes",
+        "commercialPosts": "soft_ok_community_tone",
+        "canPublishLikely": "yes",
+        "publishMethod": "manual_as_page",
+        "recommendedPostIds": [
+          "th-lametayelim-he-en",
+          "th-general-he-en",
+          "samui-he-en",
+          "bangkok-he-en",
+          "pattaya-he-en"
+        ],
+        "notesHe": "אומת מצילום מסך של הבעלים: קבוצה ציבורית ~89.2K, הדף Israel Air Ambulance כבר יכול לכתוב פוסט בקבוצה. פרסום ראשון מומלץ: th-lametayelim-he-en."
+      }
+    },
+    {
+      "id": "th-phuket-samui-phangan",
+      "nameHe": "תאילנד - פוקט, קוסמוי, קופנגן",
+      "nameEn": "Thailand — Phuket, Koh Samui, Koh Phangan",
+      "destinationIds": [
+        "thailand",
+        "samui"
+      ],
+      "approxMembers": 139300,
+      "privacy": "public",
+      "searchQuery": "תאילנד פוקט קוסמוי קופנגן",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F",
+      "verifiedFromOwnerScreenshot": true,
+      "postingPolicyHint": "Large islands traveler group (Phuket/Samui/Phangan logistics). Soft emergency medical-repatriation tone.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "joined",
+        "allowsPagePosts": "yes",
+        "commercialPosts": "soft_ok_community_tone",
+        "canPublishLikely": "yes",
+        "publishMethod": "manual_as_page",
+        "recommendedPostIds": [
+          "th-islands-phuket-samui-he-en",
+          "samui-he-en",
+          "th-general-he-en"
+        ],
+        "notesHe": "אומת מצילום מסך: קבוצה ציבורית ~139.3K, הדף Israel Air Ambulance יכול לכתוב פוסט. דגש: פוקט/קוסמוי/קופנגן."
+      }
+    },
+    {
+      "id": "th-families",
+      "nameHe": "תאילנד למשפחות",
+      "nameEn": "Thailand for Families",
+      "destinationIds": [
+        "thailand",
+        "bangkok",
+        "samui",
+        "pattaya"
+      ],
+      "approxMembers": 105100,
+      "searchQuery": "תאילנד למשפחות",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA",
+      "knownManagedBy": "FunSiam community (public claim on funsiam.com)",
+      "postingPolicyHint": "Community Q&A for families; hard ads often rejected. Prefer helpful emergency/repatriation framing + ask admins if unsure.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "ask_admin",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "th-general-he-en",
+          "th-families-he-en"
+        ],
+        "notesHe": "קהילה גדולה למשפחות. לבדוק כללי קבוצה לפני פרסום; אם יש איסור פרסום מסחרי — לבקש אישור אדמין או לפרסם כמידע חירום רפואי בלבד."
+      }
+    },
+    {
+      "id": "th-qa",
+      "nameHe": "תאילנד - שאלות ותשובות",
+      "nameEn": "Thailand — Q&A",
+      "destinationIds": [
+        "thailand",
+        "bangkok",
+        "samui",
+        "pattaya"
+      ],
+      "approxMembers": 84700,
+      "searchQuery": "תאילנד שאלות ותשובות",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%20%D7%95%D7%AA%D7%A9%D7%95%D7%91%D7%95%D7%AA",
+      "knownManagedBy": "FunSiam community (public claim on funsiam.com)",
+      "postingPolicyHint": "High-volume Q&A; service posts may need soft tone or admin approval.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "ask_admin",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "th-general-he-en",
+          "th-qa-he-en"
+        ],
+        "notesHe": "קבוצת שאלות-תשובות פעילה. מתאים לפוסט שירות חירום (טיסה רפואית הביתה) יותר מאשר מודעה שיווקית."
+      }
+    },
+    {
+      "id": "israelis-thailand",
+      "nameHe": "ישראלים בתאילנד",
+      "nameEn": "Israelis in Thailand",
+      "destinationIds": [
+        "thailand"
+      ],
+      "approxMembers": null,
+      "searchQuery": "ישראלים בתאילנד",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93",
+      "postingPolicyHint": "General Israeli community in Thailand; multiple similarly named groups — join the largest active ones.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "th-general-he-en"
+        ],
+        "notesHe": "לחפש כמה קבוצות בשם דומה, להצטרף לפעילות ביותר, לבדוק כללים, ואז להדביק את הפוסט הכללי."
+      }
+    },
+    {
+      "id": "israelis-samui",
+      "nameHe": "ישראלים בקוסמוי / קו סמוי",
+      "nameEn": "Israelis in Koh Samui",
+      "destinationIds": [
+        "samui"
+      ],
+      "approxMembers": null,
+      "searchQuery": "ישראלים בקוסמוי",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99",
+      "altSearchQueries": [
+        "ישראלים בקו סמוי",
+        "Koh Samui Israelis",
+        "קוסמוי ישראלים"
+      ],
+      "postingPolicyHint": "Island traveler / expat group — localize to Samui hospital → BKK → Israel pathway.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "samui-he-en"
+        ],
+        "notesHe": "דגש על פינוי רפואי מהאי דרך בנגקוק לישראל. פוסט ייעודי לקוסמוי."
+      }
+    },
+    {
+      "id": "israelis-pattaya",
+      "nameHe": "ישראלים בפטאיה / פאטאיה",
+      "nameEn": "Israelis in Pattaya",
+      "destinationIds": [
+        "pattaya"
+      ],
+      "approxMembers": null,
+      "searchQuery": "ישראלים בפטאיה",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%A4%D7%98%D7%90%D7%99%D7%94",
+      "altSearchQueries": [
+        "ישראלים בפאטאיה",
+        "Pattaya Israelis",
+        "פטאיה ישראלים"
+      ],
+      "postingPolicyHint": "Local Israeli traveler group — keep short, emergency-first tone.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "pattaya-he-en"
+        ],
+        "notesHe": "פוסט ייעודי לפטאיה: העברה רפואית / טיסה רפואית לישראל."
+      }
+    },
+    {
+      "id": "israelis-bangkok",
+      "nameHe": "ישראלים בבנגקוק",
+      "nameEn": "Israelis in Bangkok",
+      "destinationIds": [
+        "bangkok"
+      ],
+      "approxMembers": null,
+      "searchQuery": "ישראלים בבנגקוק",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7",
+      "altSearchQueries": [
+        "Bangkok Israelis",
+        "בנגקוק ישראלים"
+      ],
+      "postingPolicyHint": "BKK hub community — strongest fit for ICU / stretcher / escort flights.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "bangkok-he-en"
+        ],
+        "notesHe": "בנגקוק = צומת מרכזי לטיסות רפואיות לישראל. להשתמש בפוסט BKK."
+      }
+    },
+    {
+      "id": "th-israelis-islands",
+      "nameHe": "תאילנד לישראלים (פוקט / פאטיה / קו-סמוי)",
+      "nameEn": "Thailand for Israelis (Phuket / Pattaya / Samui)",
+      "destinationIds": [
+        "thailand",
+        "samui",
+        "pattaya"
+      ],
+      "approxMembers": null,
+      "searchQuery": "תאילנד לישראלים פוקט פאטיה קוסמוי",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D",
+      "postingPolicyHint": "Multi-destination Israeli traveler group — rotate Samui/Pattaya/general creatives.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "th-general-he-en",
+          "samui-he-en",
+          "pattaya-he-en"
+        ],
+        "notesHe": "קבוצה רב-יעדית — אפשר לסובב בין פוסט כללי / קוסמוי / פטאיה."
+      }
+    },
+    {
+      "id": "israelis-phuket",
+      "nameHe": "ישראלים בפוקט",
+      "nameEn": "Israelis in Phuket",
+      "destinationIds": [
+        "thailand"
+      ],
+      "approxMembers": null,
+      "searchQuery": "ישראלים בפוקט",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%9D%20%D7%91%D7%A4%D7%95%D7%A7%D7%98",
+      "postingPolicyHint": "Adjacent high-traffic Israeli Thailand destination; use general Thailand creative.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unknown",
+        "commercialPosts": "unknown",
+        "canPublishLikely": "maybe",
+        "publishMethod": "manual_as_profile_or_page",
+        "recommendedPostIds": [
+          "th-general-he-en"
+        ],
+        "notesHe": "יעד משלים (לא ברשימת הדגש שלך, אבל תעבורה ישראלית גבוהה). פוסט כללי תאילנד."
+      }
+    },
+    {
+      "id": "mizrahnik-style",
+      "nameHe": "קבוצות מזרח / תרמילאים (מזרחניק וכדומה)",
+      "nameEn": "East-Asia backpacker groups (Mizrahnik-style)",
+      "destinationIds": [
+        "thailand"
+      ],
+      "approxMembers": null,
+      "searchQuery": "מזרחניק תאילנד",
+      "searchUrl": "https://www.facebook.com/search/groups/?q=%D7%9E%D7%96%D7%A8%D7%97%D7%A0%D7%99%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93",
+      "postingPolicyHint": "Often explicitly no-agents / no-commercial. Do NOT spam. Only post if rules allow emergency medical help posts; otherwise skip.",
+      "audit": {
+        "checkedAt": "2026-08-14",
+        "joinStatus": "needs_join",
+        "allowsPagePosts": "unlikely",
+        "commercialPosts": "likely_banned",
+        "canPublishLikely": "no_unless_emergency_framing_allowed",
+        "publishMethod": "skip_or_ask_admin",
+        "recommendedPostIds": [
+          "th-emergency-only-he-en"
+        ],
+        "notesHe": "סיכון גבוה לדחייה/חסימה. רק אם הכללים מאפשרים מידע חירום רפואי — ואז להשתמש בגרסת emergency-only."
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": "th-lametayelim-he-en",
+      "destinations": [
+        "thailand",
+        "samui",
+        "pattaya",
+        "bangkok"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "תאילנד למטיילים — הטסה רפואית לישראל",
+      "titleEn": "Thailand for Travelers — medical flight to Israel",
+      "forGroupId": "th-lametayelim",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "שלום לקהילת תאילנד למטיילים 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#תאילנדלמטיילים #קוסמוי #פטאיה #בנגקוק #טיסהרפואית #הטסהרפואית",
+      "en": "Hello Thailand-for-Travelers community 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#ThailandTravelers #KohSamui #Pattaya #Bangkok #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "th-islands-phuket-samui-he-en",
+      "destinations": [
+        "thailand",
+        "samui"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "פוקט / קוסמוי / קופנגן — הטסה רפואית לישראל",
+      "titleEn": "Phuket / Samui / Phangan — medical flight to Israel",
+      "forGroupId": "th-phuket-samui-phangan",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "שלום לקהילת פוקט · קוסמוי · קופנגן 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#פוקט #קוסמוי #קופנגן #טיסהרפואית #הטסהרפואית #תאילנד",
+      "en": "Hello Phuket · Koh Samui · Koh Phangan community 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Phuket #KohSamui #KohPhangan #MedicalFlight #AirAmbulance #Thailand",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "th-general-he-en",
+      "destinations": [
+        "thailand"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "הטסה רפואית מתאילנד לישראל",
+      "titleEn": "Medical flight from Thailand to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "שלום לכולם 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#תאילנד #ישראליםבתאילנד #טיסהרפואית #הטסהרפואית #החזרהלארץ",
+      "en": "Hello everyone 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Thailand #IsraelisInThailand #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "th-families-he-en",
+      "destinations": [
+        "thailand"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "למשפחות — הטסה רפואית הביתה",
+      "titleEn": "For families — medical flight home",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "להורים ולמשפחות בתאילנד 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#תאילנדלמשפחות #טיסהרפואית #הטסהרפואית",
+      "en": "For parents and families in Thailand 🙏\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#ThailandFamilies #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "th-qa-he-en",
+      "destinations": [
+        "thailand"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "אין ביטוח / לא מכסה — הטסה רפואית לישראל",
+      "titleEn": "No insurance / not covered — medical flight to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "שאלה שחוזרת הרבה:\n״אין ביטוח / הביטוח לא מכסה — איך מחזירים לישראל?״\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#תאילנד #טיסהרפואית #הטסהרפואית",
+      "en": "A question we see often:\n“No insurance / insurance won’t cover — how do we get home to Israel?”\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Thailand #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "samui-he-en",
+      "destinations": [
+        "samui"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "קוסמוי — הטסה רפואית לישראל",
+      "titleEn": "Koh Samui — medical flight to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "ישראלים בקוסמוי / קו סמוי 🏝️\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#קוסמוי #תאילנד #טיסהרפואית #הטסהרפואית #ישראליםבקוסמוי",
+      "en": "Israelis in Koh Samui 🏝️\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#KohSamui #Thailand #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "pattaya-he-en",
+      "destinations": [
+        "pattaya"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "פטאיה — הטסה רפואית לישראל",
+      "titleEn": "Pattaya — medical flight to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "ישראלים בפטאיה / פאטאיה\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#פטאיה #פאטאיה #תאילנד #טיסהרפואית #הטסהרפואית",
+      "en": "Israelis in Pattaya\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Pattaya #Thailand #MedicalFlight #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "bangkok-he-en",
+      "destinations": [
+        "bangkok"
+      ],
+      "tone": "insurance_gap_medical_flight",
+      "titleHe": "בנגקוק — הטסה רפואית לישראל",
+      "titleEn": "Bangkok — medical flight to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "ישראלים בבנגקוק\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#בנגקוק #טיסהרפואיתלישראל #הטסהרפואית #ישראליםבבנגקוק",
+      "en": "Israelis in Bangkok\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Bangkok #MedicalFlightToIsrael #AirAmbulance",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "th-emergency-only-he-en",
+      "destinations": [
+        "thailand"
+      ],
+      "tone": "emergency_only_no_promo",
+      "titleHe": "מידע חירום — הטסה רפואית לישראל",
+      "titleEn": "Emergency info — medical flight to Israel",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "מידע לשעת חירום:\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית לישראל?\nאין ביטוח / הביטוח לא מכסה?\n\nצוות רופאים ופראמדיקים מישראל · ציוד רפואי מאושר להטסה · 24/7\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\nאם הכללים אוסרים פרסום שירותים — האדמינים מוזמנים למחוק; המטרה עזרה רפואית.",
+      "en": "Emergency information:\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight to Israel?\nNo insurance / not covered?\n\nIsraeli doctors & paramedics · aviation-approved equipment · 24/7\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\nIf group rules forbid service posts, admins may remove — medical help only.",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+      "id": "page-tag-thailand-he-en",
+      "destinations": [
+        "thailand",
+        "samui",
+        "pattaya",
+        "bangkok"
+      ],
+      "tone": "page_feed_with_group_tags",
+      "titleHe": "פוסט לדף — הטסה רפואית + תיוג קבוצות",
+      "titleEn": "Page post — medical flight + group tags",
+      "imageTheme": "ambulance-jet-handoff",
+      "imageUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "imageLocal": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "preferLanguageOrder": [
+        "he",
+        "en"
+      ],
+      "he": "הטסה רפואית מתאילנד לישראל 🇹🇭✈️🇮🇱\n\n🇮🇱 Israel Air & Ambulance\n\nזקוקים להטסה רפואית חזרה לישראל?\n\nאין לכם ביטוח רפואי?\nהביטוח לא מכסה הטסה רפואית?\n\nאנחנו כאן לעזור.\n\nהטסה רפואית מקצועית עם:\n• צוות רופאים ופראמדיקים מישראל\n• ציוד רפואי מאושר להטסה\n• ליווי מקצועי מהאמבולנס ועד המטוס — וחזרה לישראל\n\nזמינים 24/7.\n\n📞 +972-79-670-9999\n💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#תאילנד #קוסמוי #פטאיה #בנגקוק #טיסהרפואית\n\nבעריכת הפוסט בדף: כתבו @ ואז שם הקבוצה ובחרו מההשלמה. צרפו לוגו + תמונת מטוס/אמבולנס.",
+      "en": "Medical flight from Thailand to Israel 🇹🇭✈️🇮🇱\n\n🇮🇱 Israel Air & Ambulance\n\nNeed a medical flight back to Israel?\n\nNo medical insurance?\nInsurance does not cover a medical flight?\n\nWe are here to help.\n\nProfessional medical flight with:\n• Israeli doctors and paramedics\n• Aviation-approved medical equipment\n• Professional care from ambulance to aircraft — home to Israel\n\nAvailable 24/7.\n\n📞 +972-79-670-9999\n💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C\n🌐 https://ambulancenter.com\n\n#Thailand #KohSamui #Pattaya #Bangkok #MedicalFlight\n\nWhen composing on the Page: type @ then the group name. Attach logo + ambulance/jet photo.",
+      "logoUrl": "https://ambulancenter.com/logo.png",
+      "logoLocal": "marketing/assets/brand/logo-square-800.png",
+      "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    }
+  ],
+  "publishQueue": [],
+  "compliance": {
+    "rulesHe": [
+      "לקרוא את כללי כל קבוצה לפני פרסום",
+      "לא לשלוח ספאם ולא לפרסם באותה קבוצה יותר מפעם בשבוע (אלא אם האדמין אישר)",
+      "להעדיף ניסוח שירות חירום רפואי על פני מודעה שיווקית",
+      "אם הקבוצה אוסרת פרסום מסחרי — לבקש אישור אדמין או לדלג",
+      "תיוג קבוצות (@) עובד רק כשפייסבוק מציע את הקבוצה בהשלמה האוטומטית",
+      "אין API לפרסום אוטומטי לקבוצות מאז אפריל 2024"
+    ]
+  },
+  "defaultHeroImage": {
+    "id": "ambulance-jet-handoff",
+    "file": "ambulance-jet-handoff.jpg",
+    "localPath": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+    "publicUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+    "altHe": "אמבולנס ומטוס רפואי — העברת מטופל להטסה",
+    "altEn": "Ambulance and medical jet — patient handoff for medical flight"
+  },
+  "messageFramework": {
+    "he": [
+      "סמל + לוגו של Israel Air & Ambulance",
+      "תמונה: מטוס + אמבולנס",
+      "זקוקים להטסה רפואית",
+      "אין ביטוח רפואי / הביטוח לא מכסה",
+      "אנחנו כאן לעזור",
+      "צוות רופאים ופראמדיקים מישראל",
+      "ציוד רפואי מאושר להטסה",
+      "קישור וואטסאפ ישיר",
+      "הטסה רפואית חזרה לישראל"
+    ],
+    "heroImage": "ambulance-jet-handoff",
+    "logo": "https://ambulancenter.com/logo.png",
+    "whatsappLink": "https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+  },
+  "brandAssets": {
+    "logo": {
+      "localPath": "marketing/assets/brand/logo-square-800.png",
+      "fullLocalPath": "marketing/assets/brand/logo.png",
+      "publicUrl": "https://ambulancenter.com/logo.png",
+      "facebookAvatarLocal": "marketing/assets/brand/facebook-page-avatar.jpg",
+      "altHe": "סמל ולוגו — Israel Air & Ambulance",
+      "altEn": "Israel Air & Ambulance logo"
+    },
+    "heroPostImage": {
+      "localPath": "marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "publicUrl": "https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg",
+      "altHe": "אמבולנס ומטוס רפואי"
+    },
+    "attachOrderHe": [
+      "1) סמל/לוגו של Israel Air & Ambulance",
+      "2) תמונת מטוס + אמבולנס",
+      "3) טקסט עם קישור וואטסאפ"
+    ]
+  }
+}

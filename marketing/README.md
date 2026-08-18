@@ -54,6 +54,9 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 | File | Purpose |
 |------|---------|
 | [facebook/AUTO-90D-HE.md](facebook/AUTO-90D-HE.md) | **90-day auto-publish** — 2 air + 2 ground + 1 Reel/day · token push alerts |
+| [facebook/groups/THAILAND-GROUPS-HE.md](facebook/groups/THAILAND-GROUPS-HE.md) | **Thailand traveler groups campaign** — Samui / Pattaya / Bangkok · HE+EN · manual group desk |
+| [facebook/groups/desk.html](facebook/groups/desk.html) | Copy-paste desk for group posts (Meta Groups API deprecated) |
+| [data/facebook-groups-thailand.json](data/facebook-groups-thailand.json) | Group audit + bilingual creatives + publish tracker source |
 | [social/90-day-content-calendar.md](social/90-day-content-calendar.md) | 90-day multi-platform calendar |
 | [social/weekly-posting-strategy.md](social/weekly-posting-strategy.md) | Weekly cadence + approval workflow |
 | [social/monthly-growth-strategy.md](social/monthly-growth-strategy.md) | Monthly growth scorecard |

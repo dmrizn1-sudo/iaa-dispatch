@@ -1,0 +1,75 @@
+# Emergency info — medical flight to Israel / מידע חירום — הטסה רפואית לישראל
+# id: th-emergency-only-he-en
+# tone: emergency_only_no_promo
+# destinations: thailand
+# contacts: +972-79-670-9999 · WhatsApp 053-232-1101
+# LOGO (attach brand mark): marketing/assets/brand/logo-square-800.png
+# LOGO URL: https://ambulancenter.com/logo.png
+# IMAGE (attach plane+ambulance): marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# IMAGE URL: https://raw.githubusercontent.com/dmrizn1-sudo/iaa-dispatch/cursor/israel-air-ambulance-marketing-a915/marketing/assets/ai-images/ambulance-jet-handoff.jpg
+# WHATSAPP LINK: https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
+
+=== ENGLISH ===
+Emergency information:
+
+🇮🇱 Israel Air & Ambulance
+
+Need a medical flight to Israel?
+No insurance / not covered?
+
+Israeli doctors & paramedics · aviation-approved equipment · 24/7
+
+📞 +972-79-670-9999
+💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
+🌐 https://ambulancenter.com
+
+If group rules forbid service posts, admins may remove — medical help only.
+
+=== עברית ===
+מידע לשעת חירום:
+
+🇮🇱 Israel Air & Ambulance
+
+זקוקים להטסה רפואית לישראל?
+אין ביטוח / הביטוח לא מכסה?
+
+צוות רופאים ופראמדיקים מישראל · ציוד רפואי מאושר להטסה · 24/7
+
+📞 +972-79-670-9999
+💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
+🌐 https://ambulancenter.com
+
+אם הכללים אוסרים פרסום שירותים — האדמינים מוזמנים למחוק; המטרה עזרה רפואית.
+
+=== BILINGUAL (HE then EN) — מומלץ לקבוצות בעברית ===
+מידע לשעת חירום:
+
+🇮🇱 Israel Air & Ambulance
+
+זקוקים להטסה רפואית לישראל?
+אין ביטוח / הביטוח לא מכסה?
+
+צוות רופאים ופראמדיקים מישראל · ציוד רפואי מאושר להטסה · 24/7
+
+📞 +972-79-670-9999
+💬 וואטסאפ (לחצו): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
+🌐 https://ambulancenter.com
+
+אם הכללים אוסרים פרסום שירותים — האדמינים מוזמנים למחוק; המטרה עזרה רפואית.
+
+────────
+
+Emergency information:
+
+🇮🇱 Israel Air & Ambulance
+
+Need a medical flight to Israel?
+No insurance / not covered?
+
+Israeli doctors & paramedics · aviation-approved equipment · 24/7
+
+📞 +972-79-670-9999
+💬 WhatsApp (tap): https://wa.me/972532321101?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%94%D7%98%D7%A1%D7%94%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA%20%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C
+🌐 https://ambulancenter.com
+
+If group rules forbid service posts, admins may remove — medical help only.

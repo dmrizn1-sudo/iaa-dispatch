@@ -10,6 +10,22 @@
 
 ---
 
+## פרסום גם לקבוצות (תאילנד מטיילים)
+
+Meta **ביטלה** את Groups API — אין פרסום אוטומטי לקבוצות.  
+קמפיין ידני מוכן (קוסמוי / פטאיה / בנגקוק + כללי):
+
+- [groups/THAILAND-GROUPS-HE.md](./groups/THAILAND-GROUPS-HE.md)
+- שולחן העתקה: [groups/desk.html](./groups/desk.html)
+- מקור נתונים: `marketing/data/facebook-groups-thailand.json`
+
+```bash
+npm run marketing:thailand-groups
+npm run marketing:thailand-groups-audit
+```
+
+---
+
 ## דרך 1 — System User בתיק העסקי (מומלץ)
 
 זו הדרך הנכונה לעסקים. לא צריך Graph API Explorer.
