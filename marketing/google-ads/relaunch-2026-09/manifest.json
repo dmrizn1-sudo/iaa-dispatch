@@ -1,0 +1,30 @@
+{
+  "createdAt": "2026-09-09",
+  "softLaunchCampaigns": 8,
+  "keywordRows": 991,
+  "keywordsByCampaign": {
+    "to-israel": 814,
+    "from-israel": 65,
+    "medical-repatriation": 20,
+    "icu-air-ambulance": 20,
+    "emergency-medical-flight": 20,
+    "fly-patient-home": 24,
+    "emergency-patient-return": 20
+  },
+  "brandKeywords": 8,
+  "negativeRows": 172,
+  "priorityGeos": [
+    "US",
+    "CA",
+    "GB",
+    "FR",
+    "DE",
+    "CH",
+    "IT",
+    "GR",
+    "CY",
+    "AE",
+    "TH"
+  ],
+  "note": "Soft launch = P0 Search campaigns + Brand. Exact+Phrase only. Homepage URL until dedicated LPs live."
+}

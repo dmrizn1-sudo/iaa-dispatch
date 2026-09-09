@@ -1,0 +1,173 @@
+negative_keyword,match_type,level,category
+job,Phrase,Account,waste_reduction
+jobs,Phrase,Account,waste_reduction
+career,Phrase,Account,waste_reduction
+careers,Phrase,Account,waste_reduction
+hiring,Phrase,Account,waste_reduction
+salary,Phrase,Account,waste_reduction
+salaries,Phrase,Account,waste_reduction
+wage,Phrase,Account,waste_reduction
+wages,Phrase,Account,waste_reduction
+vacancy,Phrase,Account,waste_reduction
+vacancies,Phrase,Account,waste_reduction
+recruitment,Phrase,Account,waste_reduction
+resume,Phrase,Account,waste_reduction
+cv,Phrase,Account,waste_reduction
+indeed,Phrase,Account,waste_reduction
+glassdoor,Phrase,Account,waste_reduction
+linkedin jobs,Phrase,Account,waste_reduction
+apply now,Phrase,Account,waste_reduction
+job application,Phrase,Account,waste_reduction
+employment,Phrase,Account,waste_reduction
+work from home ems,Phrase,Account,waste_reduction
+paramedic jobs,Phrase,Account,waste_reduction
+flight nurse jobs,Phrase,Account,waste_reduction
+emt jobs,Phrase,Account,waste_reduction
+ambulance jobs israel,Phrase,Account,waste_reduction
+course,Phrase,Account,waste_reduction
+courses,Phrase,Account,waste_reduction
+training,Phrase,Account,waste_reduction
+school,Phrase,Account,waste_reduction
+schools,Phrase,Account,waste_reduction
+college,Phrase,Account,waste_reduction
+university,Phrase,Account,waste_reduction
+degree,Phrase,Account,waste_reduction
+certificate,Phrase,Account,waste_reduction
+certification,Phrase,Account,waste_reduction
+emt school,Phrase,Account,waste_reduction
+paramedic school,Phrase,Account,waste_reduction
+paramedic course,Phrase,Account,waste_reduction
+emt course,Phrase,Account,waste_reduction
+flight nurse course,Phrase,Account,waste_reduction
+how to become,Phrase,Account,waste_reduction
+volunteer,Phrase,Account,waste_reduction
+volunteering,Phrase,Account,waste_reduction
+internship,Phrase,Account,waste_reduction
+intern,Phrase,Account,waste_reduction
+academy,Phrase,Account,waste_reduction
+syllabus,Phrase,Account,waste_reduction
+online course,Phrase,Account,waste_reduction
+study paramedic,Phrase,Account,waste_reduction
+emt certification,Phrase,Account,waste_reduction
+bls course,Phrase,Account,waste_reduction
+acls course,Phrase,Account,waste_reduction
+free,Phrase,Account,waste_reduction
+cheap,Phrase,Account,waste_reduction
+diy,Phrase,Account,waste_reduction
+template,Phrase,Account,waste_reduction
+pdf,Phrase,Account,waste_reduction
+download,Phrase,Account,waste_reduction
+wiki,Phrase,Account,waste_reduction
+wikipedia,Phrase,Account,waste_reduction
+low cost,Phrase,Account,waste_reduction
+discount,Phrase,Account,waste_reduction
+coupon,Phrase,Account,waste_reduction
+promo code,Phrase,Account,waste_reduction
+cheapest,Phrase,Account,waste_reduction
+insurance claim,Phrase,Account,waste_reduction
+insurance claims,Phrase,Account,waste_reduction
+claim form,Phrase,Account,waste_reduction
+reimbursement form,Phrase,Account,waste_reduction
+medicare,Phrase,Account,waste_reduction
+medicaid,Phrase,Account,waste_reduction
+nhs claim,Phrase,Account,waste_reduction
+insurance company,Phrase,Account,waste_reduction
+policy number,Phrase,Account,waste_reduction
+workers compensation,Phrase,Account,waste_reduction
+workmans compensation,Phrase,Account,waste_reduction
+hmo claim,Phrase,Account,waste_reduction
+911,Phrase,Account,waste_reduction
+999,Phrase,Account,waste_reduction
+112,Phrase,Account,waste_reduction
+mda,Phrase,Account,waste_reduction
+magen david adom,Phrase,Account,waste_reduction
+local ambulance,Phrase,Account,waste_reduction
+ambulance driver,Phrase,Account,waste_reduction
+ambulance drivers,Phrase,Account,waste_reduction
+ground ambulance near me,Phrase,Account,waste_reduction
+call ambulance,Phrase,Account,waste_reduction
+ambulance service near me,Phrase,Account,waste_reduction
+municipal ambulance,Phrase,Account,waste_reduction
+government ambulance,Phrase,Account,waste_reduction
+public ambulance,Phrase,Account,waste_reduction
+regular ambulance,Phrase,Account,waste_reduction
+fire department ambulance,Phrase,Account,waste_reduction
+ems job,Phrase,Account,waste_reduction
+ems jobs,Phrase,Account,waste_reduction
+near me ambulance,Phrase,Account,waste_reduction
+wheelchair transport,Phrase,Account,waste_reduction
+wheelchair van,Phrase,Account,waste_reduction
+non emergency transport,Phrase,Account,waste_reduction
+taxi,Phrase,Account,waste_reduction
+uber,Phrase,Account,waste_reduction
+lyft,Phrase,Account,waste_reduction
+ride share,Phrase,Account,waste_reduction
+domestic ambulance,Phrase,Account,waste_reduction
+ambulance israel only,Phrase,Account,waste_reduction
+private ambulance israel domestic,Phrase,Account,waste_reduction
+hospital discharge ambulance israel,Phrase,Account,waste_reduction
+local ems,Phrase,Account,waste_reduction
+city ambulance,Phrase,Account,waste_reduction
+private ambulance tel aviv price,Phrase,Account,waste_reduction
+ambulance for hospital discharge israel only,Phrase,Account,waste_reduction
+אמבולנס פרטי,Phrase,Account,waste_reduction
+אמבולנס תל אביב,Phrase,Account,waste_reduction
+העברה לבית חולים,Phrase,Account,waste_reduction
+medical tourism,Phrase,Account,waste_reduction
+medical tourist,Phrase,Account,waste_reduction
+plastic surgery flight,Phrase,Account,waste_reduction
+cosmetic surgery travel,Phrase,Account,waste_reduction
+dental tourism,Phrase,Account,waste_reduction
+ivf tourism,Phrase,Account,waste_reduction
+elective surgery travel,Phrase,Account,waste_reduction
+surgery vacation,Phrase,Account,waste_reduction
+health tourism,Phrase,Account,waste_reduction
+transplant tourism,Phrase,Account,waste_reduction
+bariatric tourism,Phrase,Account,waste_reduction
+toy,Phrase,Account,waste_reduction
+toys,Phrase,Account,waste_reduction
+lego,Phrase,Account,waste_reduction
+model airplane,Phrase,Account,waste_reduction
+flight simulator,Phrase,Account,waste_reduction
+video game,Phrase,Account,waste_reduction
+movie,Phrase,Account,waste_reduction
+netflix,Phrase,Account,waste_reduction
+gif,Phrase,Account,waste_reduction
+meme,Phrase,Account,waste_reduction
+animal ambulance,Phrase,Account,waste_reduction
+pet ambulance,Phrase,Account,waste_reduction
+veterinary air ambulance,Phrase,Account,waste_reduction
+organ transplant waiting list,Phrase,Account,waste_reduction
+blood donation,Phrase,Account,waste_reduction
+drone ambulance,Phrase,Account,waste_reduction
+helicopter toy,Phrase,Account,waste_reduction
+rc ambulance,Phrase,Account,waste_reduction
+reddit,Phrase,Account,waste_reduction
+quora,Phrase,Account,waste_reduction
+forum,Phrase,Account,waste_reduction
+news,Phrase,Account,waste_reduction
+stock price,Phrase,Account,waste_reduction
+ipo,Phrase,Account,waste_reduction
+youtube,Phrase,Account,waste_reduction
+tiktok,Phrase,Account,waste_reduction
+podcast,Phrase,Account,waste_reduction
+book review,Phrase,Account,waste_reduction
+nato,Phrase,Account,waste_reduction
+unHCR,Phrase,Account,waste_reduction
+ngo tender,Phrase,Account,waste_reduction
+government tender,Phrase,Account,waste_reduction
+rfp,Phrase,Account,waste_reduction
+ministry of health tender,Phrase,Account,waste_reduction
+idf,Phrase,Account,waste_reduction
+military medevac contract,Phrase,Account,waste_reduction
+humanitarian airlift,Phrase,Account,waste_reduction
+red cross recruitment,Phrase,Account,waste_reduction
+definition,Phrase,Account,waste_reduction
+what is air ambulance cost calculator only,Phrase,Account,waste_reduction
+statistics,Phrase,Account,waste_reduction
+history of,Phrase,Account,waste_reduction
+documentary,Phrase,Account,waste_reduction
+meaning of,Phrase,Account,waste_reduction
+how much does an air ambulance cost average only,Phrase,Account,waste_reduction
+air ambulance movie,Phrase,Account,waste_reduction
+air ambulance tv show,Phrase,Account,waste_reduction
