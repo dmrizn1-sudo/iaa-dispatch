@@ -1,0 +1,11 @@
+Step,Task,File,Done
+1,Create two campaigns only,soft-launch-campaigns.csv,
+2,Set 65.79 ILS/day ground + 98.68 ILS/day flights,campaign-settings-5000-ils.csv,
+3,Import keywords,soft-launch-keywords.csv,
+4,Import account negatives,account-negatives.csv,
+5,Import ground campaign negatives,negatives-ground-tiberias-safed.csv,
+6,Import flights campaign negatives,negatives-flights-to-israel.csv,
+7,Create RSA ads,RSA-PASTE.md,
+8,Add call + WhatsApp assets,RELAUNCH-HE.md,
+9,Enable both campaigns,campaign-settings-5000-ils.csv,
+10,Daily search terms mining (14 days),CHECKLIST.md,

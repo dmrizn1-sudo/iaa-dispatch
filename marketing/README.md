@@ -23,6 +23,7 @@ Complete Google Ads, SEO, landing-page, CRO, and social content system optimized
 |------|---------|
 | [google-ads/RELAUNCH-HE.md](google-ads/RELAUNCH-HE.md) | **2 קמפיינים בלבד** — אמבולנס טבריה/צפת + הטסות לישראל |
 | [google-ads/relaunch-2026-09/](google-ads/relaunch-2026-09/) | CSVs + RSA + checklist ל־2 הקמפיינים |
+| [google-ads/relaunch-2026-09/READY-5000-ILS.md](google-ads/relaunch-2026-09/READY-5000-ILS.md) | הפעלה מיידית לתקציב 5,000₪ |
 | [google-ads/00-audit-and-rebuild-plan.md](google-ads/00-audit-and-rebuild-plan.md) | Full account audit + rebuild decision |
 | [google-ads/01-campaign-structure.md](google-ads/01-campaign-structure.md) | 13 Search campaigns + Brand, geo, bidding |
 | [google-ads/02-budget-optimization.md](google-ads/02-budget-optimization.md) | Budget shares, pacing, 90-day phases |
