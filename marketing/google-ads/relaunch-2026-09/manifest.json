@@ -1,0 +1,23 @@
+{
+  "createdAt": "2026-09-09",
+  "mode": "2-campaigns-only",
+  "campaigns": [
+    {
+      "id": "ground-tiberias-safed",
+      "name": "IAA | Search | אמבולנס העברות · טבריה צפת",
+      "geo": "Tiberias+Safed+North Israel",
+      "lang": "he",
+      "budgetShare": 0.4
+    },
+    {
+      "id": "flights-to-israel",
+      "name": "IAA | Search | הטסות רפואיות לישראל",
+      "geo": "Priority-1 international",
+      "lang": "en+he",
+      "budgetShare": 0.6
+    }
+  ],
+  "keywordRows": 872,
+  "groundKeywordRows": 74,
+  "flightsKeywordRows": 798
+}

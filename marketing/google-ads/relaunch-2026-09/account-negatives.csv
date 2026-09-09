@@ -1,0 +1,9 @@
+negative_keyword,match_type,level,category
+דרושים,Phrase,Account,shared_scope
+משרה,Phrase,Account,shared_scope
+קורס חובשים,Phrase,Account,shared_scope
+job,Phrase,Account,shared_scope
+jobs,Phrase,Account,shared_scope
+training,Phrase,Account,shared_scope
+medical tourism,Phrase,Account,shared_scope
+cheap tickets,Phrase,Account,shared_scope
