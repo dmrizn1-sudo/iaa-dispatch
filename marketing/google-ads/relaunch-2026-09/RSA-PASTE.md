@@ -1,74 +1,94 @@
-# Soft Launch — RSA paste sheet (Sept 2026)
+# RSA — 2 קמפיינים בלבד
 
-Use these on all **Enabled** soft-launch Search campaigns.  
-Final URL (temporary): `https://ambulancenter.com/`  
-Call: `+972-79-670-9999` · WhatsApp: `https://wa.me/972532321101`
-
----
-
-## Shared headlines (pick 15+)
-
-1. Israel Air Ambulance 24/7  
-2. Air Ambulance TO Israel  
-3. Air Ambulance FROM Israel  
-4. Private Medical Flights  
-5. ICU Air Ambulance Flights  
-6. Emergency Medical Flight  
-7. Medical Repatriation Israel  
-8. Bedside to Bedside Care  
-9. Fly Your Loved One Home  
-10. Call Now — Help in Minutes  
-11. WhatsApp Us 24/7  
-12. Critical Care Air Transport  
-13. Hospital to Hospital Flights  
-14. Trusted International Team  
-15. Available Day and Night  
-16. Safe Critical Care Transfer  
-17. Medical Flight Experts  
-18. Urgent Patient Transport  
-19. Israel ↔ Worldwide Routes  
-20. Book a Medical Assessment  
-
-### Pinning
-- **Brand campaign:** pin “Israel Air Ambulance 24/7” to Position 1  
-- **TO Israel:** pin “Air Ambulance TO Israel”  
-- **FROM Israel:** pin “Air Ambulance FROM Israel”  
-- **ICU:** pin “ICU Air Ambulance Flights”  
-- **Fly Patient Home:** pin “Fly Your Loved One Home”
+Call: `+972-79-670-9999` · WhatsApp: `https://wa.me/972532321101`  
+Final URL: `https://ambulancenter.com/`
 
 ---
 
-## Shared descriptions (use 4)
+## קמפיין 1 — אמבולנס העברות · טבריה צפת (עברית)
 
-1. Private air ambulance and medical escort TO Israel and FROM Israel. Bedside-to-bedside coordination 24/7.  
-2. Need an emergency medical flight home? Israeli doctors & paramedics. Call +972-79-670-9999.  
-3. ICU air ambulance, stretcher flight, or commercial medical escort — we match the clinical need.  
-4. No insurance / insurance won’t cover? Ask us about safe medical repatriation options. WhatsApp 24/7.  
+### כותרות (בחרו 15+)
+1. אמבולנס פרטי טבריה  
+2. אמבולנס פרטי צפת  
+3. העברת חולים באמבולנס  
+4. העברה מבית חולים הביתה  
+5. אמבולנס שחרור מבי״ח  
+6. העברה בין בתי חולים  
+7. אמבולנס לשיקום  
+8. זמינים 24/7  
+9. ישראל אייר אמבולנס  
+10. הזמנה מראש לאמבולנס  
+11. העברות מכבי באזור  
+12. אמבולנס בגליל  
+13. צוות מקצועי ומנוסה  
+14. שיחה עכשיו  
+15. וואטסאפ 24/7  
+16. נוחות ובטיחות מלאה  
+17. אמבולנס חדיש ומאובזר  
+18. טבריה והסביבה  
+19. צפת והגליל העליון  
+20. תיאום העברה מהיר  
+
+**Pin:** “אמבולנס פרטי טבריה” או “אמבולנס פרטי צפת” לפי קבוצת המודעות.
+
+### תיאורים (4)
+1. אמבולנס להעברות חולים בטבריה וצפת — שחרור מבי״ח, בין בתי חולים ושיקום. זמינים 24/7.  
+2. העברה מתוכננת באמבולנס בצפון: נוחות, בטיחות וצוות מקצועי. התקשרו +972-79-670-9999.  
+3. ספקי העברות באזור טבריה והסביבה. בדקו זכאות בקופה — אנחנו מבצעים.  
+4. אמבולנס פרטי בצפת ובגליל העליון. הזמנה מראש או דחוף. וואטסאפ 053-232-1101.  
+
+### Paths
+`/אמבולנס-טבריה` · `/אמבולנס-צפת` · `/העברות-חולים` · `/24-7`
 
 ---
 
-## Paths (display)
+## קמפיין 2 — הטסות רפואיות לישראל (EN + HE)
 
-- `/Air-Ambulance`  
-- `/Medical-Flight`  
-- `/TO-Israel`  
-- `/FROM-Israel`  
-- `/24-7-Help`  
-- `/WhatsApp-Us`  
-- `/ICU-Transfer`  
-- `/Repatriation`  
+### Headlines EN (15+)
+1. Air Ambulance TO Israel  
+2. Medical Flight To Israel  
+3. Fly Patient Home To Israel  
+4. Medical Repatriation Israel  
+5. Emergency Medical Flight  
+6. Israel Air Ambulance 24/7  
+7. Bedside To Bedside Care  
+8. ICU Air Ambulance  
+9. Call +972-79-670-9999  
+10. WhatsApp Us 24/7  
+11. Private Medical Flight  
+12. Safe Critical Care Transfer  
+13. Hospital To Hospital Flight  
+14. Bring Them Home To Israel  
+15. Available Day And Night  
+16. Trusted Flight Medics  
+17. International Transfer Israel  
+18. Urgent Medevac To Israel  
 
----
+**Pin Position 1:** “Air Ambulance TO Israel”
 
-## Campaign-specific H1 alternatives
+### Descriptions EN (4)
+1. Private air ambulance and medical flights TO Israel. Bedside-to-bedside coordination 24/7.  
+2. Need a medical flight home to Israel? Call +972-79-670-9999 or WhatsApp us now.  
+3. ICU, stretcher, or medical escort options — matched to clinical need.  
+4. No insurance / not covered? Ask about safe medical repatriation to Israel.  
 
-| Campaign | Extra headlines |
-|----------|-----------------|
-| TO Israel | Medical Flight To Israel · Bring Patient To Israel · Fly Home To Israel |
-| FROM Israel | Leave Israel Safely · Medical Flight Abroad · Transfer From Israel |
-| Repatriation | Medical Repatriation · Repatriate To Israel · Family Medical Flight |
-| ICU | ICU Jet Transfer · Critical Care Flight · Ventilator Air Transport |
-| Emergency Medical Flight | Emergency Flight Now · Urgent Medevac · Fast Medical Evacuation |
-| Fly Patient Home | Bring Them Home · Fly Loved One Home · Safe Flight Home |
-| Emergency Patient Return | Emergency Return Home · Urgent Patient Return · Get Home Fast |
-| Brand | Ambulancenter · Israel Air & Ambulance · Official Medical Flights |
+### כותרות HE (לקבוצת Core — עברית)
+1. הטסה רפואית לישראל  
+2. טיסה רפואית לישראל  
+3. אמבולנס אווירי לישראל  
+4. החזרה רפואית לישראל  
+5. פינוי רפואי לישראל  
+6. זמינים 24/7  
+7. ישראל אייר אמבולנס  
+8. ממיטה למיטה  
+9. שיחה עכשיו  
+10. וואטסאפ 24/7  
+
+### תיאורים HE (4)
+1. הטסה רפואית לישראל — תיאום ממיטה למיטה מסביב לשעון.  
+2. אין ביטוח / הביטוח לא מכסה? נשמח לבדוק אפשרויות בטוחות. התקשרו עכשיו.  
+3. צוות רופאים ופראמדיקים · ציוד מאושר להטסה · ליווי מקצועי.  
+4. וואטסאפ 053-232-1101 · טלפון +972-79-670-9999 · ambulancenter.com  
+
+### Paths
+`/TO-Israel` · `/Medical-Flight` · `/Repatriation` · `/24-7-Help`

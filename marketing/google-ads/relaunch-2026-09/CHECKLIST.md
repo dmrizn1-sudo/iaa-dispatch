@@ -1,33 +1,26 @@
-# Soft-launch checklist — Google Ads (print / tick)
+# צ׳קליסט — 2 קמפיינים בלבד
 
-**Date:** __________ · **Monthly budget B:** $__________ · **Owner:** __________
+**תאריך:** __________ · **תקציב חודשי B:** __________ · **אחראי:** __________
 
-## Before enable
-- [ ] GA4 + GTM live (`phone_click`, `whatsapp_click`, form)
-- [ ] Call conversion ≥ 60 seconds configured
-- [ ] Account negatives imported (`account-negatives.csv`)
-- [ ] 8 soft-launch campaigns created (Paused)
-- [ ] Keywords imported (`soft-launch-keywords.csv`)
-- [ ] RSAs loaded (`RSA-PASTE.md`) — Good/Excellent strength
-- [ ] Call asset + sitelinks + callouts + logo
-- [ ] Location = Presence only · Priority-1 geos
-- [ ] Search network only (no Display/PMax)
-- [ ] Exact + Phrase only
-- [ ] Budgets set from `soft-launch-budgets.csv`
+## לפני הפעלה
+- [ ] רק 2 קמפיינים נוצרו (Paused): טבריה/צפת + הטסות לישראל
+- [ ] אין קמפיינים נוספים Enabled
+- [ ] מילות מפתח יובאו מ־`soft-launch-keywords.csv`
+- [ ] נגטיבים: ground + flights + account
+- [ ] RSA לפי `RSA-PASTE.md`
+- [ ] Call asset: +972-79-670-9999
+- [ ] WhatsApp sitelink: https://wa.me/972532321101
+- [ ] מיקום Presence בלבד
+- [ ] Search only · Exact+Phrase
+- [ ] תקציב 40% קרקע / 60% הטסות
+- [ ] מעקב: שיחה ≥60ש׳ + וואטסאפ + טופס
 
-## Day 0 enable
-- [ ] Enable Soft Launch campaigns
-- [ ] Brand Enabled
-- [ ] P1/P2 remain Paused
-- [ ] Screenshot dashboard baseline
+## הפעלה
+- [ ] Enable קמפיין אמבולנס טבריה/צפת
+- [ ] Enable קמפיין הטסות לישראל
+- [ ] צילום מסך baseline
 
-## Daily (first 14 days)
-- [ ] Search terms review → add negatives
-- [ ] Pause zero-lead high-spend queries
-- [ ] Check lost IS (budget) on Brand < 5%
-- [ ] Log qualified leads (call ≥60s / WA / form)
-
-## Week 2
-- [ ] CPQL by campaign calculated
-- [ ] +budget to winners / −budget losers
-- [ ] Decide Wave-2 / P1 enable date
+## יומי (14 יום)
+- [ ] Search terms → נגטיבים
+- [ ] להשהות שאילתות יקרות בלי ליד
+- [ ] לרשום לידים מוסמכים (שיחה/וואטסאפ/טופס)

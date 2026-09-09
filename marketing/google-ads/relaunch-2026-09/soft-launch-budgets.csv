@@ -1,28 +1,7 @@
-monthly_budget_usd,campaign_id,campaign_name,priority,share,monthly_usd,daily_usd,status_at_launch
-5000,to-israel,IAA | Search | Air Ambulance TO Israel,P0,0.12,600,19.74,Enabled
-5000,from-israel,IAA | Search | Air Ambulance FROM Israel,P0,0.14,700,23.03,Enabled
-5000,medical-repatriation,IAA | Search | Medical Repatriation,P0,0.08,400,13.16,Enabled
-5000,icu-air-ambulance,IAA | Search | ICU Air Ambulance,P0,0.1,500,16.45,Enabled
-5000,emergency-medical-flight,IAA | Search | Emergency Medical Flight,P0,0.08,400,13.16,Enabled
-5000,fly-patient-home,IAA | Search | Fly Patient Home,P0,0.07,350,11.51,Enabled
-5000,emergency-patient-return,IAA | Search | Emergency Patient Return,P0,0.07,350,11.51,Enabled
-5000,brand,IAA | Search | Brand,P0,0.05,250,8.22,Enabled
-5000,reserve-paused,(Paused P1/P2 reserve + testing),reserve,0.29,1450,47.7,Paused / Testing
-10000,to-israel,IAA | Search | Air Ambulance TO Israel,P0,0.12,1200,39.47,Enabled
-10000,from-israel,IAA | Search | Air Ambulance FROM Israel,P0,0.14,1400,46.05,Enabled
-10000,medical-repatriation,IAA | Search | Medical Repatriation,P0,0.08,800,26.32,Enabled
-10000,icu-air-ambulance,IAA | Search | ICU Air Ambulance,P0,0.1,1000,32.89,Enabled
-10000,emergency-medical-flight,IAA | Search | Emergency Medical Flight,P0,0.08,800,26.32,Enabled
-10000,fly-patient-home,IAA | Search | Fly Patient Home,P0,0.07,700,23.03,Enabled
-10000,emergency-patient-return,IAA | Search | Emergency Patient Return,P0,0.07,700,23.03,Enabled
-10000,brand,IAA | Search | Brand,P0,0.05,500,16.45,Enabled
-10000,reserve-paused,(Paused P1/P2 reserve + testing),reserve,0.29,2900,95.39,Paused / Testing
-20000,to-israel,IAA | Search | Air Ambulance TO Israel,P0,0.12,2400,78.95,Enabled
-20000,from-israel,IAA | Search | Air Ambulance FROM Israel,P0,0.14,2800,92.11,Enabled
-20000,medical-repatriation,IAA | Search | Medical Repatriation,P0,0.08,1600,52.63,Enabled
-20000,icu-air-ambulance,IAA | Search | ICU Air Ambulance,P0,0.1,2000,65.79,Enabled
-20000,emergency-medical-flight,IAA | Search | Emergency Medical Flight,P0,0.08,1600,52.63,Enabled
-20000,fly-patient-home,IAA | Search | Fly Patient Home,P0,0.07,1400,46.05,Enabled
-20000,emergency-patient-return,IAA | Search | Emergency Patient Return,P0,0.07,1400,46.05,Enabled
-20000,brand,IAA | Search | Brand,P0,0.05,1000,32.89,Enabled
-20000,reserve-paused,(Paused P1/P2 reserve + testing),reserve,0.29,5800,190.79,Paused / Testing
+monthly_budget_usd,campaign_id,campaign_name,share,monthly_usd,daily_usd,currency_note
+3000,ground-tiberias-safed,IAA | Search | אמבולנס העברות · טבריה צפת,0.4,1200,39.47,או ב־ILS לפי חשבון
+3000,flights-to-israel,IAA | Search | הטסות רפואיות לישראל,0.6,1800,59.21,או ב־ILS לפי חשבון
+5000,ground-tiberias-safed,IAA | Search | אמבולנס העברות · טבריה צפת,0.4,2000,65.79,או ב־ILS לפי חשבון
+5000,flights-to-israel,IAA | Search | הטסות רפואיות לישראל,0.6,3000,98.68,או ב־ILS לפי חשבון
+10000,ground-tiberias-safed,IAA | Search | אמבולנס העברות · טבריה צפת,0.4,4000,131.58,או ב־ILS לפי חשבון
+10000,flights-to-israel,IAA | Search | הטסות רפואיות לישראל,0.6,6000,197.37,או ב־ILS לפי חשבון
